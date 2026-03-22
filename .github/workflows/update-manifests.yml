@@ -10,10 +10,15 @@ on:
         description: 'Filter fonts by name (optional)'
         required: false
         default: ''
-      limit:
+      max_fonts:
         description: 'Maximum number of fonts to process (0 = all)'
         required: false
-        default: '10'
+        default: '100'
+      full_regeneration:
+        description: 'Force full regeneration (ignore incremental updates)'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   update-manifests:
@@ -23,7 +28,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0  # Full history for incremental updates
 
       - name: Setup PowerShell
         shell: pwsh
@@ -31,11 +36,20 @@ jobs:
           Write-Host "PowerShell Version: $($PSVersionTable.PSVersion)"
           Write-Host "OS: $([System.Environment]::OSVersion.VersionString)"
 
+      - name: Restore Cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: font-cache-${{ github.run_id }}
+          restore-keys: |
+            font-cache-
+
       - name: Generate Manifests
         shell: pwsh
         env:
           FONT_FILTER: ${{ github.event.inputs.font_filter || '' }}
-          LIMIT: ${{ github.event.inputs.limit || '10' }}
+          MAX_FONTS: ${{ github.event.inputs.max_fonts || '100' }}
+          FULL_REGEN: ${{ github.event.inputs.full_regeneration || 'false' }}
         run: |
           $params = @{
             OutputPath = "${{ github.workspace }}/bucket"
@@ -46,13 +60,33 @@ jobs:
             Write-Host "Filtering fonts: $env:FONT_FILTER"
           }
 
+          if ($env:MAX_FONTS -and $env:MAX_FONTS -ne '0') {
+            $params.MaxFonts = [int]$env:MAX_FONTS
+            Write-Host "Max fonts to process: $env:MAX_FONTS"
+          }
+
+          if ($env:FULL_REGEN -eq 'true') {
+            $params.FullRegeneration = $true
+            Write-Host "Full regeneration mode enabled"
+          } else {
+            Write-Host "Incremental mode enabled"
+          }
+
           & "${{ github.workspace }}/scripts/Generate-Manifests.ps1" @params
 
       - name: Check for Changes
         id: check_changes
         shell: pwsh
         run: |
-          git diff --quiet bucket/ || echo "has_changes=true" >> $env:GITHUB_OUTPUT
+          $changes = git status --porcelain bucket/
+          if ($changes) {
+            echo "has_changes=true" >> $env:GITHUB_OUTPUT
+            $changedCount = ($changes | Measure-Object).Count
+            echo "changed_count=$changedCount" >> $env:GITHUB_OUTPUT
+          } else {
+            echo "has_changes=false" >> $env:GITHUB_OUTPUT
+            echo "changed_count=0" >> $env:GITHUB_OUTPUT
+          }
 
       - name: Commit and Push Changes
         if: steps.check_changes.outputs.has_changes == 'true'
@@ -61,12 +95,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add bucket/
-          $changedFiles = (git diff --cached --name-only) -join ', '
-          git commit -m "Update font manifests
+          $changedFiles = (git diff --cached --name-only | Select-Object -First 10) -join ', '
+          $totalChanged = "${{ steps.check_changes.outputs.changed_count }}"
 
-          Updated fonts: $changedFiles
+          $commitMsg = @"
+          Update font manifests
 
-          🤖 Generated with GitHub Actions"
+          Updated $totalChanged font manifest(s): $changedFiles
+          $(if ([int]$totalChanged -gt 10) { "... and $([int]$totalChanged - 10) more" })
+
+          🤖 Generated with GitHub Actions (incremental mode)
+          "@
+
+          git commit -m $commitMsg
           git push
 
       - name: Summary
@@ -75,6 +116,7 @@ jobs:
         run: |
           $manifestCount = (Get-ChildItem bucket/*.json -ErrorAction SilentlyContinue | Measure-Object).Count
           Write-Host "Total manifests in bucket: $manifestCount"
+          Write-Host "Changed manifests: ${{ steps.check_changes.outputs.changed_count }}"
 
           if ('${{ steps.check_changes.outputs.has_changes }}' -eq 'true') {
             Write-Host "✅ Manifests updated successfully"
