@@ -1,18 +1,52 @@
 {
-  "homepage": "https://fonts.google.com/specimen/Abel",
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abel/Abel-Regular.ttf"
-    ]
-  },
-  "hash": [
-    "8809DCAD25318225052F88333E208C5AAD4ADCB7B2C934C135735EC19AA410B4"
-  ],
   "url": [
     "https://raw.githubusercontent.com/google/fonts/main/ofl/abel/Abel-Regular.ttf"
   ],
-  "license": "OFL",
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abel&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "installer": {
+    "script": [
+      "if ($global) {",
+      "    $fontInstallDir = \"$env:windir\\Fonts\"",
+      "    $registryRoot = \"HKLM\"",
+      "} else {",
+      "    $fontInstallDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+      "    $registryRoot = \"HKCU\"",
+      "    if (-not (Test-Path $fontInstallDir)) {",
+      "        New-Item -ItemType Directory -Path $fontInstallDir -Force | Out-Null",
+      "        # Set ACL permissions for user font directory",
+      "        $acl = Get-Acl $fontInstallDir",
+      "        $acl.SetAccessRuleProtection($false, $true)",
+      "        # Add permissions for All Application Packages",
+      "        $rule1 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-1\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
+      "        $rule2 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-2\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
+      "        $acl.AddAccessRule($rule1)",
+      "        $acl.AddAccessRule($rule2)",
+      "        Set-Acl -Path $fontInstallDir -AclObject $acl",
+      "    }",
+      "}",
+      "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    $fontName = $file.Name.Replace($file.Extension, \" (TrueType)\")",
+      "    if ($global) {",
+      "        $fontValue = $file.Name",
+      "    } else {",
+      "        $fontValue = \"$fontInstallDir\\$($file.Name)\"",
+      "    }",
+      "    try {",
+      "        New-ItemProperty -Path $registryKey -Name $fontName -Value $fontValue -Force -ErrorAction Stop | Out-Null",
+      "        Copy-Item $file.FullName -Destination \"$fontInstallDir\\$($file.Name)\" -Force -ErrorAction Stop",
+      "        Write-Host \"Installed: $($file.Name)\" -ForegroundColor Green",
+      "    } catch {",
+      "        Write-Host \"Failed to install $($file.Name): $_\" -ForegroundColor Red",
+      "        throw",
+      "    }",
+      "}"
+    ]
+  },
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -70,7 +104,7 @@
       "        Write-Host \"Removed registry entry: $fontName\" -ForegroundColor Gray",
       "    } catch {",
       "        if ($_.Exception.Message -notlike '*does not exist*') {",
-      "            Write-Host \"Warning: Could not remove registry entry for $fontName: $_\" -ForegroundColor Yellow",
+      "            Write-Host \"Warning: Could not remove registry entry for $fontName: $($_.Exception.Message)\" -ForegroundColor Yellow",
       "            $failedRemovals += $file",
       "        }",
       "    }",
@@ -82,7 +116,7 @@
       "            Write-Host \"Removed font file: $file\" -ForegroundColor Gray",
       "        }",
       "    } catch {",
-      "        Write-Host \"Warning: Could not remove font file $file: $_\" -ForegroundColor Yellow",
+      "        Write-Host \"Warning: Could not remove font file $file: $($_.Exception.Message)\" -ForegroundColor Yellow",
       "        $failedRemovals += $file",
       "    }",
       "}",
@@ -97,50 +131,16 @@
       "}"
     ]
   },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abel&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "hash": [
+    "8809DCAD25318225052F88333E208C5AAD4ADCB7B2C934C135735EC19AA410B4"
+  ],
+  "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abel/Abel-Regular.ttf"
+    ]
   },
   "description": "Abel font family designed by MADType",
-  "installer": {
-    "script": [
-      "if ($global) {",
-      "    $fontInstallDir = \"$env:windir\\Fonts\"",
-      "    $registryRoot = \"HKLM\"",
-      "} else {",
-      "    $fontInstallDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
-      "    $registryRoot = \"HKCU\"",
-      "    if (-not (Test-Path $fontInstallDir)) {",
-      "        New-Item -ItemType Directory -Path $fontInstallDir -Force | Out-Null",
-      "        # Set ACL permissions for user font directory",
-      "        $acl = Get-Acl $fontInstallDir",
-      "        $acl.SetAccessRuleProtection($false, $true)",
-      "        # Add permissions for All Application Packages",
-      "        $rule1 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-1\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
-      "        $rule2 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-2\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
-      "        $acl.AddAccessRule($rule1)",
-      "        $acl.AddAccessRule($rule2)",
-      "        Set-Acl -Path $fontInstallDir -AclObject $acl",
-      "    }",
-      "}",
-      "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
-      "foreach ($file in $fontFiles) {",
-      "    $fontName = $file.Name.Replace($file.Extension, \" (TrueType)\")",
-      "    if ($global) {",
-      "        $fontValue = $file.Name",
-      "    } else {",
-      "        $fontValue = \"$fontInstallDir\\$($file.Name)\"",
-      "    }",
-      "    try {",
-      "        New-ItemProperty -Path $registryKey -Name $fontName -Value $fontValue -Force -ErrorAction Stop | Out-Null",
-      "        Copy-Item $file.FullName -Destination \"$fontInstallDir\\$($file.Name)\" -Force -ErrorAction Stop",
-      "        Write-Host \"Installed: $($file.Name)\" -ForegroundColor Green",
-      "    } catch {",
-      "        Write-Host \"Failed to install $($file.Name): $_\" -ForegroundColor Red",
-      "        throw",
-      "    }",
-      "}"
-    ]
-  }
+  "homepage": "https://fonts.google.com/specimen/Abel",
+  "license": "OFL"
 }
