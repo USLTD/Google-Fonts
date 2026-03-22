@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/agdasima/Agdasima-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/agdasima/Agdasima-Bold.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Agdasima font family designed by The DocRepair Project, Patric King",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "512B6EC7AA802BB92CF3B816644CA11FACF630B087D6E3AB3CD4B8D4EAE77896",
+    "D75FD96CF62E06D172484AD158614546437A2A988B16FEED8B751F9838447EC5"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Agdasima",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/agdasima/Agdasima-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/agdasima/Agdasima-Bold.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/agdasima&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Agdasima-Regular.ttf\", \"Agdasima-Bold.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersdisplay/BigShouldersDisplay[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Big Shoulders Display font family designed by Patric King",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "60E208DC276A1C35FC5B62E94F9FB959C40C11783A9EB7548175C14B1FBEB720"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Big+Shoulders+Display",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersdisplay/BigShouldersDisplay[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bigshouldersdisplay&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"BigShouldersDisplay[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

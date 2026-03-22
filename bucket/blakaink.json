@@ -1,0 +1,35 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blakaink/BlakaInk-Regular.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Blaka Ink font family designed by Mohamed Gaber",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "D745F0BE7CF43F4E8998834EF730B3CAB22A82DB19D6A1737008B7B4A87112EA"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Blaka+Ink",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blakaink/BlakaInk-Regular.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blakaink&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"BlakaInk-Regular.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

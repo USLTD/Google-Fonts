@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/Cormorant[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/Cormorant-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Cormorant font family designed by Christian Thalmann",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "8F12CB21F05B61649192EAFF13EEEB1B5619BC524FEEAE672FB916974259A076",
+    "2C4E1C43FA126B51A84160815B9264AF442C6C531D13BFD3C1723703CD489DD2"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Cormorant",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/Cormorant[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorant/Cormorant-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorant&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Cormorant[wght].ttf\", \"Cormorant-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

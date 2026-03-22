@@ -1,0 +1,35 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/edutasbeginner/EduTASBeginner[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Edu TAS Beginner font family designed by Tina Anderson, Corey Anderson",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "17DC8A4E3E38442BD86E4BFFBE34819B156CC64B9375057D21B3D0FBC3546AC6"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Edu+TAS+Beginner",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/edutasbeginner/EduTASBeginner[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/edutasbeginner&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"EduTASBeginner[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

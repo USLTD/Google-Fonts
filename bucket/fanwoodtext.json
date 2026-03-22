@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Italic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Fanwood Text font family designed by Barry Schwartz",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "98AA9CBF5C5ECE368501D188B1565AE3E7F6C9970EE3823769B8E67219DC33C2",
+    "23F51E2FDA243A8759D5C32FF8A94DA23DC697E8C9A014D4718AA0AB7ED3C808"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Fanwood+Text",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Italic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fanwoodtext&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"FanwoodText-Regular.ttf\", \"FanwoodText-Italic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

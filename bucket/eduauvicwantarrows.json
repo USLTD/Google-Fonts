@@ -1,0 +1,35 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantarrows/EduAUVICWANTArrows[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Edu AU VIC WA NT Arrows font family designed by Tina Anderson, Corey Anderson",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "ADF8176CC45747608C091094612A7E8D3088D4D46DC89ACC37DF37FB7A561903"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Arrows",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantarrows/EduAUVICWANTArrows[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwantarrows&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"EduAUVICWANTArrows[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

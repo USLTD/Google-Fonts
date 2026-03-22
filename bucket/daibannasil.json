@@ -1,0 +1,62 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Dai Banna SIL font family designed by SIL International",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "A33A115CB803E1B2F500E48750E68A4513A965CE5248415DD2654A3B3ED24B8B",
+    "091460BD9B0585E94B1B20D5906E6554EC29958E8E573682D37FB7C735F0860B",
+    "7756D1C25925BA89130AEF675D2D11F419602564C1091E9520FEF1AC9ED8F193",
+    "058FB915B7A5A42EE719760406C65C036B82B55470DA3F263DE4131289F187AF",
+    "CF34BB5312DF3531A999A83EC4D1C0DAA83A1E37A144BE3D40510C06EFEB4DE6",
+    "F0EF8FC8C85B4A1E0C9AA780B5765A5951AC4AA4820F61B5C645FD3044279887",
+    "49E0E792D6B0BB625569A49B320DC5F974CA96F02314A8238E5EA98D40CDCC62",
+    "416BC32287B4D07E8536639F35FC58E5190C4281FB6D115CD76D9EBFDDDFF020",
+    "AE562489672ABDCCBBCF664F29E706C114B41C110EDEA3FE404A9EA7C8322B55",
+    "001B197160209B8E70302C8E9AEB8504D1A2F17A830B486B20696C1ED9B6E864"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Dai+Banna+SIL",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daibannasil/DaiBannaSIL-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/daibannasil&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"DaiBannaSIL-Light.ttf\", \"DaiBannaSIL-LightItalic.ttf\", \"DaiBannaSIL-Regular.ttf\", \"DaiBannaSIL-Italic.ttf\", \"DaiBannaSIL-Medium.ttf\", \"DaiBannaSIL-MediumItalic.ttf\", \"DaiBannaSIL-SemiBold.ttf\", \"DaiBannaSIL-SemiBoldItalic.ttf\", \"DaiBannaSIL-Bold.ttf\", \"DaiBannaSIL-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

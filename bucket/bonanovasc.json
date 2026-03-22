@@ -1,0 +1,41 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Bold.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Bona Nova SC font family designed by Capitalics, Mateusz Machalski, Andrzej Heidrich",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "E4D155CDF1917F42E4D9073AB8856BB4B58984A3849C7753F27FE3837DA832F8",
+    "9B329433C3A9A2E4C89C1197B9CFFFC1803C3CC6E0B95D6481D29E585FE3A34C",
+    "BF71DBB726E75B34B3F09AAF799107937AF5C0F401F3FC6BCA80CBBED55FE36C"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Bona+Nova+SC",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Bold.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bonanovasc&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"BonaNovaSC-Regular.ttf\", \"BonaNovaSC-Italic.ttf\", \"BonaNovaSC-Bold.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

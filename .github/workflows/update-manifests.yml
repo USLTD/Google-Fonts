@@ -1,0 +1,83 @@
+name: Update Font Manifests
+
+on:
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+    inputs:
+      font_filter:
+        description: 'Filter fonts by name (optional)'
+        required: false
+        default: ''
+      limit:
+        description: 'Maximum number of fonts to process (0 = all)'
+        required: false
+        default: '10'
+
+jobs:
+  update-manifests:
+    name: Update Font Manifests
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup PowerShell
+        shell: pwsh
+        run: |
+          Write-Host "PowerShell Version: $($PSVersionTable.PSVersion)"
+          Write-Host "OS: $([System.Environment]::OSVersion.VersionString)"
+
+      - name: Generate Manifests
+        shell: pwsh
+        env:
+          FONT_FILTER: ${{ github.event.inputs.font_filter || '' }}
+          LIMIT: ${{ github.event.inputs.limit || '10' }}
+        run: |
+          $params = @{
+            OutputPath = "${{ github.workspace }}/bucket"
+          }
+
+          if ($env:FONT_FILTER) {
+            $params.FontFilter = $env:FONT_FILTER
+            Write-Host "Filtering fonts: $env:FONT_FILTER"
+          }
+
+          & "${{ github.workspace }}/scripts/Generate-Manifests.ps1" @params
+
+      - name: Check for Changes
+        id: check_changes
+        shell: pwsh
+        run: |
+          git diff --quiet bucket/ || echo "has_changes=true" >> $env:GITHUB_OUTPUT
+
+      - name: Commit and Push Changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bucket/
+          $changedFiles = (git diff --cached --name-only) -join ', '
+          git commit -m "Update font manifests
+
+          Updated fonts: $changedFiles
+
+          🤖 Generated with GitHub Actions"
+          git push
+
+      - name: Summary
+        if: always()
+        shell: pwsh
+        run: |
+          $manifestCount = (Get-ChildItem bucket/*.json -ErrorAction SilentlyContinue | Measure-Object).Count
+          Write-Host "Total manifests in bucket: $manifestCount"
+
+          if ('${{ steps.check_changes.outputs.has_changes }}' -eq 'true') {
+            Write-Host "✅ Manifests updated successfully"
+          } else {
+            Write-Host "ℹ️ No changes detected"
+          }

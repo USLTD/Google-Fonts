@@ -1,0 +1,59 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Black.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Encode Sans Semi Condensed font family designed by Impallari Type, Andres Torresi, Jacques Le Bailly",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "545DB9AAAA86FC3051C286606A1A4355843DE613D047895C19EF0AF2800AE876",
+    "5F8C83276AAF0AE7ED873FB90FC466EDBAA506F0E78E2CF601A305C39C2FE7CC",
+    "3266992EE0CA1960D3164A7B55F7A6B9783B5E8EB1C2B02AF34AC3BD9173D833",
+    "A1B3EBF1D84017C4136870B6B8323F0EE055A22A9A9E49E58D9E26B67B0EF866",
+    "5B68F1F10CAF92D76281A14FF5B058FA7A5CC81A90956751B2DA353F913DCC64",
+    "F939E954819679898B15E4A7F6BADC1E96949541E5C28EFBFE5B02AD8B21B75A",
+    "0A5B8D0DD5E3D9ABB688B2B60E441F3ACEF5BD3D744F87315346D034DF0B5FBF",
+    "5D82C48DBA9ADEF6C193DC91B626343CAFD2C44FA3C40BC7E2140F332B59E427",
+    "F9BA441D3677C10090E15AD4B1D60A0825C43028FA892C76C3D10A2B4FDDE57C"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Black.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/encodesanssemicondensed&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"EncodeSansSemiCondensed-Thin.ttf\", \"EncodeSansSemiCondensed-ExtraLight.ttf\", \"EncodeSansSemiCondensed-Light.ttf\", \"EncodeSansSemiCondensed-Regular.ttf\", \"EncodeSansSemiCondensed-Medium.ttf\", \"EncodeSansSemiCondensed-SemiBold.ttf\", \"EncodeSansSemiCondensed-Bold.ttf\", \"EncodeSansSemiCondensed-ExtraBold.ttf\", \"EncodeSansSemiCondensed-Black.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Averia Libre font family designed by Dan Sayers",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "B74D2B2DADFE7BF27ABF1F25BB1B324504E52D8F6452EBB34A5672FBCE12FF05",
+    "34871B14ABCEA6CB9DCEE65AB635BE65D08B0F825CD88D70A44ED5217BB9A524",
+    "3DDA695E06012F89B39EACCD77FBBCF22133A17B00CE5DDF3E4E9A996546B865",
+    "5E5B4D33F0911FD1A2D23D2096533933F131DD258F8C3196E1695E64256A7202",
+    "374F67A2B8B8C7E45A543EC6558E03437E8C6A4450CC724A5D70CAE89ABA679D",
+    "9A13370078D6BE2C07778D2B03EEE2E172AEFC640C45327316A9EBF5C50D41A9"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Averia+Libre",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averialibre/AveriaLibre-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/averialibre&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"AveriaLibre-Light.ttf\", \"AveriaLibre-LightItalic.ttf\", \"AveriaLibre-Regular.ttf\", \"AveriaLibre-Italic.ttf\", \"AveriaLibre-Bold.ttf\", \"AveriaLibre-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

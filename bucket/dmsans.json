@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans-Italic[opsz,wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "DM Sans font family designed by Colophon Foundry",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "8CD08D97E89C24D0AA92EDD2F0F4C8EE6195EEE9B7C9F154865A58B02F0C1C0D",
+    "22259C0CC8237221B80F44C76BA8D36E6BCE3CDA72779F5B2773643D499720AE"
+  ],
+  "homepage": "https://fonts.google.com/specimen/DM+Sans",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans-Italic[opsz,wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dmsans&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"DMSans[opsz,wght].ttf\", \"DMSans-Italic[opsz,wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

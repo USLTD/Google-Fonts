@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/exo/Exo[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/exo/Exo-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Exo font family designed by Natanael Gama, Robin Mientjes",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "2F08F818F1135AC5798030C0BCA252C0845AF5C54DFE172A5C74FBDD68843445",
+    "062ACA9AB9AA4A9E004E8D679E84ACA6EF0CDCABB2FAC3B27A73808E04BED9B4"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Exo",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/exo/Exo[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/exo/Exo-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/exo&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Exo[wght].ttf\", \"Exo-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

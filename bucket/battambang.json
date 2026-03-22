@@ -1,0 +1,47 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Black.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Battambang font family designed by Danh Hong",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "8E02CEB59104791191D7370324A75C4E74E85623691272507F8BDE3C83D7A8D9",
+    "282626DF0EF99CDBA8E2519E63705DE621D1CF29C3D323A1D8E424DF1CAEA5ED",
+    "1FD3EB9960911396CB7955F2C68AFE5EE21C2C14F8097E945D05B768ED4DE942",
+    "4CD10F7A56A7D9D1FB4184B2219821F8AD6F425BE290243EF73C4EF3A80C86FF",
+    "4426332A541F6CC85489813B11D99B8A1AACA53B313F8DEB21B403A3D58286DD"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Battambang",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Black.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/battambang&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Battambang-Thin.ttf\", \"Battambang-Light.ttf\", \"Battambang-Regular.ttf\", \"Battambang-Bold.ttf\", \"Battambang-Black.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

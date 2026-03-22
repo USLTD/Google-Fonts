@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/coustard/Coustard-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/coustard/Coustard-Black.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Coustard font family designed by Vernon Adams",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "90A2E3AE98D5402102375D88819B83976A0155330BD4D19824D40471DD4C3F47",
+    "D8E3E046D7177B62D91A08723122C7CA0C22CE9577261AA09E7605C47962BE3D"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Coustard",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/coustard/Coustard-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/coustard/Coustard-Black.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coustard&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Coustard-Regular.ttf\", \"Coustard-Black.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

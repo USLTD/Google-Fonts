@@ -1,0 +1,47 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Bold.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Cormorant SC font family designed by Christian Thalmann",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "D3DFCBF1AA9281743CB123292851862B4419602EFBF29C4867E680D53774A2AE",
+    "A51985A075F3884D8DC9B2D20367C51B6B05E53FDB912959ACB785084579AEAA",
+    "7EC02E6B6C20697FD8D5038349452B6F3C628C16440A04156650D42E3FEF89BF",
+    "648CD1C932871E4E8E1D147B593315409E8EA82282F88E9397E2CCEAE83D065B",
+    "78F70C79B5C0A1E66641D4B4A2E2ED32E1A45774B3DE94E56F8DE68510219177"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Cormorant+SC",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Bold.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorantsc&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"CormorantSC-Light.ttf\", \"CormorantSC-Regular.ttf\", \"CormorantSC-Medium.ttf\", \"CormorantSC-SemiBold.ttf\", \"CormorantSC-Bold.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Black.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-BlackItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Fira Sans Condensed font family designed by Carrois Apostrophe",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "0B43C691F9A89FE8D06C34584FF9EE697530084403B8590D34594D8A36644FD1",
+    "507B859151C70C7A0383C535B6BFD3649720823F4AA9C9C0718A175A75567025",
+    "ACCB6E5B63BCB4ABB117F430D516FFB67E3EDC164F4119F8A926703E08F2E9D0",
+    "43402BA23F72D0BC54B1583EDDBDD23B54D367ABE979858DB8F9398E385DD923",
+    "1FDEFD76FB773E95D1120DB6BC20C576FEAC1E964DA28E28EB4342C8E7730CDA",
+    "602D1E0B961B2EFC0DA84D00EA334C0F6FE501912E7965B6ED482C62A6406D3F",
+    "C67609F14FC9D328442BFFFCC31988B0F76E5575CF460FCC1F3DD8E4912FE257",
+    "57F3B2CFBB07698B9699E613369D33E06B61B827586B63341DEAA6C573D264E2",
+    "6385967FE921A6EE837221CDE461E695E77F8931A3CA4BC82C7C1C1A5FE47F86",
+    "D7DE5F62E405F9587F614FDE8FB5AE8DFB0511F37B27BEC3F8067E9ADBC665CD",
+    "5A9586BC549D557C415A6A3DC88658B1453D1DF661EDF811954EBD55776C01CD",
+    "C4F1D1373F1CE1F5219BDC6FF9BF964698CE0BDC9D2F66E0DF53741F3F4C0BE9",
+    "B9371052E58EC5B709153DD0FFFC60B5205B4D3435CF957C2522705B31B0DBCC",
+    "AEBE32D2D821890E0D66443CA2DC59B237FF34A575048696A96516D857AE0DA6",
+    "D1E5181A65E04970EF17B83FA518277658217081A032C7F60B7AC0F101347CF2",
+    "071E6C37E90A3BA2FB53EDE9F88FD77D024770503665697187013397002B0C66",
+    "44A13B01570201EF0BA67A603F227166485EF93D2E1BD5D6E1B60D0BE14D0975",
+    "8AB2CFE67370B7CC37E8AD24619A6B0510E2467A07D6BC41C6B20DA4CA2BF963"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Fira+Sans+Condensed",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-ExtraBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-Black.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/FiraSansCondensed-BlackItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firasanscondensed&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"FiraSansCondensed-Thin.ttf\", \"FiraSansCondensed-ThinItalic.ttf\", \"FiraSansCondensed-ExtraLight.ttf\", \"FiraSansCondensed-ExtraLightItalic.ttf\", \"FiraSansCondensed-Light.ttf\", \"FiraSansCondensed-LightItalic.ttf\", \"FiraSansCondensed-Regular.ttf\", \"FiraSansCondensed-Italic.ttf\", \"FiraSansCondensed-Medium.ttf\", \"FiraSansCondensed-MediumItalic.ttf\", \"FiraSansCondensed-SemiBold.ttf\", \"FiraSansCondensed-SemiBoldItalic.ttf\", \"FiraSansCondensed-Bold.ttf\", \"FiraSansCondensed-BoldItalic.ttf\", \"FiraSansCondensed-ExtraBold.ttf\", \"FiraSansCondensed-ExtraBoldItalic.ttf\", \"FiraSansCondensed-Black.ttf\", \"FiraSansCondensed-BlackItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

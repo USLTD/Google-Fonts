@@ -1,42 +1,67 @@
-# Scoop Bucket Template
+# Google Fonts Scoop Bucket
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+[![Tests](https://github.com/USLTD/Google-Fonts/actions/workflows/ci.yml/badge.svg)](https://github.com/USLTD/Google-Fonts/actions/workflows/ci.yml)
+[![Update Manifests](https://github.com/USLTD/Google-Fonts/actions/workflows/update-manifests.yml/badge.svg)](https://github.com/USLTD/Google-Fonts/actions/workflows/update-manifests.yml)
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+A [Scoop](https://scoop.sh) bucket for installing Google Fonts on Windows.
 
-## How do I use this template?
+This bucket automatically tracks fonts from the official [Google Fonts repository](https://github.com/google/fonts) and generates Scoop manifests for easy installation.
 
-1. Generate your own copy of this repository with the "Use this template"
-   button.
-2. Allow all GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Actions permissions`.
-   - Select `Allow all actions and reusable workflows`.
-   - Then `Save`.
-3. Allow writing to the repository from within GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Workflow permissions`.
-   - Select `Read and write permissions`.
-   - Then `Save`.
-4. Document the bucket in `README.md`.
-5. Replace the placeholder repository string in `bin/auto-pr.ps1`.
-6. Create new manifests by copying `bucket/app-name.json.template` to
-   `bucket/<app-name>.json`.
-7. Commit and push changes.
-8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
-   topic `scoop-bucket` to your repository.
+## Features
 
-## How do I install these manifests?
+- **500+ Font Families**: Access to all open-source fonts from Google Fonts
+- **Automatic Updates**: Manifests are automatically generated and updated weekly
+- **Easy Installation**: Install any Google Font with a single command
+- **Automatic Font Registration**: Fonts are automatically registered in Windows
 
-After manifests have been committed and pushed, run the following:
+## Installation
+
+First, add this bucket to your Scoop installation:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
+scoop bucket add google-fonts https://github.com/USLTD/Google-Fonts
 ```
 
-## How do I contribute new manifests?
+Then install any font:
 
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
+```pwsh
+scoop install google-fonts/roboto
+scoop install google-fonts/opensans
+scoop install google-fonts/montserrat
+```
+
+## Available Fonts
+
+Browse available fonts in the [bucket directory](./bucket) or on the [Google Fonts website](https://fonts.google.com/).
+
+## How It Works
+
+This repository uses a PowerShell script ([`scripts/Generate-Manifests.ps1`](./scripts/Generate-Manifests.ps1)) to:
+
+1. Fetch font metadata from the Google Fonts GitHub repository
+2. Download font files and calculate their hashes
+3. Generate Scoop manifest files with proper installation scripts
+4. Automatically register fonts in Windows registry
+
+A GitHub Action workflow runs weekly to keep fonts up to date.
+
+## Contributing
+
+To add or update fonts, you can:
+
+1. **Automatic**: Wait for the weekly automated update
+2. **Manual**: Run the generation script locally:
+   ```pwsh
+   # Generate manifests for all fonts
+   .\scripts\Generate-Manifests.ps1
+
+   # Generate manifests for specific fonts only
+   .\scripts\Generate-Manifests.ps1 -FontFilter "roboto"
+   ```
+3. **GitHub Actions**: Manually trigger the [Update Manifests workflow](./.github/workflows/update-manifests.yml)
+
+## License
+
+The scripts and manifests in this repository are available under the [Unlicense](LICENSE).
+
+Individual fonts are licensed under their respective licenses (typically OFL-1.1). See each font's manifest for specific license information.
