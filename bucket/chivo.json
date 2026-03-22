@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Chivo font family designed by Omnibus-Type",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "801674CBEFF749011A0186B2C932DC9158187A8CA4CA6598DB2A1F5C7C4342D1",
+    "502339E1CDA77E24B5CD46A1A875E4C5E6F20EA019C248F57F23423527030FF3"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Chivo",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chivo&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Chivo[wght].ttf\", \"Chivo-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

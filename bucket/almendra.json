@@ -1,0 +1,44 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Almendra font family designed by Ana Sanfelippo",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "B127A6121209353B53DA9CE73BF9D350F74190D8384C28EDE179E4FB9440F946",
+    "972EB95DD030592755064C35E8E394B75423973D0B7DBFD759C7E36EF80BB7CB",
+    "5895EF04D0D56C60083EC302E72DB99B952B044AB2B440EE12283649B5EDC971",
+    "10E0A7DD4B9F5AD7D51BE7F8EE42D76919C322DCBB7733DBAD48F4AC751CB105"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Almendra",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almendra&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Almendra-Regular.ttf\", \"Almendra-Italic.ttf\", \"Almendra-Bold.ttf\", \"Almendra-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

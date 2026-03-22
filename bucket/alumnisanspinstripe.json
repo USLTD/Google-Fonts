@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Italic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Alumni Sans Pinstripe font family designed by Robert Leuschke",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "C00BC8D641F2DDC444BBB9A07125F4EB1E6EDA0384A896196AD0C7BE0A9CFEEA",
+    "5639E0D5BFEC3719F127139D232C60C42AA3AE661B580E405E6A9B06002AB6BE"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Alumni+Sans+Pinstripe",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Italic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alumnisanspinstripe&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"AlumniSansPinstripe-Regular.ttf\", \"AlumniSansPinstripe-Italic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Italic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Arapey font family designed by Eduardo Tunni",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "5DA4525899A27708241A4108E76D6BFD087766A66D159D80DCF986801BFB1092",
+    "3053E62A5BF1FE0F08D8196BF31DE312DEF7DEA7B0415D6B20385CAA5D333B0A"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Arapey",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Italic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arapey&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Arapey-Regular.ttf\", \"Arapey-Italic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Alegreya font family designed by Juan Pablo del Peral, Huerta Tipográfica",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "BA5564634B93A8F8BA57B48CD4F1AE7417D2B4656FBAC779028679B00DE3CF12",
+    "FA915EEC76227935DC5FB678953C94B71287C360928013CFDB441DFE52F5A391"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Alegreya",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alegreya&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Alegreya[wght].ttf\", \"Alegreya-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

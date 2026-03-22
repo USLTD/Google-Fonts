@@ -1,0 +1,50 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Comic Neue font family designed by Craig Rozynski, Hrant Papazian",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "EFB91C06DCCC264F07F800C0691D40C94E8CFCE6183DAADE0709268BEC178F76",
+    "A6D36BAEE09C7025916DDB517835458D15EF890291507197A54875CCC096B927",
+    "A0EE5A37C8B27C4DB0700137D928598B1E23B0089E1546A8961909176B779360",
+    "E06BFD1552F5C9464C5665733FFD69239B0593885DBB9E059688A5900F78CF98",
+    "3E7E5FCCFD7E0788F317B43312151C1BD5CF058C9697A8D83EAC3939050BD61E",
+    "5C312C2A2FA64EEE82F3B87FCFAB8F3B12A5E59B043124401D322EB323CFBF16"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Comic+Neue",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/comicneue&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"ComicNeue-Light.ttf\", \"ComicNeue-LightItalic.ttf\", \"ComicNeue-Regular.ttf\", \"ComicNeue-Italic.ttf\", \"ComicNeue-Bold.ttf\", \"ComicNeue-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

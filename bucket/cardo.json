@@ -1,0 +1,41 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Bold.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Cardo font family designed by David Perry",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "BCB81F376F1C3892C7026DABF2BEAFBD1A7EE8AE95D132EE7D4FF7D7C3988261",
+    "52C51CFDE3A827DD9428511C4A968699952B8A917C5F0E97BE782CBFA1880F9C",
+    "6C9383B1471936EE83B08B67BF79F0ED92BEE3D5E8363EC3BA21309D5A272E36"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Cardo",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Bold.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cardo&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Cardo-Regular.ttf\", \"Cardo-Italic.ttf\", \"Cardo-Bold.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

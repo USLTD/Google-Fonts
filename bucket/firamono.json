@@ -1,0 +1,41 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Bold.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Fira Mono font family designed by Carrois Apostrophe",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "2E00B0CF3106A3D792F35711B7722740B76C02EE7300EA8C60F940584B7A8AC9",
+    "A5BC1A2DB2F65946049DE615ECC08603D788EB0C02B520F4ED95F05A5CC58532",
+    "61F0CA3AE72A83DEB807040F314E1B8B4E40B08213DF243DB9FD430095CAB305"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Fira+Mono",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Bold.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firamono&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"FiraMono-Regular.ttf\", \"FiraMono-Medium.ttf\", \"FiraMono-Bold.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

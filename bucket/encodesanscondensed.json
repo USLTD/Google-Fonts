@@ -1,0 +1,59 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Black.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Encode Sans Condensed font family designed by Impallari Type, Andres Torresi, Jacques Le Bailly",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "9F2177944414AF43F7BEA15C7D76869200B33C121E3333D20F403B934FCC3656",
+    "DE2D21C3C8E01DB05BB9B291F774B09FC316F7A1727FA2404EF47D8FE35AA063",
+    "3BBDADDD877BCBA865CD90A0927CDDE1281E144E2E302CE8667BA24F15F21923",
+    "768D969127953C8A2E7D756A7735C7F803E08A3F86BE60DCAD77BAFFF3711788",
+    "AE5721464A60C9747F7F5F8F2D824575DD1CFA6372905BA90D1FD48EF1E81987",
+    "264ADC117BFC4B6100B2A87FEFEB8FB71D86AE9DAC0C94A453B19602BBCB51B4",
+    "A6896B28CC8E16FE8D1073C766127A07A9C89CC8F4DF9FFAC376A41FF4050B5F",
+    "D11153AA2EB89D00FB65A63FBB59A660681D0669E93CF5597A044AED913DA4B0",
+    "35C44453630AF2B355120B73285F42D1AB9CC4E2AA0CF9211C1BF60109184053"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Encode+Sans+Condensed",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanscondensed/EncodeSansCondensed-Black.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/encodesanscondensed&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"EncodeSansCondensed-Thin.ttf\", \"EncodeSansCondensed-ExtraLight.ttf\", \"EncodeSansCondensed-Light.ttf\", \"EncodeSansCondensed-Regular.ttf\", \"EncodeSansCondensed-Medium.ttf\", \"EncodeSansCondensed-SemiBold.ttf\", \"EncodeSansCondensed-Bold.ttf\", \"EncodeSansCondensed-ExtraBold.ttf\", \"EncodeSansCondensed-Black.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

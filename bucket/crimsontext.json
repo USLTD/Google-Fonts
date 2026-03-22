@@ -1,0 +1,50 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Crimson Text font family designed by Sebastian Kosch",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "48E6C5D5AD1D01599D374ECB817E15890D1FEB3B8A3A88E527D44C90389E1F06",
+    "4ED1699AC7C64E8B3D33F6BB8323C3D7206B0D7BACB9EE2D65C697E6014D29DE",
+    "802E84000740FEC2A9FBE0AE09B6B6811BD86A78A0173B15D44450A1530E9410",
+    "8F4A0DB2D181BA4493A4AD53042EDC3B57AB50FEDD8FA32C7B2AD57173208543",
+    "A3A0765FC5E8D0B49B540A23AEFE0184887DD79F06A0BDF4DB7035CEA6BEFA93",
+    "467013E913E46304760461C46661C994B2AA1769E3FBD31371026300315181B4"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Crimson+Text",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/crimsontext&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"CrimsonText-Regular.ttf\", \"CrimsonText-Italic.ttf\", \"CrimsonText-SemiBold.ttf\", \"CrimsonText-SemiBoldItalic.ttf\", \"CrimsonText-Bold.ttf\", \"CrimsonText-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

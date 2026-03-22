@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Brygada 1918 font family designed by Capitalics, Mateusz Machalski, Borys Kosmynka, Ania Wieluńska, Przemysław Hoffer",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "93A23E7C6DE5E2C54410116ABCEED294A05B71AA03AF52FBAA92C2CC79003D4D",
+    "C694F075A9240C47C72A2298ACF9C14F79ABDF7BAE824ECA96B78099DBED93C5"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Brygada+1918",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/brygada1918&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Brygada1918[wght].ttf\", \"Brygada1918-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

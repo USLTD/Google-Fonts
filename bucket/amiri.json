@@ -1,0 +1,44 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Amiri font family designed by Khaled Hosny, Sebastian Kosch",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "AB391C4147D054C48976E98322AD0EEFE1427AA0E0502A12A4C75D80A70CFCD7",
+    "770E4DA44D0459C0DDD6484483D475B95F2D088DD27CE472427624081EB68C70",
+    "CFCCB794268E7D573D857E6D6A67F89CF8A053E8FFD85DFA0C8EC1BB36FC4827",
+    "241300E2DCB2C541AC3617872960D99683D261E4F526DC4691D0727E7BEF130B"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Amiri",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiri/Amiri-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amiri&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Amiri-Regular.ttf\", \"Amiri-Italic.ttf\", \"Amiri-Bold.ttf\", \"Amiri-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

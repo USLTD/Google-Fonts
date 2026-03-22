@@ -3,3 +3,6 @@
 ._*
 page.html
 checkver-*.html
+
+# Cache directory for API responses
+.cache/

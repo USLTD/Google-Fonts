@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Cascadia Code font family designed by Aaron Bell, Mohamad Dakak, Viktoriya Grabowska, Liron Lavi Turkenich",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "30F2E14A5C389B346B1FCE110C4DDCF0DC5CE8265FAF5ECA2AB7323F49DBA590",
+    "33559B4BEB60523B824E25A416B5DE2779A9BC7C7CE32CE128490B42ACBF4681"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Cascadia+Code",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cascadiacode&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"CascadiaCode[wght].ttf\", \"CascadiaCode-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Bold.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Astloch font family designed by Dan Rhatigan",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "1B6F98E4C391DA70D9166182369F90164CB02870AD210C4B3287F35FF28227F0",
+    "DEE95FB52F9B24AFC701E9991208275F654160870DB06BEC84CECB25E10FBEEE"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Astloch",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Bold.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/astloch&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Astloch-Regular.ttf\", \"Astloch-Bold.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

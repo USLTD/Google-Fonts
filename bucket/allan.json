@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Bold.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Allan font family designed by Anton Koovit",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "1216633F30F55DCFBE27F1F3A882A742ADA9484A26ED26CBCF208F88E315B896",
+    "C4D3781233B873DED3965200D4EA3B978EDE2D7300D02C528DA7A9AD9E7946CA"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Allan",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Bold.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/allan&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Allan-Regular.ttf\", \"Allan-Bold.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

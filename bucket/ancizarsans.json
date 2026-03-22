@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Ancizar Sans font family designed by Universidad Nacional de Colombia (UNAL), César Puertas, Viviana Monsalve, Julián Moncada",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "C99CE8A9CD997F264E6C34C2799FAECD94C39ACF7D06928124F9E7C12D72C743",
+    "834BE8CFCCB25C8FDEC55908FDBFB3FE682DE616688E10E502E22C29ECD5933D"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Ancizar+Sans",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ancizarsans&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"AncizarSans[wght].ttf\", \"AncizarSans-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

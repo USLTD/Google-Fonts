@@ -1,0 +1,44 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Andika font family designed by SIL International",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "202B96B1F174A4A43BAEFE885B40DACACB81786755EFD08ED4B7704E79C45515",
+    "6A4A0DD26D28F577B51DD6AFB5ACF6FD91AB21694E25649C270A32179BB52A62",
+    "4361126189A2D0E0DA66999352DB58AAF1B4CA940FAF8A8239D725F8303D890D",
+    "2D000F8791A1827C0C4D411E9F4593C4FC2DB0FDBB868BB1F863593B3D3968E6"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Andika",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/andika&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Andika-Regular.ttf\", \"Andika-Italic.ttf\", \"Andika-Bold.ttf\", \"Andika-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

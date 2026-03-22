@@ -1,0 +1,38 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC-Italic[wght].ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Alumni Sans SC font family designed by Robert Leuschke",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "41A67970FD2A6F6A806578451D7E9902B45008043DE2D60BF47E005EC0DAB922",
+    "62B490F2EE301D2DDA0554F4BFC68AC8AB905D89762716702391A49174554A26"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Alumni+Sans+SC",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC-Italic[wght].ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alumnisanssc&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"AlumniSansSC[wght].ttf\", \"AlumniSansSC-Italic[wght].ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}

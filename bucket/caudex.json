@@ -1,0 +1,44 @@
+{
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-BoldItalic.ttf"
+    ]
+  },
+  "version": "latest",
+  "description": "Caudex font family designed by Nidud",
+  "license": "OFL",
+  "installer": {
+    "script": [
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    New-ItemProperty -Path \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" -Name $file.Name.Replace($file.Extension, \" (TrueType)\") -Value $file.Name -Force | Out-Null",
+      "    Copy-Item $file.FullName -Destination \"$env:windir\\Fonts\" -Force",
+      "}"
+    ]
+  },
+  "hash": [
+    "DBB493E1ADC50AAEC52071535E6FCCF4176793C79545F54D95A812CBFB85169B",
+    "FFA47F625D746E7B75C2306B7572F22561E1D73312A375772325C98213E0A4F9",
+    "880FB67901CE94573ED0262D152B87115A08F928C72FC6C1101375A1223D390A",
+    "78440E8AB6730581AC71FE780AD2FA15BA15D240313028678E404ACE4E70EB20"
+  ],
+  "homepage": "https://fonts.google.com/specimen/Caudex",
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caudex/Caudex-BoldItalic.ttf"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caudex&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "uninstaller": {
+    "script": [
+      "$fontFiles = @(\"Caudex-Regular.ttf\", \"Caudex-Italic.ttf\", \"Caudex-Bold.ttf\", \"Caudex-BoldItalic.ttf\") foreach ($file in $fontFiles) {     $fontName = [System.IO.Path]::GetFileNameWithoutExtension($file)     Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name \"$fontName (TrueType)\" -ErrorAction SilentlyContinue     Remove-Item \"$env:windir\\Fonts\\$file\" -Force -ErrorAction SilentlyContinue }"
+    ]
+  }
+}
