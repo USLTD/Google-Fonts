@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inder/Inder-Regular.ttf"
+  "hash": [
+    "7E9922756C6879C6AED60B1F880FCD3067C44C8F3328830909D1091B11168FC6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inder&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inder/Inder-Regular.ttf"
+    ]
   },
+  "description": "Inder font family designed by Sorkin Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7E9922756C6879C6AED60B1F880FCD3067C44C8F3328830909D1091B11168FC6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inder/Inder-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inder/Inder-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inder&per_page=1"
   },
-  "description": "Inder font family designed by Sorkin Type",
-  "homepage": "https://fonts.google.com/specimen/Inder",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inder"
 }

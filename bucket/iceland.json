@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iceland/Iceland-Regular.ttf"
+  "hash": [
+    "5B5919189E5D01A6FAC79251AAF9FA9565A738C39974CBE13DE98AC02EC7FFF5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iceland&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iceland/Iceland-Regular.ttf"
+    ]
   },
+  "description": "Iceland font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5B5919189E5D01A6FAC79251AAF9FA9565A738C39974CBE13DE98AC02EC7FFF5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iceland/Iceland-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iceland/Iceland-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iceland&per_page=1"
   },
-  "description": "Iceland font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Iceland",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Iceland"
 }

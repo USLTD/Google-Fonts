@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/averiagruesalibre/AveriaGruesaLibre-Regular.ttf"
+  "hash": [
+    "DF080C6C99C694B3D741835957E4EBC37D640A9C54F4079CEB8C7211E3F2E209"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/averiagruesalibre&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averiagruesalibre/AveriaGruesaLibre-Regular.ttf"
+    ]
   },
+  "description": "Averia Gruesa Libre font family designed by Dan Sayers",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DF080C6C99C694B3D741835957E4EBC37D640A9C54F4079CEB8C7211E3F2E209"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averiagruesalibre/AveriaGruesaLibre-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/averiagruesalibre/AveriaGruesaLibre-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/averiagruesalibre&per_page=1"
   },
-  "description": "Averia Gruesa Libre font family designed by Dan Sayers",
-  "homepage": "https://fonts.google.com/specimen/Averia+Gruesa+Libre",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Averia+Gruesa+Libre"
 }

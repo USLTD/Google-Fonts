@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fugazone/FugazOne-Regular.ttf"
+  "hash": [
+    "14FD5BECCE8B0AE987E44B3F9FA9E3E6C87463E9585AC15DB6C8271462068A62"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fugazone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fugazone/FugazOne-Regular.ttf"
+    ]
   },
+  "description": "Fugaz One font family designed by LatinoType",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "14FD5BECCE8B0AE987E44B3F9FA9E3E6C87463E9585AC15DB6C8271462068A62"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fugazone/FugazOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fugazone/FugazOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fugazone&per_page=1"
   },
-  "description": "Fugaz One font family designed by LatinoType",
-  "homepage": "https://fonts.google.com/specimen/Fugaz+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fugaz+One"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguegothic/LeagueGothic[wdth].ttf"
+  "hash": [
+    "3B0E998C9A0034222394FFECDD383E6948259AD037B95555B139A217629CE1D0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/leaguegothic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguegothic/LeagueGothic[wdth].ttf"
+    ]
   },
+  "description": "League Gothic font family designed by Tyler Finck, Caroline Hadilaksono, Micah Rich",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3B0E998C9A0034222394FFECDD383E6948259AD037B95555B139A217629CE1D0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguegothic/LeagueGothic[wdth].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguegothic/LeagueGothic[wdth].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/leaguegothic&per_page=1"
   },
-  "description": "League Gothic font family designed by Tyler Finck, Caroline Hadilaksono, Micah Rich",
-  "homepage": "https://fonts.google.com/specimen/League+Gothic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/League+Gothic"
 }

@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Bold.ttf"
+  "hash": [
+    "B4FEC2A8EEDB6ECDD29ED7862BB76F847E077424F0337C7EAF09185AA1447D47",
+    "EC31A2104441EDD54607610E7C9C14A13CB7FD57D63CFF24330A1734A4DAD7E1",
+    "8D15A3DBA9D59AA768C78D62DAA259129E391CA68994D32A954B193E77C208DE",
+    "8F231651B67F8FA5DBD3E464036CE0E9EAF8C9D12E34946196A7B6A79CCADC44",
+    "40AE9E8BEEA31BCF27E0A223424A5B904DE716F6D3343C9425A268A7C04AC1A8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindjalandhar&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Bold.ttf"
+    ]
   },
+  "description": "Hind Jalandhar font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "B4FEC2A8EEDB6ECDD29ED7862BB76F847E077424F0337C7EAF09185AA1447D47",
-    "EC31A2104441EDD54607610E7C9C14A13CB7FD57D63CFF24330A1734A4DAD7E1",
-    "8D15A3DBA9D59AA768C78D62DAA259129E391CA68994D32A954B193E77C208DE",
-    "8F231651B67F8FA5DBD3E464036CE0E9EAF8C9D12E34946196A7B6A79CCADC44",
-    "40AE9E8BEEA31BCF27E0A223424A5B904DE716F6D3343C9425A268A7C04AC1A8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindjalandhar/HindJalandhar-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindjalandhar&per_page=1"
   },
-  "description": "Hind Jalandhar font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Hind+Jalandhar",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hind+Jalandhar"
 }

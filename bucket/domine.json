@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/domine/Domine[wght].ttf"
+  "hash": [
+    "C63552CB60C658E90C1DA3E83F9E7CF203562C39CDBF5A78BA9DF62D8E7A1ED7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/domine&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/domine/Domine[wght].ttf"
+    ]
   },
+  "description": "Domine font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C63552CB60C658E90C1DA3E83F9E7CF203562C39CDBF5A78BA9DF62D8E7A1ED7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/domine/Domine[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/domine/Domine[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/domine&per_page=1"
   },
-  "description": "Domine font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Domine",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Domine"
 }

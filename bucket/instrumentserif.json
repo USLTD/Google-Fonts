@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf"
+  "hash": [
+    "498EFD461F6DDFCB7A111BF9A565709D2085D48201D501EAD960D93E84FFBB88",
+    "08939B8BDF534AFEC24AE0EF5E03F948940CD9A8FE08E7FECBAD040E62327385"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/instrumentserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf"
+    ]
   },
+  "description": "Instrument Serif font family designed by Rodrigo Fuenzalida, Jordan Egstad",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "498EFD461F6DDFCB7A111BF9A565709D2085D48201D501EAD960D93E84FFBB88",
-    "08939B8BDF534AFEC24AE0EF5E03F948940CD9A8FE08E7FECBAD040E62327385"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/instrumentserif&per_page=1"
   },
-  "description": "Instrument Serif font family designed by Rodrigo Fuenzalida, Jordan Egstad",
-  "homepage": "https://fonts.google.com/specimen/Instrument+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Instrument+Serif"
 }

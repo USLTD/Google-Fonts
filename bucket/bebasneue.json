@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf"
+  "hash": [
+    "08E4623805102D819F58601E46E345648846075E363B2CEB23313C2D1C83EC73"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bebasneue&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf"
+    ]
   },
+  "description": "Bebas Neue font family designed by Ryoichi Tsunekawa",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "08E4623805102D819F58601E46E345648846075E363B2CEB23313C2D1C83EC73"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bebasneue&per_page=1"
   },
-  "description": "Bebas Neue font family designed by Ryoichi Tsunekawa",
-  "homepage": "https://fonts.google.com/specimen/Bebas+Neue",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bebas+Neue"
 }

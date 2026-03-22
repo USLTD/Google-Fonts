@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/missfajardose/MissFajardose-Regular.ttf"
+  "hash": [
+    "F76E0F245E781A75EA9FA528706B417173F7741439369C07D1501276170AB709"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/missfajardose&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/missfajardose/MissFajardose-Regular.ttf"
+    ]
   },
+  "description": "Miss Fajardose font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F76E0F245E781A75EA9FA528706B417173F7741439369C07D1501276170AB709"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/missfajardose/MissFajardose-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/missfajardose/MissFajardose-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/missfajardose&per_page=1"
   },
-  "description": "Miss Fajardose font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Miss+Fajardose",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Miss+Fajardose"
 }

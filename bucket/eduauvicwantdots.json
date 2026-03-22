@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantdots/EduAUVICWANTDots[wght].ttf"
+  "hash": [
+    "4BE8BF2AA8F4635CEB0D978A2588706E4D12E5C695FA0B8FE1DF49B7274317AF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwantdots&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantdots/EduAUVICWANTDots[wght].ttf"
+    ]
   },
+  "description": "Edu AU VIC WA NT Dots font family designed by Tina Anderson, Corey Anderson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4BE8BF2AA8F4635CEB0D978A2588706E4D12E5C695FA0B8FE1DF49B7274317AF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantdots/EduAUVICWANTDots[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantdots/EduAUVICWANTDots[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwantdots&per_page=1"
   },
-  "description": "Edu AU VIC WA NT Dots font family designed by Tina Anderson, Corey Anderson",
-  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Dots",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Dots"
 }

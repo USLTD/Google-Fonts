@@ -1,28 +1,47 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Black.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BlackItalic.ttf"
+  "hash": [
+    "740D8A4D92DDAE394D13A3CAEA845C048B6D62B58F9FB92ED4AC0118ED38C083",
+    "6F61A638BA025B495FBF23A05F96AF31AE3E9CA710506DA123E3D63ABDCF7D40",
+    "F90E440B41170F2F75F2930D3273DBE9ED7A5AC49F7DBDC375BA5F8D2E224745",
+    "E62305565471F6EF1139581E2AFBCD0B108FC2A8B140052CD06EC2852AAD9CF9",
+    "7C04B0BE6011782FCC4C032F4033EF6F6BA1FEF99B135BA1EE68B800C53017EC",
+    "E5CD0A7CE9CE65B7BE59287320D247B7627B0A437A6A3BD1174440CEED4AF1C6",
+    "27170C049660B2F962D3ED28441FD20F4C743503CA031FEC9C2B4542D6C52736",
+    "7CBE69393A7BF948DD49E575369344A907F06B0182E7A618C033C67208ABB27D",
+    "50A237034244026A7C63FE55E24E0B4298BABE363CDE043E032075B764C545A2",
+    "266A8044E599CE2FEEF7DFFA8E3CE7648C94927DABA20C4838629054633CF8C4",
+    "67E64BAF1A7E6E076435518FF0E6BF25C4D74B98143CD1A2688DB906C0ABCE11",
+    "DF1F635F3022306A7F61ED03CDC1A90364F31E19454BD287CFFE45F98CA805D0",
+    "5DEC5B080DAB13DE9D2295437C0FF3EC05C9E75587DFC31358C005EB4EFA5E70",
+    "194D26BA90B782465BD4653CC5A1CDF7A9BED7B9E271DF4F6FB41B5DBA359D78",
+    "70082870D1F5BB6AE9FAA708572B2C36DE3C076CAAE187EDAE753F709D0DE984",
+    "E874A96DE66B5340174DDF9C621593280A21E9ADB8E07BB1587112DE274ACAD5",
+    "5D290C2CC9926764BD782AA6ABC47A8F55BD64641D0AFB56E115EE522698EE7E",
+    "7FE3F1D87E33E165EAE2D664E42A31FAF542D24E431A2E7DA36F4E4EEE5F8529"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kanit&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Black.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BlackItalic.ttf"
+    ]
   },
+  "description": "Kanit font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -64,6 +83,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -148,50 +168,30 @@
       "}"
     ]
   },
-  "hash": [
-    "740D8A4D92DDAE394D13A3CAEA845C048B6D62B58F9FB92ED4AC0118ED38C083",
-    "6F61A638BA025B495FBF23A05F96AF31AE3E9CA710506DA123E3D63ABDCF7D40",
-    "F90E440B41170F2F75F2930D3273DBE9ED7A5AC49F7DBDC375BA5F8D2E224745",
-    "E62305565471F6EF1139581E2AFBCD0B108FC2A8B140052CD06EC2852AAD9CF9",
-    "7C04B0BE6011782FCC4C032F4033EF6F6BA1FEF99B135BA1EE68B800C53017EC",
-    "E5CD0A7CE9CE65B7BE59287320D247B7627B0A437A6A3BD1174440CEED4AF1C6",
-    "27170C049660B2F962D3ED28441FD20F4C743503CA031FEC9C2B4542D6C52736",
-    "7CBE69393A7BF948DD49E575369344A907F06B0182E7A618C033C67208ABB27D",
-    "50A237034244026A7C63FE55E24E0B4298BABE363CDE043E032075B764C545A2",
-    "266A8044E599CE2FEEF7DFFA8E3CE7648C94927DABA20C4838629054633CF8C4",
-    "67E64BAF1A7E6E076435518FF0E6BF25C4D74B98143CD1A2688DB906C0ABCE11",
-    "DF1F635F3022306A7F61ED03CDC1A90364F31E19454BD287CFFE45F98CA805D0",
-    "5DEC5B080DAB13DE9D2295437C0FF3EC05C9E75587DFC31358C005EB4EFA5E70",
-    "194D26BA90B782465BD4653CC5A1CDF7A9BED7B9E271DF4F6FB41B5DBA359D78",
-    "70082870D1F5BB6AE9FAA708572B2C36DE3C076CAAE187EDAE753F709D0DE984",
-    "E874A96DE66B5340174DDF9C621593280A21E9ADB8E07BB1587112DE274ACAD5",
-    "5D290C2CC9926764BD782AA6ABC47A8F55BD64641D0AFB56E115EE522698EE7E",
-    "7FE3F1D87E33E165EAE2D664E42A31FAF542D24E431A2E7DA36F4E4EEE5F8529"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Black.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BlackItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-ExtraBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-Black.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanit/Kanit-BlackItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kanit&per_page=1"
   },
-  "description": "Kanit font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Kanit",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kanit"
 }

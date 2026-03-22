@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/menbere/Menbere[wght].ttf"
+  "hash": [
+    "4705B09C466787F6A69D0203CF98FEE7EAB7A023517C43350543B6D7DBED2654"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/menbere&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/menbere/Menbere[wght].ttf"
+    ]
   },
+  "description": "Menbere font family designed by Aleme Tadesse, Sorkin Type, Eben Sorkin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4705B09C466787F6A69D0203CF98FEE7EAB7A023517C43350543B6D7DBED2654"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/menbere/Menbere[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/menbere/Menbere[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/menbere&per_page=1"
   },
-  "description": "Menbere font family designed by Aleme Tadesse, Sorkin Type, Eben Sorkin",
-  "homepage": "https://fonts.google.com/specimen/Menbere",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Menbere"
 }

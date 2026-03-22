@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chirongoroundtc/ChironGoRoundTC[wght].ttf"
+  "hash": [
+    "47CD5FF5153799D4C0D05BCC64DA849E13B8EB842E46728A66BF2D52C480231F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chirongoroundtc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chirongoroundtc/ChironGoRoundTC[wght].ttf"
+    ]
   },
+  "description": "Chiron GoRound TC font family designed by Tamcy",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "47CD5FF5153799D4C0D05BCC64DA849E13B8EB842E46728A66BF2D52C480231F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chirongoroundtc/ChironGoRoundTC[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chirongoroundtc/ChironGoRoundTC[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chirongoroundtc&per_page=1"
   },
-  "description": "Chiron GoRound TC font family designed by Tamcy",
-  "homepage": "https://fonts.google.com/specimen/Chiron+GoRound+TC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chiron+GoRound+TC"
 }

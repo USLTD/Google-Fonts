@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/galdeano/Galdeano-Regular.ttf"
+  "hash": [
+    "EC2379E6AE1192420EB7A633C170890CF85944ABC73E6EF6C68371D1C05C6652"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/galdeano&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/galdeano/Galdeano-Regular.ttf"
+    ]
   },
+  "description": "Galdeano font family designed by Dario Manuel Muhafara",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EC2379E6AE1192420EB7A633C170890CF85944ABC73E6EF6C68371D1C05C6652"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/galdeano/Galdeano-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/galdeano/Galdeano-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/galdeano&per_page=1"
   },
-  "description": "Galdeano font family designed by Dario Manuel Muhafara",
-  "homepage": "https://fonts.google.com/specimen/Galdeano",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Galdeano"
 }

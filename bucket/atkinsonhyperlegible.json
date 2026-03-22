@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-BoldItalic.ttf"
+  "hash": [
+    "7FB917C89019896D0B52EE84B7CBB3304C18CB90B19A62F5E32712BD23E97669",
+    "021BEDA4D3C6EDFC78872E436D74009F9A1BCB294331908FE5747C61D3DCC514",
+    "5A3B0C8CC8CA545155150B4512A1FA248298DF121C50D6557E651E61FBDAB92F",
+    "7A46F1B0EF2F64B61065C1A6B5A11FCB9B019B44062D88BA121A083CC39E86BF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/atkinsonhyperlegible&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-BoldItalic.ttf"
+    ]
   },
+  "description": "Atkinson Hyperlegible font family designed by Braille Institute, Applied Design Works, Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "7FB917C89019896D0B52EE84B7CBB3304C18CB90B19A62F5E32712BD23E97669",
-    "021BEDA4D3C6EDFC78872E436D74009F9A1BCB294331908FE5747C61D3DCC514",
-    "5A3B0C8CC8CA545155150B4512A1FA248298DF121C50D6557E651E61FBDAB92F",
-    "7A46F1B0EF2F64B61065C1A6B5A11FCB9B019B44062D88BA121A083CC39E86BF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/atkinsonhyperlegible&per_page=1"
   },
-  "description": "Atkinson Hyperlegible font family designed by Braille Institute, Applied Design Works, Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky",
-  "homepage": "https://fonts.google.com/specimen/Atkinson+Hyperlegible",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Atkinson+Hyperlegible"
 }

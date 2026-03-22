@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobster/Lobster-Regular.ttf"
+  "hash": [
+    "D6568E697FD50CEDC0BE04D8AAE4127FE95ADD607E7BFF954CA88604BE80C205"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lobster&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobster/Lobster-Regular.ttf"
+    ]
   },
+  "description": "Lobster font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D6568E697FD50CEDC0BE04D8AAE4127FE95ADD607E7BFF954CA88604BE80C205"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobster/Lobster-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobster/Lobster-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lobster&per_page=1"
   },
-  "description": "Lobster font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Lobster",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lobster"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mavenpro/MavenPro[wght].ttf"
+  "hash": [
+    "BC994ED80BAAEC6EA61D7CB631F49466A1DEB29D4363138021A96931F9FAAE9A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mavenpro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mavenpro/MavenPro[wght].ttf"
+    ]
   },
+  "description": "Maven Pro font family designed by Joe Prince",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BC994ED80BAAEC6EA61D7CB631F49466A1DEB29D4363138021A96931F9FAAE9A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mavenpro/MavenPro[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mavenpro/MavenPro[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mavenpro&per_page=1"
   },
-  "description": "Maven Pro font family designed by Joe Prince",
-  "homepage": "https://fonts.google.com/specimen/Maven+Pro",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Maven+Pro"
 }

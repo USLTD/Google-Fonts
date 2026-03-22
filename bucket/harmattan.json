@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Bold.ttf"
+  "hash": [
+    "5FBAAFC51AD21663729B168AFAFF5F28D3E3087F1FC736ADA32D7CD99674C0E0",
+    "E83A209C87145152DCC4DF18FFDD50AAD8407FB563135392E168C896E932D2D5",
+    "83479450450A50DA78412F2F48B274883095A23A01D6BF36DB54E769CB09B11D",
+    "EB9DE49ECB72D34E14C768BEA6F9A7831F6BD2C15B062FCC2BB17B0AC967BC67"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/harmattan&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Bold.ttf"
+    ]
   },
+  "description": "Harmattan font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "5FBAAFC51AD21663729B168AFAFF5F28D3E3087F1FC736ADA32D7CD99674C0E0",
-    "E83A209C87145152DCC4DF18FFDD50AAD8407FB563135392E168C896E932D2D5",
-    "83479450450A50DA78412F2F48B274883095A23A01D6BF36DB54E769CB09B11D",
-    "EB9DE49ECB72D34E14C768BEA6F9A7831F6BD2C15B062FCC2BB17B0AC967BC67"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/harmattan/Harmattan-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/harmattan&per_page=1"
   },
-  "description": "Harmattan font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Harmattan",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Harmattan"
 }

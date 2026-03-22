@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lumanosimo/Lumanosimo-Regular.ttf"
+  "hash": [
+    "768D2BBE3B9DCFE5CDD89A01CF4F90B9729B58AE565233A2FAB0F7F48B42F662"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lumanosimo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lumanosimo/Lumanosimo-Regular.ttf"
+    ]
   },
+  "description": "Lumanosimo font family designed by The DocRepair Project, Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "768D2BBE3B9DCFE5CDD89A01CF4F90B9729B58AE565233A2FAB0F7F48B42F662"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lumanosimo/Lumanosimo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lumanosimo/Lumanosimo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lumanosimo&per_page=1"
   },
-  "description": "Lumanosimo font family designed by The DocRepair Project, Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Lumanosimo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lumanosimo"
 }

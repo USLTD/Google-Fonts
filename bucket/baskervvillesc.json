@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervvillesc/BaskervvilleSC[wght].ttf"
+  "hash": [
+    "CD2AC64E7B75F6C31FCEC8B8C85A729F88D6B2987BDC0062D057F06904069304"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baskervvillesc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervvillesc/BaskervvilleSC[wght].ttf"
+    ]
   },
+  "description": "Baskervville SC font family designed by ANRT",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CD2AC64E7B75F6C31FCEC8B8C85A729F88D6B2987BDC0062D057F06904069304"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervvillesc/BaskervvilleSC[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervvillesc/BaskervvilleSC[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baskervvillesc&per_page=1"
   },
-  "description": "Baskervville SC font family designed by ANRT",
-  "homepage": "https://fonts.google.com/specimen/Baskervville+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Baskervville+SC"
 }

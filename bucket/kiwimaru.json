@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Medium.ttf"
+  "hash": [
+    "30F856BC944911B025BFBF640BF6B9FFE18A9C7B06B20D4EF26FE5CC9B3819F8",
+    "B0C3103B2639F690C1FCB44E060058383174BFD2EB72E6635BC9869B374DEE87",
+    "B2659F300A7D48C3F29EB273FFC5E1B26CC416AC8C37FF6BB2F3E43C2F4D235A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kiwimaru&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Medium.ttf"
+    ]
   },
+  "description": "Kiwi Maru font family designed by Hiroki-Chan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "30F856BC944911B025BFBF640BF6B9FFE18A9C7B06B20D4EF26FE5CC9B3819F8",
-    "B0C3103B2639F690C1FCB44E060058383174BFD2EB72E6635BC9869B374DEE87",
-    "B2659F300A7D48C3F29EB273FFC5E1B26CC416AC8C37FF6BB2F3E43C2F4D235A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Medium.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiwimaru/KiwiMaru-Medium.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kiwimaru&per_page=1"
   },
-  "description": "Kiwi Maru font family designed by Hiroki-Chan",
-  "homepage": "https://fonts.google.com/specimen/Kiwi+Maru",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kiwi+Maru"
 }

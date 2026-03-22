@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Bold.ttf"
+  "hash": [
+    "F41144A3BF9130BA62AD10D7E0B0F42695BF74F73B00C6154B03F8E35A9196D1",
+    "9FD21512C2DCBD1675F0999195AC6D09011A13F61FE60775AE6A5E00E577C1E5",
+    "D174A4B8C9D3DE5BDBBDFCA5ADC87EDF578B61FC207F576AEC47F440B8C0B256",
+    "9A309796FFBE3B6827591EB4E6E7F13E273C38D37B40D12A5AC695172571E88B",
+    "A112F36F92ECB6967EE82C643547986462D1DDCFF22C20AD024CB0915DDD2BEE",
+    "57F002A2E09846841EBFC59F12D3F3C530D05FF85648D6856DFE44F531C6C84D",
+    "8C1A55530A59F4D3DF71E36ED7090E78511CF1E03C32B932C693AE6AC603B38F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansdevanagari&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Bold.ttf"
+    ]
   },
+  "description": "IBM Plex Sans Devanagari font family designed by Mike Abbink, Bold Monday",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "F41144A3BF9130BA62AD10D7E0B0F42695BF74F73B00C6154B03F8E35A9196D1",
-    "9FD21512C2DCBD1675F0999195AC6D09011A13F61FE60775AE6A5E00E577C1E5",
-    "D174A4B8C9D3DE5BDBBDFCA5ADC87EDF578B61FC207F576AEC47F440B8C0B256",
-    "9A309796FFBE3B6827591EB4E6E7F13E273C38D37B40D12A5AC695172571E88B",
-    "A112F36F92ECB6967EE82C643547986462D1DDCFF22C20AD024CB0915DDD2BEE",
-    "57F002A2E09846841EBFC59F12D3F3C530D05FF85648D6856DFE44F531C6C84D",
-    "8C1A55530A59F4D3DF71E36ED7090E78511CF1E03C32B932C693AE6AC603B38F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansdevanagari/IBMPlexSansDevanagari-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansdevanagari&per_page=1"
   },
-  "description": "IBM Plex Sans Devanagari font family designed by Mike Abbink, Bold Monday",
-  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Devanagari",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Devanagari"
 }

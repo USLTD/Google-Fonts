@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jura/Jura[wght].ttf"
+  "hash": [
+    "188B415D44810D68B4D6B4A8C281F864184C2B8EDC5E88E6357C89F7B44075BF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jura&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jura/Jura[wght].ttf"
+    ]
   },
+  "description": "Jura font family designed by Daniel Johnson, Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "188B415D44810D68B4D6B4A8C281F864184C2B8EDC5E88E6357C89F7B44075BF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jura/Jura[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jura/Jura[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jura&per_page=1"
   },
-  "description": "Jura font family designed by Daniel Johnson, Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Jura",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jura"
 }

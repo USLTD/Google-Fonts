@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserifdisplay/LibertinusSerifDisplay-Regular.ttf"
+  "hash": [
+    "5D2B119FE718B6420953A8CA747CC2D83F42E8B5739798D3D6D27430DDE75486"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinusserifdisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserifdisplay/LibertinusSerifDisplay-Regular.ttf"
+    ]
   },
+  "description": "Libertinus Serif Display font family designed by Philipp H. Poll",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5D2B119FE718B6420953A8CA747CC2D83F42E8B5739798D3D6D27430DDE75486"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserifdisplay/LibertinusSerifDisplay-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserifdisplay/LibertinusSerifDisplay-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinusserifdisplay&per_page=1"
   },
-  "description": "Libertinus Serif Display font family designed by Philipp H. Poll",
-  "homepage": "https://fonts.google.com/specimen/Libertinus+Serif+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libertinus+Serif+Display"
 }

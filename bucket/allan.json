@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Bold.ttf"
+  "hash": [
+    "1216633F30F55DCFBE27F1F3A882A742ADA9484A26ED26CBCF208F88E315B896",
+    "C4D3781233B873DED3965200D4EA3B978EDE2D7300D02C528DA7A9AD9E7946CA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/allan&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Bold.ttf"
+    ]
   },
+  "description": "Allan font family designed by Anton Koovit",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "1216633F30F55DCFBE27F1F3A882A742ADA9484A26ED26CBCF208F88E315B896",
-    "C4D3781233B873DED3965200D4EA3B978EDE2D7300D02C528DA7A9AD9E7946CA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/allan&per_page=1"
   },
-  "description": "Allan font family designed by Anton Koovit",
-  "homepage": "https://fonts.google.com/specimen/Allan",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Allan"
 }

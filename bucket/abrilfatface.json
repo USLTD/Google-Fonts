@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abrilfatface/AbrilFatface-Regular.ttf"
+  "hash": [
+    "5971D4A3758A922A9FEDC7F6FB825A96341A2E718C45A4B2C9A6B417C8C4DBE9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abrilfatface&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abrilfatface/AbrilFatface-Regular.ttf"
+    ]
   },
+  "description": "Abril Fatface font family designed by TypeTogether",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5971D4A3758A922A9FEDC7F6FB825A96341A2E718C45A4B2C9A6B417C8C4DBE9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abrilfatface/AbrilFatface-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abrilfatface/AbrilFatface-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abrilfatface&per_page=1"
   },
-  "description": "Abril Fatface font family designed by TypeTogether",
-  "homepage": "https://fonts.google.com/specimen/Abril+Fatface",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Abril+Fatface"
 }

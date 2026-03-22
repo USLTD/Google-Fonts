@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Bold.ttf"
+  "hash": [
+    "26FB53B7297281E4907DFE254CC23C206F28510F683EB726E5C5024CA36DC95D",
+    "2FC8F72A7257D837A5B710A8F6CA9E6B7A179F809243EEF9380BA2185B8C2A67"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/deliusunicase&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Bold.ttf"
+    ]
   },
+  "description": "Delius Unicase font family designed by Natalia Raices",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "26FB53B7297281E4907DFE254CC23C206F28510F683EB726E5C5024CA36DC95D",
-    "2FC8F72A7257D837A5B710A8F6CA9E6B7A179F809243EEF9380BA2185B8C2A67"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusunicase/DeliusUnicase-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/deliusunicase&per_page=1"
   },
-  "description": "Delius Unicase font family designed by Natalia Raices",
-  "homepage": "https://fonts.google.com/specimen/Delius+Unicase",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Delius+Unicase"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersstenciltextsc/BigShouldersStencilTextSC[wght].ttf"
+  "hash": [
+    "970EFC1F8EB45174AE6FA7E14AA33449AF764DC8F925D296E3B9AA1878B87E74"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bigshouldersstenciltextsc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersstenciltextsc/BigShouldersStencilTextSC[wght].ttf"
+    ]
   },
+  "description": "Big Shoulders Stencil Text SC font family designed by Patric King",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "970EFC1F8EB45174AE6FA7E14AA33449AF764DC8F925D296E3B9AA1878B87E74"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersstenciltextsc/BigShouldersStencilTextSC[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersstenciltextsc/BigShouldersStencilTextSC[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bigshouldersstenciltextsc&per_page=1"
   },
-  "description": "Big Shoulders Stencil Text SC font family designed by Patric King",
-  "homepage": "https://fonts.google.com/specimen/Big+Shoulders+Stencil+Text+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Big+Shoulders+Stencil+Text+SC"
 }

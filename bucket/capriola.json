@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/capriola/Capriola[wght].ttf"
+  "hash": [
+    "03BD906C00B8618AF3B0844A45165B699E2FCCCD589D29812B5C9F83AFD49E75"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/capriola&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/capriola/Capriola[wght].ttf"
+    ]
   },
+  "description": "Capriola font family designed by Viktoriya Grabowska",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "03BD906C00B8618AF3B0844A45165B699E2FCCCD589D29812B5C9F83AFD49E75"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/capriola/Capriola[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/capriola/Capriola[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/capriola&per_page=1"
   },
-  "description": "Capriola font family designed by Viktoriya Grabowska",
-  "homepage": "https://fonts.google.com/specimen/Capriola",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Capriola"
 }

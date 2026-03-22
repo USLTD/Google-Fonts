@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Bold.ttf"
+  "hash": [
+    "A32ADCC953AC356906901778460083DC207D4560CB586FD9EA24EC5B186969ED",
+    "5DAE0D7B2365288D8A34F5FB033D4278BE96CEF2547862CB93CEB8373E10BCF1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alef&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Bold.ttf"
+    ]
   },
+  "description": "Alef font family designed by Hagilda, Mushon Zer-Aviv",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "A32ADCC953AC356906901778460083DC207D4560CB586FD9EA24EC5B186969ED",
-    "5DAE0D7B2365288D8A34F5FB033D4278BE96CEF2547862CB93CEB8373E10BCF1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alef&per_page=1"
   },
-  "description": "Alef font family designed by Hagilda, Mushon Zer-Aviv",
-  "homepage": "https://fonts.google.com/specimen/Alef",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alef"
 }

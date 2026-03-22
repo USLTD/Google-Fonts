@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexenddeca/LexendDeca[wght].ttf"
+  "hash": [
+    "D11C12298F431D7E416A1E615D33F2C2B98BDA2318A0C186C8C94F08C2D90CE8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexenddeca&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexenddeca/LexendDeca[wght].ttf"
+    ]
   },
+  "description": "Lexend Deca font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D11C12298F431D7E416A1E615D33F2C2B98BDA2318A0C186C8C94F08C2D90CE8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexenddeca/LexendDeca[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexenddeca/LexendDeca[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexenddeca&per_page=1"
   },
-  "description": "Lexend Deca font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
-  "homepage": "https://fonts.google.com/specimen/Lexend+Deca",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lexend+Deca"
 }

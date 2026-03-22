@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-ExtraBold.ttf"
+  "hash": [
+    "3FBDBEC539369AED11BB1FA0CDDA1D19EA246E795107357383DFA561848A427D",
+    "FC58AC081468CA3A06C9F8B89077FBBF01C57729C1D5787CC7F33ADB3E40D6F3",
+    "4540F6B5C32724ACC9C4BA77692195078DE43A4EE762D436E39D32FA8D1A73C9",
+    "BF44BB3E23CC703BFB19111833F78E651998D0A2B1863EFF9E88CECB38A8BC53"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseitokumin&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-ExtraBold.ttf"
+    ]
   },
+  "description": "Kaisei Tokumin font family designed by Font-Kai",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "3FBDBEC539369AED11BB1FA0CDDA1D19EA246E795107357383DFA561848A427D",
-    "FC58AC081468CA3A06C9F8B89077FBBF01C57729C1D5787CC7F33ADB3E40D6F3",
-    "4540F6B5C32724ACC9C4BA77692195078DE43A4EE762D436E39D32FA8D1A73C9",
-    "BF44BB3E23CC703BFB19111833F78E651998D0A2B1863EFF9E88CECB38A8BC53"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseitokumin/KaiseiTokumin-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseitokumin&per_page=1"
   },
-  "description": "Kaisei Tokumin font family designed by Font-Kai",
-  "homepage": "https://fonts.google.com/specimen/Kaisei+Tokumin",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kaisei+Tokumin"
 }

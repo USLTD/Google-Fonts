@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersinlinetextsc/BigShouldersInlineTextSC[wght].ttf"
+  "hash": [
+    "28CCD62C3931F32C31BB6D34F5338F369A556B92CBB2BA6EC45D748C562C08ED"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bigshouldersinlinetextsc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersinlinetextsc/BigShouldersInlineTextSC[wght].ttf"
+    ]
   },
+  "description": "Big Shoulders Inline Text SC font family designed by Patric King",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "28CCD62C3931F32C31BB6D34F5338F369A556B92CBB2BA6EC45D748C562C08ED"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersinlinetextsc/BigShouldersInlineTextSC[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bigshouldersinlinetextsc/BigShouldersInlineTextSC[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bigshouldersinlinetextsc&per_page=1"
   },
-  "description": "Big Shoulders Inline Text SC font family designed by Patric King",
-  "homepage": "https://fonts.google.com/specimen/Big+Shoulders+Inline+Text+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Big+Shoulders+Inline+Text+SC"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hermeneusone/HermeneusOne-Regular.ttf"
+  "hash": [
+    "53FF8B668FF603BEB3A15B298C35D80932F57A47C889E6E96BB93D434DA25808"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hermeneusone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hermeneusone/HermeneusOne-Regular.ttf"
+    ]
   },
+  "description": "Hermeneus One font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "53FF8B668FF603BEB3A15B298C35D80932F57A47C889E6E96BB93D434DA25808"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hermeneusone/HermeneusOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hermeneusone/HermeneusOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hermeneusone&per_page=1"
   },
-  "description": "Hermeneus One font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Hermeneus+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hermeneus+One"
 }

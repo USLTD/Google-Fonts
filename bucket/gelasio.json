@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio-Italic[wght].ttf"
+  "hash": [
+    "4DAECEA457258C9EBEB8BC99ED3FD24353618BFAD3EA4B93FA0B5D0468FC04E4",
+    "52559E845A4D33514E5F93BB9AE7DBEAE1894A53F2C565A15F18AF40CD337C09"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gelasio&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio-Italic[wght].ttf"
+    ]
   },
+  "description": "Gelasio font family designed by Eben Sorkin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "4DAECEA457258C9EBEB8BC99ED3FD24353618BFAD3EA4B93FA0B5D0468FC04E4",
-    "52559E845A4D33514E5F93BB9AE7DBEAE1894A53F2C565A15F18AF40CD337C09"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gelasio/Gelasio-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gelasio&per_page=1"
   },
-  "description": "Gelasio font family designed by Eben Sorkin",
-  "homepage": "https://fonts.google.com/specimen/Gelasio",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gelasio"
 }

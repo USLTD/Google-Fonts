@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans-Italic[wght].ttf"
+  "hash": [
+    "378E5E03484506CAB7118E053505B12F531AA9D070960FE17AF0C17B6EA48CA8",
+    "B03311E4C47F0EAD62A3F294EE71A052E6407AAC996021E7DD172A29E83EF0C0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mirandasans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Miranda Sans font family designed by Max Thunberg",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "378E5E03484506CAB7118E053505B12F531AA9D070960FE17AF0C17B6EA48CA8",
-    "B03311E4C47F0EAD62A3F294EE71A052E6407AAC996021E7DD172A29E83EF0C0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirandasans/MirandaSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mirandasans&per_page=1"
   },
-  "description": "Miranda Sans font family designed by Max Thunberg",
-  "homepage": "https://fonts.google.com/specimen/Miranda+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Miranda+Sans"
 }

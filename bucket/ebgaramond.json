@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond-Italic[wght].ttf"
+  "hash": [
+    "B7F1DD91643E4F81F60E43FA9C4BA117663A001621913DCFD213706A4D83E6D9",
+    "3B681621F9C52EF3E013955305009C5D00F85A50C612897A3B4F18BBCE490458"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ebgaramond&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond-Italic[wght].ttf"
+    ]
   },
+  "description": "EB Garamond font family designed by Georg Duffner, Octavio Pardo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "B7F1DD91643E4F81F60E43FA9C4BA117663A001621913DCFD213706A4D83E6D9",
-    "3B681621F9C52EF3E013955305009C5D00F85A50C612897A3B4F18BBCE490458"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/EBGaramond-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ebgaramond&per_page=1"
   },
-  "description": "EB Garamond font family designed by Georg Duffner, Octavio Pardo",
-  "homepage": "https://fonts.google.com/specimen/EB+Garamond",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/EB+Garamond"
 }

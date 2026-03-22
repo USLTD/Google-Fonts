@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-BoldItalic.ttf"
+  "hash": [
+    "139DCE659100A83BF95B48474696E448BEE95631EF84FD3D0437CED2BF33CF73",
+    "57FD8A0D3C8BAF066F21C0A3034AF277887A0B17B8C18CBBCC1C642640DD149F",
+    "91749541AC7B2C328B58832B7E2C4DF809D7E2BA38D62A3A5AA3F8E38B271814",
+    "5911FE0AE69264FB74B2956FC66C616580CD392B47F29335FA68CE5DB47A4D2F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/b612&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-BoldItalic.ttf"
+    ]
   },
+  "description": "B612 font family designed by Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "139DCE659100A83BF95B48474696E448BEE95631EF84FD3D0437CED2BF33CF73",
-    "57FD8A0D3C8BAF066F21C0A3034AF277887A0B17B8C18CBBCC1C642640DD149F",
-    "91749541AC7B2C328B58832B7E2C4DF809D7E2BA38D62A3A5AA3F8E38B271814",
-    "5911FE0AE69264FB74B2956FC66C616580CD392B47F29335FA68CE5DB47A4D2F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612/B612-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/b612&per_page=1"
   },
-  "description": "B612 font family designed by Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot",
-  "homepage": "https://fonts.google.com/specimen/B612",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/B612"
 }

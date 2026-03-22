@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/afacadflux/AfacadFlux[slnt,wght].ttf"
+  "hash": [
+    "28AA3569AD95F7F7B363890085AD231AAD280B3F7F73D37BF6D80285189EA636"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/afacadflux&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/afacadflux/AfacadFlux[slnt,wght].ttf"
+    ]
   },
+  "description": "Afacad Flux font family designed by Kristian Möller, Dicotype",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "28AA3569AD95F7F7B363890085AD231AAD280B3F7F73D37BF6D80285189EA636"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/afacadflux/AfacadFlux[slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/afacadflux/AfacadFlux[slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/afacadflux&per_page=1"
   },
-  "description": "Afacad Flux font family designed by Kristian Möller, Dicotype",
-  "homepage": "https://fonts.google.com/specimen/Afacad+Flux",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Afacad+Flux"
 }

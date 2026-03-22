@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dosis/Dosis[wght].ttf"
+  "hash": [
+    "B2238EEF0B3464904FED097EF274C704BC63D21407369B7D7A5BE7B0821A0E82"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dosis&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dosis/Dosis[wght].ttf"
+    ]
   },
+  "description": "Dosis font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B2238EEF0B3464904FED097EF274C704BC63D21407369B7D7A5BE7B0821A0E82"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dosis/Dosis[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dosis/Dosis[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dosis&per_page=1"
   },
-  "description": "Dosis font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Dosis",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dosis"
 }

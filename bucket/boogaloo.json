@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/boogaloo/Boogaloo-Regular.ttf"
+  "hash": [
+    "C38FEBF770BEC2B8E30EA6BC1DDB39C9B0CE0E8625D94CEEAFBE3AF1C7096D9D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/boogaloo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/boogaloo/Boogaloo-Regular.ttf"
+    ]
   },
+  "description": "Boogaloo font family designed by John Vargas Beltrán",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C38FEBF770BEC2B8E30EA6BC1DDB39C9B0CE0E8625D94CEEAFBE3AF1C7096D9D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/boogaloo/Boogaloo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/boogaloo/Boogaloo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/boogaloo&per_page=1"
   },
-  "description": "Boogaloo font family designed by John Vargas Beltrán",
-  "homepage": "https://fonts.google.com/specimen/Boogaloo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Boogaloo"
 }

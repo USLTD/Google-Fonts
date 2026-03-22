@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblerone/BubblerOne-Regular.ttf"
+  "hash": [
+    "A6DFD3CBA4FFB33A603317BE430F2CB8FF91CE04E529AF79AE7FDEF6DD2E1782"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bubblerone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblerone/BubblerOne-Regular.ttf"
+    ]
   },
+  "description": "Bubbler One font family designed by Brenda Gallo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A6DFD3CBA4FFB33A603317BE430F2CB8FF91CE04E529AF79AE7FDEF6DD2E1782"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblerone/BubblerOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblerone/BubblerOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bubblerone&per_page=1"
   },
-  "description": "Bubbler One font family designed by Brenda Gallo",
-  "homepage": "https://fonts.google.com/specimen/Bubbler+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bubbler+One"
 }

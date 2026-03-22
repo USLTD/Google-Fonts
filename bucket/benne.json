@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/benne/Benne-Regular.ttf"
+  "hash": [
+    "681A3AADBDE40F411B34BF6FB555971B1D6C1E979ADF7EEA5793F9BDD5EC7F3D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/benne&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/benne/Benne-Regular.ttf"
+    ]
   },
+  "description": "Benne font family designed by John Harrington",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "681A3AADBDE40F411B34BF6FB555971B1D6C1E979ADF7EEA5793F9BDD5EC7F3D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/benne/Benne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/benne/Benne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/benne&per_page=1"
   },
-  "description": "Benne font family designed by John Harrington",
-  "homepage": "https://fonts.google.com/specimen/Benne",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Benne"
 }

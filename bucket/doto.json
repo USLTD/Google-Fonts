@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/doto/Doto[ROND,wght].ttf"
+  "hash": [
+    "6F4FE7D37853B91DF3698DAA84CDE2DBE1C9695D88C986E6510134910337D426"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/doto&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/doto/Doto[ROND,wght].ttf"
+    ]
   },
+  "description": "Doto font family designed by Óliver Lalan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6F4FE7D37853B91DF3698DAA84CDE2DBE1C9695D88C986E6510134910337D426"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/doto/Doto[ROND,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/doto/Doto[ROND,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/doto&per_page=1"
   },
-  "description": "Doto font family designed by Óliver Lalan",
-  "homepage": "https://fonts.google.com/specimen/Doto",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Doto"
 }

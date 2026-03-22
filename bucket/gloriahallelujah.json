@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gloriahallelujah/GloriaHallelujah.ttf"
+  "hash": [
+    "EB59F2762CE8785A292BEBB2AF3B3E6AA21454913D791F5F25441D1D57EAD9FC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gloriahallelujah&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gloriahallelujah/GloriaHallelujah.ttf"
+    ]
   },
+  "description": "Gloria Hallelujah font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EB59F2762CE8785A292BEBB2AF3B3E6AA21454913D791F5F25441D1D57EAD9FC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gloriahallelujah/GloriaHallelujah.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gloriahallelujah/GloriaHallelujah.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gloriahallelujah&per_page=1"
   },
-  "description": "Gloria Hallelujah font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Gloria+Hallelujah",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gloria+Hallelujah"
 }

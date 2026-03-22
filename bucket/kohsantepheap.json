@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Black.ttf"
+  "hash": [
+    "EFC6360978F1F0ACEDB84116CA7D90447CB8FBED056B36B89B109BCE698A144E",
+    "340C7209AB55FE60B94506CF59894CDEAACCA194E81E5DEB8807D12B89BE5383",
+    "D126F680D8081DB439097252BDBE8846019F1A66737295D53775C4F56E2254C2",
+    "7B1503B36D65A7C51D74D089D73153401013C960135F0697BEA560F38E4E1CB9",
+    "8F55FEFD109AA87CAB84BEFBD19279566DF6B7B500009A8760275D385EEF5898"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kohsantepheap&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Black.ttf"
+    ]
   },
+  "description": "Koh Santepheap font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "EFC6360978F1F0ACEDB84116CA7D90447CB8FBED056B36B89B109BCE698A144E",
-    "340C7209AB55FE60B94506CF59894CDEAACCA194E81E5DEB8807D12B89BE5383",
-    "D126F680D8081DB439097252BDBE8846019F1A66737295D53775C4F56E2254C2",
-    "7B1503B36D65A7C51D74D089D73153401013C960135F0697BEA560F38E4E1CB9",
-    "8F55FEFD109AA87CAB84BEFBD19279566DF6B7B500009A8760275D385EEF5898"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kohsantepheap/KohSantepheap-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kohsantepheap&per_page=1"
   },
-  "description": "Koh Santepheap font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Koh+Santepheap",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Koh+Santepheap"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Bold.ttf"
+  "hash": [
+    "DD2C2697A8F936A43B5F0A2BAE1BC82CDAF40F8A5FC1D15C1ECD562B3EA16044",
+    "1FB5959682B89680467AB628E2F1E6359C6062ACBB7EDCEA14FFCCA1124DB0F1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/corben&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Bold.ttf"
+    ]
   },
+  "description": "Corben font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "DD2C2697A8F936A43B5F0A2BAE1BC82CDAF40F8A5FC1D15C1ECD562B3EA16044",
-    "1FB5959682B89680467AB628E2F1E6359C6062ACBB7EDCEA14FFCCA1124DB0F1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/corben/Corben-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/corben&per_page=1"
   },
-  "description": "Corben font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Corben",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Corben"
 }

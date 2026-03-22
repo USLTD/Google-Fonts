@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/farsan/Farsan-Regular.ttf"
+  "hash": [
+    "7BB968454A2DDE084C9FB0F99A9921E9A8F96B0CD28DEDF8F545EC23D52C3550"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/farsan&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/farsan/Farsan-Regular.ttf"
+    ]
   },
+  "description": "Farsan font family designed by Pooja Saxena",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7BB968454A2DDE084C9FB0F99A9921E9A8F96B0CD28DEDF8F545EC23D52C3550"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/farsan/Farsan-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/farsan/Farsan-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/farsan&per_page=1"
   },
-  "description": "Farsan font family designed by Pooja Saxena",
-  "homepage": "https://fonts.google.com/specimen/Farsan",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Farsan"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama[wdth,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama-Italic[wdth,wght].ttf"
+  "hash": [
+    "0A62419702AB557E0610A5A073A56F246D13A7DB094EF97945A0AA56FAF14AB1",
+    "321BE0ED8688ED27A2FFD3E85EFB9E3C7D9229842B7D9BA90999BF36E672FB00"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/georama&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama[wdth,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama-Italic[wdth,wght].ttf"
+    ]
   },
+  "description": "Georama font family designed by Production Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "0A62419702AB557E0610A5A073A56F246D13A7DB094EF97945A0AA56FAF14AB1",
-    "321BE0ED8688ED27A2FFD3E85EFB9E3C7D9229842B7D9BA90999BF36E672FB00"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama[wdth,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama-Italic[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama[wdth,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/georama/Georama-Italic[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/georama&per_page=1"
   },
-  "description": "Georama font family designed by Production Type",
-  "homepage": "https://fonts.google.com/specimen/Georama",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Georama"
 }

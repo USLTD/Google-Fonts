@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherish/Cherish-Regular.ttf"
+  "hash": [
+    "5D6588A51682057329566BAF12A11C405DEA771A9DCEC61AC5FE9A83D9DB6B13"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cherish&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherish/Cherish-Regular.ttf"
+    ]
   },
+  "description": "Cherish font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5D6588A51682057329566BAF12A11C405DEA771A9DCEC61AC5FE9A83D9DB6B13"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherish/Cherish-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherish/Cherish-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cherish&per_page=1"
   },
-  "description": "Cherish font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Cherish",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cherish"
 }

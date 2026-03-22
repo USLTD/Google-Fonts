@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather[opsz,wdth,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather-Italic[opsz,wdth,wght].ttf"
+  "hash": [
+    "D0ED0E359E396AF7AD05E73DFFD11A3A4C326EA0D0283C56BD9361CB2CC86A96",
+    "F68A8F4989258679E4FBAF50AA42400132B5373C2D9D2514BA82EF6E85947A0B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/merriweather&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather[opsz,wdth,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather-Italic[opsz,wdth,wght].ttf"
+    ]
   },
+  "description": "Merriweather font family designed by Sorkin Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "D0ED0E359E396AF7AD05E73DFFD11A3A4C326EA0D0283C56BD9361CB2CC86A96",
-    "F68A8F4989258679E4FBAF50AA42400132B5373C2D9D2514BA82EF6E85947A0B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather[opsz,wdth,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather-Italic[opsz,wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather[opsz,wdth,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather-Italic[opsz,wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/merriweather&per_page=1"
   },
-  "description": "Merriweather font family designed by Sorkin Type",
-  "homepage": "https://fonts.google.com/specimen/Merriweather",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Merriweather"
 }

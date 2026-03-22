@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/averagesans/AverageSans-Regular.ttf"
+  "hash": [
+    "F978BB0EB5AD93B02F3A8E4EF0ED525A1192B4076E8A8D0BB37B2546A297762E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/averagesans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/averagesans/AverageSans-Regular.ttf"
+    ]
   },
+  "description": "Average Sans font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F978BB0EB5AD93B02F3A8E4EF0ED525A1192B4076E8A8D0BB37B2546A297762E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/averagesans/AverageSans-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/averagesans/AverageSans-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/averagesans&per_page=1"
   },
-  "description": "Average Sans font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Average+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Average+Sans"
 }

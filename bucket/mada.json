@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/Mada[wght].ttf"
+  "hash": [
+    "BF4D193EE78CEA2FD8BDC9E64E5CB7E8A19FF76AB74F97A9A4A0E80F8F4CEFDE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mada&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/Mada[wght].ttf"
+    ]
   },
+  "description": "Mada font family designed by Khaled Hosny, Paul D. Hunt",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BF4D193EE78CEA2FD8BDC9E64E5CB7E8A19FF76AB74F97A9A4A0E80F8F4CEFDE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/Mada[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mada/Mada[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mada&per_page=1"
   },
-  "description": "Mada font family designed by Khaled Hosny, Paul D. Hunt",
-  "homepage": "https://fonts.google.com/specimen/Mada",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mada"
 }

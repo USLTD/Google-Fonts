@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/edutasbeginner/EduTASBeginner[wght].ttf"
+  "hash": [
+    "17DC8A4E3E38442BD86E4BFFBE34819B156CC64B9375057D21B3D0FBC3546AC6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/edutasbeginner&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/edutasbeginner/EduTASBeginner[wght].ttf"
+    ]
   },
+  "description": "Edu TAS Beginner font family designed by Tina Anderson, Corey Anderson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "17DC8A4E3E38442BD86E4BFFBE34819B156CC64B9375057D21B3D0FBC3546AC6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/edutasbeginner/EduTASBeginner[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/edutasbeginner/EduTASBeginner[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/edutasbeginner&per_page=1"
   },
-  "description": "Edu TAS Beginner font family designed by Tina Anderson, Corey Anderson",
-  "homepage": "https://fonts.google.com/specimen/Edu+TAS+Beginner",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Edu+TAS+Beginner"
 }

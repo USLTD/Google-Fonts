@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/MochiyPopOne-Regular.ttf"
+  "hash": [
+    "9E009430E1316C271A5F34759C6B65FC343C4E806F193042528887E7235A92C6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mochiypopone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/MochiyPopOne-Regular.ttf"
+    ]
   },
+  "description": "Mochiy Pop One font family designed by FONTDASU",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9E009430E1316C271A5F34759C6B65FC343C4E806F193042528887E7235A92C6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/MochiyPopOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/MochiyPopOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mochiypopone&per_page=1"
   },
-  "description": "Mochiy Pop One font family designed by FONTDASU",
-  "homepage": "https://fonts.google.com/specimen/Mochiy+Pop+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mochiy+Pop+One"
 }

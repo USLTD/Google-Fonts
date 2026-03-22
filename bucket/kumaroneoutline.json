@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kumaroneoutline/KumarOneOutline-Regular.ttf"
+  "hash": [
+    "571C34CFA9C533F34DE71081DDC7C7593D244D183A6114B8BAC1A83A59E2F7ED"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kumaroneoutline&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kumaroneoutline/KumarOneOutline-Regular.ttf"
+    ]
   },
+  "description": "Kumar One Outline font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "571C34CFA9C533F34DE71081DDC7C7593D244D183A6114B8BAC1A83A59E2F7ED"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kumaroneoutline/KumarOneOutline-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kumaroneoutline/KumarOneOutline-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kumaroneoutline&per_page=1"
   },
-  "description": "Kumar One Outline font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Kumar+One+Outline",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kumar+One+Outline"
 }

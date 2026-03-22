@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jotione/JotiOne-Regular.ttf"
+  "hash": [
+    "16D31B49095DA1A5C2D3BA5479CD966CFF05D3DB1D3E235532CB9AEF607EF0A9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jotione&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jotione/JotiOne-Regular.ttf"
+    ]
   },
+  "description": "Joti One font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "16D31B49095DA1A5C2D3BA5479CD966CFF05D3DB1D3E235532CB9AEF607EF0A9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jotione/JotiOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jotione/JotiOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jotione&per_page=1"
   },
-  "description": "Joti One font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Joti+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Joti+One"
 }

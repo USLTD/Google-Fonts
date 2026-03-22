@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode39extended/LibreBarcode39Extended-Regular.ttf"
+  "hash": [
+    "4FD24568BDA30F28CF430F5A9BA2AA3FCCE3677E08F306EDF30AB42FD6187535"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebarcode39extended&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode39extended/LibreBarcode39Extended-Regular.ttf"
+    ]
   },
+  "description": "Libre Barcode 39 Extended font family designed by Lasse Fister",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4FD24568BDA30F28CF430F5A9BA2AA3FCCE3677E08F306EDF30AB42FD6187535"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode39extended/LibreBarcode39Extended-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode39extended/LibreBarcode39Extended-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebarcode39extended&per_page=1"
   },
-  "description": "Libre Barcode 39 Extended font family designed by Lasse Fister",
-  "homepage": "https://fonts.google.com/specimen/Libre+Barcode+39+Extended",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libre+Barcode+39+Extended"
 }

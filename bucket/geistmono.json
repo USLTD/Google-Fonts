@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/geistmono/GeistMono[wght].ttf"
+  "hash": [
+    "2386DDAC2C72B6E0C126561E91486B7284412F303D8D9513DA9FFEC789E63338"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/geistmono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/geistmono/GeistMono[wght].ttf"
+    ]
   },
+  "description": "Geist Mono font family designed by Andrés Briganti, Mateo Zaragoza, Guillermo Rauch, Evil Rabbit, José Rago, Facundo Santana",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2386DDAC2C72B6E0C126561E91486B7284412F303D8D9513DA9FFEC789E63338"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/geistmono/GeistMono[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/geistmono/GeistMono[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/geistmono&per_page=1"
   },
-  "description": "Geist Mono font family designed by Andrés Briganti, Mateo Zaragoza, Guillermo Rauch, Evil Rabbit, José Rago, Facundo Santana",
-  "homepage": "https://fonts.google.com/specimen/Geist+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Geist+Mono"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aboreto/Aboreto-Regular.ttf"
+  "hash": [
+    "FC702D535857FA2BDA802647B9D55F82A07502D4ACDFD95B47279B3BF479EAA1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aboreto&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aboreto/Aboreto-Regular.ttf"
+    ]
   },
+  "description": "Aboreto font family designed by Dominik Jáger",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "FC702D535857FA2BDA802647B9D55F82A07502D4ACDFD95B47279B3BF479EAA1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aboreto/Aboreto-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aboreto/Aboreto-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aboreto&per_page=1"
   },
-  "description": "Aboreto font family designed by Dominik Jáger",
-  "homepage": "https://fonts.google.com/specimen/Aboreto",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Aboreto"
 }

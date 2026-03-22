@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/condiment/Condiment-Regular.ttf"
+  "hash": [
+    "FB12978739FE3824E95B3E5F739AE623F888F715FE44481117FB3436BE9A4B5D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/condiment&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/condiment/Condiment-Regular.ttf"
+    ]
   },
+  "description": "Condiment font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "FB12978739FE3824E95B3E5F739AE623F888F715FE44481117FB3436BE9A4B5D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/condiment/Condiment-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/condiment/Condiment-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/condiment&per_page=1"
   },
-  "description": "Condiment font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Condiment",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Condiment"
 }

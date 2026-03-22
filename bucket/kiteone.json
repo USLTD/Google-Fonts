@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiteone/KiteOne-Regular.ttf"
+  "hash": [
+    "F482673F99D08CF01D617E871CC49F529AE479C321E1EC7F009419275A2F7B61"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kiteone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiteone/KiteOne-Regular.ttf"
+    ]
   },
+  "description": "Kite One font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F482673F99D08CF01D617E871CC49F529AE479C321E1EC7F009419275A2F7B61"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiteone/KiteOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiteone/KiteOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kiteone&per_page=1"
   },
-  "description": "Kite One font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Kite+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kite+One"
 }

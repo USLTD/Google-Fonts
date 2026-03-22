@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cevicheone/CevicheOne-Regular.ttf"
+  "hash": [
+    "366249C911E689CD5EA3D576C0EBA0C37A938E0A58721FCE3733A4244DD9AB32"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cevicheone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cevicheone/CevicheOne-Regular.ttf"
+    ]
   },
+  "description": "Ceviche One font family designed by Miguel Hernandez",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "366249C911E689CD5EA3D576C0EBA0C37A938E0A58721FCE3733A4244DD9AB32"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cevicheone/CevicheOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cevicheone/CevicheOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cevicheone&per_page=1"
   },
-  "description": "Ceviche One font family designed by Miguel Hernandez",
-  "homepage": "https://fonts.google.com/specimen/Ceviche+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ceviche+One"
 }

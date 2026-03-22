@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bokor/Bokor-Regular.ttf"
+  "hash": [
+    "640D475ABDD109BFD80D2EEF892FE1C63D3EC0FADDCD15F819C5F1729712C370"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bokor&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bokor/Bokor-Regular.ttf"
+    ]
   },
+  "description": "Bokor font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "640D475ABDD109BFD80D2EEF892FE1C63D3EC0FADDCD15F819C5F1729712C370"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bokor/Bokor-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bokor/Bokor-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bokor&per_page=1"
   },
-  "description": "Bokor font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Bokor",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bokor"
 }

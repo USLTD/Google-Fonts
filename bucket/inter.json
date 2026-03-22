@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter[opsz,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic[opsz,wght].ttf"
+  "hash": [
+    "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
+    "ACD98E64795781B2058F07B18475E0ECEE2A0FE2B42A49E2F9E37D0D6BF66CE6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inter&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter[opsz,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic[opsz,wght].ttf"
+    ]
   },
+  "description": "Inter font family designed by Rasmus Andersson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "29160A80FF49DDCAB2C97711247E08B1FAB27A484A329CE8B813D820DC559031",
-    "ACD98E64795781B2058F07B18475E0ECEE2A0FE2B42A49E2F9E37D0D6BF66CE6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter[opsz,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic[opsz,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter[opsz,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic[opsz,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inter&per_page=1"
   },
-  "description": "Inter font family designed by Rasmus Andersson",
-  "homepage": "https://fonts.google.com/specimen/Inter",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inter"
 }

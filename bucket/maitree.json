@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Bold.ttf"
+  "hash": [
+    "AAA310F9BC913882863B1D39BD70978B7D068AC831EF3789BD921F781392343D",
+    "64096B22CB796958391C704992D0CF698DEB3478D4AF6C131F1B5A435E851E08",
+    "0B175F9B468961D37FAF21BFBF27207C5AEDA9F2B029841BCCAF2747C2C269BE",
+    "6314FDA8D95A2F69F16B63E8ECA4A4A82E1B1CA519EC7039F99565D5D2B34E16",
+    "D160545B5B802658431D17BAC37F016C7EA6B8A16AE8CECD7F9389DA52581216",
+    "59899168D044143108B18FCE46003C6774217019A4878D4313F6793B9D17FBF2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/maitree&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Bold.ttf"
+    ]
   },
+  "description": "Maitree font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "AAA310F9BC913882863B1D39BD70978B7D068AC831EF3789BD921F781392343D",
-    "64096B22CB796958391C704992D0CF698DEB3478D4AF6C131F1B5A435E851E08",
-    "0B175F9B468961D37FAF21BFBF27207C5AEDA9F2B029841BCCAF2747C2C269BE",
-    "6314FDA8D95A2F69F16B63E8ECA4A4A82E1B1CA519EC7039F99565D5D2B34E16",
-    "D160545B5B802658431D17BAC37F016C7EA6B8A16AE8CECD7F9389DA52581216",
-    "59899168D044143108B18FCE46003C6774217019A4878D4313F6793B9D17FBF2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/maitree/Maitree-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/maitree&per_page=1"
   },
-  "description": "Maitree font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Maitree",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Maitree"
 }

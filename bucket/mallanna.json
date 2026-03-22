@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mallanna/Mallanna-Regular.ttf"
+  "hash": [
+    "73E5769253565B284ADED5D9DA1F98C6A10B0DA5BA75B40B3C236239FCC23F76"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mallanna&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mallanna/Mallanna-Regular.ttf"
+    ]
   },
+  "description": "Mallanna font family designed by Purushoth Kumar Guttula",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "73E5769253565B284ADED5D9DA1F98C6A10B0DA5BA75B40B3C236239FCC23F76"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mallanna/Mallanna-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mallanna/Mallanna-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mallanna&per_page=1"
   },
-  "description": "Mallanna font family designed by Purushoth Kumar Guttula",
-  "homepage": "https://fonts.google.com/specimen/Mallanna",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mallanna"
 }

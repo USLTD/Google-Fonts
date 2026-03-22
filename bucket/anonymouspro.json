@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-BoldItalic.ttf"
+  "hash": [
+    "46D8B9A5F4B38FC9D30F3CDD676D4C6F78A9BEF949BB1A8304216CC731EB87F8",
+    "BC13AC34E9994128C61B54BF4E78A8ADB439B543EA0B19761D159342599F441A",
+    "52895657E7D48860089EBFAC63A27244F37A2218EC9C5019A0B37FE885C0FC0C",
+    "4E811E1E3B60FC763FB24ACD27781E72241A8380BEB0FFA5E07AF2B87133496D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anonymouspro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-BoldItalic.ttf"
+    ]
   },
+  "description": "Anonymous Pro font family designed by Mark Simonson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "46D8B9A5F4B38FC9D30F3CDD676D4C6F78A9BEF949BB1A8304216CC731EB87F8",
-    "BC13AC34E9994128C61B54BF4E78A8ADB439B543EA0B19761D159342599F441A",
-    "52895657E7D48860089EBFAC63A27244F37A2218EC9C5019A0B37FE885C0FC0C",
-    "4E811E1E3B60FC763FB24ACD27781E72241A8380BEB0FFA5E07AF2B87133496D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/AnonymousPro-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anonymouspro&per_page=1"
   },
-  "description": "Anonymous Pro font family designed by Mark Simonson",
-  "homepage": "https://fonts.google.com/specimen/Anonymous+Pro",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Anonymous+Pro"
 }

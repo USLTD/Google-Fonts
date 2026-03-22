@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/miltonian/Miltonian-Regular.ttf"
+  "hash": [
+    "BD4ADA3764E6774964EFE097463533B2759755E390F68E3D16974264F8DD2D98"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/miltonian&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/miltonian/Miltonian-Regular.ttf"
+    ]
   },
+  "description": "Miltonian font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BD4ADA3764E6774964EFE097463533B2759755E390F68E3D16974264F8DD2D98"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/miltonian/Miltonian-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/miltonian/Miltonian-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/miltonian&per_page=1"
   },
-  "description": "Miltonian font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Miltonian",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Miltonian"
 }

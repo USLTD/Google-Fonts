@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam-Italic[wght].ttf"
+  "hash": [
+    "F17A89B518C833DE289598D0662BB9A07D09CC7D75B7079A15F1305F624BBCDA",
+    "37C5CF29CB515099783461051CF2C927FC18605B3E7E0088F9BD2150AED756A9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kufam&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam-Italic[wght].ttf"
+    ]
   },
+  "description": "Kufam font family designed by Original Type, Wael Morcos, Artur Schmal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "F17A89B518C833DE289598D0662BB9A07D09CC7D75B7079A15F1305F624BBCDA",
-    "37C5CF29CB515099783461051CF2C927FC18605B3E7E0088F9BD2150AED756A9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kufam/Kufam-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kufam&per_page=1"
   },
-  "description": "Kufam font family designed by Original Type, Wael Morcos, Artur Schmal",
-  "homepage": "https://fonts.google.com/specimen/Kufam",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kufam"
 }

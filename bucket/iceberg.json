@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iceberg/Iceberg-Regular.ttf"
+  "hash": [
+    "DBBE0C4FCEEBE2E1C966362E9D647104C74796E52D494554EEABF4D6104FB2FF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iceberg&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iceberg/Iceberg-Regular.ttf"
+    ]
   },
+  "description": "Iceberg font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DBBE0C4FCEEBE2E1C966362E9D647104C74796E52D494554EEABF4D6104FB2FF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iceberg/Iceberg-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iceberg/Iceberg-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iceberg&per_page=1"
   },
-  "description": "Iceberg font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Iceberg",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Iceberg"
 }

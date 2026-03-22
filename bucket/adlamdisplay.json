@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/adlamdisplay/ADLaMDisplay-Regular.ttf"
+  "hash": [
+    "CC36C3C6CBA02522B86EF6C5EE7B062C5BF2A60B0F51F9B87A44C7D50D650899"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adlamdisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/adlamdisplay/ADLaMDisplay-Regular.ttf"
+    ]
   },
+  "description": "ADLaM Display font family designed by Mark Jamra, Neil Patel, Andrew Footit",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CC36C3C6CBA02522B86EF6C5EE7B062C5BF2A60B0F51F9B87A44C7D50D650899"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/adlamdisplay/ADLaMDisplay-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/adlamdisplay/ADLaMDisplay-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adlamdisplay&per_page=1"
   },
-  "description": "ADLaM Display font family designed by Mark Jamra, Neil Patel, Andrew Footit",
-  "homepage": "https://fonts.google.com/specimen/ADLaM+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/ADLaM+Display"
 }

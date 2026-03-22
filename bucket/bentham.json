@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bentham/Bentham-Regular.ttf"
+  "hash": [
+    "6B5D6AC11B4902FC6912C3AFB99520E290F59A56245228CA7529FE3937CBA793"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bentham&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bentham/Bentham-Regular.ttf"
+    ]
   },
+  "description": "Bentham font family designed by Ben Weiner",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6B5D6AC11B4902FC6912C3AFB99520E290F59A56245228CA7529FE3937CBA793"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bentham/Bentham-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bentham/Bentham-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bentham&per_page=1"
   },
-  "description": "Bentham font family designed by Ben Weiner",
-  "homepage": "https://fonts.google.com/specimen/Bentham",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bentham"
 }

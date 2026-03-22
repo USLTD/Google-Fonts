@@ -1,20 +1,31 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-BoldItalic.ttf"
+  "hash": [
+    "8AB13EDB2E90B917F44F4F0122359FBA0E28A09875409D6237B18BD58976BC5A",
+    "4677883CE82F26B4EAF9DCD279E51C2207EA27F7A134ACE76D1AE54BBFE24585",
+    "86674FEE8D387FC819DA5EFD38725F6BA1F205E36923E5CE799FE9A608094714",
+    "0C4E3524B301E3CF00D471F0160108256D41F9AA92A32B5097720B7A3AA2A5E4",
+    "29C4777B24BD07DD17FA6FFE79B8D30D859DC2B994D0D62A33CF392518404A02",
+    "BF29C091102F5745B206433D9C6FFDED661ED63C95F35ABD9E77F01DB473EFD8",
+    "6F84C4EE85B5191CBEF75A47510C8A0B19BB73B788B10B57261E0E9DF22FE947",
+    "1B72BB4C7562F368BA6EACAFFD72EBE215AE400C30BCE7CBA4E219A36DF995C6",
+    "B7B6903B9D38272EBA1C63AC1C958270D5BCED8493852A42107EE6FBE352A623",
+    "6D648DF1C4535B1CD96F4D6D7A4D9D713E63574C4C635FA00B4F7716D18E5C1B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kulimpark&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-BoldItalic.ttf"
+    ]
   },
+  "description": "Kulim Park font family designed by Dale Sattler",
   "installer": {
     "script": [
       "if ($global) {",
@@ -56,6 +67,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -140,34 +152,22 @@
       "}"
     ]
   },
-  "hash": [
-    "8AB13EDB2E90B917F44F4F0122359FBA0E28A09875409D6237B18BD58976BC5A",
-    "4677883CE82F26B4EAF9DCD279E51C2207EA27F7A134ACE76D1AE54BBFE24585",
-    "86674FEE8D387FC819DA5EFD38725F6BA1F205E36923E5CE799FE9A608094714",
-    "0C4E3524B301E3CF00D471F0160108256D41F9AA92A32B5097720B7A3AA2A5E4",
-    "29C4777B24BD07DD17FA6FFE79B8D30D859DC2B994D0D62A33CF392518404A02",
-    "BF29C091102F5745B206433D9C6FFDED661ED63C95F35ABD9E77F01DB473EFD8",
-    "6F84C4EE85B5191CBEF75A47510C8A0B19BB73B788B10B57261E0E9DF22FE947",
-    "1B72BB4C7562F368BA6EACAFFD72EBE215AE400C30BCE7CBA4E219A36DF995C6",
-    "B7B6903B9D38272EBA1C63AC1C958270D5BCED8493852A42107EE6FBE352A623",
-    "6D648DF1C4535B1CD96F4D6D7A4D9D713E63574C4C635FA00B4F7716D18E5C1B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kulimpark/KulimPark-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kulimpark&per_page=1"
   },
-  "description": "Kulim Park font family designed by Dale Sattler",
-  "homepage": "https://fonts.google.com/specimen/Kulim+Park",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kulim+Park"
 }

@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraBold.ttf"
+  "hash": [
+    "D22920471EA9305E50B18674A285975CD9856059DD1DCCB088BECB101090C328",
+    "F5C18F8C66CC30A61CC009F86B31AEECC4D81804FE4EF847CEF4D2288A1E6723",
+    "FCBD9E0227A4D7238880DEFA5FD74C012D69351150709E559A8577446145C2FC",
+    "B08E71723C6BDCC7855A1384CED2CC459F0FBBC65DFA0DFA0A94B9983D484EF1",
+    "AC0BA34269C19062340D942C5AD4ECC41AB8B9D21DF92973372A7E1D7A421FF2",
+    "EEE405EEB4E81491B0B659FB40DC016765292022D74406C616F72501E160AFE2",
+    "EE6406B63AF32993054B1F7E2D6FF0FD7C91C409B0D4818BB1D686F709F0CDFF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lateef&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraBold.ttf"
+    ]
   },
+  "description": "Lateef font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "D22920471EA9305E50B18674A285975CD9856059DD1DCCB088BECB101090C328",
-    "F5C18F8C66CC30A61CC009F86B31AEECC4D81804FE4EF847CEF4D2288A1E6723",
-    "FCBD9E0227A4D7238880DEFA5FD74C012D69351150709E559A8577446145C2FC",
-    "B08E71723C6BDCC7855A1384CED2CC459F0FBBC65DFA0DFA0A94B9983D484EF1",
-    "AC0BA34269C19062340D942C5AD4ECC41AB8B9D21DF92973372A7E1D7A421FF2",
-    "EEE405EEB4E81491B0B659FB40DC016765292022D74406C616F72501E160AFE2",
-    "EE6406B63AF32993054B1F7E2D6FF0FD7C91C409B0D4818BB1D686F709F0CDFF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lateef/Lateef-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lateef&per_page=1"
   },
-  "description": "Lateef font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Lateef",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lateef"
 }

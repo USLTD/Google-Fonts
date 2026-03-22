@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/labelleaurore/LaBelleAurore.ttf"
+  "hash": [
+    "ED67462999E05F0CDAC92F686374661E4D68C56FDCD7D05725C6DF7B41EABD2A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/labelleaurore&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/labelleaurore/LaBelleAurore.ttf"
+    ]
   },
+  "description": "La Belle Aurore font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "ED67462999E05F0CDAC92F686374661E4D68C56FDCD7D05725C6DF7B41EABD2A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/labelleaurore/LaBelleAurore.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/labelleaurore/LaBelleAurore.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/labelleaurore&per_page=1"
   },
-  "description": "La Belle Aurore font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/La+Belle+Aurore",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/La+Belle+Aurore"
 }

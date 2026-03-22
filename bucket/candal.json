@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/candal/Candal.ttf"
+  "hash": [
+    "CF4FF425C49AB2E167FB7D166BA57F2925B6DF6161A228786B291EA3875F1EB5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/candal&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/candal/Candal.ttf"
+    ]
   },
+  "description": "Candal font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CF4FF425C49AB2E167FB7D166BA57F2925B6DF6161A228786B291EA3875F1EB5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/candal/Candal.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/candal/Candal.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/candal&per_page=1"
   },
-  "description": "Candal font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Candal",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Candal"
 }

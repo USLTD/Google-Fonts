@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/meddon/Meddon.ttf"
+  "hash": [
+    "C983E998FF7E01242544659C971BF4055BFB43A9FC5A0DD83CA7DAFD105F94DA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/meddon&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/meddon/Meddon.ttf"
+    ]
   },
+  "description": "Meddon font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C983E998FF7E01242544659C971BF4055BFB43A9FC5A0DD83CA7DAFD105F94DA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/meddon/Meddon.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/meddon/Meddon.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/meddon&per_page=1"
   },
-  "description": "Meddon font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Meddon",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Meddon"
 }

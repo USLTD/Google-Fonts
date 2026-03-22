@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Bold.ttf"
+  "hash": [
+    "2BD614AF0594C9657CC6F986F602B294D2A903B3A7CE137942A35AC01B6F1F76",
+    "0AEA5C8F5F04C9B2F252EB5B3D7F6D2EE80CBEF613526EBBC330C592900BBCFE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/asul&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Bold.ttf"
+    ]
   },
+  "description": "Asul font family designed by Mariela Monsalve",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "2BD614AF0594C9657CC6F986F602B294D2A903B3A7CE137942A35AC01B6F1F76",
-    "0AEA5C8F5F04C9B2F252EB5B3D7F6D2EE80CBEF613526EBBC330C592900BBCFE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/asul/Asul-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/asul&per_page=1"
   },
-  "description": "Asul font family designed by Mariela Monsalve",
-  "homepage": "https://fonts.google.com/specimen/Asul",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Asul"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/maname/Maname-Regular.ttf"
+  "hash": [
+    "DB07B4953F547081186104AB8E626BF405616B033598EE82EAE90166E0C84E14"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/maname&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/maname/Maname-Regular.ttf"
+    ]
   },
+  "description": "Maname font family designed by Pathum Egodawatta, Mooniak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DB07B4953F547081186104AB8E626BF405616B033598EE82EAE90166E0C84E14"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/maname/Maname-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/maname/Maname-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/maname&per_page=1"
   },
-  "description": "Maname font family designed by Pathum Egodawatta, Mooniak",
-  "homepage": "https://fonts.google.com/specimen/Maname",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Maname"
 }

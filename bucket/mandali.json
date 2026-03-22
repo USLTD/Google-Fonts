@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mandali/Mandali-Regular.ttf"
+  "hash": [
+    "8BA4663D114AFF639E4974B65795353C193272026308608D95770AAAA6AFD806"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mandali&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mandali/Mandali-Regular.ttf"
+    ]
   },
+  "description": "Mandali font family designed by Purushoth Kumar Guttula",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8BA4663D114AFF639E4974B65795353C193272026308608D95770AAAA6AFD806"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mandali/Mandali-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mandali/Mandali-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mandali&per_page=1"
   },
-  "description": "Mandali font family designed by Purushoth Kumar Guttula",
-  "homepage": "https://fonts.google.com/specimen/Mandali",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mandali"
 }

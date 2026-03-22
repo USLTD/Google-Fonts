@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hachimarupop/HachiMaruPop-Regular.ttf"
+  "hash": [
+    "78408910C8F1A2F174A279CBC1484B48B71780039EBA3FE1BE2BFCC5D4DF3F98"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hachimarupop&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hachimarupop/HachiMaruPop-Regular.ttf"
+    ]
   },
+  "description": "Hachi Maru Pop font family designed by Nonty",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "78408910C8F1A2F174A279CBC1484B48B71780039EBA3FE1BE2BFCC5D4DF3F98"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hachimarupop/HachiMaruPop-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hachimarupop/HachiMaruPop-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hachimarupop&per_page=1"
   },
-  "description": "Hachi Maru Pop font family designed by Nonty",
-  "homepage": "https://fonts.google.com/specimen/Hachi+Maru+Pop",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hachi+Maru+Pop"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koulen/Koulen-Regular.ttf"
+  "hash": [
+    "4E19B0B83C537547B0F1FF1FB39DAFB55CEFBF6E957EF4BC900DCCB9E4220117"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/koulen&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koulen/Koulen-Regular.ttf"
+    ]
   },
+  "description": "Koulen font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4E19B0B83C537547B0F1FF1FB39DAFB55CEFBF6E957EF4BC900DCCB9E4220117"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koulen/Koulen-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koulen/Koulen-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/koulen&per_page=1"
   },
-  "description": "Koulen font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Koulen",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Koulen"
 }

@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-BoldItalic.ttf"
+  "hash": [
+    "826C418B11E194FC426338AA6DA3B7420CBC2A8089D1B785198FE072E7515D10",
+    "D3595CB5F687E593CEFEE93027DB12783A2701A81DFF460A82A6373724C2BBC4",
+    "2F154DC302525D262F3A5930ED69C1FFDBE26EE837CAFE9A2CC124B832D2ED9C",
+    "4D1453FD5CE503AFE0B16F4AC75E7642F2A007A55BAAF589A47EC952AC73BFAE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/marvel&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-BoldItalic.ttf"
+    ]
   },
+  "description": "Marvel font family designed by Carolina Trebol",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "826C418B11E194FC426338AA6DA3B7420CBC2A8089D1B785198FE072E7515D10",
-    "D3595CB5F687E593CEFEE93027DB12783A2701A81DFF460A82A6373724C2BBC4",
-    "2F154DC302525D262F3A5930ED69C1FFDBE26EE837CAFE9A2CC124B832D2ED9C",
-    "4D1453FD5CE503AFE0B16F4AC75E7642F2A007A55BAAF589A47EC952AC73BFAE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/marvel/Marvel-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/marvel&per_page=1"
   },
-  "description": "Marvel font family designed by Carolina Trebol",
-  "homepage": "https://fonts.google.com/specimen/Marvel",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Marvel"
 }

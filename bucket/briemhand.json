@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/briemhand/BriemHand[wght].ttf"
+  "hash": [
+    "BAA74C890E29A80A003EE4B50171DAAE4F448E5952491C9C2682EF6B5DFFB02E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/briemhand&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/briemhand/BriemHand[wght].ttf"
+    ]
   },
+  "description": "Briem Hand font family designed by Gunnlaugur SE Briem, Eben Sorkin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BAA74C890E29A80A003EE4B50171DAAE4F448E5952491C9C2682EF6B5DFFB02E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/briemhand/BriemHand[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/briemhand/BriemHand[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/briemhand&per_page=1"
   },
-  "description": "Briem Hand font family designed by Gunnlaugur SE Briem, Eben Sorkin",
-  "homepage": "https://fonts.google.com/specimen/Briem+Hand",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Briem+Hand"
 }

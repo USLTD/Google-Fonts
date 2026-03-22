@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendexa/LexendExa[wght].ttf"
+  "hash": [
+    "D03A5EF7CF352A5508C6A64DC7B7B9E50BB7AFDDBA1A90D792A801A6F421A63C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendexa&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendexa/LexendExa[wght].ttf"
+    ]
   },
+  "description": "Lexend Exa font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D03A5EF7CF352A5508C6A64DC7B7B9E50BB7AFDDBA1A90D792A801A6F421A63C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendexa/LexendExa[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendexa/LexendExa[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendexa&per_page=1"
   },
-  "description": "Lexend Exa font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
-  "homepage": "https://fonts.google.com/specimen/Lexend+Exa",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lexend+Exa"
 }

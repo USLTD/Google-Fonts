@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hinamincho/HinaMincho-Regular.ttf"
+  "hash": [
+    "8395FAFA0C2721B4B5C274031E1336FEA0F703D908B175EE21F8BA2F1AD566A0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hinamincho&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hinamincho/HinaMincho-Regular.ttf"
+    ]
   },
+  "description": "Hina Mincho font family designed by Satsuyako",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8395FAFA0C2721B4B5C274031E1336FEA0F703D908B175EE21F8BA2F1AD566A0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hinamincho/HinaMincho-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hinamincho/HinaMincho-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hinamincho&per_page=1"
   },
-  "description": "Hina Mincho font family designed by Satsuyako",
-  "homepage": "https://fonts.google.com/specimen/Hina+Mincho",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hina+Mincho"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mogra/Mogra-Regular.ttf"
+  "hash": [
+    "1D7133F5926CF5E7042B587B838BC5C5BCFE6C86B19157AFD544C71A630159D8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mogra&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mogra/Mogra-Regular.ttf"
+    ]
   },
+  "description": "Mogra font family designed by Lipi Raval",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1D7133F5926CF5E7042B587B838BC5C5BCFE6C86B19157AFD544C71A630159D8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mogra/Mogra-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mogra/Mogra-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mogra&per_page=1"
   },
-  "description": "Mogra font family designed by Lipi Raval",
-  "homepage": "https://fonts.google.com/specimen/Mogra",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mogra"
 }

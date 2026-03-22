@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alexbrush/AlexBrush-Regular.ttf"
+  "hash": [
+    "DF702038D8E27797230C77959C139EEEA38CAC0CAF53E19EA5B513D3B0D3362D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alexbrush&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alexbrush/AlexBrush-Regular.ttf"
+    ]
   },
+  "description": "Alex Brush font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DF702038D8E27797230C77959C139EEEA38CAC0CAF53E19EA5B513D3B0D3362D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alexbrush/AlexBrush-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alexbrush/AlexBrush-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alexbrush&per_page=1"
   },
-  "description": "Alex Brush font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Alex+Brush",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alex+Brush"
 }

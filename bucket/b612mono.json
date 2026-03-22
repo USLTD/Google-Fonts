@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-BoldItalic.ttf"
+  "hash": [
+    "B98CB96CC8A6206DAE08C063D60902DF7E6D40F86139EBDB97256704253C9C69",
+    "D58FA807E69D18159A40D5790D25772239DF20167B50A0F840E9FEB253002C9C",
+    "B467B1D19FDABED42BE51D87E38C86645CEEFF2F828F294775188D00D1FD68CA",
+    "91A6A8535FC61354A2C59A64EA205A4F6957C2E09AC4FF91A1FC61D346C004E1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/b612mono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-BoldItalic.ttf"
+    ]
   },
+  "description": "B612 Mono font family designed by Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "B98CB96CC8A6206DAE08C063D60902DF7E6D40F86139EBDB97256704253C9C69",
-    "D58FA807E69D18159A40D5790D25772239DF20167B50A0F840E9FEB253002C9C",
-    "B467B1D19FDABED42BE51D87E38C86645CEEFF2F828F294775188D00D1FD68CA",
-    "91A6A8535FC61354A2C59A64EA205A4F6957C2E09AC4FF91A1FC61D346C004E1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/b612mono&per_page=1"
   },
-  "description": "B612 Mono font family designed by Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot",
-  "homepage": "https://fonts.google.com/specimen/B612+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/B612+Mono"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anektamil/AnekTamil[wdth,wght].ttf"
+  "hash": [
+    "4B2BB7D91A001180B88862177EF2901E027E6428DEC7F8E269413DB51F550013"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anektamil&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anektamil/AnekTamil[wdth,wght].ttf"
+    ]
   },
+  "description": "Anek Tamil font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4B2BB7D91A001180B88862177EF2901E027E6428DEC7F8E269413DB51F550013"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anektamil/AnekTamil[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anektamil/AnekTamil[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anektamil&per_page=1"
   },
-  "description": "Anek Tamil font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Anek+Tamil",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Anek+Tamil"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/metamorphous/Metamorphous-Regular.ttf"
+  "hash": [
+    "55939A5664E06807E87FA4AF64F52039EAD12F002DDA8317393FDCE2F7FF57FE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/metamorphous&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/metamorphous/Metamorphous-Regular.ttf"
+    ]
   },
+  "description": "Metamorphous font family designed by James Grieshaber",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "55939A5664E06807E87FA4AF64F52039EAD12F002DDA8317393FDCE2F7FF57FE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/metamorphous/Metamorphous-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/metamorphous/Metamorphous-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/metamorphous&per_page=1"
   },
-  "description": "Metamorphous font family designed by James Grieshaber",
-  "homepage": "https://fonts.google.com/specimen/Metamorphous",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Metamorphous"
 }

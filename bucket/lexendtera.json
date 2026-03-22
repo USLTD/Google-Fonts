@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendtera/LexendTera[wght].ttf"
+  "hash": [
+    "153C623DEB39A4A79F26972E1A7B61651C16F9D567D4AF83BE2942303307DFAC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendtera&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendtera/LexendTera[wght].ttf"
+    ]
   },
+  "description": "Lexend Tera font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "153C623DEB39A4A79F26972E1A7B61651C16F9D567D4AF83BE2942303307DFAC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendtera/LexendTera[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendtera/LexendTera[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendtera&per_page=1"
   },
-  "description": "Lexend Tera font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
-  "homepage": "https://fonts.google.com/specimen/Lexend+Tera",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lexend+Tera"
 }

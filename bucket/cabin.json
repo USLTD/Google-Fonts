@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin[wdth,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin-Italic[wdth,wght].ttf"
+  "hash": [
+    "A16576E6CEC01CF994C46838ED1C17FFDB62CF6DA8430EDFBCB011F57DD62457",
+    "F033CC4391BDCBB674169C997E3CAFBF3417B1FD790A1D9BD31EAFA0CA8AFEA4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cabin&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin[wdth,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin-Italic[wdth,wght].ttf"
+    ]
   },
+  "description": "Cabin font family designed by Impallari Type, Rodrigo Fuenzalida",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "A16576E6CEC01CF994C46838ED1C17FFDB62CF6DA8430EDFBCB011F57DD62457",
-    "F033CC4391BDCBB674169C997E3CAFBF3417B1FD790A1D9BD31EAFA0CA8AFEA4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin[wdth,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin-Italic[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin[wdth,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin-Italic[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cabin&per_page=1"
   },
-  "description": "Cabin font family designed by Impallari Type, Rodrigo Fuenzalida",
-  "homepage": "https://fonts.google.com/specimen/Cabin",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cabin"
 }

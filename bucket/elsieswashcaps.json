@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Black.ttf"
+  "hash": [
+    "6B9C2D61E6F955E4CC7BC51777A2E411C2034D921D150473098B9C7554734520",
+    "6961A1CDA97A11A9783151670529A01DAB5E44A84CD1029A44C95270B72B26BD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elsieswashcaps&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Black.ttf"
+    ]
   },
+  "description": "Elsie Swash Caps font family designed by Alejandro Inler",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "6B9C2D61E6F955E4CC7BC51777A2E411C2034D921D150473098B9C7554734520",
-    "6961A1CDA97A11A9783151670529A01DAB5E44A84CD1029A44C95270B72B26BD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsieswashcaps/ElsieSwashCaps-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elsieswashcaps&per_page=1"
   },
-  "description": "Elsie Swash Caps font family designed by Alejandro Inler",
-  "homepage": "https://fonts.google.com/specimen/Elsie+Swash+Caps",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Elsie+Swash+Caps"
 }

@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-BoldItalic.ttf"
+  "hash": [
+    "84DE09BA2FB616BE390214A5283AAAF55B89E50594BD7EFCC438AFF69C4E9927",
+    "76DAD25026919A84D9B65D3758F53099C1917CF15CC45E0E745B91A215EE9F37",
+    "576BA277E3EA1BB7DE43724D14C989DE92E35EEAE204210B0C2A9E7B10DC23FC",
+    "AB8C4878366145598F6421DC970EF40DE27D25EDF02FA9628B5F2CD93E4D54F3",
+    "35FF98E0C58CB27A6EC045B25072D99DE57D6EA03F12C8DC0963FCBED0DF2D91",
+    "640772D92DF913501F961382215B344EAE71C1D54A1A02FD150898FE5DE46BFD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inriaserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-BoldItalic.ttf"
+    ]
   },
+  "description": "Inria Serif font family designed by Grégori Vincens, Jérémie Hornus",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "84DE09BA2FB616BE390214A5283AAAF55B89E50594BD7EFCC438AFF69C4E9927",
-    "76DAD25026919A84D9B65D3758F53099C1917CF15CC45E0E745B91A215EE9F37",
-    "576BA277E3EA1BB7DE43724D14C989DE92E35EEAE204210B0C2A9E7B10DC23FC",
-    "AB8C4878366145598F6421DC970EF40DE27D25EDF02FA9628B5F2CD93E4D54F3",
-    "35FF98E0C58CB27A6EC045B25072D99DE57D6EA03F12C8DC0963FCBED0DF2D91",
-    "640772D92DF913501F961382215B344EAE71C1D54A1A02FD150898FE5DE46BFD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriaserif/InriaSerif-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inriaserif&per_page=1"
   },
-  "description": "Inria Serif font family designed by Grégori Vincens, Jérémie Hornus",
-  "homepage": "https://fonts.google.com/specimen/Inria+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inria+Serif"
 }

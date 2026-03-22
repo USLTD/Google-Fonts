@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/devonshire/Devonshire-Regular.ttf"
+  "hash": [
+    "4C00F003570E5A99361CC83017CB1314AA3170CFAA53BE29A08C555BBB434657"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/devonshire&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/devonshire/Devonshire-Regular.ttf"
+    ]
   },
+  "description": "Devonshire font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4C00F003570E5A99361CC83017CB1314AA3170CFAA53BE29A08C555BBB434657"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/devonshire/Devonshire-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/devonshire/Devonshire-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/devonshire&per_page=1"
   },
-  "description": "Devonshire font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Devonshire",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Devonshire"
 }

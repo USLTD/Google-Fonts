@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendpeta/LexendPeta[wght].ttf"
+  "hash": [
+    "48BD753C216BDB19A469A6570A8756F23045C1E46F8D498F6CF1038CBCDC135B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendpeta&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendpeta/LexendPeta[wght].ttf"
+    ]
   },
+  "description": "Lexend Peta font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "48BD753C216BDB19A469A6570A8756F23045C1E46F8D498F6CF1038CBCDC135B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendpeta/LexendPeta[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendpeta/LexendPeta[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendpeta&per_page=1"
   },
-  "description": "Lexend Peta font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
-  "homepage": "https://fonts.google.com/specimen/Lexend+Peta",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lexend+Peta"
 }

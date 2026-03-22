@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/copse/Copse-Regular.ttf"
+  "hash": [
+    "B852E682F0C66DE4DB1835F8545FF2E94761549987A4607447B069E973F50B1D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/copse&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/copse/Copse-Regular.ttf"
+    ]
   },
+  "description": "Copse font family designed by Dan Rhatigan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B852E682F0C66DE4DB1835F8545FF2E94761549987A4607447B069E973F50B1D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/copse/Copse-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/copse/Copse-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/copse&per_page=1"
   },
-  "description": "Copse font family designed by Dan Rhatigan",
-  "homepage": "https://fonts.google.com/specimen/Copse",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Copse"
 }

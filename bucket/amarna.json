@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna-Italic[wght].ttf"
+  "hash": [
+    "257F905B7A84302726995DAEF4AAC1BB62C94171B8E29803D2EEB43C3D105BD4",
+    "B5EF66A2439AEC16199373C0FEEF9F8261F5800EB0514A556576C112309CE3C7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amarna&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna-Italic[wght].ttf"
+    ]
   },
+  "description": "Amarna font family designed by Ishtār van Looy",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "257F905B7A84302726995DAEF4AAC1BB62C94171B8E29803D2EEB43C3D105BD4",
-    "B5EF66A2439AEC16199373C0FEEF9F8261F5800EB0514A556576C112309CE3C7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amarna&per_page=1"
   },
-  "description": "Amarna font family designed by Ishtār van Looy",
-  "homepage": "https://fonts.google.com/specimen/Amarna",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Amarna"
 }

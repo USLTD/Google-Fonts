@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/junge/Junge-Regular.ttf"
+  "hash": [
+    "4671C65A0E6C02C866362938E968E083D171744E4C90FA2CFA8B809CC9F7207E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/junge&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/junge/Junge-Regular.ttf"
+    ]
   },
+  "description": "Junge font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4671C65A0E6C02C866362938E968E083D171744E4C90FA2CFA8B809CC9F7207E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/junge/Junge-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/junge/Junge-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/junge&per_page=1"
   },
-  "description": "Junge font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Junge",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Junge"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cookie/Cookie-Regular.ttf"
+  "hash": [
+    "9DAF3CC9E5EFE1B65094CDF1F14729EF6F07A70C27EE0679BF7F544A828B080E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cookie&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cookie/Cookie-Regular.ttf"
+    ]
   },
+  "description": "Cookie font family designed by Ania Kruk",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9DAF3CC9E5EFE1B65094CDF1F14729EF6F07A70C27EE0679BF7F544A828B080E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cookie/Cookie-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cookie/Cookie-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cookie&per_page=1"
   },
-  "description": "Cookie font family designed by Ania Kruk",
-  "homepage": "https://fonts.google.com/specimen/Cookie",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cookie"
 }

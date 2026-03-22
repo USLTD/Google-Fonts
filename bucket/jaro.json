@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jaro/Jaro[opsz].ttf"
+  "hash": [
+    "38D50E38A6FB082069984B363EB0A9280FC6A5E7F8A69FCE2AFCE52BB6BC9670"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jaro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jaro/Jaro[opsz].ttf"
+    ]
   },
+  "description": "Jaro font family designed by Agyei Archer, Céline Hurka, Mirko Velimirović",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "38D50E38A6FB082069984B363EB0A9280FC6A5E7F8A69FCE2AFCE52BB6BC9670"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jaro/Jaro[opsz].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jaro/Jaro[opsz].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jaro&per_page=1"
   },
-  "description": "Jaro font family designed by Agyei Archer, Céline Hurka, Mirko Velimirović",
-  "homepage": "https://fonts.google.com/specimen/Jaro",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jaro"
 }

@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Bold.ttf"
+  "hash": [
+    "2D261D21ADD710A08B2FFBD89072D7FD2F29A19582E872DA4B8F8F6D622CD78B",
+    "44527EC77F40DF4A9F5B306CA4DB46D973DDF90929E7E875F8DDE0084754EF38",
+    "92E1E56B0D949241C400E3BCA9A772A5318D3B49DE7C5F7CCFF0413D1A4CC339"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinussans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Bold.ttf"
+    ]
   },
+  "description": "Libertinus Sans font family designed by Philipp H. Poll",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "2D261D21ADD710A08B2FFBD89072D7FD2F29A19582E872DA4B8F8F6D622CD78B",
-    "44527EC77F40DF4A9F5B306CA4DB46D973DDF90929E7E875F8DDE0084754EF38",
-    "92E1E56B0D949241C400E3BCA9A772A5318D3B49DE7C5F7CCFF0413D1A4CC339"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinussans&per_page=1"
   },
-  "description": "Libertinus Sans font family designed by Philipp H. Poll",
-  "homepage": "https://fonts.google.com/specimen/Libertinus+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libertinus+Sans"
 }

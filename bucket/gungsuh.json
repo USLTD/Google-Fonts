@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gungsuh/Gungsuh-Regular.ttf"
+  "hash": [
+    "E0887C3B3A92F0EBC604CBD5E94AD6D0DAD4ED3FFA624F6BAE9A95F2D4D06735"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gungsuh&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gungsuh/Gungsuh-Regular.ttf"
+    ]
   },
+  "description": "Gungsuh font family designed by HanYang I&C Co.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E0887C3B3A92F0EBC604CBD5E94AD6D0DAD4ED3FFA624F6BAE9A95F2D4D06735"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gungsuh/Gungsuh-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gungsuh/Gungsuh-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gungsuh&per_page=1"
   },
-  "description": "Gungsuh font family designed by HanYang I&C Co.",
-  "homepage": "https://fonts.google.com/specimen/Gungsuh",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gungsuh"
 }

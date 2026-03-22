@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jockeyone/JockeyOne-Regular.ttf"
+  "hash": [
+    "6331A3E99E240C45E4B5EB99845F5724932157D6A4766F2B4836F7582891AC4A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jockeyone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jockeyone/JockeyOne-Regular.ttf"
+    ]
   },
+  "description": "Jockey One font family designed by TypeTogether",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6331A3E99E240C45E4B5EB99845F5724932157D6A4766F2B4836F7582891AC4A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jockeyone/JockeyOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jockeyone/JockeyOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jockeyone&per_page=1"
   },
-  "description": "Jockey One font family designed by TypeTogether",
-  "homepage": "https://fonts.google.com/specimen/Jockey+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jockey+One"
 }

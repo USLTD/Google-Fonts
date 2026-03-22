@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/julee/Julee-Regular.ttf"
+  "hash": [
+    "1A895F51FBE0E37F059B1C07030068A2CCBADEF8F81970CD346B967BB0B57EB1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/julee&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/julee/Julee-Regular.ttf"
+    ]
   },
+  "description": "Julee font family designed by Julián Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1A895F51FBE0E37F059B1C07030068A2CCBADEF8F81970CD346B967BB0B57EB1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/julee/Julee-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/julee/Julee-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/julee&per_page=1"
   },
-  "description": "Julee font family designed by Julián Tunni",
-  "homepage": "https://fonts.google.com/specimen/Julee",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Julee"
 }

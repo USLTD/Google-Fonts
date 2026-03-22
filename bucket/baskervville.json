@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville-Italic[wght].ttf"
+  "hash": [
+    "A08BCF988383B344AACFD34365A8CD408A4A9665CAAF19DC0D716A93833A0FA7",
+    "279FF53ED5C733EFABB206345AF87FACE1C137B8AB2667298D6CF228EBFFBF01"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baskervville&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville-Italic[wght].ttf"
+    ]
   },
+  "description": "Baskervville font family designed by ANRT",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "A08BCF988383B344AACFD34365A8CD408A4A9665CAAF19DC0D716A93833A0FA7",
-    "279FF53ED5C733EFABB206345AF87FACE1C137B8AB2667298D6CF228EBFFBF01"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/Baskervville-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baskervville&per_page=1"
   },
-  "description": "Baskervville font family designed by ANRT",
-  "homepage": "https://fonts.google.com/specimen/Baskervville",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Baskervville"
 }

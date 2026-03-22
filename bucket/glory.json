@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory-Italic[wght].ttf"
+  "hash": [
+    "7282178080CA4FC5FECA7B6FF96212ACEE58462EFDFF8A43B80D67204F100837",
+    "F24DAAA4671778F0788535471FE9AA6A0A09ECB97EE644D9A7B5801DE9F6CB94"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/glory&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory-Italic[wght].ttf"
+    ]
   },
+  "description": "Glory font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "7282178080CA4FC5FECA7B6FF96212ACEE58462EFDFF8A43B80D67204F100837",
-    "F24DAAA4671778F0788535471FE9AA6A0A09ECB97EE644D9A7B5801DE9F6CB94"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/glory/Glory-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/glory&per_page=1"
   },
-  "description": "Glory font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Glory",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Glory"
 }

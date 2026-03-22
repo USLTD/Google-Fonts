@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhai2/BalooBhai2[wght].ttf"
+  "hash": [
+    "B85B68F85CB82924B1647B3EB74EBC75301AEE4839EB87EE8F03D600D446B304"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baloobhai2&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhai2/BalooBhai2[wght].ttf"
+    ]
   },
+  "description": "Baloo Bhai 2 font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B85B68F85CB82924B1647B3EB74EBC75301AEE4839EB87EE8F03D600D446B304"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhai2/BalooBhai2[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baloobhai2/BalooBhai2[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baloobhai2&per_page=1"
   },
-  "description": "Baloo Bhai 2 font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Baloo+Bhai+2",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Baloo+Bhai+2"
 }

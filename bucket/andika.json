@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-BoldItalic.ttf"
+  "hash": [
+    "202B96B1F174A4A43BAEFE885B40DACACB81786755EFD08ED4B7704E79C45515",
+    "6A4A0DD26D28F577B51DD6AFB5ACF6FD91AB21694E25649C270A32179BB52A62",
+    "4361126189A2D0E0DA66999352DB58AAF1B4CA940FAF8A8239D725F8303D890D",
+    "2D000F8791A1827C0C4D411E9F4593C4FC2DB0FDBB868BB1F863593B3D3968E6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/andika&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-BoldItalic.ttf"
+    ]
   },
+  "description": "Andika font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "202B96B1F174A4A43BAEFE885B40DACACB81786755EFD08ED4B7704E79C45515",
-    "6A4A0DD26D28F577B51DD6AFB5ACF6FD91AB21694E25649C270A32179BB52A62",
-    "4361126189A2D0E0DA66999352DB58AAF1B4CA940FAF8A8239D725F8303D890D",
-    "2D000F8791A1827C0C4D411E9F4593C4FC2DB0FDBB868BB1F863593B3D3968E6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/andika/Andika-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/andika&per_page=1"
   },
-  "description": "Andika font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Andika",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Andika"
 }

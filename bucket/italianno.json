@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/italianno/Italianno-Regular.ttf"
+  "hash": [
+    "F6AE96DEA0DA46C73370EB0575848AB0EDA190315BDFDA3F5B252BBA3DC9173C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/italianno&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/italianno/Italianno-Regular.ttf"
+    ]
   },
+  "description": "Italianno font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F6AE96DEA0DA46C73370EB0575848AB0EDA190315BDFDA3F5B252BBA3DC9173C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/italianno/Italianno-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/italianno/Italianno-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/italianno&per_page=1"
   },
-  "description": "Italianno font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Italianno",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Italianno"
 }

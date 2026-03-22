@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/durusans/DuruSans-Regular.ttf"
+  "hash": [
+    "EDD15A5596318ECC635484F7B4FCB34C6DCAA7BE8F85C4D2E9273AD8DB688FF0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/durusans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/durusans/DuruSans-Regular.ttf"
+    ]
   },
+  "description": "Duru Sans font family designed by Onur Yazıcıgil",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EDD15A5596318ECC635484F7B4FCB34C6DCAA7BE8F85C4D2E9273AD8DB688FF0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/durusans/DuruSans-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/durusans/DuruSans-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/durusans&per_page=1"
   },
-  "description": "Duru Sans font family designed by Onur Yazıcıgil",
-  "homepage": "https://fonts.google.com/specimen/Duru+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Duru+Sans"
 }

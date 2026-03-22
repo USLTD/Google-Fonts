@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gveretlevin/GveretLevin-Regular.ttf"
+  "hash": [
+    "05C443395D48B97F43469DA4FB08772A4C612FDA306348577DBC40A1267912B1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gveretlevin&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gveretlevin/GveretLevin-Regular.ttf"
+    ]
   },
+  "description": "Gveret Levin font family designed by AlefAlefAlef",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "05C443395D48B97F43469DA4FB08772A4C612FDA306348577DBC40A1267912B1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gveretlevin/GveretLevin-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gveretlevin/GveretLevin-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gveretlevin&per_page=1"
   },
-  "description": "Gveret Levin font family designed by AlefAlefAlef",
-  "homepage": "https://fonts.google.com/specimen/Gveret+Levin",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gveret+Levin"
 }

@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Bold.ttf"
+  "hash": [
+    "DBE7A2234D341E80B345D4FFC2002E3089492CD07CD4FF5C38FE2DCBBFEA54CC",
+    "8BD56D6002D4FE4F5F378DD29F9AD382DBBD03A2BF16DA24599AABE33F9B55B3",
+    "522AAE6DEA7FB9A9DFBF2EA25BF2EBF5D6F05C4ECBA30FD2A56D22A690F4C072",
+    "FCE32CD155130741E8DBAE7256DDC2CB195EB07F7816746E7BC828E03C7B0CE5",
+    "842086C4312100A032494DCB43FA7AFC69AD5772FE004865E0761F92165910A1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindmadurai&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Bold.ttf"
+    ]
   },
+  "description": "Hind Madurai font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "DBE7A2234D341E80B345D4FFC2002E3089492CD07CD4FF5C38FE2DCBBFEA54CC",
-    "8BD56D6002D4FE4F5F378DD29F9AD382DBBD03A2BF16DA24599AABE33F9B55B3",
-    "522AAE6DEA7FB9A9DFBF2EA25BF2EBF5D6F05C4ECBA30FD2A56D22A690F4C072",
-    "FCE32CD155130741E8DBAE7256DDC2CB195EB07F7816746E7BC828E03C7B0CE5",
-    "842086C4312100A032494DCB43FA7AFC69AD5772FE004865E0761F92165910A1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmadurai/HindMadurai-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindmadurai&per_page=1"
   },
-  "description": "Hind Madurai font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Hind+Madurai",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hind+Madurai"
 }

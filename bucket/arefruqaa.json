@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Bold.ttf"
+  "hash": [
+    "CEB786D83BA92F35E96EFCD8623C2858D288E0C543C8761BA35B1020989464F9",
+    "247071015B7EEFD63F94D6E47949C5D10294ED31BD432F809BA9A219D93F91BB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arefruqaa&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Bold.ttf"
+    ]
   },
+  "description": "Aref Ruqaa font family designed by Abdullah Aref, Khaled Hosny, Hermann Zapf",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "CEB786D83BA92F35E96EFCD8623C2858D288E0C543C8761BA35B1020989464F9",
-    "247071015B7EEFD63F94D6E47949C5D10294ED31BD432F809BA9A219D93F91BB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arefruqaa/ArefRuqaa-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arefruqaa&per_page=1"
   },
-  "description": "Aref Ruqaa font family designed by Abdullah Aref, Khaled Hosny, Hermann Zapf",
-  "homepage": "https://fonts.google.com/specimen/Aref+Ruqaa",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Aref+Ruqaa"
 }

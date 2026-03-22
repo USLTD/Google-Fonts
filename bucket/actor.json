@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/actor/Actor-Regular.ttf"
+  "hash": [
+    "A7CF62975A5ECAA8A3BE2E2913FFB4A335831315478B93BEC722AD982308EA38"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/actor&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/actor/Actor-Regular.ttf"
+    ]
   },
+  "description": "Actor font family designed by Thomas Junold",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A7CF62975A5ECAA8A3BE2E2913FFB4A335831315478B93BEC722AD982308EA38"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/actor/Actor-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/actor/Actor-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/actor&per_page=1"
   },
-  "description": "Actor font family designed by Thomas Junold",
-  "homepage": "https://fonts.google.com/specimen/Actor",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Actor"
 }

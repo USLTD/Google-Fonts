@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENrm28P.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENit28P.ttf"
+  "hash": [
+    "FE9705BBDE51AF802719246D4608D08D37BDE956AB99D9A590DA996A5221A24C",
+    "47CD75DCE54B1F2E0831359D22D5E688F519D68AE45706B664FD310FD0E3CCF7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellenglish&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENrm28P.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENit28P.ttf"
+    ]
   },
+  "description": "IM Fell English font family designed by Igino Marini",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "FE9705BBDE51AF802719246D4608D08D37BDE956AB99D9A590DA996A5221A24C",
-    "47CD75DCE54B1F2E0831359D22D5E688F519D68AE45706B664FD310FD0E3CCF7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENrm28P.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENit28P.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENrm28P.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglish/IMFeENit28P.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellenglish&per_page=1"
   },
-  "description": "IM Fell English font family designed by Igino Marini",
-  "homepage": "https://fonts.google.com/specimen/IM+Fell+English",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IM+Fell+English"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/artifika/Artifika-Regular.ttf"
+  "hash": [
+    "51D5E3B59C907938E11964306DCD13E4E4CD413ACAC7DCCCE4F81860D1ED9F86"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/artifika&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/artifika/Artifika-Regular.ttf"
+    ]
   },
+  "description": "Artifika font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "51D5E3B59C907938E11964306DCD13E4E4CD413ACAC7DCCCE4F81860D1ED9F86"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/artifika/Artifika-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/artifika/Artifika-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/artifika&per_page=1"
   },
-  "description": "Artifika font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Artifika",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Artifika"
 }

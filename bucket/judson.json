@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Bold.ttf"
+  "hash": [
+    "73790BF79197E5BBF24178DF3841FF27FB2FCA05DD1F17FC1046E4BBE16CAF95",
+    "2BDDAED218EAD284599FCDCC2889DFB59E804F89DB48779E05C0EE87216FDD8F",
+    "07E77390C353D7E4E69862B91E0A79F6774B19D1602B5F4A504ED15EF6F1023C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/judson&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Bold.ttf"
+    ]
   },
+  "description": "Judson font family designed by Daniel Johnson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "73790BF79197E5BBF24178DF3841FF27FB2FCA05DD1F17FC1046E4BBE16CAF95",
-    "2BDDAED218EAD284599FCDCC2889DFB59E804F89DB48779E05C0EE87216FDD8F",
-    "07E77390C353D7E4E69862B91E0A79F6774B19D1602B5F4A504ED15EF6F1023C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/judson/Judson-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/judson&per_page=1"
   },
-  "description": "Judson font family designed by Daniel Johnson",
-  "homepage": "https://fonts.google.com/specimen/Judson",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Judson"
 }

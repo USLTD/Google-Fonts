@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo-Italic[wght].ttf"
+  "hash": [
+    "801674CBEFF749011A0186B2C932DC9158187A8CA4CA6598DB2A1F5C7C4342D1",
+    "502339E1CDA77E24B5CD46A1A875E4C5E6F20EA019C248F57F23423527030FF3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chivo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo-Italic[wght].ttf"
+    ]
   },
+  "description": "Chivo font family designed by Omnibus-Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "801674CBEFF749011A0186B2C932DC9158187A8CA4CA6598DB2A1F5C7C4342D1",
-    "502339E1CDA77E24B5CD46A1A875E4C5E6F20EA019C248F57F23423527030FF3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chivo&per_page=1"
   },
-  "description": "Chivo font family designed by Omnibus-Type",
-  "homepage": "https://fonts.google.com/specimen/Chivo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chivo"
 }

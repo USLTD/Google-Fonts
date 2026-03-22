@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gochihand/GochiHand-Regular.ttf"
+  "hash": [
+    "C46B029AB4846B2935E301AF0B2CF85A1D74D2858E6A33636A3E64CF3CC4696B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gochihand&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gochihand/GochiHand-Regular.ttf"
+    ]
   },
+  "description": "Gochi Hand font family designed by Huerta Tipográfica",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C46B029AB4846B2935E301AF0B2CF85A1D74D2858E6A33636A3E64CF3CC4696B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gochihand/GochiHand-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gochihand/GochiHand-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gochihand&per_page=1"
   },
-  "description": "Gochi Hand font family designed by Huerta Tipográfica",
-  "homepage": "https://fonts.google.com/specimen/Gochi+Hand",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gochi+Hand"
 }

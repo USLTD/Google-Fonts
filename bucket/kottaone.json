@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kottaone/KottaOne-Regular.ttf"
+  "hash": [
+    "17B1DD75C9EBD632B5DF2B052FE5AE83139516A56E8367C5027DBBFD4AC5B184"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kottaone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kottaone/KottaOne-Regular.ttf"
+    ]
   },
+  "description": "Kotta One font family designed by Ania Kruk",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "17B1DD75C9EBD632B5DF2B052FE5AE83139516A56E8367C5027DBBFD4AC5B184"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kottaone/KottaOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kottaone/KottaOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kottaone&per_page=1"
   },
-  "description": "Kotta One font family designed by Ania Kruk",
-  "homepage": "https://fonts.google.com/specimen/Kotta+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kotta+One"
 }

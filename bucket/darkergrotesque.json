@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/darkergrotesque/DarkerGrotesque[wght].ttf"
+  "hash": [
+    "ED61C00A14F571096A8C03D00F91D37907DF9D55DA7CD7444914353CA224CB86"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/darkergrotesque&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/darkergrotesque/DarkerGrotesque[wght].ttf"
+    ]
   },
+  "description": "Darker Grotesque font family designed by Gabriel Lam, ViệtAnh Nguyễn",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "ED61C00A14F571096A8C03D00F91D37907DF9D55DA7CD7444914353CA224CB86"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/darkergrotesque/DarkerGrotesque[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/darkergrotesque/DarkerGrotesque[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/darkergrotesque&per_page=1"
   },
-  "description": "Darker Grotesque font family designed by Gabriel Lam, ViệtAnh Nguyễn",
-  "homepage": "https://fonts.google.com/specimen/Darker+Grotesque",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Darker+Grotesque"
 }

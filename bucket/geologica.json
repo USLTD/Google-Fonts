@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/geologica/Geologica[CRSV,SHRP,slnt,wght].ttf"
+  "hash": [
+    "9124D9E88AC6C11D761F35241713A51D68E2C4EBEDCE0EDACA834717A00959EC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/geologica&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/geologica/Geologica[CRSV,SHRP,slnt,wght].ttf"
+    ]
   },
+  "description": "Geologica font family designed by Monokrom, Sindre Bremnes, Frode Helland",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9124D9E88AC6C11D761F35241713A51D68E2C4EBEDCE0EDACA834717A00959EC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/geologica/Geologica[CRSV,SHRP,slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/geologica/Geologica[CRSV,SHRP,slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/geologica&per_page=1"
   },
-  "description": "Geologica font family designed by Monokrom, Sindre Bremnes, Frode Helland",
-  "homepage": "https://fonts.google.com/specimen/Geologica",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Geologica"
 }

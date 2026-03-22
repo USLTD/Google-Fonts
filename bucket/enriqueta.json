@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Bold.ttf"
+  "hash": [
+    "5E3ACA4C6DAF22188A92717B7ED53221519DAA96B7F85117601EBF1890686716",
+    "BE7455FE09DB15B36EE858D66AC59D0AB31E37B04B4253099FD869258F9B5592",
+    "B866967948A53BD516D441C0B04F0BBC4B45061A8D1D57E7A8989EAB2BD9CC18",
+    "BB453797B5E353990C4569994754C2496640F427331C9F33B51414ED56777412"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/enriqueta&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Bold.ttf"
+    ]
   },
+  "description": "Enriqueta font family designed by FontFuror",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "5E3ACA4C6DAF22188A92717B7ED53221519DAA96B7F85117601EBF1890686716",
-    "BE7455FE09DB15B36EE858D66AC59D0AB31E37B04B4253099FD869258F9B5592",
-    "B866967948A53BD516D441C0B04F0BBC4B45061A8D1D57E7A8989EAB2BD9CC18",
-    "BB453797B5E353990C4569994754C2496640F427331C9F33B51414ED56777412"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/enriqueta/Enriqueta-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/enriqueta&per_page=1"
   },
-  "description": "Enriqueta font family designed by FontFuror",
-  "homepage": "https://fonts.google.com/specimen/Enriqueta",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Enriqueta"
 }

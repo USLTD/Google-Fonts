@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jomhuria/Jomhuria-Regular.ttf"
+  "hash": [
+    "17B4B0453ACDAAFB940A8BE8ACCCC968713E223E5D03942347F6562CA3B1DEC3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jomhuria&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jomhuria/Jomhuria-Regular.ttf"
+    ]
   },
+  "description": "Jomhuria font family designed by KB Studio",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "17B4B0453ACDAAFB940A8BE8ACCCC968713E223E5D03942347F6562CA3B1DEC3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jomhuria/Jomhuria-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jomhuria/Jomhuria-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jomhuria&per_page=1"
   },
-  "description": "Jomhuria font family designed by KB Studio",
-  "homepage": "https://fonts.google.com/specimen/Jomhuria",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jomhuria"
 }

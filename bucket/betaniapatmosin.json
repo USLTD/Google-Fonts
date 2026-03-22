@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosin/BetaniaPatmosIn-Regular.ttf"
+  "hash": [
+    "56212679126BC724725926529A147C600E6BEE751CC5CCF3FEE13035F2A84E41"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/betaniapatmosin&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosin/BetaniaPatmosIn-Regular.ttf"
+    ]
   },
+  "description": "Betania Patmos In font family designed by Carolina Giovagnoli",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "56212679126BC724725926529A147C600E6BEE751CC5CCF3FEE13035F2A84E41"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosin/BetaniaPatmosIn-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosin/BetaniaPatmosIn-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/betaniapatmosin&per_page=1"
   },
-  "description": "Betania Patmos In font family designed by Carolina Giovagnoli",
-  "homepage": "https://fonts.google.com/specimen/Betania+Patmos+In",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Betania+Patmos+In"
 }

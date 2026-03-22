@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-BoldItalic.ttf"
+  "hash": [
+    "72F793376F8E2841656BF21D77A5DE010F2929BD6956A22EE848AD0C7EB978AF",
+    "F1B9A5829789F7E56432A9F3BC7665EF4531DBBA1C112639E48BEF39621A006B",
+    "FF1F38786C849D1C41FA8E447960ABDB2BD75FDFB0CFCDEB524FAD65A5AF3638",
+    "3355273F3EA6D6362658F9564F4E83D59E156CF1A182E3C1592B5C5943627DCC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/courierprime&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-BoldItalic.ttf"
+    ]
   },
+  "description": "Courier Prime font family designed by Alan Dague-Greene",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "72F793376F8E2841656BF21D77A5DE010F2929BD6956A22EE848AD0C7EB978AF",
-    "F1B9A5829789F7E56432A9F3BC7665EF4531DBBA1C112639E48BEF39621A006B",
-    "FF1F38786C849D1C41FA8E447960ABDB2BD75FDFB0CFCDEB524FAD65A5AF3638",
-    "3355273F3EA6D6362658F9564F4E83D59E156CF1A182E3C1592B5C5943627DCC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/courierprime&per_page=1"
   },
-  "description": "Courier Prime font family designed by Alan Dague-Greene",
-  "homepage": "https://fonts.google.com/specimen/Courier+Prime",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Courier+Prime"
 }

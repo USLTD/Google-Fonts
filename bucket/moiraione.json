@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/moiraione/MoiraiOne-Regular.ttf"
+  "hash": [
+    "432F48AA773510211AC50C9D8130E50FE135C4D8C05645828CCDE7E652EA8106"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/moiraione&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/moiraione/MoiraiOne-Regular.ttf"
+    ]
   },
+  "description": "Moirai One font family designed by Jiyeon Park, JAMO",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "432F48AA773510211AC50C9D8130E50FE135C4D8C05645828CCDE7E652EA8106"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/moiraione/MoiraiOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/moiraione/MoiraiOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/moiraione&per_page=1"
   },
-  "description": "Moirai One font family designed by Jiyeon Park, JAMO",
-  "homepage": "https://fonts.google.com/specimen/Moirai+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Moirai+One"
 }

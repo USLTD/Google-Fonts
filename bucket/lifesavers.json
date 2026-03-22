@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-ExtraBold.ttf"
+  "hash": [
+    "9CFBF78067B2F17079BE543D38BC614DDAD23CC6E9C61F119B2AD96289236056",
+    "CBCC2DED1B108ACA167ABC1A8D752B1DEB975C445611C0FB725D32D21DCFB000",
+    "A7392B6A21EC8F22E5019D0ADF9945FC4ACBA8761D4FF1E53EEC65C9A230B454"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lifesavers&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-ExtraBold.ttf"
+    ]
   },
+  "description": "Life Savers font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "9CFBF78067B2F17079BE543D38BC614DDAD23CC6E9C61F119B2AD96289236056",
-    "CBCC2DED1B108ACA167ABC1A8D752B1DEB975C445611C0FB725D32D21DCFB000",
-    "A7392B6A21EC8F22E5019D0ADF9945FC4ACBA8761D4FF1E53EEC65C9A230B454"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lifesavers/LifeSavers-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lifesavers&per_page=1"
   },
-  "description": "Life Savers font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Life+Savers",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Life+Savers"
 }

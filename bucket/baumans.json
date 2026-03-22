@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baumans/Baumans-Regular.ttf"
+  "hash": [
+    "FC224BF301C1C9204AB89FFF5A8962472AEA25AF01A20223D8FE2AA69D06D6B9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baumans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baumans/Baumans-Regular.ttf"
+    ]
   },
+  "description": "Baumans font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "FC224BF301C1C9204AB89FFF5A8962472AEA25AF01A20223D8FE2AA69D06D6B9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baumans/Baumans-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baumans/Baumans-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baumans&per_page=1"
   },
-  "description": "Baumans font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Baumans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Baumans"
 }

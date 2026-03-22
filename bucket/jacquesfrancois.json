@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquesfrancois/JacquesFrancois-Regular.ttf"
+  "hash": [
+    "33AA3D742EE62F235016DD63F7E1ED6A3450E0D527A0E951BB1D410A47AC68CD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jacquesfrancois&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquesfrancois/JacquesFrancois-Regular.ttf"
+    ]
   },
+  "description": "Jacques Francois font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "33AA3D742EE62F235016DD63F7E1ED6A3450E0D527A0E951BB1D410A47AC68CD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquesfrancois/JacquesFrancois-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquesfrancois/JacquesFrancois-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jacquesfrancois&per_page=1"
   },
-  "description": "Jacques Francois font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Jacques+Francois",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jacques+Francois"
 }

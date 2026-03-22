@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-BoldItalic.ttf"
+  "hash": [
+    "FE7B64EEACC430FCF46836A6F0DFE00D2C5A15483ED36692A2A185CB23EC2A5C",
+    "7A0AB4BD78701FA46D325E362654C41A47E2A0A5CB4A3EEBC94DCE89C2EE7DF1",
+    "B39C3FB12E2E15E2336F2EC6D051C778618EC25F7360BC4765BFE755B408C011",
+    "E557DD7A7F818FA482C3E63C7576C6D455F6F2E3BF9D84E0A11D1617E2BC1383"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gentiumbookplus&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-BoldItalic.ttf"
+    ]
   },
+  "description": "Gentium Book Plus font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "FE7B64EEACC430FCF46836A6F0DFE00D2C5A15483ED36692A2A185CB23EC2A5C",
-    "7A0AB4BD78701FA46D325E362654C41A47E2A0A5CB4A3EEBC94DCE89C2EE7DF1",
-    "B39C3FB12E2E15E2336F2EC6D051C778618EC25F7360BC4765BFE755B408C011",
-    "E557DD7A7F818FA482C3E63C7576C6D455F6F2E3BF9D84E0A11D1617E2BC1383"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gentiumbookplus/GentiumBookPlus-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gentiumbookplus&per_page=1"
   },
-  "description": "Gentium Book Plus font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Gentium+Book+Plus",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gentium+Book+Plus"
 }

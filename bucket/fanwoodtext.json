@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Italic.ttf"
+  "hash": [
+    "98AA9CBF5C5ECE368501D188B1565AE3E7F6C9970EE3823769B8E67219DC33C2",
+    "23F51E2FDA243A8759D5C32FF8A94DA23DC697E8C9A014D4718AA0AB7ED3C808"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fanwoodtext&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Italic.ttf"
+    ]
   },
+  "description": "Fanwood Text font family designed by Barry Schwartz",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "98AA9CBF5C5ECE368501D188B1565AE3E7F6C9970EE3823769B8E67219DC33C2",
-    "23F51E2FDA243A8759D5C32FF8A94DA23DC697E8C9A014D4718AA0AB7ED3C808"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fanwoodtext/FanwoodText-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fanwoodtext&per_page=1"
   },
-  "description": "Fanwood Text font family designed by Barry Schwartz",
-  "homepage": "https://fonts.google.com/specimen/Fanwood+Text",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fanwood+Text"
 }

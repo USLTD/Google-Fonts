@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kumarone/KumarOne-Regular.ttf"
+  "hash": [
+    "04D6479721639F0D00AA34CFAA18D940EACF84060B427433EDB70100B6D01100"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kumarone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kumarone/KumarOne-Regular.ttf"
+    ]
   },
+  "description": "Kumar One font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "04D6479721639F0D00AA34CFAA18D940EACF84060B427433EDB70100B6D01100"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kumarone/KumarOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kumarone/KumarOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kumarone&per_page=1"
   },
-  "description": "Kumar One font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Kumar+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kumar+One"
 }

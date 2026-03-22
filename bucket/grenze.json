@@ -1,28 +1,47 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Black.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BlackItalic.ttf"
+  "hash": [
+    "9B217C1EEAB37A0E1811608EB25C5BD303834C864A868AA295E4A519D5A5F111",
+    "448780C30DD17B240CF3C55E49C5DD3D85B3343BBBB8A733239BF098CD5854FD",
+    "E28CD3A7CE91FBA018399F620B9058203D7D5A5055C1D4E8B981BCFEB9BC3110",
+    "8BB44C21BD90E69CDB2B769956E9E1F70568B38A46780CB241E9C8B84C3D6C40",
+    "B49B8F940EFA022EA7339C0F15BF486010F47E6EEA87A1BAE0FF2BE1FAF9480A",
+    "448CC18ABFC44EA79E5612835FA09A29A2B47AF6A6206838C67C8075EA607F6C",
+    "A2FD97E65D3CB1AE16B21C02F45F320E49895333754DA27BC92D235EEC84832E",
+    "70FBB7F56996747FEDF7C37E37D4232C5629E889D89EEE3125F0C7D56BDF9B7B",
+    "472F282CEBF4F667E9AC591C14EDBE8E1E6CE2D6B2AD5C44DD803D968B9A14DB",
+    "84EC63B40C64273016B841A2928E877EC1791BF5FAD78C45C642E0AE4B2FF699",
+    "F8197355AE494F676D2CB6F14466955D67F0F856D255EA9C14B7B75DF98C1613",
+    "F907F0C73726EF9BD9D394B0CF99A01B9293425EA5DDEA37E6AAA95C09FBE95F",
+    "2EFE90E425BC15F87597D2DD6EF0AC5820D67AEA88221BA76CAB351D7EE5BAA2",
+    "7D74560F8B7CF19E4B43F9EBD02DBD8857EDCABDCDBEA438F458094541467C42",
+    "ACBC06CF687E219A3331624A328064B85A82D33CA3906EBB2D4425E1E8126607",
+    "4ED1C0EFE549AEDEAC7551B8AC3AC637BE6FB97243EB74FD75CAA3853A36198B",
+    "199F5A31EBD24A91376C43AB9DAC3480C6B7A5158C1077E845D652B6CB947AE8",
+    "FC257D614D5A8545DD43E07DAEF2CBF8CEDD5D58C47A3671F1619941EEED154E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grenze&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Black.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BlackItalic.ttf"
+    ]
   },
+  "description": "Grenze font family designed by Omnibus-Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -64,6 +83,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -148,50 +168,30 @@
       "}"
     ]
   },
-  "hash": [
-    "9B217C1EEAB37A0E1811608EB25C5BD303834C864A868AA295E4A519D5A5F111",
-    "448780C30DD17B240CF3C55E49C5DD3D85B3343BBBB8A733239BF098CD5854FD",
-    "E28CD3A7CE91FBA018399F620B9058203D7D5A5055C1D4E8B981BCFEB9BC3110",
-    "8BB44C21BD90E69CDB2B769956E9E1F70568B38A46780CB241E9C8B84C3D6C40",
-    "B49B8F940EFA022EA7339C0F15BF486010F47E6EEA87A1BAE0FF2BE1FAF9480A",
-    "448CC18ABFC44EA79E5612835FA09A29A2B47AF6A6206838C67C8075EA607F6C",
-    "A2FD97E65D3CB1AE16B21C02F45F320E49895333754DA27BC92D235EEC84832E",
-    "70FBB7F56996747FEDF7C37E37D4232C5629E889D89EEE3125F0C7D56BDF9B7B",
-    "472F282CEBF4F667E9AC591C14EDBE8E1E6CE2D6B2AD5C44DD803D968B9A14DB",
-    "84EC63B40C64273016B841A2928E877EC1791BF5FAD78C45C642E0AE4B2FF699",
-    "F8197355AE494F676D2CB6F14466955D67F0F856D255EA9C14B7B75DF98C1613",
-    "F907F0C73726EF9BD9D394B0CF99A01B9293425EA5DDEA37E6AAA95C09FBE95F",
-    "2EFE90E425BC15F87597D2DD6EF0AC5820D67AEA88221BA76CAB351D7EE5BAA2",
-    "7D74560F8B7CF19E4B43F9EBD02DBD8857EDCABDCDBEA438F458094541467C42",
-    "ACBC06CF687E219A3331624A328064B85A82D33CA3906EBB2D4425E1E8126607",
-    "4ED1C0EFE549AEDEAC7551B8AC3AC637BE6FB97243EB74FD75CAA3853A36198B",
-    "199F5A31EBD24A91376C43AB9DAC3480C6B7A5158C1077E845D652B6CB947AE8",
-    "FC257D614D5A8545DD43E07DAEF2CBF8CEDD5D58C47A3671F1619941EEED154E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Black.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BlackItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-ExtraBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-Black.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grenze/Grenze-BlackItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grenze&per_page=1"
   },
-  "description": "Grenze font family designed by Omnibus-Type",
-  "homepage": "https://fonts.google.com/specimen/Grenze",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Grenze"
 }

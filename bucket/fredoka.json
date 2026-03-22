@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fredoka/Fredoka[wdth,wght].ttf"
+  "hash": [
+    "2BA02E68B152868AEF9BA28E24B3648C7D457FE6F25C761F2C2C53FB61A73FC8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fredoka&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fredoka/Fredoka[wdth,wght].ttf"
+    ]
   },
+  "description": "Fredoka font family designed by Milena Brandão, Hafontia",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2BA02E68B152868AEF9BA28E24B3648C7D457FE6F25C761F2C2C53FB61A73FC8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fredoka/Fredoka[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fredoka/Fredoka[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fredoka&per_page=1"
   },
-  "description": "Fredoka font family designed by Milena Brandão, Hafontia",
-  "homepage": "https://fonts.google.com/specimen/Fredoka",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fredoka"
 }

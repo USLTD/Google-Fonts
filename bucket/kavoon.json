@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kavoon/Kavoon-Regular.ttf"
+  "hash": [
+    "D9600E05C23BBA0872171F094CFFE98851F52D3CE1D343F1741D32BFCBCDFFA2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kavoon&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kavoon/Kavoon-Regular.ttf"
+    ]
   },
+  "description": "Kavoon font family designed by Viktoriya Grabowska",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D9600E05C23BBA0872171F094CFFE98851F52D3CE1D343F1741D32BFCBCDFFA2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kavoon/Kavoon-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kavoon/Kavoon-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kavoon&per_page=1"
   },
-  "description": "Kavoon font family designed by Viktoriya Grabowska",
-  "homepage": "https://fonts.google.com/specimen/Kavoon",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kavoon"
 }

@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Black.ttf"
+  "hash": [
+    "F95907A8C39C68D557C2264FCF593A858EB4751CD5E0C3C7C53E1EF354444064",
+    "84D6FABD103E69C8A7EF49B260F7329A7A21F6EDFB139EEB1DA88CFD62D1C158",
+    "ACE157F39B0FF229B4BEF5F5E7FC1486C470315AAE0BCB9A59EEFAA9166463C7",
+    "44F61B6539FF31D2A2DDCA62DABFB66AF4F3DB17242A239641A3BA85A4748CDB",
+    "5628251DB19898F946FE899AC064C9E0C0D2B58DAFFD2ECF6895D846E17D749E",
+    "D97DE0F816199815C76F42735796A791C6DEE9A4D2D6718E07B84B5933382D51"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kedebideri&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Black.ttf"
+    ]
   },
+  "description": "Kedebideri font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "F95907A8C39C68D557C2264FCF593A858EB4751CD5E0C3C7C53E1EF354444064",
-    "84D6FABD103E69C8A7EF49B260F7329A7A21F6EDFB139EEB1DA88CFD62D1C158",
-    "ACE157F39B0FF229B4BEF5F5E7FC1486C470315AAE0BCB9A59EEFAA9166463C7",
-    "44F61B6539FF31D2A2DDCA62DABFB66AF4F3DB17242A239641A3BA85A4748CDB",
-    "5628251DB19898F946FE899AC064C9E0C0D2B58DAFFD2ECF6895D846E17D749E",
-    "D97DE0F816199815C76F42735796A791C6DEE9A4D2D6718E07B84B5933382D51"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kedebideri/Kedebideri-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kedebideri&per_page=1"
   },
-  "description": "Kedebideri font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Kedebideri",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kedebideri"
 }

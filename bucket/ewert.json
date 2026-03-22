@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ewert/Ewert-Regular.ttf"
+  "hash": [
+    "8A7EB23ADCE5193B61BC1843D752F37C208C163DD6DB2FC1B64791791969F4AB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ewert&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ewert/Ewert-Regular.ttf"
+    ]
   },
+  "description": "Ewert font family designed by Johan Kallas, Mihkel Virkus",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8A7EB23ADCE5193B61BC1843D752F37C208C163DD6DB2FC1B64791791969F4AB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ewert/Ewert-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ewert/Ewert-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ewert&per_page=1"
   },
-  "description": "Ewert font family designed by Johan Kallas, Mihkel Virkus",
-  "homepage": "https://fonts.google.com/specimen/Ewert",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ewert"
 }

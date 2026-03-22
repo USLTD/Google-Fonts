@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/42dotsans/42dotSans[wght].ttf"
+  "hash": [
+    "CF9EC2F79B6D13384EEF338477A223800A547FBB21665EB0EA1330A513805B6A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/42dotsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/42dotsans/42dotSans[wght].ttf"
+    ]
   },
+  "description": "42dot Sans font family designed by 42dot",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CF9EC2F79B6D13384EEF338477A223800A547FBB21665EB0EA1330A513805B6A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/42dotsans/42dotSans[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/42dotsans/42dotSans[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/42dotsans&per_page=1"
   },
-  "description": "42dot Sans font family designed by 42dot",
-  "homepage": "https://fonts.google.com/specimen/42dot+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/42dot+Sans"
 }

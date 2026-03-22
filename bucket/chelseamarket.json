@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chelseamarket/ChelseaMarket-Regular.ttf"
+  "hash": [
+    "7243BE29A2D74E6A826E1091F74C89E58CC8010047C6DB8DE13F616E81B1F5F2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chelseamarket&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chelseamarket/ChelseaMarket-Regular.ttf"
+    ]
   },
+  "description": "Chelsea Market font family designed by Tart Workshop",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7243BE29A2D74E6A826E1091F74C89E58CC8010047C6DB8DE13F616E81B1F5F2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chelseamarket/ChelseaMarket-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chelseamarket/ChelseaMarket-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chelseamarket&per_page=1"
   },
-  "description": "Chelsea Market font family designed by Tart Workshop",
-  "homepage": "https://fonts.google.com/specimen/Chelsea+Market",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chelsea+Market"
 }

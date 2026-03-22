@@ -1,22 +1,35 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-BoldItalic.ttf"
+  "hash": [
+    "DE98CA80B3696C4B182BDE204D63A30A5D4A071E4B7078F9433064BF3D24C478",
+    "7237959FAA377F413D3D10DED225217AB6AA60B1A554EBEAE5222AE9ADAB0259",
+    "5CFB9A15757CF45F5A0B1A37DC8CC0991A8F3F9570C74D8FCDE9E66A940535C6",
+    "F15E5B6444466997BBA7B40ABDE407863A94DB89FB6A001E42524DAC0CDA7DCF",
+    "D9DFEB7F627C7CE3ED9437C8130504DAF2644ECE5F54A27B9F7930DBDD45AD30",
+    "436BE41906DC80786358D7546ED279B5051FFB3E10DAB86154D0B100D89EB6A0",
+    "8C32E67F574B150164FF616209E8239192949BB18F3E94E01AC91FB5419286B9",
+    "14D8BBA68904145404C88D6E1C0117B512F8D089340DB4B56CC6616691F66400",
+    "5396D7A25B9D571C6BA5505452C46DFDA299513C4BFFF9C727AC2C309AC0B84F",
+    "22BE368FCF0A729D95FEA1A66D35A3CECCF1390AB43D377BBA12ED63390D3515",
+    "AD66B62ADEF88839E0292BBF4A1DFB5D9345826A19A3FFD780D34F7BC669E1B1",
+    "E040183789349E09B44BD98058687E59793CD8CDA5C3B2AA6D3C7FA4319A37F0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/koho&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-BoldItalic.ttf"
+    ]
   },
+  "description": "KoHo font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -58,6 +71,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,38 +156,24 @@
       "}"
     ]
   },
-  "hash": [
-    "DE98CA80B3696C4B182BDE204D63A30A5D4A071E4B7078F9433064BF3D24C478",
-    "7237959FAA377F413D3D10DED225217AB6AA60B1A554EBEAE5222AE9ADAB0259",
-    "5CFB9A15757CF45F5A0B1A37DC8CC0991A8F3F9570C74D8FCDE9E66A940535C6",
-    "F15E5B6444466997BBA7B40ABDE407863A94DB89FB6A001E42524DAC0CDA7DCF",
-    "D9DFEB7F627C7CE3ED9437C8130504DAF2644ECE5F54A27B9F7930DBDD45AD30",
-    "436BE41906DC80786358D7546ED279B5051FFB3E10DAB86154D0B100D89EB6A0",
-    "8C32E67F574B150164FF616209E8239192949BB18F3E94E01AC91FB5419286B9",
-    "14D8BBA68904145404C88D6E1C0117B512F8D089340DB4B56CC6616691F66400",
-    "5396D7A25B9D571C6BA5505452C46DFDA299513C4BFFF9C727AC2C309AC0B84F",
-    "22BE368FCF0A729D95FEA1A66D35A3CECCF1390AB43D377BBA12ED63390D3515",
-    "AD66B62ADEF88839E0292BBF4A1DFB5D9345826A19A3FFD780D34F7BC669E1B1",
-    "E040183789349E09B44BD98058687E59793CD8CDA5C3B2AA6D3C7FA4319A37F0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/koho/KoHo-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/koho&per_page=1"
   },
-  "description": "KoHo font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/KoHo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/KoHo"
 }

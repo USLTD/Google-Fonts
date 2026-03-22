@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-ExtraBold.ttf"
+  "hash": [
+    "FFA6266426A6339D2DCB9AE7CCD0D06F5360E91C9A67DB2597D70B0BD2E10AAD",
+    "A998BAA580E25340E1A44A343C62A0F106F4763E7E0CF153F279FB6C965A122D",
+    "AFF3AAB23F202092D411DAE54A612968DEE39CF411C0D8049E6A9EA99F7E2C14",
+    "0A493C95A74CC13F6766DBF2DE4C47DDA0C446C5FC0D6576B970D7890CE9F9AA",
+    "8323A68A9B99940CE5009503503C0A75B739AC2E1E767E32C4B35B20B0A163FC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chathura&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-ExtraBold.ttf"
+    ]
   },
+  "description": "Chathura font family designed by Appaji Ambarisha Darbha",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "FFA6266426A6339D2DCB9AE7CCD0D06F5360E91C9A67DB2597D70B0BD2E10AAD",
-    "A998BAA580E25340E1A44A343C62A0F106F4763E7E0CF153F279FB6C965A122D",
-    "AFF3AAB23F202092D411DAE54A612968DEE39CF411C0D8049E6A9EA99F7E2C14",
-    "0A493C95A74CC13F6766DBF2DE4C47DDA0C446C5FC0D6576B970D7890CE9F9AA",
-    "8323A68A9B99940CE5009503503C0A75B739AC2E1E767E32C4B35B20B0A163FC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chathura/Chathura-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chathura&per_page=1"
   },
-  "description": "Chathura font family designed by Appaji Ambarisha Darbha",
-  "homepage": "https://fonts.google.com/specimen/Chathura",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chathura"
 }

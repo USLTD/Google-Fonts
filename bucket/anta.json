@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anta/Anta-Regular.ttf"
+  "hash": [
+    "9F3B9723A50C1244D49906B1892B3AAD43876AB9A2DE80288DB47821B0C7B298"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anta&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anta/Anta-Regular.ttf"
+    ]
   },
+  "description": "Anta font family designed by Sergej Lebedev",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9F3B9723A50C1244D49906B1892B3AAD43876AB9A2DE80288DB47821B0C7B298"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anta/Anta-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anta/Anta-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anta&per_page=1"
   },
-  "description": "Anta font family designed by Sergej Lebedev",
-  "homepage": "https://fonts.google.com/specimen/Anta",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Anta"
 }

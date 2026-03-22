@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendgiga/LexendGiga[wght].ttf"
+  "hash": [
+    "A62C958E898995A2177F9683E3DAD2A8DA98B571A04601A15B4B2C4BB390C6F1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendgiga&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendgiga/LexendGiga[wght].ttf"
+    ]
   },
+  "description": "Lexend Giga font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A62C958E898995A2177F9683E3DAD2A8DA98B571A04601A15B4B2C4BB390C6F1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendgiga/LexendGiga[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendgiga/LexendGiga[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendgiga&per_page=1"
   },
-  "description": "Lexend Giga font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
-  "homepage": "https://fonts.google.com/specimen/Lexend+Giga",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lexend+Giga"
 }

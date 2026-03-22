@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
+  "hash": [
+    "177FF6C0F14E5550A3C624247CD1189611D4EB65D000B14944C63D967958ABBB",
+    "B24448C43702FAC4EE856781D461A0DFBA8D8E594B6E8E190234B75FED2C0E01"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fraunces&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
+    ]
   },
+  "description": "Fraunces font family designed by Undercase Type, Phaedra Charles, Flavia Zimbardi",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "177FF6C0F14E5550A3C624247CD1189611D4EB65D000B14944C63D967958ABBB",
-    "B24448C43702FAC4EE856781D461A0DFBA8D8E594B6E8E190234B75FED2C0E01"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fraunces&per_page=1"
   },
-  "description": "Fraunces font family designed by Undercase Type, Phaedra Charles, Flavia Zimbardi",
-  "homepage": "https://fonts.google.com/specimen/Fraunces",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fraunces"
 }

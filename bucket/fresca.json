@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fresca/Fresca-Regular.ttf"
+  "hash": [
+    "F64340016A820093202CA6AF533F232EE7FE4C3D8448601AC42B4091236B5777"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fresca&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fresca/Fresca-Regular.ttf"
+    ]
   },
+  "description": "Fresca font family designed by Fontstage",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F64340016A820093202CA6AF533F232EE7FE4C3D8448601AC42B4091236B5777"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fresca/Fresca-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fresca/Fresca-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fresca&per_page=1"
   },
-  "description": "Fresca font family designed by Fontstage",
-  "homepage": "https://fonts.google.com/specimen/Fresca",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fresca"
 }

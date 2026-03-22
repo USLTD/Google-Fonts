@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Bold.ttf"
+  "hash": [
+    "D4D0FE421D324B3A7886CAC4C6C2069F4E671AE1859463F14AF1488AD27F215E",
+    "3E991012C290BECFEB29943F86391A435B8BBF1FC853DC8399CCBFCCE6B56A81"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/magra&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Bold.ttf"
+    ]
   },
+  "description": "Magra font family designed by FontFuror",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "D4D0FE421D324B3A7886CAC4C6C2069F4E671AE1859463F14AF1488AD27F215E",
-    "3E991012C290BECFEB29943F86391A435B8BBF1FC853DC8399CCBFCCE6B56A81"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/magra/Magra-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/magra&per_page=1"
   },
-  "description": "Magra font family designed by FontFuror",
-  "homepage": "https://fonts.google.com/specimen/Magra",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Magra"
 }

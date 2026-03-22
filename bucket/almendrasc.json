@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendrasc/AlmendraSC-Regular.ttf"
+  "hash": [
+    "DCA733B5B03E4EA52C666365777C8F6B360D55DE04EFC9D834CF9F82B68308BE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almendrasc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendrasc/AlmendraSC-Regular.ttf"
+    ]
   },
+  "description": "Almendra SC font family designed by Ana Sanfelippo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DCA733B5B03E4EA52C666365777C8F6B360D55DE04EFC9D834CF9F82B68308BE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendrasc/AlmendraSC-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendrasc/AlmendraSC-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almendrasc&per_page=1"
   },
-  "description": "Almendra SC font family designed by Ana Sanfelippo",
-  "homepage": "https://fonts.google.com/specimen/Almendra+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Almendra+SC"
 }

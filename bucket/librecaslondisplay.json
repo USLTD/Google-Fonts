@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslondisplay/LibreCaslonDisplay-Regular.ttf"
+  "hash": [
+    "2340C497181E9446FCBB235E1C3780558DC62879FFE0EF47906D3F7F35CF5F35"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librecaslondisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslondisplay/LibreCaslonDisplay-Regular.ttf"
+    ]
   },
+  "description": "Libre Caslon Display font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2340C497181E9446FCBB235E1C3780558DC62879FFE0EF47906D3F7F35CF5F35"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslondisplay/LibreCaslonDisplay-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslondisplay/LibreCaslonDisplay-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librecaslondisplay&per_page=1"
   },
-  "description": "Libre Caslon Display font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Libre+Caslon+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libre+Caslon+Display"
 }

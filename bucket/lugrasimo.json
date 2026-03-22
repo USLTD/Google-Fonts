@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lugrasimo/Lugrasimo-Regular.ttf"
+  "hash": [
+    "5A8A7B736BFB38C4FA32B0DC82591E5CDDC46A52905866D79A4F8050FE40D0C6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lugrasimo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lugrasimo/Lugrasimo-Regular.ttf"
+    ]
   },
+  "description": "Lugrasimo font family designed by The DocRepair Project, Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5A8A7B736BFB38C4FA32B0DC82591E5CDDC46A52905866D79A4F8050FE40D0C6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lugrasimo/Lugrasimo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lugrasimo/Lugrasimo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lugrasimo&per_page=1"
   },
-  "description": "Lugrasimo font family designed by The DocRepair Project, Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Lugrasimo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lugrasimo"
 }

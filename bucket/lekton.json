@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Bold.ttf"
+  "hash": [
+    "CCBB465D255A4BD0242AF595D5F5410E635BD0DBF2F4B612B390E508A93D7A3A",
+    "AB5FB533F4EF21191A522B5C92E2BBCCAD6CF46D927A3FDC7617334A68977427",
+    "9AAB5A281F3428D882E67D9A945930822380F5B28AD00F5FBF79E21DADEE375F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lekton&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Bold.ttf"
+    ]
   },
+  "description": "Lekton font family designed by ISIA Urbino",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "CCBB465D255A4BD0242AF595D5F5410E635BD0DBF2F4B612B390E508A93D7A3A",
-    "AB5FB533F4EF21191A522B5C92E2BBCCAD6CF46D927A3FDC7617334A68977427",
-    "9AAB5A281F3428D882E67D9A945930822380F5B28AD00F5FBF79E21DADEE375F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lekton/Lekton-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lekton&per_page=1"
   },
-  "description": "Lekton font family designed by ISIA Urbino",
-  "homepage": "https://fonts.google.com/specimen/Lekton",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lekton"
 }

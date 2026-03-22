@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina-Italic[wght].ttf"
+  "hash": [
+    "2CE2606F0EE1D493873C24818A391E02606EE76AC924B3D985CBB820C0A53EA5",
+    "215B9BF63DA0C9584B5A0AA8E2270DA6A2B62C1281F5C39089613C3AAEFFA2BE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/faustina&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina-Italic[wght].ttf"
+    ]
   },
+  "description": "Faustina font family designed by Omnibus-Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "2CE2606F0EE1D493873C24818A391E02606EE76AC924B3D985CBB820C0A53EA5",
-    "215B9BF63DA0C9584B5A0AA8E2270DA6A2B62C1281F5C39089613C3AAEFFA2BE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/faustina/Faustina-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/faustina&per_page=1"
   },
-  "description": "Faustina font family designed by Omnibus-Type",
-  "homepage": "https://fonts.google.com/specimen/Faustina",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Faustina"
 }

@@ -1,26 +1,43 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Black.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BlackItalic.ttf"
+  "hash": [
+    "5EC9BE841408C31CEEAC98C616EFDA0052C7B6483AC210D7EEA272A8984BC448",
+    "FE1C6824BBE9D5166B7F6333D46A4FE0DB2F682A1AA0255B9A212CEC660ECDC5",
+    "E14E61301C02466818684C07BB494941B6FAF4B3C9DBDBDC6EB1F5BF298A60D2",
+    "E3CE4065109F02B13E8DFC533E8D465FAF5523825CB3AA26109AFC6AD50E0374",
+    "D1516E8EACBC05B95B032BFF3A5C4ED0CB726CEB3DB14A19085BC0C4CC2C64A4",
+    "266BFC2B8D2157BF6591D8620E04EF79D634A5BB47171152C9FD27D203E73586",
+    "F3B0510D65B01621A4BBC02ADA39ADFF9687A515E386C4F77C64130F3AFBE1BA",
+    "C6FFE490D9DC41DF608C41596FE1809FD535C19B5C9F926EEF67A5E78A214D87",
+    "1C0A31CCC975E64AD42E73116EE0691D535AB124F3F83FAD9289C1FF35B9593B",
+    "542B2300FE9519CE804B6E98D8BB4354DC4871E6F18011C39104E1754179DED5",
+    "F37C2557EA5BE20C02F2CA1EDD2BF509801F5287E5E1F139BD56716AFE77B576",
+    "1E78CB42E80FF80F88ED0C09A6B908336D30C1F67C5274E6B5BB3A3F1625A4DB",
+    "80B38481EEF0901C16DEB6B1AA6A5B91220F56DDF0F60498237D6DF761B5386A",
+    "79394DF5682593DDBDFBBF02843CBD239674961D73455976F3AF8D69028CE360",
+    "0098F180285DD4BC649E4806FC1C6D4AC8289FEE83CA28E81939C3558501135D",
+    "EC30DB42A6C9AA0F1E37797EFCCF80F23684D502D8CB78C794F851575412002E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lisubosa&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Black.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BlackItalic.ttf"
+    ]
   },
+  "description": "Lisu Bosa font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -62,6 +79,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -146,46 +164,28 @@
       "}"
     ]
   },
-  "hash": [
-    "5EC9BE841408C31CEEAC98C616EFDA0052C7B6483AC210D7EEA272A8984BC448",
-    "FE1C6824BBE9D5166B7F6333D46A4FE0DB2F682A1AA0255B9A212CEC660ECDC5",
-    "E14E61301C02466818684C07BB494941B6FAF4B3C9DBDBDC6EB1F5BF298A60D2",
-    "E3CE4065109F02B13E8DFC533E8D465FAF5523825CB3AA26109AFC6AD50E0374",
-    "D1516E8EACBC05B95B032BFF3A5C4ED0CB726CEB3DB14A19085BC0C4CC2C64A4",
-    "266BFC2B8D2157BF6591D8620E04EF79D634A5BB47171152C9FD27D203E73586",
-    "F3B0510D65B01621A4BBC02ADA39ADFF9687A515E386C4F77C64130F3AFBE1BA",
-    "C6FFE490D9DC41DF608C41596FE1809FD535C19B5C9F926EEF67A5E78A214D87",
-    "1C0A31CCC975E64AD42E73116EE0691D535AB124F3F83FAD9289C1FF35B9593B",
-    "542B2300FE9519CE804B6E98D8BB4354DC4871E6F18011C39104E1754179DED5",
-    "F37C2557EA5BE20C02F2CA1EDD2BF509801F5287E5E1F139BD56716AFE77B576",
-    "1E78CB42E80FF80F88ED0C09A6B908336D30C1F67C5274E6B5BB3A3F1625A4DB",
-    "80B38481EEF0901C16DEB6B1AA6A5B91220F56DDF0F60498237D6DF761B5386A",
-    "79394DF5682593DDBDFBBF02843CBD239674961D73455976F3AF8D69028CE360",
-    "0098F180285DD4BC649E4806FC1C6D4AC8289FEE83CA28E81939C3558501135D",
-    "EC30DB42A6C9AA0F1E37797EFCCF80F23684D502D8CB78C794F851575412002E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Black.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BlackItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-ExtraBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-Black.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lisubosa/LisuBosa-BlackItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lisubosa&per_page=1"
   },
-  "description": "Lisu Bosa font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Lisu+Bosa",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lisu+Bosa"
 }

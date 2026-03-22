@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/ElMessiri[wght].ttf"
+  "hash": [
+    "5D58D5259D2ACCCCBA39CFFE12E1226E88B6AFC5150E3605EB2A9C2FE06CCAB0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elmessiri&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/ElMessiri[wght].ttf"
+    ]
   },
+  "description": "El Messiri font family designed by Mohamed Gaber, Jovanny Lemonad",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5D58D5259D2ACCCCBA39CFFE12E1226E88B6AFC5150E3605EB2A9C2FE06CCAB0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/ElMessiri[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/elmessiri/ElMessiri[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elmessiri&per_page=1"
   },
-  "description": "El Messiri font family designed by Mohamed Gaber, Jovanny Lemonad",
-  "homepage": "https://fonts.google.com/specimen/El+Messiri",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/El+Messiri"
 }

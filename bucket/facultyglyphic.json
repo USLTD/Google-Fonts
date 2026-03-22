@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/facultyglyphic/FacultyGlyphic-Regular.ttf"
+  "hash": [
+    "27010AEBF4430DA073B75B8877BC3D3E35BD24D2E4F9403D34418ABE94C3D31F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/facultyglyphic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/facultyglyphic/FacultyGlyphic-Regular.ttf"
+    ]
   },
+  "description": "Faculty Glyphic font family designed by Koto Studio",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "27010AEBF4430DA073B75B8877BC3D3E35BD24D2E4F9403D34418ABE94C3D31F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/facultyglyphic/FacultyGlyphic-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/facultyglyphic/FacultyGlyphic-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/facultyglyphic&per_page=1"
   },
-  "description": "Faculty Glyphic font family designed by Koto Studio",
-  "homepage": "https://fonts.google.com/specimen/Faculty+Glyphic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Faculty+Glyphic"
 }

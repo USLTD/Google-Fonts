@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Bold.ttf"
+  "hash": [
+    "552EE5848F2AFD5ABDF52F6EC7896A4AA443AAADD68FA5D5048E5788F0850F00",
+    "05635008898DD896DF9DA3DAF04312E22BA59DB5774BC091DC2680A20CA571BB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cossettetitre&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Bold.ttf"
+    ]
   },
+  "description": "Cossette Titre font family designed by Cossette",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "552EE5848F2AFD5ABDF52F6EC7896A4AA443AAADD68FA5D5048E5788F0850F00",
-    "05635008898DD896DF9DA3DAF04312E22BA59DB5774BC091DC2680A20CA571BB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cossettetitre/CossetteTitre-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cossettetitre&per_page=1"
   },
-  "description": "Cossette Titre font family designed by Cossette",
-  "homepage": "https://fonts.google.com/specimen/Cossette+Titre",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cossette+Titre"
 }

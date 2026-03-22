@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Bold.ttf"
+  "hash": [
+    "2B8F2C0208D397A1823688783DA3317D6AF18EA007A9A1B56DDB17E27820507E",
+    "57CECB63D4608019371954274AE1D8C397764DEBD5B19D4A33C1EFA4DC923C0B",
+    "2F6576601DB015D4F6C08678120277FC8510B98C06E932CE7A6A9CBFF4CBDDED"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kalam&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Bold.ttf"
+    ]
   },
+  "description": "Kalam font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "2B8F2C0208D397A1823688783DA3317D6AF18EA007A9A1B56DDB17E27820507E",
-    "57CECB63D4608019371954274AE1D8C397764DEBD5B19D4A33C1EFA4DC923C0B",
-    "2F6576601DB015D4F6C08678120277FC8510B98C06E932CE7A6A9CBFF4CBDDED"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kalam&per_page=1"
   },
-  "description": "Kalam font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Kalam",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kalam"
 }

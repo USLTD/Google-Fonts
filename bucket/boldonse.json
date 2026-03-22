@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/boldonse/Boldonse-Regular.ttf"
+  "hash": [
+    "F566C572A85FEE25B41CCAB1A8D18EF8039A30E3CA44F310EE162899EA6D5FC7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/boldonse&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/boldonse/Boldonse-Regular.ttf"
+    ]
   },
+  "description": "Boldonse font family designed by Universitype",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F566C572A85FEE25B41CCAB1A8D18EF8039A30E3CA44F310EE162899EA6D5FC7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/boldonse/Boldonse-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/boldonse/Boldonse-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/boldonse&per_page=1"
   },
-  "description": "Boldonse font family designed by Universitype",
-  "homepage": "https://fonts.google.com/specimen/Boldonse",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Boldonse"
 }

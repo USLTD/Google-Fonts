@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/miniver/Miniver-Regular.ttf"
+  "hash": [
+    "0637FF653A9113189D196434F2055388638083DDE397964B83AA2C1800D5B5B7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/miniver&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/miniver/Miniver-Regular.ttf"
+    ]
   },
+  "description": "Miniver font family designed by Open Window",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0637FF653A9113189D196434F2055388638083DDE397964B83AA2C1800D5B5B7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/miniver/Miniver-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/miniver/Miniver-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/miniver&per_page=1"
   },
-  "description": "Miniver font family designed by Open Window",
-  "homepage": "https://fonts.google.com/specimen/Miniver",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Miniver"
 }

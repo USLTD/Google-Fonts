@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-BoldItalic.ttf"
+  "hash": [
+    "BE3D8CE18188BC559DE37E4355F5F902B4960A7B65A99EFB78C03BB65BB782E6",
+    "C727AE1D9E1E166A7C0679FCF79C2FF0C21BC5483EE253FDFEE2F5792C0BEBD9",
+    "5255B383FC8AA432E4E7E5F8005210477C0983370ADC6AD6205C9BD2CD1CEB76",
+    "980EE087455F1F0A96FB2EA74BEF441A2BF29048E2C739D11683D330CFC19329"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lobstertwo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-BoldItalic.ttf"
+    ]
   },
+  "description": "Lobster Two font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "BE3D8CE18188BC559DE37E4355F5F902B4960A7B65A99EFB78C03BB65BB782E6",
-    "C727AE1D9E1E166A7C0679FCF79C2FF0C21BC5483EE253FDFEE2F5792C0BEBD9",
-    "5255B383FC8AA432E4E7E5F8005210477C0983370ADC6AD6205C9BD2CD1CEB76",
-    "980EE087455F1F0A96FB2EA74BEF441A2BF29048E2C739D11683D330CFC19329"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lobstertwo/LobsterTwo-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lobstertwo&per_page=1"
   },
-  "description": "Lobster Two font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Lobster+Two",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lobster+Two"
 }

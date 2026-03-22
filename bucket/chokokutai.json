@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chokokutai/Chokokutai-Regular.ttf"
+  "hash": [
+    "C622B971D1BDB2D8CD64F978746E6D52D361417AE4222C275CB57549E34E097E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chokokutai&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chokokutai/Chokokutai-Regular.ttf"
+    ]
   },
+  "description": "Chokokutai font family designed by Font Zone 108",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C622B971D1BDB2D8CD64F978746E6D52D361417AE4222C275CB57549E34E097E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chokokutai/Chokokutai-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chokokutai/Chokokutai-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chokokutai&per_page=1"
   },
-  "description": "Chokokutai font family designed by Font Zone 108",
-  "homepage": "https://fonts.google.com/specimen/Chokokutai",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chokokutai"
 }

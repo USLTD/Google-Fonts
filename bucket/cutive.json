@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cutive/Cutive-Regular.ttf"
+  "hash": [
+    "8F0EB3280328C0051BBE725CE9D68C9117484B769CF68DBACEC4343AE92EE031"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cutive&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cutive/Cutive-Regular.ttf"
+    ]
   },
+  "description": "Cutive font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8F0EB3280328C0051BBE725CE9D68C9117484B769CF68DBACEC4343AE92EE031"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cutive/Cutive-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cutive/Cutive-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cutive&per_page=1"
   },
-  "description": "Cutive font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Cutive",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cutive"
 }

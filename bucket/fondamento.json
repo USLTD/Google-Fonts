@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Italic.ttf"
+  "hash": [
+    "EE03A7CCB3B7CDF3CD095D0CC34F9E70C16B1779CBC7C466BF9077323A6EA764",
+    "8303C76CCFAF81A065C3653A1D559F76E8223A3200A79451D5DEDD33CEBBEF9E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fondamento&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Italic.ttf"
+    ]
   },
+  "description": "Fondamento font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "EE03A7CCB3B7CDF3CD095D0CC34F9E70C16B1779CBC7C466BF9077323A6EA764",
-    "8303C76CCFAF81A065C3653A1D559F76E8223A3200A79451D5DEDD33CEBBEF9E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fondamento/Fondamento-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fondamento&per_page=1"
   },
-  "description": "Fondamento font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Fondamento",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fondamento"
 }

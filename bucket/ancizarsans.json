@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans-Italic[wght].ttf"
+  "hash": [
+    "C99CE8A9CD997F264E6C34C2799FAECD94C39ACF7D06928124F9E7C12D72C743",
+    "834BE8CFCCB25C8FDEC55908FDBFB3FE682DE616688E10E502E22C29ECD5933D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ancizarsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Ancizar Sans font family designed by Universidad Nacional de Colombia (UNAL), César Puertas, Viviana Monsalve, Julián Moncada",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "C99CE8A9CD997F264E6C34C2799FAECD94C39ACF7D06928124F9E7C12D72C743",
-    "834BE8CFCCB25C8FDEC55908FDBFB3FE682DE616688E10E502E22C29ECD5933D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarsans/AncizarSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ancizarsans&per_page=1"
   },
-  "description": "Ancizar Sans font family designed by Universidad Nacional de Colombia (UNAL), César Puertas, Viviana Monsalve, Julián Moncada",
-  "homepage": "https://fonts.google.com/specimen/Ancizar+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ancizar+Sans"
 }

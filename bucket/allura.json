@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/allura/Allura-Regular.ttf"
+  "hash": [
+    "9C142B2E515832C0DFC4FF8B8EA18F40314943BF937B72E2B23C4661BAC14CC6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/allura&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/allura/Allura-Regular.ttf"
+    ]
   },
+  "description": "Allura font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9C142B2E515832C0DFC4FF8B8EA18F40314943BF937B72E2B23C4661BAC14CC6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/allura/Allura-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/allura/Allura-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/allura&per_page=1"
   },
-  "description": "Allura font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Allura",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Allura"
 }

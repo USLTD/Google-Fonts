@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Bold.ttf"
+  "hash": [
+    "402D4D96034762FEE68518FD95B778CF6A9D70CAB838FA1A817CB783D39639A4",
+    "DDFC0E53CCDC4F13CAC4599F97D5775BE74B2E1E0773CF1BDCE71483A476FBF6",
+    "70D2A2E9EEEE950C666F5C94836E9FCD3FD3297D1975C952DB2518D0E5EBC9EF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amiko&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Bold.ttf"
+    ]
   },
+  "description": "Amiko font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "402D4D96034762FEE68518FD95B778CF6A9D70CAB838FA1A817CB783D39639A4",
-    "DDFC0E53CCDC4F13CAC4599F97D5775BE74B2E1E0773CF1BDCE71483A476FBF6",
-    "70D2A2E9EEEE950C666F5C94836E9FCD3FD3297D1975C952DB2518D0E5EBC9EF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiko/Amiko-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amiko&per_page=1"
   },
-  "description": "Amiko font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Amiko",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Amiko"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kumbhsans/KumbhSans[YOPQ,wght].ttf"
+  "hash": [
+    "F29B8814E682A1524C1B6CAD866700C844C287C2DF1F6D362DCAEC4CC75DADF9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kumbhsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kumbhsans/KumbhSans[YOPQ,wght].ttf"
+    ]
   },
+  "description": "Kumbh Sans font family designed by Saurabh Sharma",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F29B8814E682A1524C1B6CAD866700C844C287C2DF1F6D362DCAEC4CC75DADF9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kumbhsans/KumbhSans[YOPQ,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kumbhsans/KumbhSans[YOPQ,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kumbhsans&per_page=1"
   },
-  "description": "Kumbh Sans font family designed by Saurabh Sharma",
-  "homepage": "https://fonts.google.com/specimen/Kumbh+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kumbh+Sans"
 }

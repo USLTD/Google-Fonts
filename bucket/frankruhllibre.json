@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/frankruhllibre/FrankRuhlLibre[wght].ttf"
+  "hash": [
+    "F9BF26966681037AAE894B031BD0DCF2C1BFDFA128DD0640CF276FE62A338A43"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/frankruhllibre&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/frankruhllibre/FrankRuhlLibre[wght].ttf"
+    ]
   },
+  "description": "Frank Ruhl Libre font family designed by Yanek Iontef",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F9BF26966681037AAE894B031BD0DCF2C1BFDFA128DD0640CF276FE62A338A43"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/frankruhllibre/FrankRuhlLibre[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/frankruhllibre/FrankRuhlLibre[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/frankruhllibre&per_page=1"
   },
-  "description": "Frank Ruhl Libre font family designed by Yanek Iontef",
-  "homepage": "https://fonts.google.com/specimen/Frank+Ruhl+Libre",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Frank+Ruhl+Libre"
 }

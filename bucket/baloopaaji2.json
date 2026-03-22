@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baloopaaji2/BalooPaaji2[wght].ttf"
+  "hash": [
+    "44F70C760B100C3073E2E1287D4E1E745A96F4E4082E67236882FFA8C773652E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baloopaaji2&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baloopaaji2/BalooPaaji2[wght].ttf"
+    ]
   },
+  "description": "Baloo Paaji 2 font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "44F70C760B100C3073E2E1287D4E1E745A96F4E4082E67236882FFA8C773652E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baloopaaji2/BalooPaaji2[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baloopaaji2/BalooPaaji2[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baloopaaji2&per_page=1"
   },
-  "description": "Baloo Paaji 2 font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Baloo+Paaji+2",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Baloo+Paaji+2"
 }

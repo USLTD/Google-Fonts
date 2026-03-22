@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/monofett/Monofett-Regular.ttf"
+  "hash": [
+    "1483F18841A24238172D6F3462A3EA790B7A3E6CA8BB55D404DEDE93669238D5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monofett&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/monofett/Monofett-Regular.ttf"
+    ]
   },
+  "description": "Monofett font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1483F18841A24238172D6F3462A3EA790B7A3E6CA8BB55D404DEDE93669238D5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/monofett/Monofett-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/monofett/Monofett-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monofett&per_page=1"
   },
-  "description": "Monofett font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Monofett",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Monofett"
 }

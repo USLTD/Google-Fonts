@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Bold.ttf"
+  "hash": [
+    "176E2DAC3FFB1659DD85C90666A3EE19D2BB4FCE8A8A2315FE630625AC5AB6A7",
+    "1575519FD0FB06092B4A65D2CD8E9C057E3A4352C6F1CBA8562450B074B06980",
+    "A10BAA36D587245219269E8400DA5C1540463C80236B952D6B6CD0485A337F4A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseiharunoumi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Bold.ttf"
+    ]
   },
+  "description": "Kaisei HarunoUmi font family designed by Font-Kai",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "176E2DAC3FFB1659DD85C90666A3EE19D2BB4FCE8A8A2315FE630625AC5AB6A7",
-    "1575519FD0FB06092B4A65D2CD8E9C057E3A4352C6F1CBA8562450B074B06980",
-    "A10BAA36D587245219269E8400DA5C1540463C80236B952D6B6CD0485A337F4A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiharunoumi/KaiseiHarunoUmi-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseiharunoumi&per_page=1"
   },
-  "description": "Kaisei HarunoUmi font family designed by Font-Kai",
-  "homepage": "https://fonts.google.com/specimen/Kaisei+HarunoUmi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kaisei+HarunoUmi"
 }

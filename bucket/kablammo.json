@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kablammo/Kablammo[MORF].ttf"
+  "hash": [
+    "900C8C183EFC8D913DA30DCEB9E4E9886888BBD48847455343F12CE85A334925"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kablammo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kablammo/Kablammo[MORF].ttf"
+    ]
   },
+  "description": "Kablammo font family designed by Vectro Type Foundry, Travis Kochel, Lizy Gershenzon, Daria Cohen, Ethan Cohen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "900C8C183EFC8D913DA30DCEB9E4E9886888BBD48847455343F12CE85A334925"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kablammo/Kablammo[MORF].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kablammo/Kablammo[MORF].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kablammo&per_page=1"
   },
-  "description": "Kablammo font family designed by Vectro Type Foundry, Travis Kochel, Lizy Gershenzon, Daria Cohen, Ethan Cohen",
-  "homepage": "https://fonts.google.com/specimen/Kablammo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kablammo"
 }

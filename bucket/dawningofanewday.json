@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dawningofanewday/DawningofaNewDay.ttf"
+  "hash": [
+    "2B2AFA623DBB1926E3B026603287B4D15EE05778106E26A7B33EF94D4BE29DCB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dawningofanewday&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dawningofanewday/DawningofaNewDay.ttf"
+    ]
   },
+  "description": "Dawning of a New Day font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2B2AFA623DBB1926E3B026603287B4D15EE05778106E26A7B33EF94D4BE29DCB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dawningofanewday/DawningofaNewDay.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dawningofanewday/DawningofaNewDay.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dawningofanewday&per_page=1"
   },
-  "description": "Dawning of a New Day font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Dawning+of+a+New+Day",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dawning+of+a+New+Day"
 }

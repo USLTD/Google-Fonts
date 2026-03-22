@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kapakana/Kapakana[wght].ttf"
+  "hash": [
+    "5FF3AF9E470B5B278D645099214818CEB3933B542FBFD4B38C0A9B0BE29FD35E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kapakana&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kapakana/Kapakana[wght].ttf"
+    ]
   },
+  "description": "Kapakana font family designed by Kousuke Nagai",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5FF3AF9E470B5B278D645099214818CEB3933B542FBFD4B38C0A9B0BE29FD35E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kapakana/Kapakana[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kapakana/Kapakana[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kapakana&per_page=1"
   },
-  "description": "Kapakana font family designed by Kousuke Nagai",
-  "homepage": "https://fonts.google.com/specimen/Kapakana",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kapakana"
 }

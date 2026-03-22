@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/eastseadokdo/EastSeaDokdo-Regular.ttf"
+  "hash": [
+    "8CEBB39D375134FDBCEDEF9BF4EC4F6C3F02C39ED0AACD6E83F7A0F435E593B2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eastseadokdo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eastseadokdo/EastSeaDokdo-Regular.ttf"
+    ]
   },
+  "description": "East Sea Dokdo font family designed by YoonDesign Inc",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8CEBB39D375134FDBCEDEF9BF4EC4F6C3F02C39ED0AACD6E83F7A0F435E593B2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eastseadokdo/EastSeaDokdo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/eastseadokdo/EastSeaDokdo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eastseadokdo&per_page=1"
   },
-  "description": "East Sea Dokdo font family designed by YoonDesign Inc",
-  "homepage": "https://fonts.google.com/specimen/East+Sea+Dokdo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/East+Sea+Dokdo"
 }

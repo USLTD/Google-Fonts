@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gamaamli/GaMaamli-Regular.ttf"
+  "hash": [
+    "68466B07730B44635898EE56C5BAC8D89903B62DF2D93EF16E7D4120A00A6638"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gamaamli&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gamaamli/GaMaamli-Regular.ttf"
+    ]
   },
+  "description": "Ga Maamli font family designed by Afotey Clement Nii Odai, Ama Diaka, David Abbey-Thompson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "68466B07730B44635898EE56C5BAC8D89903B62DF2D93EF16E7D4120A00A6638"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gamaamli/GaMaamli-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gamaamli/GaMaamli-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gamaamli&per_page=1"
   },
-  "description": "Ga Maamli font family designed by Afotey Clement Nii Odai, Ama Diaka, David Abbey-Thompson",
-  "homepage": "https://fonts.google.com/specimen/Ga+Maamli",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ga+Maamli"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/eater/Eater-Regular.ttf"
+  "hash": [
+    "DF2744AF0F58592C4FF13E8205E62A56F7BDF915B3E31C9DEF075668C42A2B3F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eater&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eater/Eater-Regular.ttf"
+    ]
   },
+  "description": "Eater font family designed by Typomondo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DF2744AF0F58592C4FF13E8205E62A56F7BDF915B3E31C9DEF075668C42A2B3F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eater/Eater-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/eater/Eater-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eater&per_page=1"
   },
-  "description": "Eater font family designed by Typomondo",
-  "homepage": "https://fonts.google.com/specimen/Eater",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Eater"
 }

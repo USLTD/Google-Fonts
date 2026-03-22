@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gloock/Gloock-Regular.ttf"
+  "hash": [
+    "C3A67E0212F7DA01764796AE721CB9BAB3E122D142354F97CF9C63FB763E6D77"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gloock&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gloock/Gloock-Regular.ttf"
+    ]
   },
+  "description": "Gloock font family designed by Duarte Pinto",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C3A67E0212F7DA01764796AE721CB9BAB3E122D142354F97CF9C63FB763E6D77"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gloock/Gloock-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gloock/Gloock-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gloock&per_page=1"
   },
-  "description": "Gloock font family designed by Duarte Pinto",
-  "homepage": "https://fonts.google.com/specimen/Gloock",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gloock"
 }

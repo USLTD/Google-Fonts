@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/belleza/Belleza-Regular.ttf"
+  "hash": [
+    "A88EB0FDF4E78687A40D3478E1C90D4D3079E8C0D7D3A2452488A3BA805BFF1D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/belleza&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/belleza/Belleza-Regular.ttf"
+    ]
   },
+  "description": "Belleza font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A88EB0FDF4E78687A40D3478E1C90D4D3079E8C0D7D3A2452488A3BA805BFF1D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/belleza/Belleza-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/belleza/Belleza-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/belleza&per_page=1"
   },
-  "description": "Belleza font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Belleza",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Belleza"
 }

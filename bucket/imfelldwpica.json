@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIrm28P.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIit28P.ttf"
+  "hash": [
+    "F65E54016DFAB4222BA552CFB82260B14A7DF6527CCE66430F5F66022ADDB052",
+    "E09A00654B5DD266AEE743C0C43D129C8404A2D5E0EBF27E5A0E472BD1900B8D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfelldwpica&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIrm28P.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIit28P.ttf"
+    ]
   },
+  "description": "IM Fell DW Pica font family designed by Igino Marini",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "F65E54016DFAB4222BA552CFB82260B14A7DF6527CCE66430F5F66022ADDB052",
-    "E09A00654B5DD266AEE743C0C43D129C8404A2D5E0EBF27E5A0E472BD1900B8D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIrm28P.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIit28P.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIrm28P.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldwpica/IMFePIit28P.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfelldwpica&per_page=1"
   },
-  "description": "IM Fell DW Pica font family designed by Igino Marini",
-  "homepage": "https://fonts.google.com/specimen/IM+Fell+DW+Pica",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IM+Fell+DW+Pica"
 }

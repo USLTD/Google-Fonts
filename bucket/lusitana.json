@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Bold.ttf"
+  "hash": [
+    "582EF819EFFED258C236F4924E2799323F3D474472D50939B817F91022ED1E60",
+    "7CE8AFFE6A9CF98304D33443F26B172F24230DC2B96D880F98679780E2E181AD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lusitana&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Bold.ttf"
+    ]
   },
+  "description": "Lusitana font family designed by Ana Paula Megda",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "582EF819EFFED258C236F4924E2799323F3D474472D50939B817F91022ED1E60",
-    "7CE8AFFE6A9CF98304D33443F26B172F24230DC2B96D880F98679780E2E181AD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lusitana/Lusitana-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lusitana&per_page=1"
   },
-  "description": "Lusitana font family designed by Ana Paula Megda",
-  "homepage": "https://fonts.google.com/specimen/Lusitana",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lusitana"
 }

@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Bold.ttf"
+  "hash": [
+    "DD3847B40D16EE8F906B41928B5F0E3480EA9092524B5C6A949EB19DC458CAF9",
+    "2F9B4D31507C92FE1D54E5256904E41D91698B952C90D66BFE926CD156DAC4EB",
+    "370D2838CC51CBF0060F164FFE11ECB35A2619452B8C8D200BECCB50E3D0228C",
+    "C143AFA804C637D05C6C30542C0533820046D52E2C4C32DD7B6A8A51EF307594",
+    "E3E88E87A47094B34D1B0BC4A88F700CB1D1D35DD6286BD224BC35CC1712B167"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindguntur&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Bold.ttf"
+    ]
   },
+  "description": "Hind Guntur font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "DD3847B40D16EE8F906B41928B5F0E3480EA9092524B5C6A949EB19DC458CAF9",
-    "2F9B4D31507C92FE1D54E5256904E41D91698B952C90D66BFE926CD156DAC4EB",
-    "370D2838CC51CBF0060F164FFE11ECB35A2619452B8C8D200BECCB50E3D0228C",
-    "C143AFA804C637D05C6C30542C0533820046D52E2C4C32DD7B6A8A51EF307594",
-    "E3E88E87A47094B34D1B0BC4A88F700CB1D1D35DD6286BD224BC35CC1712B167"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindguntur/HindGuntur-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindguntur&per_page=1"
   },
-  "description": "Hind Guntur font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Hind+Guntur",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hind+Guntur"
 }

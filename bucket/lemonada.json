@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lemonada/Lemonada[wght].ttf"
+  "hash": [
+    "84134E9E1DA7D593839073157980A4D38296D2BE10B61469A8F3169204959AD9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lemonada&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lemonada/Lemonada[wght].ttf"
+    ]
   },
+  "description": "Lemonada font family designed by Mohamed Gaber, Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "84134E9E1DA7D593839073157980A4D38296D2BE10B61469A8F3169204959AD9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lemonada/Lemonada[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lemonada/Lemonada[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lemonada&per_page=1"
   },
-  "description": "Lemonada font family designed by Mohamed Gaber, Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Lemonada",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lemonada"
 }

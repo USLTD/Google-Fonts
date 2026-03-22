@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lavishlyyours/LavishlyYours-Regular.ttf"
+  "hash": [
+    "4A07A5002A4F852952818EEBDCF008E48EA7D537541CC8FF7EB842088842313E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lavishlyyours&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lavishlyyours/LavishlyYours-Regular.ttf"
+    ]
   },
+  "description": "Lavishly Yours font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4A07A5002A4F852952818EEBDCF008E48EA7D537541CC8FF7EB842088842313E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lavishlyyours/LavishlyYours-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lavishlyyours/LavishlyYours-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lavishlyyours&per_page=1"
   },
-  "description": "Lavishly Yours font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Lavishly+Yours",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lavishly+Yours"
 }

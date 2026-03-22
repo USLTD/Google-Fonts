@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Bold.ttf"
+  "hash": [
+    "D3DFCBF1AA9281743CB123292851862B4419602EFBF29C4867E680D53774A2AE",
+    "A51985A075F3884D8DC9B2D20367C51B6B05E53FDB912959ACB785084579AEAA",
+    "7EC02E6B6C20697FD8D5038349452B6F3C628C16440A04156650D42E3FEF89BF",
+    "648CD1C932871E4E8E1D147B593315409E8EA82282F88E9397E2CCEAE83D065B",
+    "78F70C79B5C0A1E66641D4B4A2E2ED32E1A45774B3DE94E56F8DE68510219177"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorantsc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Bold.ttf"
+    ]
   },
+  "description": "Cormorant SC font family designed by Christian Thalmann",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "D3DFCBF1AA9281743CB123292851862B4419602EFBF29C4867E680D53774A2AE",
-    "A51985A075F3884D8DC9B2D20367C51B6B05E53FDB912959ACB785084579AEAA",
-    "7EC02E6B6C20697FD8D5038349452B6F3C628C16440A04156650D42E3FEF89BF",
-    "648CD1C932871E4E8E1D147B593315409E8EA82282F88E9397E2CCEAE83D065B",
-    "78F70C79B5C0A1E66641D4B4A2E2ED32E1A45774B3DE94E56F8DE68510219177"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantsc/CormorantSC-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorantsc&per_page=1"
   },
-  "description": "Cormorant SC font family designed by Christian Thalmann",
-  "homepage": "https://fonts.google.com/specimen/Cormorant+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cormorant+SC"
 }

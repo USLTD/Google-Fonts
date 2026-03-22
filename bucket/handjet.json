@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/handjet/Handjet[ELGR,ELSH,wght].ttf"
+  "hash": [
+    "9262749E8BB0B73EBCAE0E20428689C3C59576EEBEB6C4E1020300D2D41BDF4D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/handjet&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/handjet/Handjet[ELGR,ELSH,wght].ttf"
+    ]
   },
+  "description": "Handjet font family designed by Rosetta, David Březina",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9262749E8BB0B73EBCAE0E20428689C3C59576EEBEB6C4E1020300D2D41BDF4D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/handjet/Handjet[ELGR,ELSH,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/handjet/Handjet[ELGR,ELSH,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/handjet&per_page=1"
   },
-  "description": "Handjet font family designed by Rosetta, David Březina",
-  "homepage": "https://fonts.google.com/specimen/Handjet",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Handjet"
 }

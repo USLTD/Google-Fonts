@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Bold.ttf"
+  "hash": [
+    "D563ACE3A74CA1CE9C02CD32FB6DCA5DE7974F53DE3304AC734980E02BA4F1C9",
+    "57788FE46FA9B701CF284104C0946C6F2EF669CB7E39FBCA404A41E315EED0E5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karlatamilinclined&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Bold.ttf"
+    ]
   },
+  "description": "Karla Tamil Inclined font family designed by Jonathan Pinhorn",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "D563ACE3A74CA1CE9C02CD32FB6DCA5DE7974F53DE3304AC734980E02BA4F1C9",
-    "57788FE46FA9B701CF284104C0946C6F2EF669CB7E39FBCA404A41E315EED0E5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilinclined/KarlaTamilInclined-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karlatamilinclined&per_page=1"
   },
-  "description": "Karla Tamil Inclined font family designed by Jonathan Pinhorn",
-  "homepage": "https://fonts.google.com/specimen/Karla+Tamil+Inclined",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Karla+Tamil+Inclined"
 }

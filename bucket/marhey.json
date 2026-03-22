@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/Marhey[wght].ttf"
+  "hash": [
+    "19C30686157EC965797FAE8C8FEB7BB142B082217227562D1A809C067DF447E9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/marhey&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/Marhey[wght].ttf"
+    ]
   },
+  "description": "Marhey font family designed by Nur Syamsi, Bustanul Arifin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "19C30686157EC965797FAE8C8FEB7BB142B082217227562D1A809C067DF447E9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/Marhey[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/marhey/Marhey[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/marhey&per_page=1"
   },
-  "description": "Marhey font family designed by Nur Syamsi, Bustanul Arifin",
-  "homepage": "https://fonts.google.com/specimen/Marhey",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Marhey"
 }

@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Bold.ttf"
+  "hash": [
+    "9D55D0DCC9B54CB0870AE5D5B24CAF8D3CA9F304CD90EE6F4FE1E6C8EF833E5A",
+    "45071A7DA902A74877F432722F525D00502D61AEF71FCA4CAB3DA8A23156C33D",
+    "F2759C530D647720A4D4E99FAEF3C2D150E1452193A9C83FB81C8D29805C13EA",
+    "92A9A68240883467830B87B2568242A59E68D4535E9E15F087650E12C4AACA83",
+    "D135765781D1A4AEBC7DD4A2AF221427EC8689060121D8A48B19BCA3EEB3977E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindsiliguri&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Bold.ttf"
+    ]
   },
+  "description": "Hind Siliguri font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "9D55D0DCC9B54CB0870AE5D5B24CAF8D3CA9F304CD90EE6F4FE1E6C8EF833E5A",
-    "45071A7DA902A74877F432722F525D00502D61AEF71FCA4CAB3DA8A23156C33D",
-    "F2759C530D647720A4D4E99FAEF3C2D150E1452193A9C83FB81C8D29805C13EA",
-    "92A9A68240883467830B87B2568242A59E68D4535E9E15F087650E12C4AACA83",
-    "D135765781D1A4AEBC7DD4A2AF221427EC8689060121D8A48B19BCA3EEB3977E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindsiliguri&per_page=1"
   },
-  "description": "Hind Siliguri font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Hind+Siliguri",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hind+Siliguri"
 }

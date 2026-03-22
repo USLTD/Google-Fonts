@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alyamama/Alyamama[wght].ttf"
+  "hash": [
+    "F09EB4AD2EAF1B0A7C990CB9B3B7658414405804D74775269FDDDC25EFDB1883"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alyamama&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alyamama/Alyamama[wght].ttf"
+    ]
   },
+  "description": "Alyamama font family designed by Yazeed Omar",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F09EB4AD2EAF1B0A7C990CB9B3B7658414405804D74775269FDDDC25EFDB1883"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alyamama/Alyamama[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alyamama/Alyamama[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alyamama&per_page=1"
   },
-  "description": "Alyamama font family designed by Yazeed Omar",
-  "homepage": "https://fonts.google.com/specimen/Alyamama",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alyamama"
 }

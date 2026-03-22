@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akayakanadaka/AkayaKanadaka-Regular.ttf"
+  "hash": [
+    "7891840F8C14326220AAFD73F599F592BF44C60E4F8882BCF7C57426D62E9427"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/akayakanadaka&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akayakanadaka/AkayaKanadaka-Regular.ttf"
+    ]
   },
+  "description": "Akaya Kanadaka font family designed by Vaishnavi Murthy, Juan Luis Blanco",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7891840F8C14326220AAFD73F599F592BF44C60E4F8882BCF7C57426D62E9427"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akayakanadaka/AkayaKanadaka-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akayakanadaka/AkayaKanadaka-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/akayakanadaka&per_page=1"
   },
-  "description": "Akaya Kanadaka font family designed by Vaishnavi Murthy, Juan Luis Blanco",
-  "homepage": "https://fonts.google.com/specimen/Akaya+Kanadaka",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Akaya+Kanadaka"
 }

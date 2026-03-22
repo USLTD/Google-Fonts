@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/balootammudu2/BalooTammudu2[wght].ttf"
+  "hash": [
+    "4771A1C50423A07F36919FAC4D882CC0AC43E451FAF043C8558D7A209298D56C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/balootammudu2&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/balootammudu2/BalooTammudu2[wght].ttf"
+    ]
   },
+  "description": "Baloo Tammudu 2 font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4771A1C50423A07F36919FAC4D882CC0AC43E451FAF043C8558D7A209298D56C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/balootammudu2/BalooTammudu2[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/balootammudu2/BalooTammudu2[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/balootammudu2&per_page=1"
   },
-  "description": "Baloo Tammudu 2 font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Baloo+Tammudu+2",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Baloo+Tammudu+2"
 }

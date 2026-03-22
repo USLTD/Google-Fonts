@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hedviglettersserif/HedvigLettersSerif[opsz].ttf"
+  "hash": [
+    "4892F22754178B5D18360B24B16BFAC38B4A2344395316D66EBD1F3D11CA28C6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hedviglettersserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hedviglettersserif/HedvigLettersSerif[opsz].ttf"
+    ]
   },
+  "description": "Hedvig Letters Serif font family designed by Kanon Foundry, Alexander Örn, Tor Weibull, Hedvig",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4892F22754178B5D18360B24B16BFAC38B4A2344395316D66EBD1F3D11CA28C6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hedviglettersserif/HedvigLettersSerif[opsz].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hedviglettersserif/HedvigLettersSerif[opsz].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hedviglettersserif&per_page=1"
   },
-  "description": "Hedvig Letters Serif font family designed by Kanon Foundry, Alexander Örn, Tor Weibull, Hedvig",
-  "homepage": "https://fonts.google.com/specimen/Hedvig+Letters+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hedvig+Letters+Serif"
 }

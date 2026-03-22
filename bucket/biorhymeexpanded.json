@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraBold.ttf"
+  "hash": [
+    "16BA12FA8B94712383E5A4EAC51D11ADDBA2A8CE44A0C239EE13583CD7C32FC1",
+    "396A934BCFCD29009432F281C5BE6EE2D1ED9552CA45EAE509AF3F9076D511CB",
+    "E75A7C996C8884D3D26C0823E7CFBF3CF404D27A36DDFF715F6DFD95389AFFA7",
+    "B90136544A46250D2C366D8FDB3268419F0433BA6A6C96998BAAFE0D17319A77",
+    "3B916880FA74C804153051745376988E856029C86BED1F7FACD532CEBEEE000D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/biorhymeexpanded&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraBold.ttf"
+    ]
   },
+  "description": "BioRhyme Expanded font family designed by Aoife Mooney",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "16BA12FA8B94712383E5A4EAC51D11ADDBA2A8CE44A0C239EE13583CD7C32FC1",
-    "396A934BCFCD29009432F281C5BE6EE2D1ED9552CA45EAE509AF3F9076D511CB",
-    "E75A7C996C8884D3D26C0823E7CFBF3CF404D27A36DDFF715F6DFD95389AFFA7",
-    "B90136544A46250D2C366D8FDB3268419F0433BA6A6C96998BAAFE0D17319A77",
-    "3B916880FA74C804153051745376988E856029C86BED1F7FACD532CEBEEE000D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhymeexpanded/BioRhymeExpanded-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/biorhymeexpanded&per_page=1"
   },
-  "description": "BioRhyme Expanded font family designed by Aoife Mooney",
-  "homepage": "https://fonts.google.com/specimen/BioRhyme+Expanded",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/BioRhyme+Expanded"
 }

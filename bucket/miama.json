@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/miama/Miama-Regular.ttf"
+  "hash": [
+    "2DFFF84EB0D46AC727E99438417E244D3A92E4D09B26C3039B40D640F07ABA6B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/miama&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/miama/Miama-Regular.ttf"
+    ]
   },
+  "description": "Miama font family designed by Linus Romer",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2DFFF84EB0D46AC727E99438417E244D3A92E4D09B26C3039B40D640F07ABA6B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/miama/Miama-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/miama/Miama-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/miama&per_page=1"
   },
-  "description": "Miama font family designed by Linus Romer",
-  "homepage": "https://fonts.google.com/specimen/Miama",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Miama"
 }

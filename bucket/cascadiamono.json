@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono-Italic[wght].ttf"
+  "hash": [
+    "78864A1B4D03767A44731454A6F24C6B7D6E93FB5F62932860EB02E409CD50CB",
+    "53F999D8032B8E16332507D0E18AD638E59CBE72CAE52C3EE62EC99337942E51"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cascadiamono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono-Italic[wght].ttf"
+    ]
   },
+  "description": "Cascadia Mono font family designed by Aaron Bell, Mohamad Dakak, Viktoriya Grabowska, Liron Lavi Turkenich",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "78864A1B4D03767A44731454A6F24C6B7D6E93FB5F62932860EB02E409CD50CB",
-    "53F999D8032B8E16332507D0E18AD638E59CBE72CAE52C3EE62EC99337942E51"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/CascadiaMono-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cascadiamono&per_page=1"
   },
-  "description": "Cascadia Mono font family designed by Aaron Bell, Mohamad Dakak, Viktoriya Grabowska, Liron Lavi Turkenich",
-  "homepage": "https://fonts.google.com/specimen/Cascadia+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cascadia+Mono"
 }

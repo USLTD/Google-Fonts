@@ -1,26 +1,43 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-BoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBoldItalic.ttf"
+  "hash": [
+    "33CA61459477F91AC726E551EB9ECB4D470AF41AFC33DDCB5CC1A985E4869ADB",
+    "C1813A64B87902729D730F57A3BB920727ABF8B1E25A35610F9E213B237B5791",
+    "3B3C724B0AE259E1B163E9F4451F6C25903B13F3A2049EA73BEA7F635D171DC4",
+    "CE3A2CB01A913733DE2D85159CD1B757C766FA79A0266363F1C60B489E3FB2E9",
+    "F69664FB42121AD85555822D821BFD6CCDE64F201984D5B688C22F300A1EFB3D",
+    "56D2F1171DC62770C3668964F231562FAE0D882914609133FCA914CD82BEA203",
+    "BFAB1193B93B9200455119C968F0CCAC24B68D2408D26A8123A4C3C01FB11821",
+    "E423A6554E790CEFA6841AF2EE34837465F9313FD5E6A1074F9B795D7073B504",
+    "0EA9A92A4D005F69A6CF53B1EAED244F70817A477DCD66BC06FEF1F4D9821795",
+    "29CDA60BFDA134132FDC72CB02A74604FFE9120CBA1F038ED2522EDFE210BC5C",
+    "7D6225A49110E9981D24BBCCAF06AE5774B641297EDEF16FFA2B372497840D07",
+    "57D890588743F161B1644FFFFC18907C49115B64CD32D2E9BCC5F6F0C99326EA",
+    "0876882908ABB4EE3BCF9F73007128DDDD52B77FE36414101FB12DA0A67EDB3D",
+    "6128B62D3DA6A8DFDBBA554A74538AFCE7BBE08E9881108596F8EFA8485E7D78",
+    "46AA84ED5FFA8F7C1E156DDFF85441EBBC1913B8AA3349BF3CD722E7B97DF761",
+    "FB0C965D96921D852426426709344DACDD8107D2F405513A092601B0077B4E89"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/k2d&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBoldItalic.ttf"
+    ]
   },
+  "description": "K2D font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -62,6 +79,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -146,46 +164,28 @@
       "}"
     ]
   },
-  "hash": [
-    "33CA61459477F91AC726E551EB9ECB4D470AF41AFC33DDCB5CC1A985E4869ADB",
-    "C1813A64B87902729D730F57A3BB920727ABF8B1E25A35610F9E213B237B5791",
-    "3B3C724B0AE259E1B163E9F4451F6C25903B13F3A2049EA73BEA7F635D171DC4",
-    "CE3A2CB01A913733DE2D85159CD1B757C766FA79A0266363F1C60B489E3FB2E9",
-    "F69664FB42121AD85555822D821BFD6CCDE64F201984D5B688C22F300A1EFB3D",
-    "56D2F1171DC62770C3668964F231562FAE0D882914609133FCA914CD82BEA203",
-    "BFAB1193B93B9200455119C968F0CCAC24B68D2408D26A8123A4C3C01FB11821",
-    "E423A6554E790CEFA6841AF2EE34837465F9313FD5E6A1074F9B795D7073B504",
-    "0EA9A92A4D005F69A6CF53B1EAED244F70817A477DCD66BC06FEF1F4D9821795",
-    "29CDA60BFDA134132FDC72CB02A74604FFE9120CBA1F038ED2522EDFE210BC5C",
-    "7D6225A49110E9981D24BBCCAF06AE5774B641297EDEF16FFA2B372497840D07",
-    "57D890588743F161B1644FFFFC18907C49115B64CD32D2E9BCC5F6F0C99326EA",
-    "0876882908ABB4EE3BCF9F73007128DDDD52B77FE36414101FB12DA0A67EDB3D",
-    "6128B62D3DA6A8DFDBBA554A74538AFCE7BBE08E9881108596F8EFA8485E7D78",
-    "46AA84ED5FFA8F7C1E156DDFF85441EBBC1913B8AA3349BF3CD722E7B97DF761",
-    "FB0C965D96921D852426426709344DACDD8107D2F405513A092601B0077B4E89"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-BoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/k2d/K2D-ExtraBoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/k2d&per_page=1"
   },
-  "description": "K2D font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/K2D",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/K2D"
 }

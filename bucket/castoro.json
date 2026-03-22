@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Italic.ttf"
+  "hash": [
+    "9AF87F7DB6AB1DA918C0B0312BEA5F4349782F1397B541A1D0FB2FC4EE35AEAD",
+    "802FEA3A19B819C1B2705EF3C1C0BFF3B8E37F832E40DA1D2E6932D733F99FCC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/castoro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Italic.ttf"
+    ]
   },
+  "description": "Castoro font family designed by Tiro Typeworks, John Hudson, Paul Hanslow, Kaja Słojewska",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "9AF87F7DB6AB1DA918C0B0312BEA5F4349782F1397B541A1D0FB2FC4EE35AEAD",
-    "802FEA3A19B819C1B2705EF3C1C0BFF3B8E37F832E40DA1D2E6932D733F99FCC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/castoro/Castoro-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/castoro&per_page=1"
   },
-  "description": "Castoro font family designed by Tiro Typeworks, John Hudson, Paul Hanslow, Kaja Słojewska",
-  "homepage": "https://fonts.google.com/specimen/Castoro",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Castoro"
 }

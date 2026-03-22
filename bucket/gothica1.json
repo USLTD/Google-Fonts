@@ -1,19 +1,29 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Black.ttf"
+  "hash": [
+    "2CAEE77C0DB6AFE1CD759C547537361CE66945E7D6FEF0F14A9A35FBB4581BB6",
+    "3DE01E7B6BC0FDD494FA4DE0677E67A73A6AE907537BB4C5F355D9C966E2EBFD",
+    "927826B1E23366327EBE53D4675A87938EE90B77104CB794087B5138588B53F4",
+    "211151BEA98098C579610AB1114BB1BFE909057207DB561F357B896D076C21AC",
+    "C8A0EB56FA6B13448688FED0799D503FE536A8C6B7ACFAFDFD580EDB9C4C2192",
+    "7EE3063F2D626936D8A59DFA21525E7ED19B4E89E8FBB0EA5A924CAD9B0CC1F4",
+    "2E883FA0AE548000996258B4101F2BB732A28B197264F49621A2CB16D6E9F126",
+    "37A65353A646FEA5A1AC90585D1BB8F9B997ECAE0B79C4F1F187566F910E3F9D",
+    "6398FF5C6923C74CB453390892DCB982EC0A6C43B35DA8590A8F32702D8C079D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gothica1&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Black.ttf"
+    ]
   },
+  "description": "Gothic A1 font family designed by HanYang I&C Co",
   "installer": {
     "script": [
       "if ($global) {",
@@ -55,6 +65,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -139,32 +150,21 @@
       "}"
     ]
   },
-  "hash": [
-    "2CAEE77C0DB6AFE1CD759C547537361CE66945E7D6FEF0F14A9A35FBB4581BB6",
-    "3DE01E7B6BC0FDD494FA4DE0677E67A73A6AE907537BB4C5F355D9C966E2EBFD",
-    "927826B1E23366327EBE53D4675A87938EE90B77104CB794087B5138588B53F4",
-    "211151BEA98098C579610AB1114BB1BFE909057207DB561F357B896D076C21AC",
-    "C8A0EB56FA6B13448688FED0799D503FE536A8C6B7ACFAFDFD580EDB9C4C2192",
-    "7EE3063F2D626936D8A59DFA21525E7ED19B4E89E8FBB0EA5A924CAD9B0CC1F4",
-    "2E883FA0AE548000996258B4101F2BB732A28B197264F49621A2CB16D6E9F126",
-    "37A65353A646FEA5A1AC90585D1BB8F9B997ECAE0B79C4F1F187566F910E3F9D",
-    "6398FF5C6923C74CB453390892DCB982EC0A6C43B35DA8590A8F32702D8C079D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gothica1&per_page=1"
   },
-  "description": "Gothic A1 font family designed by HanYang I&C Co",
-  "homepage": "https://fonts.google.com/specimen/Gothic+A1",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gothic+A1"
 }

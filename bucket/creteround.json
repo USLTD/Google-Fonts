@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Italic.ttf"
+  "hash": [
+    "2B06EE75C35806B9FAB35E054FBB97AF98FB6B2419C6105697351DC1A2B306C8",
+    "EEE412E43D843B89A3170B9C5DBAE2CE5DA95FF729916D3A2C3441AED3411B42"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/creteround&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Italic.ttf"
+    ]
   },
+  "description": "Crete Round font family designed by TypeTogether",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "2B06EE75C35806B9FAB35E054FBB97AF98FB6B2419C6105697351DC1A2B306C8",
-    "EEE412E43D843B89A3170B9C5DBAE2CE5DA95FF729916D3A2C3441AED3411B42"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/creteround/CreteRound-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/creteround&per_page=1"
   },
-  "description": "Crete Round font family designed by TypeTogether",
-  "homepage": "https://fonts.google.com/specimen/Crete+Round",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Crete+Round"
 }

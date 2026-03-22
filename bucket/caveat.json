@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat[wght].ttf"
+  "hash": [
+    "0BDB6B660482D31531B3945849FBA5916B3EF8695DA7024A9E6B9EE3C4157988"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caveat&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat[wght].ttf"
+    ]
   },
+  "description": "Caveat font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0BDB6B660482D31531B3945849FBA5916B3EF8695DA7024A9E6B9EE3C4157988"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caveat&per_page=1"
   },
-  "description": "Caveat font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Caveat",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Caveat"
 }

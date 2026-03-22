@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale-Italic[wght].ttf"
+  "hash": [
+    "19EA09AD2FBF321CF8F94AC3F66547BC9B2BDF3723A2F073615EAA02FE17DED6",
+    "13EB20F22E8B6A28EBA93670219CB472980E8FD006319A917316434E2ED1961A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/manuale&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale-Italic[wght].ttf"
+    ]
   },
+  "description": "Manuale font family designed by Omnibus-Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "19EA09AD2FBF321CF8F94AC3F66547BC9B2BDF3723A2F073615EAA02FE17DED6",
-    "13EB20F22E8B6A28EBA93670219CB472980E8FD006319A917316434E2ED1961A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/manuale/Manuale-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/manuale&per_page=1"
   },
-  "description": "Manuale font family designed by Omnibus-Type",
-  "homepage": "https://fonts.google.com/specimen/Manuale",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Manuale"
 }

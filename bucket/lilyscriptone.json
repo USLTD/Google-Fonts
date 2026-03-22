@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lilyscriptone/LilyScriptOne-Regular.ttf"
+  "hash": [
+    "191C8E3BFD653AE020CF23CD5B4C5A6A2DE7412464A290E51461DD084AA62765"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lilyscriptone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lilyscriptone/LilyScriptOne-Regular.ttf"
+    ]
   },
+  "description": "Lily Script One font family designed by Julia Petretta",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "191C8E3BFD653AE020CF23CD5B4C5A6A2DE7412464A290E51461DD084AA62765"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lilyscriptone/LilyScriptOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lilyscriptone/LilyScriptOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lilyscriptone&per_page=1"
   },
-  "description": "Lily Script One font family designed by Julia Petretta",
-  "homepage": "https://fonts.google.com/specimen/Lily+Script+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lily+Script+One"
 }

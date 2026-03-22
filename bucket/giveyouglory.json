@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/giveyouglory/GiveYouGlory.ttf"
+  "hash": [
+    "FB71F9A46A3234C2D98DBBE44E711F65654368031C57B927BF7679A46E278C80"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/giveyouglory&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/giveyouglory/GiveYouGlory.ttf"
+    ]
   },
+  "description": "Give You Glory font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "FB71F9A46A3234C2D98DBBE44E711F65654368031C57B927BF7679A46E278C80"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/giveyouglory/GiveYouGlory.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/giveyouglory/GiveYouGlory.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/giveyouglory&per_page=1"
   },
-  "description": "Give You Glory font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Give+You+Glory",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Give+You+Glory"
 }

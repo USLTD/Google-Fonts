@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountgriddouble/BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
+  "hash": [
+    "8827445E53172735959D8BA11DB8442EC5FFC8D8DC1B778781E9B5BE5E20FFB2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitcountgriddouble&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountgriddouble/BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
+    ]
   },
+  "description": "Bitcount Grid Double font family designed by Petr van Blokland",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8827445E53172735959D8BA11DB8442EC5FFC8D8DC1B778781E9B5BE5E20FFB2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountgriddouble/BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountgriddouble/BitcountGridDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitcountgriddouble&per_page=1"
   },
-  "description": "Bitcount Grid Double font family designed by Petr van Blokland",
-  "homepage": "https://fonts.google.com/specimen/Bitcount+Grid+Double",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bitcount+Grid+Double"
 }

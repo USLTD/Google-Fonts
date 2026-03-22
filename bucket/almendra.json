@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-BoldItalic.ttf"
+  "hash": [
+    "B127A6121209353B53DA9CE73BF9D350F74190D8384C28EDE179E4FB9440F946",
+    "972EB95DD030592755064C35E8E394B75423973D0B7DBFD759C7E36EF80BB7CB",
+    "5895EF04D0D56C60083EC302E72DB99B952B044AB2B440EE12283649B5EDC971",
+    "10E0A7DD4B9F5AD7D51BE7F8EE42D76919C322DCBB7733DBAD48F4AC751CB105"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almendra&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-BoldItalic.ttf"
+    ]
   },
+  "description": "Almendra font family designed by Ana Sanfelippo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "B127A6121209353B53DA9CE73BF9D350F74190D8384C28EDE179E4FB9440F946",
-    "972EB95DD030592755064C35E8E394B75423973D0B7DBFD759C7E36EF80BB7CB",
-    "5895EF04D0D56C60083EC302E72DB99B952B044AB2B440EE12283649B5EDC971",
-    "10E0A7DD4B9F5AD7D51BE7F8EE42D76919C322DCBB7733DBAD48F4AC751CB105"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almendra&per_page=1"
   },
-  "description": "Almendra font family designed by Ana Sanfelippo",
-  "homepage": "https://fonts.google.com/specimen/Almendra",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Almendra"
 }

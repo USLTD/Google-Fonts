@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeshade/BungeeShade-Regular.ttf"
+  "hash": [
+    "665C626082682B462F4E696308EAFA7071C114DA8F8FF3FB73A289C7FF7DF482"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeeshade&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeshade/BungeeShade-Regular.ttf"
+    ]
   },
+  "description": "Bungee Shade font family designed by David Jonathan Ross",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "665C626082682B462F4E696308EAFA7071C114DA8F8FF3FB73A289C7FF7DF482"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeshade/BungeeShade-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeshade/BungeeShade-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeeshade&per_page=1"
   },
-  "description": "Bungee Shade font family designed by David Jonathan Ross",
-  "homepage": "https://fonts.google.com/specimen/Bungee+Shade",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bungee+Shade"
 }

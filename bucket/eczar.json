@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/eczar/Eczar[wght].ttf"
+  "hash": [
+    "B52AF3A3B457F9B2278612B73C97EAF28270FFC91C99E4C90471CC15BB8748C6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eczar&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eczar/Eczar[wght].ttf"
+    ]
   },
+  "description": "Eczar font family designed by Rosetta, Vaibhav Singh",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B52AF3A3B457F9B2278612B73C97EAF28270FFC91C99E4C90471CC15BB8748C6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eczar/Eczar[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/eczar/Eczar[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eczar&per_page=1"
   },
-  "description": "Eczar font family designed by Rosetta, Vaibhav Singh",
-  "homepage": "https://fonts.google.com/specimen/Eczar",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Eczar"
 }

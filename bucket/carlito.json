@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-BoldItalic.ttf"
+  "hash": [
+    "F6418F708BAEDE9789DAEF5D458C0F53D2A888AF9820E8062934E504FEDC6595",
+    "0B019225E58D702BFEDCBD35C21696769F8EE115CB6343F84C2F240312450D1C",
+    "BB5D20F79B82599EC72983597437373A80F2D2085FA91FC144FD74E876A594DB",
+    "B32928186C119599E03CA6A1FFC680FDCB7FAC95772F4B95D989CF6CD3861517"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/carlito&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-BoldItalic.ttf"
+    ]
   },
+  "description": "Carlito font family designed by Łukasz Dziedzic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "F6418F708BAEDE9789DAEF5D458C0F53D2A888AF9820E8062934E504FEDC6595",
-    "0B019225E58D702BFEDCBD35C21696769F8EE115CB6343F84C2F240312450D1C",
-    "BB5D20F79B82599EC72983597437373A80F2D2085FA91FC144FD74E876A594DB",
-    "B32928186C119599E03CA6A1FFC680FDCB7FAC95772F4B95D989CF6CD3861517"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/carlito&per_page=1"
   },
-  "description": "Carlito font family designed by Łukasz Dziedzic",
-  "homepage": "https://fonts.google.com/specimen/Carlito",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Carlito"
 }

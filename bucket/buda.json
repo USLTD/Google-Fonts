@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/buda/Buda-Light.ttf"
+  "hash": [
+    "1C8A9BB52F69DBA3B66961B792C03E5407F48070BF9FF8436103082F6DD6A720"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/buda&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/buda/Buda-Light.ttf"
+    ]
   },
+  "description": "Buda font family designed by Adèle Antignac",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1C8A9BB52F69DBA3B66961B792C03E5407F48070BF9FF8436103082F6DD6A720"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/buda/Buda-Light.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/buda/Buda-Light.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/buda&per_page=1"
   },
-  "description": "Buda font family designed by Adèle Antignac",
-  "homepage": "https://fonts.google.com/specimen/Buda",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Buda"
 }

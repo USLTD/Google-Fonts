@@ -1,20 +1,31 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-BoldItalic.ttf"
+  "hash": [
+    "13A106A367B903FB509ED11E7C921589A0D42C22540510D3CA8F6C7343BEF76B",
+    "67E426488E221D5D9E5A3B62A34B45F1F534DABD1078BDC77FCDFE43630CBEE0",
+    "98FCD638BAA5C81FF0316B7538CE330EE3B23B1302726DE3526D5933A8ECF986",
+    "3AEEA48F0FFAB0D6AD8D3CD0CB9C0CEB98ECBCF363521CE56FCEEA51ECBB1D1F",
+    "D480F4F97405FAC3600652E2E14FD0B14339031C0AF4DA11582994878F04D919",
+    "3A9185B6735897AEB38FDD132AAE761A9092001C7615AC9E2238131BF9B099ED",
+    "45264DE3204DDBD5FB3E14A2402ACD5C630D16650AE5FC221D2C52DA46A6734B",
+    "4E11C1BEC71511BBEA8A3BC3F4CEBFF479BB9681961D691A36F99E5234D8FE89",
+    "65FBF76D95651697275E19DB4D717C0E95A789DDD3476478B05292104DB278A0",
+    "BF012CE1894FFCF7D32D3E6548B90DF7C40F30161B5CC295EB54FF61C21FAB19"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chakrapetch&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-BoldItalic.ttf"
+    ]
   },
+  "description": "Chakra Petch font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -56,6 +67,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -140,34 +152,22 @@
       "}"
     ]
   },
-  "hash": [
-    "13A106A367B903FB509ED11E7C921589A0D42C22540510D3CA8F6C7343BEF76B",
-    "67E426488E221D5D9E5A3B62A34B45F1F534DABD1078BDC77FCDFE43630CBEE0",
-    "98FCD638BAA5C81FF0316B7538CE330EE3B23B1302726DE3526D5933A8ECF986",
-    "3AEEA48F0FFAB0D6AD8D3CD0CB9C0CEB98ECBCF363521CE56FCEEA51ECBB1D1F",
-    "D480F4F97405FAC3600652E2E14FD0B14339031C0AF4DA11582994878F04D919",
-    "3A9185B6735897AEB38FDD132AAE761A9092001C7615AC9E2238131BF9B099ED",
-    "45264DE3204DDBD5FB3E14A2402ACD5C630D16650AE5FC221D2C52DA46A6734B",
-    "4E11C1BEC71511BBEA8A3BC3F4CEBFF479BB9681961D691A36F99E5234D8FE89",
-    "65FBF76D95651697275E19DB4D717C0E95A789DDD3476478B05292104DB278A0",
-    "BF012CE1894FFCF7D32D3E6548B90DF7C40F30161B5CC295EB54FF61C21FAB19"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chakrapetch&per_page=1"
   },
-  "description": "Chakra Petch font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Chakra+Petch",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chakra+Petch"
 }

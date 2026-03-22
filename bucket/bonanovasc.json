@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Bold.ttf"
+  "hash": [
+    "E4D155CDF1917F42E4D9073AB8856BB4B58984A3849C7753F27FE3837DA832F8",
+    "9B329433C3A9A2E4C89C1197B9CFFFC1803C3CC6E0B95D6481D29E585FE3A34C",
+    "BF71DBB726E75B34B3F09AAF799107937AF5C0F401F3FC6BCA80CBBED55FE36C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bonanovasc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Bold.ttf"
+    ]
   },
+  "description": "Bona Nova SC font family designed by Capitalics, Mateusz Machalski, Andrzej Heidrich",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "E4D155CDF1917F42E4D9073AB8856BB4B58984A3849C7753F27FE3837DA832F8",
-    "9B329433C3A9A2E4C89C1197B9CFFFC1803C3CC6E0B95D6481D29E585FE3A34C",
-    "BF71DBB726E75B34B3F09AAF799107937AF5C0F401F3FC6BCA80CBBED55FE36C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanovasc/BonaNovaSC-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bonanovasc&per_page=1"
   },
-  "description": "Bona Nova SC font family designed by Capitalics, Mateusz Machalski, Andrzej Heidrich",
-  "homepage": "https://fonts.google.com/specimen/Bona+Nova+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bona+Nova+SC"
 }

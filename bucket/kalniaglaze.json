@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalniaglaze/KalniaGlaze[wdth,wght].ttf"
+  "hash": [
+    "526A3F364FFF570BF01DFEB71B2DE2F52BAC0376B51004804E703DF698B964AC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kalniaglaze&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalniaglaze/KalniaGlaze[wdth,wght].ttf"
+    ]
   },
+  "description": "Kalnia Glaze font family designed by Frida Medrano",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "526A3F364FFF570BF01DFEB71B2DE2F52BAC0376B51004804E703DF698B964AC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalniaglaze/KalniaGlaze[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalniaglaze/KalniaGlaze[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kalniaglaze&per_page=1"
   },
-  "description": "Kalnia Glaze font family designed by Frida Medrano",
-  "homepage": "https://fonts.google.com/specimen/Kalnia+Glaze",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kalnia+Glaze"
 }

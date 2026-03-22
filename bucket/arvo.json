@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-BoldItalic.ttf"
+  "hash": [
+    "F41BD41471EC2DB7140351BDDE614DA5341524503598FF7FE79F3C89C13B605E",
+    "A2EB63A0771B8D13D8E54BF650A02AEF813EEAA2E10F6298358E6B15D26C6686",
+    "6239B2EDEE762DB0AB99343137C9BA15AE81FC843DA2E76A0A395781748CC21F",
+    "FC29E57F5558873E41CA9FF9A9C77521565F12C6972756D0FBCC592E1F0F4EDB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arvo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-BoldItalic.ttf"
+    ]
   },
+  "description": "Arvo font family designed by Anton Koovit",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "F41BD41471EC2DB7140351BDDE614DA5341524503598FF7FE79F3C89C13B605E",
-    "A2EB63A0771B8D13D8E54BF650A02AEF813EEAA2E10F6298358E6B15D26C6686",
-    "6239B2EDEE762DB0AB99343137C9BA15AE81FC843DA2E76A0A395781748CC21F",
-    "FC29E57F5558873E41CA9FF9A9C77521565F12C6972756D0FBCC592E1F0F4EDB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arvo&per_page=1"
   },
-  "description": "Arvo font family designed by Anton Koovit",
-  "homepage": "https://fonts.google.com/specimen/Arvo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Arvo"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/monda/Monda[wght].ttf"
+  "hash": [
+    "C95B63F7612DF912ADC262CB0EF3E8A6C3E6022BEB279D9C2CA01C557AA94B59"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monda&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/monda/Monda[wght].ttf"
+    ]
   },
+  "description": "Monda font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C95B63F7612DF912ADC262CB0EF3E8A6C3E6022BEB279D9C2CA01C557AA94B59"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/monda/Monda[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/monda/Monda[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monda&per_page=1"
   },
-  "description": "Monda font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Monda",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Monda"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chilanka/Chilanka-Regular.ttf"
+  "hash": [
+    "C6CE47D1A8D387310469C8E355351FF2BD4106030C2A45F1CEF0C93215075ED7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chilanka&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chilanka/Chilanka-Regular.ttf"
+    ]
   },
+  "description": "Chilanka font family designed by SMC, Santhosh Thottingal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C6CE47D1A8D387310469C8E355351FF2BD4106030C2A45F1CEF0C93215075ED7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chilanka/Chilanka-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chilanka/Chilanka-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chilanka&per_page=1"
   },
-  "description": "Chilanka font family designed by SMC, Santhosh Thottingal",
-  "homepage": "https://fonts.google.com/specimen/Chilanka",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chilanka"
 }

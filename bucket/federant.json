@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/federant/Federant-Regular.ttf"
+  "hash": [
+    "D40CB09C85114C2B0C9442636412E997D8258B383E1D1A684E7E32B21D07A5C2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/federant&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/federant/Federant-Regular.ttf"
+    ]
   },
+  "description": "Federant font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D40CB09C85114C2B0C9442636412E997D8258B383E1D1A684E7E32B21D07A5C2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/federant/Federant-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/federant/Federant-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/federant&per_page=1"
   },
-  "description": "Federant font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Federant",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Federant"
 }

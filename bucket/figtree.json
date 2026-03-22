@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree-Italic[wght].ttf"
+  "hash": [
+    "26AD3DB9B31FF7DDE67A91FF515D022D2F495CD506590699CF264F0BFE6FB714",
+    "94DEC1F18B9275D69E8B4A91B6514BDC18199048347E1C36E1285B11B0B87653"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/figtree&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree-Italic[wght].ttf"
+    ]
   },
+  "description": "Figtree font family designed by Erik Kennedy",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "26AD3DB9B31FF7DDE67A91FF515D022D2F495CD506590699CF264F0BFE6FB714",
-    "94DEC1F18B9275D69E8B4A91B6514BDC18199048347E1C36E1285B11B0B87653"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/figtree&per_page=1"
   },
-  "description": "Figtree font family designed by Erik Kennedy",
-  "homepage": "https://fonts.google.com/specimen/Figtree",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Figtree"
 }

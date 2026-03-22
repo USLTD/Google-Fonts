@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono-Italic[wght].ttf"
+  "hash": [
+    "48715A42EC242C21E9F02692891E147D022299A52E48D5E413E1A942193FFEDA",
+    "85AE2A5CD3F56BAF1CE1C21A851322C58E3D8FBE8E8AD4A4D090A820DD7FE558"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jetbrainsmono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono-Italic[wght].ttf"
+    ]
   },
+  "description": "JetBrains Mono font family designed by JetBrains, Philipp Nurullin, Konstantin Bulenkov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "48715A42EC242C21E9F02692891E147D022299A52E48D5E413E1A942193FFEDA",
-    "85AE2A5CD3F56BAF1CE1C21A851322C58E3D8FBE8E8AD4A4D090A820DD7FE558"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jetbrainsmono&per_page=1"
   },
-  "description": "JetBrains Mono font family designed by JetBrains, Philipp Nurullin, Konstantin Bulenkov",
-  "homepage": "https://fonts.google.com/specimen/JetBrains+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/JetBrains+Mono"
 }

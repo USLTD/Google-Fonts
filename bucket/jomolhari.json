@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jomolhari/Jomolhari-Regular.ttf"
+  "hash": [
+    "4507597AC6D8FAAD3908C06A4698167F8204A1101D38BF32B04582CC2D22E86C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jomolhari&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jomolhari/Jomolhari-Regular.ttf"
+    ]
   },
+  "description": "Jomolhari font family designed by Christopher J. Fynn",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4507597AC6D8FAAD3908C06A4698167F8204A1101D38BF32B04582CC2D22E86C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jomolhari/Jomolhari-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jomolhari/Jomolhari-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jomolhari&per_page=1"
   },
-  "description": "Jomolhari font family designed by Christopher J. Fynn",
-  "homepage": "https://fonts.google.com/specimen/Jomolhari",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jomolhari"
 }

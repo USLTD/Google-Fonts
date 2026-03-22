@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Bold.ttf"
+  "hash": [
+    "773042BF5E8F428D46FCF81B9255C6A451F20CBD39983F308E96808A2E15E134",
+    "83B3A8D967295C162938946D6A9395D539C95FD53E161E0E4B01E5D7F39A2EA6",
+    "F6390231B0CE848866D5599765897D4B882D6B29DC0484DD4D1A5435B05761BA",
+    "372F8BBA95F386856AE435DC0E69F08DB1CAC29BED513D99171A0AE2D307BA2A",
+    "1D09F5E25B19E54B2C55DA70DE58F9962512C3E07ED7C3E1C9BAD77ACE5C22E6",
+    "5985C29D2D5D444072915CF5874DC80E0A3F5FADBF14A9E3013A03A8FE6D7FF5",
+    "BD8A98B9B55C9EA3F0FA1ED094C15981788CC9A41B0357F4453014FD1D44DA19"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansjp&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Bold.ttf"
+    ]
   },
+  "description": "IBM Plex Sans JP font family designed by Mike Abbink, Bold Monday",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "773042BF5E8F428D46FCF81B9255C6A451F20CBD39983F308E96808A2E15E134",
-    "83B3A8D967295C162938946D6A9395D539C95FD53E161E0E4B01E5D7F39A2EA6",
-    "F6390231B0CE848866D5599765897D4B882D6B29DC0484DD4D1A5435B05761BA",
-    "372F8BBA95F386856AE435DC0E69F08DB1CAC29BED513D99171A0AE2D307BA2A",
-    "1D09F5E25B19E54B2C55DA70DE58F9962512C3E07ED7C3E1C9BAD77ACE5C22E6",
-    "5985C29D2D5D444072915CF5874DC80E0A3F5FADBF14A9E3013A03A8FE6D7FF5",
-    "BD8A98B9B55C9EA3F0FA1ED094C15981788CC9A41B0357F4453014FD1D44DA19"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansjp&per_page=1"
   },
-  "description": "IBM Plex Sans JP font family designed by Mike Abbink, Bold Monday",
-  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+JP",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+JP"
 }

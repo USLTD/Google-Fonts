@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/edunswactfoundation/EduNSWACTFoundation[wght].ttf"
+  "hash": [
+    "5A4B22CC39C04D97472BBE705B9700E864492B853B4941645DA60202B796146A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/edunswactfoundation&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/edunswactfoundation/EduNSWACTFoundation[wght].ttf"
+    ]
   },
+  "description": "Edu NSW ACT Foundation font family designed by Tina Anderson, Corey Anderson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5A4B22CC39C04D97472BBE705B9700E864492B853B4941645DA60202B796146A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/edunswactfoundation/EduNSWACTFoundation[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/edunswactfoundation/EduNSWACTFoundation[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/edunswactfoundation&per_page=1"
   },
-  "description": "Edu NSW ACT Foundation font family designed by Tina Anderson, Corey Anderson",
-  "homepage": "https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation"
 }

@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Bold.ttf"
+  "hash": [
+    "48CABEC60B908F145002192C366D805B674D6E890A98C24F8A39FD33542273FD",
+    "4FCC5AEC11CBBF737B0CFAB7B63796F7F280087A7A656B2F13342CD5E5318D95",
+    "5C9FEADFD928F3AE3860E7D001AD3D0D0C55B0157FFF08CD4D51B51ACA677F23"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lxgwwenkaitc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Bold.ttf"
+    ]
   },
+  "description": "LXGW WenKai TC font family designed by LXGW",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "48CABEC60B908F145002192C366D805B674D6E890A98C24F8A39FD33542273FD",
-    "4FCC5AEC11CBBF737B0CFAB7B63796F7F280087A7A656B2F13342CD5E5318D95",
-    "5C9FEADFD928F3AE3860E7D001AD3D0D0C55B0157FFF08CD4D51B51ACA677F23"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaitc/LXGWWenKaiTC-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lxgwwenkaitc&per_page=1"
   },
-  "description": "LXGW WenKai TC font family designed by LXGW",
-  "homepage": "https://fonts.google.com/specimen/LXGW+WenKai+TC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/LXGW+WenKai+TC"
 }

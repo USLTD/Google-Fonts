@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Bold.ttf"
+  "hash": [
+    "45609F8CC90D4733D3D1665346D359AFC1A659DEF340D0F369121AF034322EF9",
+    "CBA5D8031CDBFD8D0EEE90F11453A39F6F72CD6A9062636BEDF4EBF7B72A27D5",
+    "126E137CB641813AA6F0A3688EA5D0C3B5B0A2121CD64237D39E0B3BAFAE9895",
+    "67A9A29CD49A17832A5EEE8D2747FB9A66EE32E49DC52F5DD43887FF24EB0935"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kanchenjunga&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Bold.ttf"
+    ]
   },
+  "description": "Kanchenjunga font family designed by Becca Hirsbrunner Spalinger",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "45609F8CC90D4733D3D1665346D359AFC1A659DEF340D0F369121AF034322EF9",
-    "CBA5D8031CDBFD8D0EEE90F11453A39F6F72CD6A9062636BEDF4EBF7B72A27D5",
-    "126E137CB641813AA6F0A3688EA5D0C3B5B0A2121CD64237D39E0B3BAFAE9895",
-    "67A9A29CD49A17832A5EEE8D2747FB9A66EE32E49DC52F5DD43887FF24EB0935"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kanchenjunga/Kanchenjunga-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kanchenjunga&per_page=1"
   },
-  "description": "Kanchenjunga font family designed by Becca Hirsbrunner Spalinger",
-  "homepage": "https://fonts.google.com/specimen/Kanchenjunga",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kanchenjunga"
 }

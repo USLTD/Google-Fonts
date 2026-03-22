@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mako/Mako-Regular.ttf"
+  "hash": [
+    "660904F61BB44671DD8F5029BF179F82C7F78DAA1C250C7DADB5927F1F1EF816"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mako&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mako/Mako-Regular.ttf"
+    ]
   },
+  "description": "Mako font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "660904F61BB44671DD8F5029BF179F82C7F78DAA1C250C7DADB5927F1F1EF816"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mako/Mako-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mako/Mako-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mako&per_page=1"
   },
-  "description": "Mako font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Mako",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mako"
 }

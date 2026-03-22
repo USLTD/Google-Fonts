@@ -1,22 +1,35 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-BoldItalic.ttf"
+  "hash": [
+    "822421BBDACB93D31B5F24F59216ABCEA5828F9C5A3C5B1D48CE2C9E66575235",
+    "934FA55FFE7DA4ED30D0819D7615B42A16D5B497552D424EAE618313D679DA3D",
+    "31E78081F32A72613B3D60402CD836801427582257991EA040C6CD7F2FCCE194",
+    "28DCA3671A0ACC2358F7BD699EAB80434B5EF5281C291F0C0C27687EE97B0721",
+    "14C3507F90AD8A0F9DE5EBB53997EC8111416A06983AB1D9D83A58427808F6F7",
+    "AEDE59BDDB42C3BB1CF46E6F4A631CA9F41558BE7967E1468EB78C6C1C0F5994",
+    "3F48225A6AB583C863A06CE311E9C799EED469AA129C3A6FF8EFCF87D2822318",
+    "776227BE9CAF1E5B67794A17A593C1AA22425E5B9A2A4B6EAECBB96076D1079B",
+    "B0C8BCA75251BE375FDD50C48FA782FA8D7EBC5F67809F7559A2C7D5F4498241",
+    "599AAB7046C1A2593DFBB237E7DDAA1C530EC2F3DB2EE90C482AB93D1A6AAF44",
+    "2CD93DA17FB98EEA83461CDE3B4FD99F0BC33C7A3DF7A5C8D668D64BD1C6F223",
+    "E9C1D503796239A8D3C24207D788B22922145BBDCD1A330CDF3CE913089C365A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kodchasan&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-BoldItalic.ttf"
+    ]
   },
+  "description": "Kodchasan font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -58,6 +71,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,38 +156,24 @@
       "}"
     ]
   },
-  "hash": [
-    "822421BBDACB93D31B5F24F59216ABCEA5828F9C5A3C5B1D48CE2C9E66575235",
-    "934FA55FFE7DA4ED30D0819D7615B42A16D5B497552D424EAE618313D679DA3D",
-    "31E78081F32A72613B3D60402CD836801427582257991EA040C6CD7F2FCCE194",
-    "28DCA3671A0ACC2358F7BD699EAB80434B5EF5281C291F0C0C27687EE97B0721",
-    "14C3507F90AD8A0F9DE5EBB53997EC8111416A06983AB1D9D83A58427808F6F7",
-    "AEDE59BDDB42C3BB1CF46E6F4A631CA9F41558BE7967E1468EB78C6C1C0F5994",
-    "3F48225A6AB583C863A06CE311E9C799EED469AA129C3A6FF8EFCF87D2822318",
-    "776227BE9CAF1E5B67794A17A593C1AA22425E5B9A2A4B6EAECBB96076D1079B",
-    "B0C8BCA75251BE375FDD50C48FA782FA8D7EBC5F67809F7559A2C7D5F4498241",
-    "599AAB7046C1A2593DFBB237E7DDAA1C530EC2F3DB2EE90C482AB93D1A6AAF44",
-    "2CD93DA17FB98EEA83461CDE3B4FD99F0BC33C7A3DF7A5C8D668D64BD1C6F223",
-    "E9C1D503796239A8D3C24207D788B22922145BBDCD1A330CDF3CE913089C365A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kodchasan/Kodchasan-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kodchasan&per_page=1"
   },
-  "description": "Kodchasan font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Kodchasan",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kodchasan"
 }

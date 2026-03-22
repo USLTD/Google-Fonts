@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/Alexandria[wght].ttf"
+  "hash": [
+    "DB8AE03B62D55A65AA4E04307878DF8C00D6E5388E4800635CBE0E22B6411B64"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alexandria&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/Alexandria[wght].ttf"
+    ]
   },
+  "description": "Alexandria font family designed by Mohamed Gaber, Julieta Ulanovsky",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DB8AE03B62D55A65AA4E04307878DF8C00D6E5388E4800635CBE0E22B6411B64"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/Alexandria[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alexandria/Alexandria[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alexandria&per_page=1"
   },
-  "description": "Alexandria font family designed by Mohamed Gaber, Julieta Ulanovsky",
-  "homepage": "https://fonts.google.com/specimen/Alexandria",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alexandria"
 }

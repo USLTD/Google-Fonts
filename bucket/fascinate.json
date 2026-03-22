@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fascinate/Fascinate-Regular.ttf"
+  "hash": [
+    "2F3D4E1D3B1F58BA4700EBA078C07D9F05D9F39513F6D29B0306DDC007BD7FEC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fascinate&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fascinate/Fascinate-Regular.ttf"
+    ]
   },
+  "description": "Fascinate font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2F3D4E1D3B1F58BA4700EBA078C07D9F05D9F39513F6D29B0306DDC007BD7FEC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fascinate/Fascinate-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fascinate/Fascinate-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fascinate&per_page=1"
   },
-  "description": "Fascinate font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Fascinate",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fascinate"
 }

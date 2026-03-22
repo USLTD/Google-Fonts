@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/markoone/MarkoOne-Regular.ttf"
+  "hash": [
+    "6514019373DABDB5D91AB3D3D7E97D96A656738C634FBAE047DBB8143815395D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/markoone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/markoone/MarkoOne-Regular.ttf"
+    ]
   },
+  "description": "Marko One font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6514019373DABDB5D91AB3D3D7E97D96A656738C634FBAE047DBB8143815395D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/markoone/MarkoOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/markoone/MarkoOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/markoone&per_page=1"
   },
-  "description": "Marko One font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Marko+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Marko+One"
 }

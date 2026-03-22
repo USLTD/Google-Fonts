@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-BoldItalic.ttf"
+  "hash": [
+    "81EA17858245163742C9F5DDF19E9C54667EE5E026708556FB1BF5DCE7F92FAE",
+    "C8D62202FF921968C491BBBD05F9794213E98E1317C8CBF5EDC1D8043F4A21D6",
+    "1F6D00F88C709B0BABEAAF78FDC4DA6C8D5DDB619D7799C5F6A1D7AE05576966",
+    "24F97903C512561E8A2499CA755AFA45DB89721C15C7FF62F728F0A1530E334D",
+    "DC5C00822F0D248256DBBE9FEA8E68153E90C0DD7F95C906ED667B2CE053B415",
+    "8D7406B1E84E4EE1A658289139D16DE75EE4380A2309DCE2E4D68704B1D8CFE8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinusserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-BoldItalic.ttf"
+    ]
   },
+  "description": "Libertinus Serif font family designed by Philipp H. Poll",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "81EA17858245163742C9F5DDF19E9C54667EE5E026708556FB1BF5DCE7F92FAE",
-    "C8D62202FF921968C491BBBD05F9794213E98E1317C8CBF5EDC1D8043F4A21D6",
-    "1F6D00F88C709B0BABEAAF78FDC4DA6C8D5DDB619D7799C5F6A1D7AE05576966",
-    "24F97903C512561E8A2499CA755AFA45DB89721C15C7FF62F728F0A1530E334D",
-    "DC5C00822F0D248256DBBE9FEA8E68153E90C0DD7F95C906ED667B2CE053B415",
-    "8D7406B1E84E4EE1A658289139D16DE75EE4380A2309DCE2E4D68704B1D8CFE8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinusserif&per_page=1"
   },
-  "description": "Libertinus Serif font family designed by Philipp H. Poll",
-  "homepage": "https://fonts.google.com/specimen/Libertinus+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libertinus+Serif"
 }

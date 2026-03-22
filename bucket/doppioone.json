@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/doppioone/DoppioOne-Regular.ttf"
+  "hash": [
+    "2686A4EADFAD03961F63E8474798A8B591D531AAA1BDE6923481565830B19D9E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/doppioone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/doppioone/DoppioOne-Regular.ttf"
+    ]
   },
+  "description": "Doppio One font family designed by Szymon Celej",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2686A4EADFAD03961F63E8474798A8B591D531AAA1BDE6923481565830B19D9E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/doppioone/DoppioOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/doppioone/DoppioOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/doppioone&per_page=1"
   },
-  "description": "Doppio One font family designed by Szymon Celej",
-  "homepage": "https://fonts.google.com/specimen/Doppio+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Doppio+One"
 }

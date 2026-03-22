@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dynapuff/DynaPuff[wdth,wght].ttf"
+  "hash": [
+    "C3752FC6DD8AAA46A88637F061A9A4E6AB44C02C5F0AFD65528B91AE8FF6F948"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dynapuff&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dynapuff/DynaPuff[wdth,wght].ttf"
+    ]
   },
+  "description": "DynaPuff font family designed by Toshi Omagari, Jennifer Daniel",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C3752FC6DD8AAA46A88637F061A9A4E6AB44C02C5F0AFD65528B91AE8FF6F948"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dynapuff/DynaPuff[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dynapuff/DynaPuff[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dynapuff&per_page=1"
   },
-  "description": "DynaPuff font family designed by Toshi Omagari, Jennifer Daniel",
-  "homepage": "https://fonts.google.com/specimen/DynaPuff",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/DynaPuff"
 }

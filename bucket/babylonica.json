@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/babylonica/Babylonica-Regular.ttf"
+  "hash": [
+    "D033B18BA66881E0F066EBC66B457944E0DC51E981F9BE61C8365D4BCFDB165C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/babylonica&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/babylonica/Babylonica-Regular.ttf"
+    ]
   },
+  "description": "Babylonica font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D033B18BA66881E0F066EBC66B457944E0DC51E981F9BE61C8365D4BCFDB165C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/babylonica/Babylonica-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/babylonica/Babylonica-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/babylonica&per_page=1"
   },
-  "description": "Babylonica font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Babylonica",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Babylonica"
 }

@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Bold.ttf"
+  "hash": [
+    "D72F7715B6B66096E0CC2971E4954F8BE33BDCED1F143F9C5739A03CDB60BEDE",
+    "0D61C160A521B072D1AF19E9683754F3F5761BBCE35F73FDF091ECDF495BC6C2",
+    "C59CCB3BA8F0151236B1B427B58BEE0C90607C82EF747CC6E19D5E20138385DD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bonanova&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Bold.ttf"
+    ]
   },
+  "description": "Bona Nova font family designed by Capitalics, Mateusz Machalski, Andrzej Heidrich",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "D72F7715B6B66096E0CC2971E4954F8BE33BDCED1F143F9C5739A03CDB60BEDE",
-    "0D61C160A521B072D1AF19E9683754F3F5761BBCE35F73FDF091ECDF495BC6C2",
-    "C59CCB3BA8F0151236B1B427B58BEE0C90607C82EF747CC6E19D5E20138385DD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonanova/BonaNova-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bonanova&per_page=1"
   },
-  "description": "Bona Nova font family designed by Capitalics, Mateusz Machalski, Andrzej Heidrich",
-  "homepage": "https://fonts.google.com/specimen/Bona+Nova",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bona+Nova"
 }

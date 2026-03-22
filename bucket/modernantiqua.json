@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/modernantiqua/ModernAntiqua-Regular.ttf"
+  "hash": [
+    "36CE0D70604B58915A29189065A1B8383D5197BA117994C87CBFD4F360831EFD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/modernantiqua&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/modernantiqua/ModernAntiqua-Regular.ttf"
+    ]
   },
+  "description": "Modern Antiqua font family designed by Wojciech Kalinowski",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "36CE0D70604B58915A29189065A1B8383D5197BA117994C87CBFD4F360831EFD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/modernantiqua/ModernAntiqua-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/modernantiqua/ModernAntiqua-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/modernantiqua&per_page=1"
   },
-  "description": "Modern Antiqua font family designed by Wojciech Kalinowski",
-  "homepage": "https://fonts.google.com/specimen/Modern+Antiqua",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Modern+Antiqua"
 }

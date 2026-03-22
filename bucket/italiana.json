@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/italiana/Italiana-Regular.ttf"
+  "hash": [
+    "0AD271D9CD42A57CD5C5FA483AE2406A8138B95ACB2A43EB73A8D37B7291FEE9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/italiana&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/italiana/Italiana-Regular.ttf"
+    ]
   },
+  "description": "Italiana font family designed by Santiago Orozco",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0AD271D9CD42A57CD5C5FA483AE2406A8138B95ACB2A43EB73A8D37B7291FEE9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/italiana/Italiana-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/italiana/Italiana-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/italiana&per_page=1"
   },
-  "description": "Italiana font family designed by Santiago Orozco",
-  "homepage": "https://fonts.google.com/specimen/Italiana",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Italiana"
 }

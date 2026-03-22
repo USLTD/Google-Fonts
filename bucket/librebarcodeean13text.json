@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcodeean13text/LibreBarcodeEAN13Text-Regular.ttf"
+  "hash": [
+    "4A7C7C830A98E9DC6896B80E9F6E7BC6EC0A0FAB942BC4A4CBE9A29F5BCD3C02"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebarcodeean13text&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcodeean13text/LibreBarcodeEAN13Text-Regular.ttf"
+    ]
   },
+  "description": "Libre Barcode EAN13 Text font family designed by Lasse Fister",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4A7C7C830A98E9DC6896B80E9F6E7BC6EC0A0FAB942BC4A4CBE9A29F5BCD3C02"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcodeean13text/LibreBarcodeEAN13Text-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcodeean13text/LibreBarcodeEAN13Text-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebarcodeean13text&per_page=1"
   },
-  "description": "Libre Barcode EAN13 Text font family designed by Lasse Fister",
-  "homepage": "https://fonts.google.com/specimen/Libre+Barcode+EAN13+Text",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libre+Barcode+EAN13+Text"
 }

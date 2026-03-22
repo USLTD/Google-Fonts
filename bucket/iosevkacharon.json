@@ -1,18 +1,27 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-BoldItalic.ttf"
+  "hash": [
+    "47BF91A4348E0079F5DDCFE6649F6617E43E663541D8B51C05A512597ECA09A2",
+    "7788641D2613C1EE0A733220ACD954BAE4D33ECF0074A6D19607E29E6B669293",
+    "A5A85271575EEFCE115A0C029C787BC8914D0C771BD1FDFC3776B7280A57D047",
+    "16FAFA08364B9657F8ACAEA402CE0549A98B74CC10B9CA19DD674F3026B7B060",
+    "FE4236724C45B1FE2073C30C0FB212FCD361A2F6F22C776A777E464FB8917553",
+    "18396B7A0DB5863E4E60BDAB6D0D02BC57E31477A7A311D7EFF94BC44D264914",
+    "6929F4D263EEF34BF72992782B8FD49AAF06A94A3BD02BC418BDC9E25892DBC5",
+    "2D2E548D533903D608B9C6EE4A5262CBF7703D339A25593310CCEB5E3C02814D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iosevkacharon&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-BoldItalic.ttf"
+    ]
   },
+  "description": "Iosevka Charon font family designed by Juliette Pluto",
   "installer": {
     "script": [
       "if ($global) {",
@@ -54,6 +63,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -138,30 +148,20 @@
       "}"
     ]
   },
-  "hash": [
-    "47BF91A4348E0079F5DDCFE6649F6617E43E663541D8B51C05A512597ECA09A2",
-    "7788641D2613C1EE0A733220ACD954BAE4D33ECF0074A6D19607E29E6B669293",
-    "A5A85271575EEFCE115A0C029C787BC8914D0C771BD1FDFC3776B7280A57D047",
-    "16FAFA08364B9657F8ACAEA402CE0549A98B74CC10B9CA19DD674F3026B7B060",
-    "FE4236724C45B1FE2073C30C0FB212FCD361A2F6F22C776A777E464FB8917553",
-    "18396B7A0DB5863E4E60BDAB6D0D02BC57E31477A7A311D7EFF94BC44D264914",
-    "6929F4D263EEF34BF72992782B8FD49AAF06A94A3BD02BC418BDC9E25892DBC5",
-    "2D2E548D533903D608B9C6EE4A5262CBF7703D339A25593310CCEB5E3C02814D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iosevkacharon&per_page=1"
   },
-  "description": "Iosevka Charon font family designed by Juliette Pluto",
-  "homepage": "https://fonts.google.com/specimen/Iosevka+Charon",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Iosevka+Charon"
 }

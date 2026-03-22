@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imprima/Imprima-Regular.ttf"
+  "hash": [
+    "C563E40BC5609B8C7BCC39F93CBA05455C0D0B8C43460FF991D2834301609C08"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imprima&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imprima/Imprima-Regular.ttf"
+    ]
   },
+  "description": "Imprima font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C563E40BC5609B8C7BCC39F93CBA05455C0D0B8C43460FF991D2834301609C08"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imprima/Imprima-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imprima/Imprima-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imprima&per_page=1"
   },
-  "description": "Imprima font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Imprima",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Imprima"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lohitbengali/Lohit-Bengali.ttf"
+  "hash": [
+    "609AEFB344D7C7E5B082F7DAD501C5479F668896088A93B198675BF6213E8EE1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lohitbengali&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lohitbengali/Lohit-Bengali.ttf"
+    ]
   },
+  "description": "Lohit Bengali font family designed by Multiple Designers",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "609AEFB344D7C7E5B082F7DAD501C5479F668896088A93B198675BF6213E8EE1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lohitbengali/Lohit-Bengali.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lohitbengali/Lohit-Bengali.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lohitbengali&per_page=1"
   },
-  "description": "Lohit Bengali font family designed by Multiple Designers",
-  "homepage": "https://fonts.google.com/specimen/Lohit+Bengali",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lohit+Bengali"
 }

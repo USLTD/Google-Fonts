@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinaoutline/LondrinaOutline-Regular.ttf"
+  "hash": [
+    "773C655BC6A2E9B699CFA8C4A5F615C6348686D018281BB8E6CDC470B2F05F4D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinaoutline&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinaoutline/LondrinaOutline-Regular.ttf"
+    ]
   },
+  "description": "Londrina Outline font family designed by Marcelo Magalhães",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "773C655BC6A2E9B699CFA8C4A5F615C6348686D018281BB8E6CDC470B2F05F4D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinaoutline/LondrinaOutline-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinaoutline/LondrinaOutline-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinaoutline&per_page=1"
   },
-  "description": "Londrina Outline font family designed by Marcelo Magalhães",
-  "homepage": "https://fonts.google.com/specimen/Londrina+Outline",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Londrina+Outline"
 }

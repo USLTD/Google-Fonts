@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bethellen/BethEllen-Regular.ttf"
+  "hash": [
+    "CA49471AEC90A19DF63F583F5A60D514F012559A8A2D17F62F8A389FE90726D7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bethellen&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bethellen/BethEllen-Regular.ttf"
+    ]
   },
+  "description": "Beth Ellen font family designed by Rob Jelinski, Alyson Fraser Diaz",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CA49471AEC90A19DF63F583F5A60D514F012559A8A2D17F62F8A389FE90726D7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bethellen/BethEllen-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bethellen/BethEllen-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bethellen&per_page=1"
   },
-  "description": "Beth Ellen font family designed by Rob Jelinski, Alyson Fraser Diaz",
-  "homepage": "https://fonts.google.com/specimen/Beth+Ellen",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Beth+Ellen"
 }

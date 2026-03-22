@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/danfo/Danfo[ELSH].ttf"
+  "hash": [
+    "7E88C371AC63B0E4D0140812E703A3E021D37147A0DF4F167AC324255A39D42F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/danfo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/danfo/Danfo[ELSH].ttf"
+    ]
   },
+  "description": "Danfo font family designed by Afrotype, Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7E88C371AC63B0E4D0140812E703A3E021D37147A0DF4F167AC324255A39D42F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/danfo/Danfo[ELSH].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/danfo/Danfo[ELSH].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/danfo&per_page=1"
   },
-  "description": "Danfo font family designed by Afrotype, Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović",
-  "homepage": "https://fonts.google.com/specimen/Danfo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Danfo"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Bold.ttf"
+  "hash": [
+    "407829F1E0B6B73A9482FFDFD22702BB149A020FAD33F95EB30BC98BF9D471D5",
+    "F18FA58C66CF2540800F10AE4C9AE315C89149C41ACE2A394C5EFCA7354C4EA8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fuzzybubbles&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Bold.ttf"
+    ]
   },
+  "description": "Fuzzy Bubbles font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "407829F1E0B6B73A9482FFDFD22702BB149A020FAD33F95EB30BC98BF9D471D5",
-    "F18FA58C66CF2540800F10AE4C9AE315C89149C41ACE2A394C5EFCA7354C4EA8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fuzzybubbles/FuzzyBubbles-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fuzzybubbles&per_page=1"
   },
-  "description": "Fuzzy Bubbles font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Fuzzy+Bubbles",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fuzzy+Bubbles"
 }

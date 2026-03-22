@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-BoldItalic.ttf"
+  "hash": [
+    "7D5E3599EF99560F6ECAFD0FE41753484EE86F215A7F6C5033C6C07D65B5D7B4",
+    "7524301555913BC0422727B2830D9B6E8269A36433ACC825681ED96B40948843",
+    "B65BD51B7BE6BD0DF20BF9A652C96AFB0ECD7CC1863BD2C3EE8F00E2E29304F4",
+    "00ABAC86722696EDD3E681C71B2ECA1DF510F54D3F2FBFA0471C8DB38190AB43"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/economica&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-BoldItalic.ttf"
+    ]
   },
+  "description": "Economica font family designed by Vicente Lamónaca",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "7D5E3599EF99560F6ECAFD0FE41753484EE86F215A7F6C5033C6C07D65B5D7B4",
-    "7524301555913BC0422727B2830D9B6E8269A36433ACC825681ED96B40948843",
-    "B65BD51B7BE6BD0DF20BF9A652C96AFB0ECD7CC1863BD2C3EE8F00E2E29304F4",
-    "00ABAC86722696EDD3E681C71B2ECA1DF510F54D3F2FBFA0471C8DB38190AB43"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/economica/Economica-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/economica&per_page=1"
   },
-  "description": "Economica font family designed by Vicente Lamónaca",
-  "homepage": "https://fonts.google.com/specimen/Economica",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Economica"
 }

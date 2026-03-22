@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/monoton/Monoton-Regular.ttf"
+  "hash": [
+    "951C4CEA65FFEDE784A7C9672FEEC5D329A7E1E12216C42D53ECF36C90D04DEA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monoton&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/monoton/Monoton-Regular.ttf"
+    ]
   },
+  "description": "Monoton font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "951C4CEA65FFEDE784A7C9672FEEC5D329A7E1E12216C42D53ECF36C90D04DEA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/monoton/Monoton-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/monoton/Monoton-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monoton&per_page=1"
   },
-  "description": "Monoton font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Monoton",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Monoton"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinuskeyboard/LibertinusKeyboard-Regular.ttf"
+  "hash": [
+    "0650795374A0987DF42181958BA3D924EFFD8641A1D0C173C855F1F326551E0A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinuskeyboard&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinuskeyboard/LibertinusKeyboard-Regular.ttf"
+    ]
   },
+  "description": "Libertinus Keyboard font family designed by Philipp H. Poll",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0650795374A0987DF42181958BA3D924EFFD8641A1D0C173C855F1F326551E0A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinuskeyboard/LibertinusKeyboard-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinuskeyboard/LibertinusKeyboard-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinuskeyboard&per_page=1"
   },
-  "description": "Libertinus Keyboard font family designed by Philipp H. Poll",
-  "homepage": "https://fonts.google.com/specimen/Libertinus+Keyboard",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libertinus+Keyboard"
 }

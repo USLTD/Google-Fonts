@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/comme/Comme[wght].ttf"
+  "hash": [
+    "C368B2B9152D7C1E7D52F9DD058C2B01BAB4DFB30C4B55097787083EF61F82E9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/comme&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/comme/Comme[wght].ttf"
+    ]
   },
+  "description": "Comme font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C368B2B9152D7C1E7D52F9DD058C2B01BAB4DFB30C4B55097787083EF61F82E9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/comme/Comme[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/comme/Comme[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/comme&per_page=1"
   },
-  "description": "Comme font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Comme",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Comme"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/juliussansone/JuliusSansOne-Regular.ttf"
+  "hash": [
+    "B540BCAD9283F58955A8DB82D8103B1FD356378F55EC764CDB20D9F5AE749F23"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/juliussansone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/juliussansone/JuliusSansOne-Regular.ttf"
+    ]
   },
+  "description": "Julius Sans One font family designed by Luciano Vergara",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B540BCAD9283F58955A8DB82D8103B1FD356378F55EC764CDB20D9F5AE749F23"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/juliussansone/JuliusSansOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/juliussansone/JuliusSansOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/juliussansone&per_page=1"
   },
-  "description": "Julius Sans One font family designed by Luciano Vergara",
-  "homepage": "https://fonts.google.com/specimen/Julius+Sans+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Julius+Sans+One"
 }

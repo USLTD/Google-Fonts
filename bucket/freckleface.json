@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/freckleface/FreckleFace-Regular.ttf"
+  "hash": [
+    "54B61A9F5BAC3EB3A3D7F78F99D4D9C5D5688A9859E79BBF8704AE79C7F8F0FC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/freckleface&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/freckleface/FreckleFace-Regular.ttf"
+    ]
   },
+  "description": "Freckle Face font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "54B61A9F5BAC3EB3A3D7F78F99D4D9C5D5688A9859E79BBF8704AE79C7F8F0FC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/freckleface/FreckleFace-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/freckleface/FreckleFace-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/freckleface&per_page=1"
   },
-  "description": "Freckle Face font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Freckle+Face",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Freckle+Face"
 }

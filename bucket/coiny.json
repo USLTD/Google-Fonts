@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/coiny/Coiny-Regular.ttf"
+  "hash": [
+    "EF02D723A54ABE4819BEA54EA8B2ECF72D77D258010BB336CD4862A37705EAC7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coiny&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/coiny/Coiny-Regular.ttf"
+    ]
   },
+  "description": "Coiny font family designed by Marcelo Magalhães",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EF02D723A54ABE4819BEA54EA8B2ECF72D77D258010BB336CD4862A37705EAC7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/coiny/Coiny-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/coiny/Coiny-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coiny&per_page=1"
   },
-  "description": "Coiny font family designed by Marcelo Magalhães",
-  "homepage": "https://fonts.google.com/specimen/Coiny",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Coiny"
 }

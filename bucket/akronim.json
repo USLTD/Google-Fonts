@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akronim/Akronim-Regular.ttf"
+  "hash": [
+    "B5528BA2B9D60B90CBBE06E587655762DC518616D2613CBDF616751BEAF7E2F8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/akronim&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akronim/Akronim-Regular.ttf"
+    ]
   },
+  "description": "Akronim font family designed by Grzegorz Klimczewski",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B5528BA2B9D60B90CBBE06E587655762DC518616D2613CBDF616751BEAF7E2F8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akronim/Akronim-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akronim/Akronim-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/akronim&per_page=1"
   },
-  "description": "Akronim font family designed by Grzegorz Klimczewski",
-  "homepage": "https://fonts.google.com/specimen/Akronim",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Akronim"
 }

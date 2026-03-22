@@ -1,24 +1,39 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-BoldItalic.ttf"
+  "hash": [
+    "1B4DF73116DAD2432F2D13337AE347FFF71A03B8C1BA2B3E1C06CC98AADBA72B",
+    "772397765D3842E375712A277609783DC1C753653157DE3C807C5390D6A1513D",
+    "E70801926E16DD77C41F4A7C1099F6BAB7140F489F03FB80856EC678820BE60D",
+    "F45ACA4B4A1402C0C07C4A4665B278EB01ACED90B6B719AF29E8AE1A2A8BDC43",
+    "698BAD1D5E52004CB1D504249BD704CF0AED03740D7EF22D7A533DB2BC020F69",
+    "F4E4364E8FB60D9A0A4ED41E5BBE757672B042CDF2A963215035951782DE8060",
+    "E882EFA9C41949A528AC2369079EC5EF050C1C996BBD0BACCE3C3326D44CF80D",
+    "4B75B38BE4673527231F49C48818D090C913D5042DD5C747B525BF6185D29ECB",
+    "32925E73E5B4A441DF9D23E847F2B8C4046C1FC3DB094E90BAD8883157811509",
+    "A3B5C5B291DB0B88ABF833BD02864ADCAA4BA994D9F7D9B790F552E2FD0CBABD",
+    "27CE4D105591B48F666B228E1E399838A704594EFEA22B730000951BEA700A60",
+    "15F4E3974B83B2459A6A1B252CAA356A9A11316DEEBA45ADBC89B46FB4AAB820",
+    "534C02C295999DD86E770457ECE1D43DB0DE9256DD98BF741426F63AE904209E",
+    "2A32B76AC19C1942BF5942DBBD2A1566E5F1AE9833E421EBCF36D3522715E153"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-BoldItalic.ttf"
+    ]
   },
+  "description": "IBM Plex Serif font family designed by Mike Abbink, Bold Monday",
   "installer": {
     "script": [
       "if ($global) {",
@@ -60,6 +75,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -144,42 +160,26 @@
       "}"
     ]
   },
-  "hash": [
-    "1B4DF73116DAD2432F2D13337AE347FFF71A03B8C1BA2B3E1C06CC98AADBA72B",
-    "772397765D3842E375712A277609783DC1C753653157DE3C807C5390D6A1513D",
-    "E70801926E16DD77C41F4A7C1099F6BAB7140F489F03FB80856EC678820BE60D",
-    "F45ACA4B4A1402C0C07C4A4665B278EB01ACED90B6B719AF29E8AE1A2A8BDC43",
-    "698BAD1D5E52004CB1D504249BD704CF0AED03740D7EF22D7A533DB2BC020F69",
-    "F4E4364E8FB60D9A0A4ED41E5BBE757672B042CDF2A963215035951782DE8060",
-    "E882EFA9C41949A528AC2369079EC5EF050C1C996BBD0BACCE3C3326D44CF80D",
-    "4B75B38BE4673527231F49C48818D090C913D5042DD5C747B525BF6185D29ECB",
-    "32925E73E5B4A441DF9D23E847F2B8C4046C1FC3DB094E90BAD8883157811509",
-    "A3B5C5B291DB0B88ABF833BD02864ADCAA4BA994D9F7D9B790F552E2FD0CBABD",
-    "27CE4D105591B48F666B228E1E399838A704594EFEA22B730000951BEA700A60",
-    "15F4E3974B83B2459A6A1B252CAA356A9A11316DEEBA45ADBC89B46FB4AAB820",
-    "534C02C295999DD86E770457ECE1D43DB0DE9256DD98BF741426F63AE904209E",
-    "2A32B76AC19C1942BF5942DBBD2A1566E5F1AE9833E421EBCF36D3522715E153"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexserif&per_page=1"
   },
-  "description": "IBM Plex Serif font family designed by Mike Abbink, Bold Monday",
-  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Serif"
 }

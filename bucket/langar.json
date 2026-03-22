@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/langar/Langar-Regular.ttf"
+  "hash": [
+    "B3C5559480F2C8587BDC24816F92ED3AD906D1D2CCC2294D2E051DC4EA0FE806"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/langar&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/langar/Langar-Regular.ttf"
+    ]
   },
+  "description": "Langar font family designed by Typeland, Alessia Mazzarella",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B3C5559480F2C8587BDC24816F92ED3AD906D1D2CCC2294D2E051DC4EA0FE806"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/langar/Langar-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/langar/Langar-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/langar&per_page=1"
   },
-  "description": "Langar font family designed by Typeland, Alessia Mazzarella",
-  "homepage": "https://fonts.google.com/specimen/Langar",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Langar"
 }

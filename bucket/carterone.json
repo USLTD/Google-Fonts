@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/carterone/CarterOne.ttf"
+  "hash": [
+    "9267B32E571924B5977A3BFB068726603A1EECF2AF8DADBC4262E943B53959C8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/carterone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/carterone/CarterOne.ttf"
+    ]
   },
+  "description": "Carter One font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9267B32E571924B5977A3BFB068726603A1EECF2AF8DADBC4262E943B53959C8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/carterone/CarterOne.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/carterone/CarterOne.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/carterone&per_page=1"
   },
-  "description": "Carter One font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Carter+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Carter+One"
 }

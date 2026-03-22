@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/markazitext/MarkaziText[wght].ttf"
+  "hash": [
+    "424B7331681160FF2A4B209BFC356EA9564D429A7DAEA43EE4DC28DE8FF4F9FE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/markazitext&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/markazitext/MarkaziText[wght].ttf"
+    ]
   },
+  "description": "Markazi Text font family designed by Borna Izadpanah, Florian Runge, Fiona Ross",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "424B7331681160FF2A4B209BFC356EA9564D429A7DAEA43EE4DC28DE8FF4F9FE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/markazitext/MarkaziText[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/markazitext/MarkaziText[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/markazitext&per_page=1"
   },
-  "description": "Markazi Text font family designed by Borna Izadpanah, Florian Runge, Fiona Ross",
-  "homepage": "https://fonts.google.com/specimen/Markazi+Text",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Markazi+Text"
 }

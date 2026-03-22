@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gidugu/Gidugu-Regular.ttf"
+  "hash": [
+    "1D10013A9E298E9FE79015973E484F3641BF8A1E7B5B58231142853A14BC80F4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gidugu&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gidugu/Gidugu-Regular.ttf"
+    ]
   },
+  "description": "Gidugu font family designed by Purushoth Kumar Guttula",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1D10013A9E298E9FE79015973E484F3641BF8A1E7B5B58231142853A14BC80F4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gidugu/Gidugu-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gidugu/Gidugu-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gidugu&per_page=1"
   },
-  "description": "Gidugu font family designed by Purushoth Kumar Guttula",
-  "homepage": "https://fonts.google.com/specimen/Gidugu",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gidugu"
 }

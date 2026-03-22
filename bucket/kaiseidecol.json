@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Bold.ttf"
+  "hash": [
+    "FB9202B97944FA00B5F145AD4701DEF5C306BCD0D26407917BAEF9E01B042056",
+    "6DB5273D6807F4F575222A70EBF3BB548173DCDDA2F22D9BF272D6D0E7161AA1",
+    "0E3A6DA5145FDBBA32CFB1C806812D95457506E1698F5D61E8F834FB847F0D6F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseidecol&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Bold.ttf"
+    ]
   },
+  "description": "Kaisei Decol font family designed by Font-Kai",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "FB9202B97944FA00B5F145AD4701DEF5C306BCD0D26407917BAEF9E01B042056",
-    "6DB5273D6807F4F575222A70EBF3BB548173DCDDA2F22D9BF272D6D0E7161AA1",
-    "0E3A6DA5145FDBBA32CFB1C806812D95457506E1698F5D61E8F834FB847F0D6F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseidecol/KaiseiDecol-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseidecol&per_page=1"
   },
-  "description": "Kaisei Decol font family designed by Font-Kai",
-  "homepage": "https://fonts.google.com/specimen/Kaisei+Decol",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kaisei+Decol"
 }

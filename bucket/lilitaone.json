@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf"
+  "hash": [
+    "F5B641C45C69D772EE4EDA687BC9FDA411D5CAD6B0B45371491DA4580CBC8D59"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lilitaone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf"
+    ]
   },
+  "description": "Lilita One font family designed by Juan Montoreano",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F5B641C45C69D772EE4EDA687BC9FDA411D5CAD6B0B45371491DA4580CBC8D59"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lilitaone&per_page=1"
   },
-  "description": "Lilita One font family designed by Juan Montoreano",
-  "homepage": "https://fonts.google.com/specimen/Lilita+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lilita+One"
 }

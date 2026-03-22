@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Bold.ttf"
+  "hash": [
+    "747D4EB547FFCA1B1C4CEB49D38F04A2CD8767D5D86425B71290456AB8EB280A",
+    "3D875BC02D79DFF86369ADA5B4C4D8C1B7B184BC70A322B651AA5C39693631E3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/goldman&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Bold.ttf"
+    ]
   },
+  "description": "Goldman font family designed by Jaikishan Patel",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "747D4EB547FFCA1B1C4CEB49D38F04A2CD8767D5D86425B71290456AB8EB280A",
-    "3D875BC02D79DFF86369ADA5B4C4D8C1B7B184BC70A322B651AA5C39693631E3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/goldman/Goldman-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/goldman&per_page=1"
   },
-  "description": "Goldman font family designed by Jaikishan Patel",
-  "homepage": "https://fonts.google.com/specimen/Goldman",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Goldman"
 }

@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Bold.ttf"
+  "hash": [
+    "F8E1F556F815E3D29C531F79FF2BED276BEC18D403FC6470B54900922CD91A79",
+    "4D4137F37A1ACD61F1B7EBA47C08D0996789596B1E535F9220914AD5DAF0A198",
+    "0AF9D1EFFBB36FF74D13C64F752C771ECB9162A451CF151C5425F4D00D4DAA7C",
+    "6F611412270A132BBAC838DA9259D4C68569B4175F3B3B8FA3FA36A30B56DAB9",
+    "B8363AB9F733DFA4F8E96B8B2102C24B5CF4110FB96D1D3D9A9412F6FB49CF74",
+    "597BD5502E5997BE4414E4C9C88834B30FF3784250C84F20BCE2B20E53EBD467",
+    "691E0C891A38637AE6BBDB69700F8042CB0724A137BEE615068FFDB92244F61F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansarabic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Bold.ttf"
+    ]
   },
+  "description": "IBM Plex Sans Arabic font family designed by Mike Abbink, Bold Monday, Khajag Apelian, Wael Morcos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "F8E1F556F815E3D29C531F79FF2BED276BEC18D403FC6470B54900922CD91A79",
-    "4D4137F37A1ACD61F1B7EBA47C08D0996789596B1E535F9220914AD5DAF0A198",
-    "0AF9D1EFFBB36FF74D13C64F752C771ECB9162A451CF151C5425F4D00D4DAA7C",
-    "6F611412270A132BBAC838DA9259D4C68569B4175F3B3B8FA3FA36A30B56DAB9",
-    "B8363AB9F733DFA4F8E96B8B2102C24B5CF4110FB96D1D3D9A9412F6FB49CF74",
-    "597BD5502E5997BE4414E4C9C88834B30FF3784250C84F20BCE2B20E53EBD467",
-    "691E0C891A38637AE6BBDB69700F8042CB0724A137BEE615068FFDB92244F61F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansarabic&per_page=1"
   },
-  "description": "IBM Plex Sans Arabic font family designed by Mike Abbink, Bold Monday, Khajag Apelian, Wael Morcos",
-  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic"
 }

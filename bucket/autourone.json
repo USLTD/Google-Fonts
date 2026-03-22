@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/autourone/AutourOne-Regular.ttf"
+  "hash": [
+    "6A3F5BF27E9398C25BD8C4EDAEE8BD503D8074553537A2BF3B1D724353AAB252"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/autourone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/autourone/AutourOne-Regular.ttf"
+    ]
   },
+  "description": "Autour One font family designed by Sorkin Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6A3F5BF27E9398C25BD8C4EDAEE8BD503D8074553537A2BF3B1D724353AAB252"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/autourone/AutourOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/autourone/AutourOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/autourone&per_page=1"
   },
-  "description": "Autour One font family designed by Sorkin Type",
-  "homepage": "https://fonts.google.com/specimen/Autour+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Autour+One"
 }

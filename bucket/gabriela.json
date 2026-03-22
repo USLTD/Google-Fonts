@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gabriela/Gabriela-Regular.ttf"
+  "hash": [
+    "C38334BFFF10CC97FA6E5C5DDF1F12DD54428BB218D7A423FB3C07BF8180BFD8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gabriela&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gabriela/Gabriela-Regular.ttf"
+    ]
   },
+  "description": "Gabriela font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C38334BFFF10CC97FA6E5C5DDF1F12DD54428BB218D7A423FB3C07BF8180BFD8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gabriela/Gabriela-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gabriela/Gabriela-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gabriela&per_page=1"
   },
-  "description": "Gabriela font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Gabriela",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gabriela"
 }

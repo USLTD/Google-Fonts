@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hanuman/Hanuman[wght].ttf"
+  "hash": [
+    "0CB2C9DD733D7357D5B673F55D756FF9EF50DD68AF9DC217C0D5A71719665536"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hanuman&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hanuman/Hanuman[wght].ttf"
+    ]
   },
+  "description": "Hanuman font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0CB2C9DD733D7357D5B673F55D756FF9EF50DD68AF9DC217C0D5A71719665536"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hanuman/Hanuman[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hanuman/Hanuman[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hanuman&per_page=1"
   },
-  "description": "Hanuman font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Hanuman",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hanuman"
 }

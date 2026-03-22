@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/courgette/Courgette-Regular.ttf"
+  "hash": [
+    "099739D22E66EE2B80656BBA63847F9ED419AD7E3969BA2C1D3C437C0D08F3E3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/courgette&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/courgette/Courgette-Regular.ttf"
+    ]
   },
+  "description": "Courgette font family designed by Karolina Lach",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "099739D22E66EE2B80656BBA63847F9ED419AD7E3969BA2C1D3C437C0D08F3E3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/courgette/Courgette-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/courgette/Courgette-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/courgette&per_page=1"
   },
-  "description": "Courgette font family designed by Karolina Lach",
-  "homepage": "https://fonts.google.com/specimen/Courgette",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Courgette"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alice/Alice-Regular.ttf"
+  "hash": [
+    "8212C40F10B306AF9B82272AE68314DE6964522B6DABF6ABDAFF647E74AC8B58"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alice&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alice/Alice-Regular.ttf"
+    ]
   },
+  "description": "Alice font family designed by Ksenya Erulevich, Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8212C40F10B306AF9B82272AE68314DE6964522B6DABF6ABDAFF647E74AC8B58"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alice/Alice-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alice/Alice-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alice&per_page=1"
   },
-  "description": "Alice font family designed by Ksenya Erulevich, Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Alice",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alice"
 }

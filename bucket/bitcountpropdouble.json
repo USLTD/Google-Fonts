@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropdouble/BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
+  "hash": [
+    "C88B385F2F6083CA95B4108DAC6B667F12E23C2B9738EC49D97332EEECFCEF72"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitcountpropdouble&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropdouble/BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
+    ]
   },
+  "description": "Bitcount Prop Double font family designed by Petr van Blokland",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C88B385F2F6083CA95B4108DAC6B667F12E23C2B9738EC49D97332EEECFCEF72"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropdouble/BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropdouble/BitcountPropDouble[CRSV,ELSH,ELXP,slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitcountpropdouble&per_page=1"
   },
-  "description": "Bitcount Prop Double font family designed by Petr van Blokland",
-  "homepage": "https://fonts.google.com/specimen/Bitcount+Prop+Double",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bitcount+Prop+Double"
 }

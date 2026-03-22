@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Black.ttf"
+  "hash": [
+    "DC353B8E790286B8A721A371E39F2E2EB37ACE13756A4580ADCA7E6D8543E46C",
+    "E1C54736AE22799FBC2BC10D2C753B319D87DD9346EBBE86FBE0B8C59009ACAA",
+    "5C365880E5C79763C745CA132049518E69873CF3DA6F7EE91711DC522B021100",
+    "920CB398017087B2369A036DF676335A32A3AF71C4560DBDE0E2199A004C9FC1",
+    "A6B8BB30BA51CF0E8AFBAA47EA157BF952A1EE79AD89E772A7DFF6404A2B64B4",
+    "EECED1ACAB2AB2EBC2EEB9CF80F162583C1B36FAB2E1F65BDB14C4A68BDE6868",
+    "887A02992FB3560DA586411D99BE7EA1988D8AC6810CA881141F8FDA7AC5E4AA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/martelsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Black.ttf"
+    ]
   },
+  "description": "Martel Sans font family designed by Dan Reynolds, Mathieu Réguer",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "DC353B8E790286B8A721A371E39F2E2EB37ACE13756A4580ADCA7E6D8543E46C",
-    "E1C54736AE22799FBC2BC10D2C753B319D87DD9346EBBE86FBE0B8C59009ACAA",
-    "5C365880E5C79763C745CA132049518E69873CF3DA6F7EE91711DC522B021100",
-    "920CB398017087B2369A036DF676335A32A3AF71C4560DBDE0E2199A004C9FC1",
-    "A6B8BB30BA51CF0E8AFBAA47EA157BF952A1EE79AD89E772A7DFF6404A2B64B4",
-    "EECED1ACAB2AB2EBC2EEB9CF80F162583C1B36FAB2E1F65BDB14C4A68BDE6868",
-    "887A02992FB3560DA586411D99BE7EA1988D8AC6810CA881141F8FDA7AC5E4AA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martelsans/MartelSans-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/martelsans&per_page=1"
   },
-  "description": "Martel Sans font family designed by Dan Reynolds, Mathieu Réguer",
-  "homepage": "https://fonts.google.com/specimen/Martel+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Martel+Sans"
 }

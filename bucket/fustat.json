@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fustat/Fustat[wght].ttf"
+  "hash": [
+    "BA09D90E6180E79334AADD42EA1ED0E97A405FADCD34412C1D02A6B8F679D402"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fustat&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fustat/Fustat[wght].ttf"
+    ]
   },
+  "description": "Fustat font family designed by Mohamed Gaber, Laura Garcia Mut, Khaled Hosny",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BA09D90E6180E79334AADD42EA1ED0E97A405FADCD34412C1D02A6B8F679D402"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fustat/Fustat[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fustat/Fustat[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fustat&per_page=1"
   },
-  "description": "Fustat font family designed by Mohamed Gaber, Laura Garcia Mut, Khaled Hosny",
-  "homepage": "https://fonts.google.com/specimen/Fustat",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fustat"
 }

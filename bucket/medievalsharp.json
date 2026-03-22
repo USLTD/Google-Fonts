@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/medievalsharp/MedievalSharp.ttf"
+  "hash": [
+    "74CB2E6738BD7703ADF120802F68FBA0C9DDB9147A08E6847F1005B1E55DF5A5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/medievalsharp&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/medievalsharp/MedievalSharp.ttf"
+    ]
   },
+  "description": "MedievalSharp font family designed by Wojciech Kalinowski",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "74CB2E6738BD7703ADF120802F68FBA0C9DDB9147A08E6847F1005B1E55DF5A5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/medievalsharp/MedievalSharp.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/medievalsharp/MedievalSharp.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/medievalsharp&per_page=1"
   },
-  "description": "MedievalSharp font family designed by Wojciech Kalinowski",
-  "homepage": "https://fonts.google.com/specimen/MedievalSharp",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/MedievalSharp"
 }

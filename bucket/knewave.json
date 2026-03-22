@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/knewave/Knewave-Regular.ttf"
+  "hash": [
+    "ED3BAC761D755B89AB3082C844D4A623D63C7D6EEF85D22BA1FB6C680E6A4436"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/knewave&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/knewave/Knewave-Regular.ttf"
+    ]
   },
+  "description": "Knewave font family designed by Tyler Finck",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "ED3BAC761D755B89AB3082C844D4A623D63C7D6EEF85D22BA1FB6C680E6A4436"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/knewave/Knewave-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/knewave/Knewave-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/knewave&per_page=1"
   },
-  "description": "Knewave font family designed by Tyler Finck",
-  "homepage": "https://fonts.google.com/specimen/Knewave",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Knewave"
 }

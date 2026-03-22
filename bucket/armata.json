@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/armata/Armata-Regular.ttf"
+  "hash": [
+    "EE4A6A0410BAFC1D0B46BD4551E5360D4EF7603EEA1A9C783D46E9569A936905"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/armata&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/armata/Armata-Regular.ttf"
+    ]
   },
+  "description": "Armata font family designed by Viktoriya Grabowska",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EE4A6A0410BAFC1D0B46BD4551E5360D4EF7603EEA1A9C783D46E9569A936905"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/armata/Armata-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/armata/Armata-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/armata&per_page=1"
   },
-  "description": "Armata font family designed by Viktoriya Grabowska",
-  "homepage": "https://fonts.google.com/specimen/Armata",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Armata"
 }

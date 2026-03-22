@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo-Italic[wght].ttf"
+  "hash": [
+    "62B6CB49B7B087B341F0307EA3BC871A9690D8947691206AB025D149B8F6ED6F",
+    "9B4C074D9F3E662EF57BBEF82EFB7B1BB5F757D579C91C4C0B831319221D6F8C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aleo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo-Italic[wght].ttf"
+    ]
   },
+  "description": "Aleo font family designed by Alessio Laiso",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "62B6CB49B7B087B341F0307EA3BC871A9690D8947691206AB025D149B8F6ED6F",
-    "9B4C074D9F3E662EF57BBEF82EFB7B1BB5F757D579C91C4C0B831319221D6F8C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aleo/Aleo-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aleo&per_page=1"
   },
-  "description": "Aleo font family designed by Alessio Laiso",
-  "homepage": "https://fonts.google.com/specimen/Aleo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Aleo"
 }

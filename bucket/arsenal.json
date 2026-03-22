@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-BoldItalic.ttf"
+  "hash": [
+    "544784ECCC5405570C8D91419739A12C2A9EE7CFC947715CEE51FA060701B4C2",
+    "3E38A69CE81ED89B8A1FE20CB1EECBAD762AAD58C122EA8438BDB8BE40ED550C",
+    "EEAF97F8DF9D5BB69C8DB23F7D2ACE61B6E4EEEFD99C1A226F0577A0B3A23FE4",
+    "276C72BAA7FC670E03C2951FB10BE5D75C3E0C852111A10A84C8E0C739FED90C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arsenal&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-BoldItalic.ttf"
+    ]
   },
+  "description": "Arsenal font family designed by Andrij Shevchenko",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "544784ECCC5405570C8D91419739A12C2A9EE7CFC947715CEE51FA060701B4C2",
-    "3E38A69CE81ED89B8A1FE20CB1EECBAD762AAD58C122EA8438BDB8BE40ED550C",
-    "EEAF97F8DF9D5BB69C8DB23F7D2ACE61B6E4EEEFD99C1A226F0577A0B3A23FE4",
-    "276C72BAA7FC670E03C2951FB10BE5D75C3E0C852111A10A84C8E0C739FED90C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arsenal&per_page=1"
   },
-  "description": "Arsenal font family designed by Andrij Shevchenko",
-  "homepage": "https://fonts.google.com/specimen/Arsenal",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Arsenal"
 }

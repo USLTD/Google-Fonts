@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustdisplay/MomoTrustDisplay-Regular.ttf"
+  "hash": [
+    "F10DCC94CCC58C6A1C538D18F53008AC7D02A9E1E54B6B7CFD219A01D56EC0D3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/momotrustdisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustdisplay/MomoTrustDisplay-Regular.ttf"
+    ]
   },
+  "description": "Momo Trust Display font family designed by Type Associates",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F10DCC94CCC58C6A1C538D18F53008AC7D02A9E1E54B6B7CFD219A01D56EC0D3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustdisplay/MomoTrustDisplay-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustdisplay/MomoTrustDisplay-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/momotrustdisplay&per_page=1"
   },
-  "description": "Momo Trust Display font family designed by Type Associates",
-  "homepage": "https://fonts.google.com/specimen/Momo+Trust+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Momo+Trust+Display"
 }

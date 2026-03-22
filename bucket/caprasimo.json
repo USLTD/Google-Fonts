@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caprasimo/Caprasimo-Regular.ttf"
+  "hash": [
+    "786AB84EE787D40DF55BE78CB4361E485A1C6687195CBCCCF3538CB5E46CED90"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caprasimo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caprasimo/Caprasimo-Regular.ttf"
+    ]
   },
+  "description": "Caprasimo font family designed by The DocRepair Project, Phaedra Charles, Flavia Zimbardi",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "786AB84EE787D40DF55BE78CB4361E485A1C6687195CBCCCF3538CB5E46CED90"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caprasimo/Caprasimo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caprasimo/Caprasimo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caprasimo&per_page=1"
   },
-  "description": "Caprasimo font family designed by The DocRepair Project, Phaedra Charles, Flavia Zimbardi",
-  "homepage": "https://fonts.google.com/specimen/Caprasimo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Caprasimo"
 }

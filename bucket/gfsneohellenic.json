@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBoldItalic.ttf"
+  "hash": [
+    "14D54DD7F36FDD7140D3F6357C99A8EAD988A808B298471E02BA2C0992AA110D",
+    "39214BA27AEC72823881BDC967B6B8929079609749DB1911EDA0F7072E461688",
+    "B1A3900F5F3327AB79D18C762FCA17E46C0DB37A32FBF34F7DCA41458BD46F53",
+    "B486C325AADD1C7DC4F5A87C41AE9C8823EA7285DE9D7AD8F8FA6E836D41CAD1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gfsneohellenic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBoldItalic.ttf"
+    ]
   },
+  "description": "GFS Neohellenic font family designed by Greek Font Society",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "14D54DD7F36FDD7140D3F6357C99A8EAD988A808B298471E02BA2C0992AA110D",
-    "39214BA27AEC72823881BDC967B6B8929079609749DB1911EDA0F7072E461688",
-    "B1A3900F5F3327AB79D18C762FCA17E46C0DB37A32FBF34F7DCA41458BD46F53",
-    "B486C325AADD1C7DC4F5A87C41AE9C8823EA7285DE9D7AD8F8FA6E836D41CAD1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsneohellenic/GFSNeohellenicBoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gfsneohellenic&per_page=1"
   },
-  "description": "GFS Neohellenic font family designed by Greek Font Society",
-  "homepage": "https://fonts.google.com/specimen/GFS+Neohellenic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/GFS+Neohellenic"
 }

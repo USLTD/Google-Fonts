@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cause/Cause[wght].ttf"
+  "hash": [
+    "3F6B01FA9CFE6D84948AE903F954EFFA5CDF37A3EC0E3A67E15276D9CCBF95F2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cause&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cause/Cause[wght].ttf"
+    ]
   },
+  "description": "Cause font family designed by Saurabh Sharma",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3F6B01FA9CFE6D84948AE903F954EFFA5CDF37A3EC0E3A67E15276D9CCBF95F2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cause/Cause[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cause/Cause[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cause&per_page=1"
   },
-  "description": "Cause font family designed by Saurabh Sharma",
-  "homepage": "https://fonts.google.com/specimen/Cause",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cause"
 }

@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-ExtraBold.ttf"
+  "hash": [
+    "D4279D38A0012FA54D340979694E70E3235266220DEDC0D7000131345FB33BD4",
+    "D3D4051877DC9538A71720D5FDBA4118CDCD467096972C524A9FFF9C45269F4B",
+    "254D773D80ECD382F5E4D818418AD521AA5A8D69CC996D0AC0A1C3F0417FABC0",
+    "01FB4CD74841C5F108372737A74CFEDEAF0A722CA23E2275DC69F411DC0AD5A6",
+    "A8D05DA8766A9BC540E0EA5B63F36A141D629907E8F06C4C2B23BB0BD741B2E1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abhayalibre&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-ExtraBold.ttf"
+    ]
   },
+  "description": "Abhaya Libre font family designed by Mooniak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "D4279D38A0012FA54D340979694E70E3235266220DEDC0D7000131345FB33BD4",
-    "D3D4051877DC9538A71720D5FDBA4118CDCD467096972C524A9FFF9C45269F4B",
-    "254D773D80ECD382F5E4D818418AD521AA5A8D69CC996D0AC0A1C3F0417FABC0",
-    "01FB4CD74841C5F108372737A74CFEDEAF0A722CA23E2275DC69F411DC0AD5A6",
-    "A8D05DA8766A9BC540E0EA5B63F36A141D629907E8F06C4C2B23BB0BD741B2E1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abhayalibre/AbhayaLibre-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abhayalibre&per_page=1"
   },
-  "description": "Abhaya Libre font family designed by Mooniak",
-  "homepage": "https://fonts.google.com/specimen/Abhaya+Libre",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Abhaya+Libre"
 }

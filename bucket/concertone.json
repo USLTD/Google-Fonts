@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/concertone/ConcertOne-Regular.ttf"
+  "hash": [
+    "54E934724B90A9C20D53B25A8D17574A7631F8461E29C8462BD7B36D49FC1E78"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/concertone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/concertone/ConcertOne-Regular.ttf"
+    ]
   },
+  "description": "Concert One font family designed by Johan Kallas, Mihkel Virkus",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "54E934724B90A9C20D53B25A8D17574A7631F8461E29C8462BD7B36D49FC1E78"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/concertone/ConcertOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/concertone/ConcertOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/concertone&per_page=1"
   },
-  "description": "Concert One font family designed by Johan Kallas, Mihkel Virkus",
-  "homepage": "https://fonts.google.com/specimen/Concert+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Concert+One"
 }

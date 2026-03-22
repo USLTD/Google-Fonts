@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Bold.ttf"
+  "hash": [
+    "A6F989FCC910CA321E06CD6A20DBCAB20F9E41BCE084911432857CFE286355E7",
+    "0961688037B97947495C2E35E6E5A93F2B234490514E33346605FFEDF9C7E6BE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cabinsketch&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Bold.ttf"
+    ]
   },
+  "description": "Cabin Sketch font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "A6F989FCC910CA321E06CD6A20DBCAB20F9E41BCE084911432857CFE286355E7",
-    "0961688037B97947495C2E35E6E5A93F2B234490514E33346605FFEDF9C7E6BE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabinsketch/CabinSketch-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cabinsketch&per_page=1"
   },
-  "description": "Cabin Sketch font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Cabin+Sketch",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cabin+Sketch"
 }

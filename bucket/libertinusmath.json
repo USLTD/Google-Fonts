@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusmath/LibertinusMath-Regular.ttf"
+  "hash": [
+    "6EAEBB1260C45328A49299A614EB20CEE6D0B5C2FBB0D48314DEF159E0715318"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinusmath&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusmath/LibertinusMath-Regular.ttf"
+    ]
   },
+  "description": "Libertinus Math font family designed by Philipp H. Poll",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6EAEBB1260C45328A49299A614EB20CEE6D0B5C2FBB0D48314DEF159E0715318"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusmath/LibertinusMath-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusmath/LibertinusMath-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/libertinusmath&per_page=1"
   },
-  "description": "Libertinus Math font family designed by Philipp H. Poll",
-  "homepage": "https://fonts.google.com/specimen/Libertinus+Math",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libertinus+Math"
 }

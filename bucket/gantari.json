@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari-Italic[wght].ttf"
+  "hash": [
+    "16B83EDD620EFD401C7855EBB96694718C29F55F4198913DFAD4791591796E71",
+    "968F9AA4C6A6F7EF4F6995533C9492367B4C7B5E8B4912DB555473ECFDA24E0F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gantari&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari-Italic[wght].ttf"
+    ]
   },
+  "description": "Gantari font family designed by Lafontype",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "16B83EDD620EFD401C7855EBB96694718C29F55F4198913DFAD4791591796E71",
-    "968F9AA4C6A6F7EF4F6995533C9492367B4C7B5E8B4912DB555473ECFDA24E0F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gantari/Gantari-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gantari&per_page=1"
   },
-  "description": "Gantari font family designed by Lafontype",
-  "homepage": "https://fonts.google.com/specimen/Gantari",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gantari"
 }

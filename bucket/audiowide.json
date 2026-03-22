@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/audiowide/Audiowide-Regular.ttf"
+  "hash": [
+    "C7C0F2B0F6FAD8C623E31772CE79F94A4EDB9321FFCE9FCE978EA892D20AE730"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/audiowide&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/audiowide/Audiowide-Regular.ttf"
+    ]
   },
+  "description": "Audiowide font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C7C0F2B0F6FAD8C623E31772CE79F94A4EDB9321FFCE9FCE978EA892D20AE730"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/audiowide/Audiowide-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/audiowide/Audiowide-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/audiowide&per_page=1"
   },
-  "description": "Audiowide font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Audiowide",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Audiowide"
 }

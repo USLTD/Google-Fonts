@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Bold.ttf"
+  "hash": [
+    "3286FFC39003621874AD2AC2D6CA9374D2728443465C4DF6222DFF425814560D",
+    "A1EF8EE51724F0182F07D060B63047540A0BCA96DB10D33FA6A0B539F99019BF",
+    "FC099EE72A843FB5B4D574ABD099E047EEC4CF476A1A2C65FE520E1CDCC897BE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karantina&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Bold.ttf"
+    ]
   },
+  "description": "Karantina font family designed by Rony Koch",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "3286FFC39003621874AD2AC2D6CA9374D2728443465C4DF6222DFF425814560D",
-    "A1EF8EE51724F0182F07D060B63047540A0BCA96DB10D33FA6A0B539F99019BF",
-    "FC099EE72A843FB5B4D574ABD099E047EEC4CF476A1A2C65FE520E1CDCC897BE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karantina/Karantina-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karantina&per_page=1"
   },
-  "description": "Karantina font family designed by Rony Koch",
-  "homepage": "https://fonts.google.com/specimen/Karantina",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Karantina"
 }

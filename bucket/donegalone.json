@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/donegalone/DonegalOne-Regular.ttf"
+  "hash": [
+    "1F9B07BBAF3813103281848F782FAE74499F5DFC3B3B9F4E90EBEA4AA42FBC75"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/donegalone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/donegalone/DonegalOne-Regular.ttf"
+    ]
   },
+  "description": "Donegal One font family designed by Gary Lonergan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1F9B07BBAF3813103281848F782FAE74499F5DFC3B3B9F4E90EBEA4AA42FBC75"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/donegalone/DonegalOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/donegalone/DonegalOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/donegalone&per_page=1"
   },
-  "description": "Donegal One font family designed by Gary Lonergan",
-  "homepage": "https://fonts.google.com/specimen/Donegal+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Donegal+One"
 }

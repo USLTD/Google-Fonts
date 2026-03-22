@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hubballi/Hubballi-Regular.ttf"
+  "hash": [
+    "E51AD77D40B5ADCCD6C6CA537863EF4E364BD374C56593E007FBF5402A9A1CDD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hubballi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hubballi/Hubballi-Regular.ttf"
+    ]
   },
+  "description": "Hubballi font family designed by Erin McLaughlin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E51AD77D40B5ADCCD6C6CA537863EF4E364BD374C56593E007FBF5402A9A1CDD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hubballi/Hubballi-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hubballi/Hubballi-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hubballi&per_page=1"
   },
-  "description": "Hubballi font family designed by Erin McLaughlin",
-  "homepage": "https://fonts.google.com/specimen/Hubballi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hubballi"
 }

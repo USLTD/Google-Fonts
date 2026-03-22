@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gabarito/Gabarito[wght].ttf"
+  "hash": [
+    "8650E2BD7747F7D74619FD7AECBCB0309E6F37B7964024F3FB15AE4833B67CA5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gabarito&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gabarito/Gabarito[wght].ttf"
+    ]
   },
+  "description": "Gabarito font family designed by Naipe Foundry, Leandro Assis, Álvaro Franca, Felipe Casaprima",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8650E2BD7747F7D74619FD7AECBCB0309E6F37B7964024F3FB15AE4833B67CA5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gabarito/Gabarito[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gabarito/Gabarito[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gabarito&per_page=1"
   },
-  "description": "Gabarito font family designed by Naipe Foundry, Leandro Assis, Álvaro Franca, Felipe Casaprima",
-  "homepage": "https://fonts.google.com/specimen/Gabarito",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gabarito"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf"
+  "hash": [
+    "1CA81517A450506290E2BE25648E153EE4C9CF6ACC44C1D610B1E6D7E0E67484"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/euphoriascript&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf"
+    ]
   },
+  "description": "Euphoria Script font family designed by Sabrina Mariela Lopez",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1CA81517A450506290E2BE25648E153EE4C9CF6ACC44C1D610B1E6D7E0E67484"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/euphoriascript&per_page=1"
   },
-  "description": "Euphoria Script font family designed by Sabrina Mariela Lopez",
-  "homepage": "https://fonts.google.com/specimen/Euphoria+Script",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Euphoria+Script"
 }

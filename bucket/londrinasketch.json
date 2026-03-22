@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasketch/LondrinaSketch-Regular.ttf"
+  "hash": [
+    "1D3B7BEEDA7015014412C916E205016ED66D1F8298A97DCE0CA3AE2D13271C9F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinasketch&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasketch/LondrinaSketch-Regular.ttf"
+    ]
   },
+  "description": "Londrina Sketch font family designed by Marcelo Magalhães",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1D3B7BEEDA7015014412C916E205016ED66D1F8298A97DCE0CA3AE2D13271C9F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasketch/LondrinaSketch-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasketch/LondrinaSketch-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinasketch&per_page=1"
   },
-  "description": "Londrina Sketch font family designed by Marcelo Magalhães",
-  "homepage": "https://fonts.google.com/specimen/Londrina+Sketch",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Londrina+Sketch"
 }

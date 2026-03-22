@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/adamina/Adamina-Regular.ttf"
+  "hash": [
+    "E7108CFEE0A718D5885FC8D0F03555FA6E0C4B6309E4B15EA991AADD824C34B7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adamina&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/adamina/Adamina-Regular.ttf"
+    ]
   },
+  "description": "Adamina font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E7108CFEE0A718D5885FC8D0F03555FA6E0C4B6309E4B15EA991AADD824C34B7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/adamina/Adamina-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/adamina/Adamina-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adamina&per_page=1"
   },
-  "description": "Adamina font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Adamina",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Adamina"
 }

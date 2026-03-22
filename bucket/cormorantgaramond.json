@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond-Italic[wght].ttf"
+  "hash": [
+    "B20B7D9626DD956B2C5E558692AD328B1F19E3275E2782DB4FA07670D83F35E0",
+    "0F48EA6ABB2084537854F7174C470991A463B13036309E3B50A81511611C530D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorantgaramond&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond-Italic[wght].ttf"
+    ]
   },
+  "description": "Cormorant Garamond font family designed by Christian Thalmann",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "B20B7D9626DD956B2C5E558692AD328B1F19E3275E2782DB4FA07670D83F35E0",
-    "0F48EA6ABB2084537854F7174C470991A463B13036309E3B50A81511611C530D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorantgaramond&per_page=1"
   },
-  "description": "Cormorant Garamond font family designed by Christian Thalmann",
-  "homepage": "https://fonts.google.com/specimen/Cormorant+Garamond",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cormorant+Garamond"
 }

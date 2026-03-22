@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendradisplay/AlmendraDisplay-Regular.ttf"
+  "hash": [
+    "04B543A9E7BFE39262E47D47AE7EC6A04166CE2D05383A911B256CFCB783383F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almendradisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendradisplay/AlmendraDisplay-Regular.ttf"
+    ]
   },
+  "description": "Almendra Display font family designed by Ana Sanfelippo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "04B543A9E7BFE39262E47D47AE7EC6A04166CE2D05383A911B256CFCB783383F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almendradisplay/AlmendraDisplay-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almendradisplay/AlmendraDisplay-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almendradisplay&per_page=1"
   },
-  "description": "Almendra Display font family designed by Ana Sanfelippo",
-  "homepage": "https://fonts.google.com/specimen/Almendra+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Almendra+Display"
 }

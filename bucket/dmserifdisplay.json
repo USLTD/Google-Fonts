@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf"
+  "hash": [
+    "8CC3643535EDF039AA5D95440A8542735E9197E4F4B8D9303E980FEFBF5AB616",
+    "DF74C0AC387BAEAEB0FE4F2324E1668E6A3ED8C09CD9796FE162C71753E19E45"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dmserifdisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf"
+    ]
   },
+  "description": "DM Serif Display font family designed by Colophon Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "8CC3643535EDF039AA5D95440A8542735E9197E4F4B8D9303E980FEFBF5AB616",
-    "DF74C0AC387BAEAEB0FE4F2324E1668E6A3ED8C09CD9796FE162C71753E19E45"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dmserifdisplay&per_page=1"
   },
-  "description": "DM Serif Display font family designed by Colophon Foundry",
-  "homepage": "https://fonts.google.com/specimen/DM+Serif+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/DM+Serif+Display"
 }

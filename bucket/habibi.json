@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/habibi/Habibi-Regular.ttf"
+  "hash": [
+    "65AE905BF98AE8CA0EC67786D01CDC1ADD55759DBB8B99E7DA0D368F9EA74671"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/habibi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/habibi/Habibi-Regular.ttf"
+    ]
   },
+  "description": "Habibi font family designed by Magnus Gaarde",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "65AE905BF98AE8CA0EC67786D01CDC1ADD55759DBB8B99E7DA0D368F9EA74671"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/habibi/Habibi-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/habibi/Habibi-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/habibi&per_page=1"
   },
-  "description": "Habibi font family designed by Magnus Gaarde",
-  "homepage": "https://fonts.google.com/specimen/Habibi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Habibi"
 }

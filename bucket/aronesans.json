@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aronesans/AROneSans[ARRR,wght].ttf"
+  "hash": [
+    "235B1352C58FB6D9763D74711D7C2E1D726D805FC04CAD8FDE2F56A469566B5F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aronesans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aronesans/AROneSans[ARRR,wght].ttf"
+    ]
   },
+  "description": "AR One Sans font family designed by Niteesh Yadav",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "235B1352C58FB6D9763D74711D7C2E1D726D805FC04CAD8FDE2F56A469566B5F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aronesans/AROneSans[ARRR,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aronesans/AROneSans[ARRR,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aronesans&per_page=1"
   },
-  "description": "AR One Sans font family designed by Niteesh Yadav",
-  "homepage": "https://fonts.google.com/specimen/AR+One+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/AR+One+Sans"
 }

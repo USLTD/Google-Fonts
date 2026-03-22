@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lohittamil/Lohit-Tamil.ttf"
+  "hash": [
+    "320D0959C0650998CD2E589B3368AD3319A0D106BECB81B80C272A01DC48FE14"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lohittamil&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lohittamil/Lohit-Tamil.ttf"
+    ]
   },
+  "description": "Lohit Tamil font family designed by Multiple Designers",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "320D0959C0650998CD2E589B3368AD3319A0D106BECB81B80C272A01DC48FE14"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lohittamil/Lohit-Tamil.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lohittamil/Lohit-Tamil.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lohittamil&per_page=1"
   },
-  "description": "Lohit Tamil font family designed by Multiple Designers",
-  "homepage": "https://fonts.google.com/specimen/Lohit+Tamil",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lohit+Tamil"
 }

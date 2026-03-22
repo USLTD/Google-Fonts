@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf"
+  "hash": [
+    "B844C59BF20BF530E41C20D6FF12B383B23A2E553B9B68CC89F070869213155D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mashanzheng&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf"
+    ]
   },
+  "description": "Ma Shan Zheng font family designed by Ma ShanZheng",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B844C59BF20BF530E41C20D6FF12B383B23A2E553B9B68CC89F070869213155D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mashanzheng&per_page=1"
   },
-  "description": "Ma Shan Zheng font family designed by Ma ShanZheng",
-  "homepage": "https://fonts.google.com/specimen/Ma+Shan+Zheng",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ma+Shan+Zheng"
 }

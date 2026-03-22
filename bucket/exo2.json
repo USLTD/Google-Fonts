@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2-Italic[wght].ttf"
+  "hash": [
+    "205A448676A2586F9C57C25F3D5C58CA8DB7E6CF5EDF7506783A010C6FE2BFB5",
+    "BAD568CEA9ED23D6AE4AEA41AD3F7747752952AABDD85D7F01474AF392A21B32"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/exo2&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2-Italic[wght].ttf"
+    ]
   },
+  "description": "Exo 2 font family designed by Natanael Gama",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "205A448676A2586F9C57C25F3D5C58CA8DB7E6CF5EDF7506783A010C6FE2BFB5",
-    "BAD568CEA9ED23D6AE4AEA41AD3F7747752952AABDD85D7F01474AF392A21B32"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/Exo2-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/exo2&per_page=1"
   },
-  "description": "Exo 2 font family designed by Natanael Gama",
-  "homepage": "https://fonts.google.com/specimen/Exo+2",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Exo+2"
 }

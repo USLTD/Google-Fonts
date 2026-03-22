@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/huninn/Huninn-Regular.ttf"
+  "hash": [
+    "1BD770A5FFC0C06723B567686F8B5DB5ABF9AB54227F3BBC4E6FD648F4698805"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/huninn&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/huninn/Huninn-Regular.ttf"
+    ]
   },
+  "description": "Huninn font family designed by justfont",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1BD770A5FFC0C06723B567686F8B5DB5ABF9AB54227F3BBC4E6FD648F4698805"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/huninn/Huninn-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/huninn/Huninn-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/huninn&per_page=1"
   },
-  "description": "Huninn font family designed by justfont",
-  "homepage": "https://fonts.google.com/specimen/Huninn",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Huninn"
 }

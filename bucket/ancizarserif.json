@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif-Italic[wght].ttf"
+  "hash": [
+    "FCC35D7FE2780846344D7187515D483BB69F3D9BCC49C4833A219E4D9109DB98",
+    "B30F075790E14795508A42DDA7B8F6269509E15A13A4C653B3665662BDFBF45C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ancizarserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif-Italic[wght].ttf"
+    ]
   },
+  "description": "Ancizar Serif font family designed by Universidad Nacional de Colombia (UNAL), César Puertas, Viviana Monsalve, Julián Moncada",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "FCC35D7FE2780846344D7187515D483BB69F3D9BCC49C4833A219E4D9109DB98",
-    "B30F075790E14795508A42DDA7B8F6269509E15A13A4C653B3665662BDFBF45C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ancizarserif/AncizarSerif-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ancizarserif&per_page=1"
   },
-  "description": "Ancizar Serif font family designed by Universidad Nacional de Colombia (UNAL), César Puertas, Viviana Monsalve, Julián Moncada",
-  "homepage": "https://fonts.google.com/specimen/Ancizar+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ancizar+Serif"
 }

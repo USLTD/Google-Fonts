@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley-Italic[wght].ttf"
+  "hash": [
+    "71F352D8859C787631A0978161D48497A72CAA69DCAE6996D6712A564DF86C1E",
+    "DE502A1AB6B06A63982DCE8C9E58B3EEE8AADA175E78D5A4DC0A7B3721F26562"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/besley&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley-Italic[wght].ttf"
+    ]
   },
+  "description": "Besley font family designed by Owen Earl",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "71F352D8859C787631A0978161D48497A72CAA69DCAE6996D6712A564DF86C1E",
-    "DE502A1AB6B06A63982DCE8C9E58B3EEE8AADA175E78D5A4DC0A7B3721F26562"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/besley/Besley-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/besley&per_page=1"
   },
-  "description": "Besley font family designed by Owen Earl",
-  "homepage": "https://fonts.google.com/specimen/Besley",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Besley"
 }

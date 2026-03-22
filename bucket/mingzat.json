@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mingzat/Mingzat-Regular.ttf"
+  "hash": [
+    "63B8C9EA9CEB9953A6AEAF94E70BE3D534C93070247C945512C1E782DACE961A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mingzat&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mingzat/Mingzat-Regular.ttf"
+    ]
   },
+  "description": "Mingzat font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "63B8C9EA9CEB9953A6AEAF94E70BE3D534C93070247C945512C1E782DACE961A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mingzat/Mingzat-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mingzat/Mingzat-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mingzat&per_page=1"
   },
-  "description": "Mingzat font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Mingzat",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mingzat"
 }

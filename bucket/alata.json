@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alata/Alata-Regular.ttf"
+  "hash": [
+    "7B71432A5E2E2409A3583553BC5CE703209A8BCE9B2F136CA257AC4C2D3ADDC4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alata&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alata/Alata-Regular.ttf"
+    ]
   },
+  "description": "Alata font family designed by Spyros Zevelakis, Eben Sorkin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7B71432A5E2E2409A3583553BC5CE703209A8BCE9B2F136CA257AC4C2D3ADDC4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alata/Alata-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alata/Alata-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alata&per_page=1"
   },
-  "description": "Alata font family designed by Spyros Zevelakis, Eben Sorkin",
-  "homepage": "https://fonts.google.com/specimen/Alata",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alata"
 }

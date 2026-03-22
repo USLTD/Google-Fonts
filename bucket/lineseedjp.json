@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-ExtraBold.ttf"
+  "hash": [
+    "E59CFC7CDE710B0968E850B5FAE4714D719E39D9BB731F7AA8C957F661C6BBEC",
+    "04A6C0077DDB8BA5AF3638BD76B4600708DDE7B38DF047B40FBE6F3AF358D3C3",
+    "67AEC2DC10B3AD210D6F7D53B33BBFEA42EA28E32FA3834624EEE699A638D5FF",
+    "E310CF97DDAE9E9DEB15F769FD2F68A2FF24BD0A19953C5191DF941CC7952C95"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lineseedjp&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-ExtraBold.ttf"
+    ]
   },
+  "description": "LINE Seed JP font family designed by LY Corporation, Fontrix, Fontworks",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "E59CFC7CDE710B0968E850B5FAE4714D719E39D9BB731F7AA8C957F661C6BBEC",
-    "04A6C0077DDB8BA5AF3638BD76B4600708DDE7B38DF047B40FBE6F3AF358D3C3",
-    "67AEC2DC10B3AD210D6F7D53B33BBFEA42EA28E32FA3834624EEE699A638D5FF",
-    "E310CF97DDAE9E9DEB15F769FD2F68A2FF24BD0A19953C5191DF941CC7952C95"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lineseedjp&per_page=1"
   },
-  "description": "LINE Seed JP font family designed by LY Corporation, Fontrix, Fontworks",
-  "homepage": "https://fonts.google.com/specimen/LINE+Seed+JP",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/LINE+Seed+JP"
 }

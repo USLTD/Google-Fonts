@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bbhhegarty/BBHHegarty-Regular.ttf"
+  "hash": [
+    "34CE60212AA1D835BF44FD61C9FC24092C9E34C1182DD91F2CBF41F69999AF21"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bbhhegarty&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bbhhegarty/BBHHegarty-Regular.ttf"
+    ]
   },
+  "description": "BBH Hegarty font family designed by Studio DRAMA",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "34CE60212AA1D835BF44FD61C9FC24092C9E34C1182DD91F2CBF41F69999AF21"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bbhhegarty/BBHHegarty-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bbhhegarty/BBHHegarty-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bbhhegarty&per_page=1"
   },
-  "description": "BBH Hegarty font family designed by Studio DRAMA",
-  "homepage": "https://fonts.google.com/specimen/BBH+Hegarty",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/BBH+Hegarty"
 }

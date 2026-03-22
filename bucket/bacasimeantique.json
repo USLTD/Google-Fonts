@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bacasimeantique/BacasimeAntique-Regular.ttf"
+  "hash": [
+    "7DAC1E5F979DF3DEB933453ED8584A39099A38889D109C1384DB1B8BAB5F7D28"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bacasimeantique&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bacasimeantique/BacasimeAntique-Regular.ttf"
+    ]
   },
+  "description": "Bacasime Antique font family designed by The DocRepair Project, Claus Eggers Sørensen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7DAC1E5F979DF3DEB933453ED8584A39099A38889D109C1384DB1B8BAB5F7D28"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bacasimeantique/BacasimeAntique-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bacasimeantique/BacasimeAntique-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bacasimeantique&per_page=1"
   },
-  "description": "Bacasime Antique font family designed by The DocRepair Project, Claus Eggers Sørensen",
-  "homepage": "https://fonts.google.com/specimen/Bacasime+Antique",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bacasime+Antique"
 }

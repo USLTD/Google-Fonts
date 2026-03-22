@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow-Italic[wght].ttf"
+  "hash": [
+    "ADBE027F625C8393AE0F6E174E32E233DDA485BC3EDA5153CE428275394EF97F",
+    "147C09214BE086BF1C70311FFB66F4F5A252E48F828F1D49E35AE56951016CC6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/archivonarrow&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow-Italic[wght].ttf"
+    ]
   },
+  "description": "Archivo Narrow font family designed by Omnibus-Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "ADBE027F625C8393AE0F6E174E32E233DDA485BC3EDA5153CE428275394EF97F",
-    "147C09214BE086BF1C70311FFB66F4F5A252E48F828F1D49E35AE56951016CC6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/ArchivoNarrow-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/archivonarrow&per_page=1"
   },
-  "description": "Archivo Narrow font family designed by Omnibus-Type",
-  "homepage": "https://fonts.google.com/specimen/Archivo+Narrow",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Archivo+Narrow"
 }

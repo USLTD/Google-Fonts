@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropsingle/BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf"
+  "hash": [
+    "E6F39BB11077484A1BECAF94B712331B5C2D169A27B4A4591F6AB70C901A8405"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitcountpropsingle&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropsingle/BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf"
+    ]
   },
+  "description": "Bitcount Prop Single font family designed by Petr van Blokland",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E6F39BB11077484A1BECAF94B712331B5C2D169A27B4A4591F6AB70C901A8405"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropsingle/BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitcountpropsingle/BitcountPropSingle[CRSV,ELSH,ELXP,slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitcountpropsingle&per_page=1"
   },
-  "description": "Bitcount Prop Single font family designed by Petr van Blokland",
-  "homepage": "https://fonts.google.com/specimen/Bitcount+Prop+Single",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bitcount+Prop+Single"
 }

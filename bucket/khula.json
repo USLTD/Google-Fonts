@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-ExtraBold.ttf"
+  "hash": [
+    "805BEC764710D2E18590C3B783D0BA241E76368A718107EDE318F84B940E5075",
+    "825477D3C995997EBD41245FC4177BF1681BFD6546674E0D67A29A094C78644F",
+    "B12C4895DA1A0E7ECCC18C844BAA1054FD51EAB70D3A65786E7C8437FEA51986",
+    "923CAFE77CF48066E151F91358800BD9E036B1C417B9FCC326DA39D281B87FE7",
+    "BA71D616A428488071037FBA6FA660396F0A189FC545CF60B7A0DE709075947F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/khula&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-ExtraBold.ttf"
+    ]
   },
+  "description": "Khula font family designed by Erin McLaughlin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "805BEC764710D2E18590C3B783D0BA241E76368A718107EDE318F84B940E5075",
-    "825477D3C995997EBD41245FC4177BF1681BFD6546674E0D67A29A094C78644F",
-    "B12C4895DA1A0E7ECCC18C844BAA1054FD51EAB70D3A65786E7C8437FEA51986",
-    "923CAFE77CF48066E151F91358800BD9E036B1C417B9FCC326DA39D281B87FE7",
-    "BA71D616A428488071037FBA6FA660396F0A189FC545CF60B7A0DE709075947F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khula/Khula-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/khula&per_page=1"
   },
-  "description": "Khula font family designed by Erin McLaughlin",
-  "homepage": "https://fonts.google.com/specimen/Khula",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Khula"
 }

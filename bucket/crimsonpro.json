@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro-Italic[wght].ttf"
+  "hash": [
+    "16AA9FB7300A93637DA51FAC03A071B2FF08B6BBF65F99C794C25F040B58AF6A",
+    "A74DC11DCF2FBB1452064E42395A40A907CA630B49CFF86012223785E52B2559"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/crimsonpro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro-Italic[wght].ttf"
+    ]
   },
+  "description": "Crimson Pro font family designed by Jacques Le Bailly",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "16AA9FB7300A93637DA51FAC03A071B2FF08B6BBF65F99C794C25F040B58AF6A",
-    "A74DC11DCF2FBB1452064E42395A40A907CA630B49CFF86012223785E52B2559"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/CrimsonPro-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/crimsonpro&per_page=1"
   },
-  "description": "Crimson Pro font family designed by Jacques Le Bailly",
-  "homepage": "https://fonts.google.com/specimen/Crimson+Pro",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Crimson+Pro"
 }

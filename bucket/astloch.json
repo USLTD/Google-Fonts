@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Bold.ttf"
+  "hash": [
+    "1B6F98E4C391DA70D9166182369F90164CB02870AD210C4B3287F35FF28227F0",
+    "DEE95FB52F9B24AFC701E9991208275F654160870DB06BEC84CECB25E10FBEEE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/astloch&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Bold.ttf"
+    ]
   },
+  "description": "Astloch font family designed by Dan Rhatigan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "1B6F98E4C391DA70D9166182369F90164CB02870AD210C4B3287F35FF28227F0",
-    "DEE95FB52F9B24AFC701E9991208275F654160870DB06BEC84CECB25E10FBEEE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/astloch/Astloch-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/astloch&per_page=1"
   },
-  "description": "Astloch font family designed by Dan Rhatigan",
-  "homepage": "https://fonts.google.com/specimen/Astloch",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Astloch"
 }

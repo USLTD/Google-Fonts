@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/berkshireswash/BerkshireSwash-Regular.ttf"
+  "hash": [
+    "F0C80837DC6F32B89B10894A7E39295DB4A00AB697CADA682A3F5942C342FE00"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/berkshireswash&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/berkshireswash/BerkshireSwash-Regular.ttf"
+    ]
   },
+  "description": "Berkshire Swash font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F0C80837DC6F32B89B10894A7E39295DB4A00AB697CADA682A3F5942C342FE00"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/berkshireswash/BerkshireSwash-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/berkshireswash/BerkshireSwash-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/berkshireswash&per_page=1"
   },
-  "description": "Berkshire Swash font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Berkshire+Swash",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Berkshire+Swash"
 }

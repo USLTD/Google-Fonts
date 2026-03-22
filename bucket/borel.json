@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/borel/Borel-Regular.ttf"
+  "hash": [
+    "14BA894FE6B13F361C5BEAFAB15048B90C4ABBF282E3DBB477672462B323B3A8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/borel&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/borel/Borel-Regular.ttf"
+    ]
   },
+  "description": "Borel font family designed by Rosalie Wagner",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "14BA894FE6B13F361C5BEAFAB15048B90C4ABBF282E3DBB477672462B323B3A8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/borel/Borel-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/borel/Borel-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/borel&per_page=1"
   },
-  "description": "Borel font family designed by Rosalie Wagner",
-  "homepage": "https://fonts.google.com/specimen/Borel",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Borel"
 }

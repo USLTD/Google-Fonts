@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk-Italic[wght].ttf"
+  "hash": [
+    "74C77B8E850D58DD3D8B22E39111A73BEF3450DE9FB57018EF99119F2D484F5D",
+    "8E16D5B25106332B4330AB02F59BFEB7BB40BA0C060C3053F4C08D4CA8AE4D22"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hostgrotesk&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk-Italic[wght].ttf"
+    ]
   },
+  "description": "Host Grotesk font family designed by Element Type, Doğukan Karapınar, İbrahim Kaçtıoğlu",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "74C77B8E850D58DD3D8B22E39111A73BEF3450DE9FB57018EF99119F2D484F5D",
-    "8E16D5B25106332B4330AB02F59BFEB7BB40BA0C060C3053F4C08D4CA8AE4D22"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hostgrotesk/HostGrotesk-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hostgrotesk&per_page=1"
   },
-  "description": "Host Grotesk font family designed by Element Type, Doğukan Karapınar, İbrahim Kaçtıoğlu",
-  "homepage": "https://fonts.google.com/specimen/Host+Grotesk",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Host+Grotesk"
 }

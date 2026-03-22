@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans-Italic[opsz,wght].ttf"
+  "hash": [
+    "8CD08D97E89C24D0AA92EDD2F0F4C8EE6195EEE9B7C9F154865A58B02F0C1C0D",
+    "22259C0CC8237221B80F44C76BA8D36E6BCE3CDA72779F5B2773643D499720AE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dmsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans-Italic[opsz,wght].ttf"
+    ]
   },
+  "description": "DM Sans font family designed by Colophon Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "8CD08D97E89C24D0AA92EDD2F0F4C8EE6195EEE9B7C9F154865A58B02F0C1C0D",
-    "22259C0CC8237221B80F44C76BA8D36E6BCE3CDA72779F5B2773643D499720AE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans-Italic[opsz,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans-Italic[opsz,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dmsans&per_page=1"
   },
-  "description": "DM Sans font family designed by Colophon Foundry",
-  "homepage": "https://fonts.google.com/specimen/DM+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/DM+Sans"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caveatbrush/CaveatBrush-Regular.ttf"
+  "hash": [
+    "E565BD7BFFD895CA64F8D1CB77C816B9B38D9C010246386A07C9648592F6F282"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caveatbrush&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caveatbrush/CaveatBrush-Regular.ttf"
+    ]
   },
+  "description": "Caveat Brush font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E565BD7BFFD895CA64F8D1CB77C816B9B38D9C010246386A07C9648592F6F282"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caveatbrush/CaveatBrush-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caveatbrush/CaveatBrush-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caveatbrush&per_page=1"
   },
-  "description": "Caveat Brush font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Caveat+Brush",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Caveat+Brush"
 }

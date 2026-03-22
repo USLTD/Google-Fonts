@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans-Italic[wght].ttf"
+  "hash": [
+    "8FE5D4CF5822D7096D4D17AD781C90F97C745AC13A22BE619DB74966FBA45FDA",
+    "16EB3291F7389045E90A00ABB66A3D2BCA1D03387B7EBBBC2B0CD9A094F86226"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/albertsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Albert Sans font family designed by Andreas Rasmussen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "8FE5D4CF5822D7096D4D17AD781C90F97C745AC13A22BE619DB74966FBA45FDA",
-    "16EB3291F7389045E90A00ABB66A3D2BCA1D03387B7EBBBC2B0CD9A094F86226"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/albertsans&per_page=1"
   },
-  "description": "Albert Sans font family designed by Andreas Rasmussen",
-  "homepage": "https://fonts.google.com/specimen/Albert+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Albert+Sans"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfzihikaistd/BpmfZihiKaiStd-Regular.ttf"
+  "hash": [
+    "043AAA657F2B28D46EF9D4970064A10ED6FD162F4AFB28B9253F25D4F8DE341B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bpmfzihikaistd&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfzihikaistd/BpmfZihiKaiStd-Regular.ttf"
+    ]
   },
+  "description": "Bpmf Zihi Kai Std font family designed by But Ko",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "043AAA657F2B28D46EF9D4970064A10ED6FD162F4AFB28B9253F25D4F8DE341B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfzihikaistd/BpmfZihiKaiStd-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfzihikaistd/BpmfZihiKaiStd-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bpmfzihikaistd&per_page=1"
   },
-  "description": "Bpmf Zihi Kai Std font family designed by But Ko",
-  "homepage": "https://fonts.google.com/specimen/Bpmf+Zihi+Kai+Std",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bpmf+Zihi+Kai+Std"
 }

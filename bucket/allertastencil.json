@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/allertastencil/AllertaStencil-Regular.ttf"
+  "hash": [
+    "8C504D1BE20768941AB04251A389AD82D5782D647FA1C4029C811DC5BC2ABD59"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/allertastencil&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/allertastencil/AllertaStencil-Regular.ttf"
+    ]
   },
+  "description": "Allerta Stencil font family designed by Matt McInerney",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8C504D1BE20768941AB04251A389AD82D5782D647FA1C4029C811DC5BC2ABD59"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/allertastencil/AllertaStencil-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/allertastencil/AllertaStencil-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/allertastencil&per_page=1"
   },
-  "description": "Allerta Stencil font family designed by Matt McInerney",
-  "homepage": "https://fonts.google.com/specimen/Allerta+Stencil",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Allerta+Stencil"
 }

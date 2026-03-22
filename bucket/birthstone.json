@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/birthstone/Birthstone-Regular.ttf"
+  "hash": [
+    "CD04BB37F03D2E8CAEBAEE2F26B09D3244BAB7810FA348D8ACB2E6A5228D8783"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/birthstone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/birthstone/Birthstone-Regular.ttf"
+    ]
   },
+  "description": "Birthstone font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CD04BB37F03D2E8CAEBAEE2F26B09D3244BAB7810FA348D8ACB2E6A5228D8783"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/birthstone/Birthstone-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/birthstone/Birthstone-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/birthstone&per_page=1"
   },
-  "description": "Birthstone font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Birthstone",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Birthstone"
 }

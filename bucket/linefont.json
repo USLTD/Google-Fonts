@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/linefont/Linefont[wdth,wght].ttf"
+  "hash": [
+    "94CAB92C51D91E7CAC90F03144FA527A9FC6D1712BBBE09AB04C28CDF922026E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/linefont&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/linefont/Linefont[wdth,wght].ttf"
+    ]
   },
+  "description": "Linefont font family designed by Dmitry Ivanov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "94CAB92C51D91E7CAC90F03144FA527A9FC6D1712BBBE09AB04C28CDF922026E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/linefont/Linefont[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/linefont/Linefont[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/linefont&per_page=1"
   },
-  "description": "Linefont font family designed by Dmitry Ivanov",
-  "homepage": "https://fonts.google.com/specimen/Linefont",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Linefont"
 }

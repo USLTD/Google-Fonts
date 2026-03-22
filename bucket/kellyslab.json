@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kellyslab/KellySlab-Regular.ttf"
+  "hash": [
+    "CBF98BDDB534C52D2F1150AED233C53E5E3A7966B7BE1AB860550C23F9930C27"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kellyslab&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kellyslab/KellySlab-Regular.ttf"
+    ]
   },
+  "description": "Kelly Slab font family designed by Denis Masharov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CBF98BDDB534C52D2F1150AED233C53E5E3A7966B7BE1AB860550C23F9930C27"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kellyslab/KellySlab-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kellyslab/KellySlab-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kellyslab&per_page=1"
   },
-  "description": "Kelly Slab font family designed by Denis Masharov",
-  "homepage": "https://fonts.google.com/specimen/Kelly+Slab",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kelly+Slab"
 }

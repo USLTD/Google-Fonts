@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chicle/Chicle-Regular.ttf"
+  "hash": [
+    "2C82494B86D3F03821284D60F2209A33218ADDE0DAD7133CE3EB063B4363372B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chicle&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chicle/Chicle-Regular.ttf"
+    ]
   },
+  "description": "Chicle font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2C82494B86D3F03821284D60F2209A33218ADDE0DAD7133CE3EB063B4363372B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chicle/Chicle-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chicle/Chicle-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chicle&per_page=1"
   },
-  "description": "Chicle font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Chicle",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chicle"
 }

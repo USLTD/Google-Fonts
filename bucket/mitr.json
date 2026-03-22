@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Bold.ttf"
+  "hash": [
+    "DC3E6A03603BB0DB3DC6833042E218A917D211D52D93BCA426AA606F129D4488",
+    "0DDB2F43BC071CD1546D1ABDB0447C4A411E06450E69D97C838C2725FC8064A6",
+    "3763923CA8D860F9C06F483F663CD3D8D94E9ED8C2F35A7CE35BB6B13E1219FD",
+    "847340933424D473BFF6D011BC08543A2A2D2A670985A93E3431E3AC8926068F",
+    "257E8612923ED13838B2F0A0F9B25527AA83513C657DF049A5EE608E6D4A059D",
+    "92349C05CD6A35549D0FB3E9B0D7D73059717E212CBDA182EE28E5917150BC34"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mitr&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Bold.ttf"
+    ]
   },
+  "description": "Mitr font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "DC3E6A03603BB0DB3DC6833042E218A917D211D52D93BCA426AA606F129D4488",
-    "0DDB2F43BC071CD1546D1ABDB0447C4A411E06450E69D97C838C2725FC8064A6",
-    "3763923CA8D860F9C06F483F663CD3D8D94E9ED8C2F35A7CE35BB6B13E1219FD",
-    "847340933424D473BFF6D011BC08543A2A2D2A670985A93E3431E3AC8926068F",
-    "257E8612923ED13838B2F0A0F9B25527AA83513C657DF049A5EE608E6D4A059D",
-    "92349C05CD6A35549D0FB3E9B0D7D73059717E212CBDA182EE28E5917150BC34"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mitr/Mitr-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mitr&per_page=1"
   },
-  "description": "Mitr font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Mitr",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mitr"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/breeserif/BreeSerif-Regular.ttf"
+  "hash": [
+    "FD080582D70112EF479BA4DDD72407F9A4FCBCEC4CAA7D29DE259B13EEB5F431"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/breeserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/breeserif/BreeSerif-Regular.ttf"
+    ]
   },
+  "description": "Bree Serif font family designed by TypeTogether",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "FD080582D70112EF479BA4DDD72407F9A4FCBCEC4CAA7D29DE259B13EEB5F431"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/breeserif/BreeSerif-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/breeserif/BreeSerif-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/breeserif&per_page=1"
   },
-  "description": "Bree Serif font family designed by TypeTogether",
-  "homepage": "https://fonts.google.com/specimen/Bree+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bree+Serif"
 }

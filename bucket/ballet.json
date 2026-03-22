@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ballet/Ballet[opsz].ttf"
+  "hash": [
+    "6500B6ABB6DD31C3389E8F32A21AE3C66E3257D0AFEFECF7688AA23F742CB677"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ballet&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ballet/Ballet[opsz].ttf"
+    ]
   },
+  "description": "Ballet font family designed by Omnibus-Type, Maximiliano Sproviero",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6500B6ABB6DD31C3389E8F32A21AE3C66E3257D0AFEFECF7688AA23F742CB677"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ballet/Ballet[opsz].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ballet/Ballet[opsz].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ballet&per_page=1"
   },
-  "description": "Ballet font family designed by Omnibus-Type, Maximiliano Sproviero",
-  "homepage": "https://fonts.google.com/specimen/Ballet",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ballet"
 }

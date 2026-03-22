@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Bold.ttf"
+  "hash": [
+    "5C60A888EA5C0D1D259A1803FDBE9D7FA5C8EF9EDCE952482EFA9F59DDE4519D",
+    "C4FAB5D994518247F78D96BF212A7D5B36563B60663136765FBAEBD33A74D4F9",
+    "AD62D4AB2990D5BBA9203C205513A8E162A44A03C58269F9A8B138CAD9C0D5E3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gayathri&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Bold.ttf"
+    ]
   },
+  "description": "Gayathri font family designed by SMC, Binoy Dominic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "5C60A888EA5C0D1D259A1803FDBE9D7FA5C8EF9EDCE952482EFA9F59DDE4519D",
-    "C4FAB5D994518247F78D96BF212A7D5B36563B60663136765FBAEBD33A74D4F9",
-    "AD62D4AB2990D5BBA9203C205513A8E162A44A03C58269F9A8B138CAD9C0D5E3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gayathri/Gayathri-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gayathri&per_page=1"
   },
-  "description": "Gayathri font family designed by SMC, Binoy Dominic",
-  "homepage": "https://fonts.google.com/specimen/Gayathri",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gayathri"
 }

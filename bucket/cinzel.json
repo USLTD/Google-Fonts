@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/Cinzel[wght].ttf"
+  "hash": [
+    "F4D83D34D1F6C741193E4ACF4B3DFF9531E5A67B6AA65228D00A7DB72A4E0F34"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cinzel&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/Cinzel[wght].ttf"
+    ]
   },
+  "description": "Cinzel font family designed by Natanael Gama",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F4D83D34D1F6C741193E4ACF4B3DFF9531E5A67B6AA65228D00A7DB72A4E0F34"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/Cinzel[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/Cinzel[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cinzel&per_page=1"
   },
-  "description": "Cinzel font family designed by Natanael Gama",
-  "homepage": "https://fonts.google.com/specimen/Cinzel",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cinzel"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Italic.ttf"
+  "hash": [
+    "C00BC8D641F2DDC444BBB9A07125F4EB1E6EDA0384A896196AD0C7BE0A9CFEEA",
+    "5639E0D5BFEC3719F127139D232C60C42AA3AE661B580E405E6A9B06002AB6BE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alumnisanspinstripe&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Italic.ttf"
+    ]
   },
+  "description": "Alumni Sans Pinstripe font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "C00BC8D641F2DDC444BBB9A07125F4EB1E6EDA0384A896196AD0C7BE0A9CFEEA",
-    "5639E0D5BFEC3719F127139D232C60C42AA3AE661B580E405E6A9B06002AB6BE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanspinstripe/AlumniSansPinstripe-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alumnisanspinstripe&per_page=1"
   },
-  "description": "Alumni Sans Pinstripe font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Alumni+Sans+Pinstripe",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alumni+Sans+Pinstripe"
 }

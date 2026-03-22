@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantguides/EduAUVICWANTGuides[wght].ttf"
+  "hash": [
+    "7C47FC85F944C729E9DF8AF4BE787A3C222604916B8700045451A0743CD29D4A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwantguides&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantguides/EduAUVICWANTGuides[wght].ttf"
+    ]
   },
+  "description": "Edu AU VIC WA NT Guides font family designed by Tina Anderson, Corey Anderson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7C47FC85F944C729E9DF8AF4BE787A3C222604916B8700045451A0743CD29D4A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantguides/EduAUVICWANTGuides[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantguides/EduAUVICWANTGuides[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwantguides&per_page=1"
   },
-  "description": "Edu AU VIC WA NT Guides font family designed by Tina Anderson, Corey Anderson",
-  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Guides",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Guides"
 }

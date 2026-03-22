@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/basic/Basic-Regular.ttf"
+  "hash": [
+    "077F7245F6459045495B1CA0493F2B426C421D2112D10B48A38FF8858A07397A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/basic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/basic/Basic-Regular.ttf"
+    ]
   },
+  "description": "Basic font family designed by Magnus Gaarde",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "077F7245F6459045495B1CA0493F2B426C421D2112D10B48A38FF8858A07397A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/basic/Basic-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/basic/Basic-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/basic&per_page=1"
   },
-  "description": "Basic font family designed by Magnus Gaarde",
-  "homepage": "https://fonts.google.com/specimen/Basic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Basic"
 }

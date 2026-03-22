@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonbon/Bonbon-Regular.ttf"
+  "hash": [
+    "718753F714468E878B2AF1C82EC65B68C60CE81732308957C3E90D59BCE7CE98"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bonbon&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonbon/Bonbon-Regular.ttf"
+    ]
   },
+  "description": "Bonbon font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "718753F714468E878B2AF1C82EC65B68C60CE81732308957C3E90D59BCE7CE98"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bonbon/Bonbon-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bonbon/Bonbon-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bonbon&per_page=1"
   },
-  "description": "Bonbon font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Bonbon",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bonbon"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/margarine/Margarine-Regular.ttf"
+  "hash": [
+    "54043D3D857AF45CFE40D243DFCF138BD45F7FB452364A70925989384198D7F3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/margarine&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/margarine/Margarine-Regular.ttf"
+    ]
   },
+  "description": "Margarine font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "54043D3D857AF45CFE40D243DFCF138BD45F7FB452364A70925989384198D7F3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/margarine/Margarine-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/margarine/Margarine-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/margarine&per_page=1"
   },
-  "description": "Margarine font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Margarine",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Margarine"
 }

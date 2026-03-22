@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ledger/Ledger-Regular.ttf"
+  "hash": [
+    "0D9E4086208D5AEE8813AE1185010C58FA2F07933FB5C1A1D0950F42BD976272"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ledger&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ledger/Ledger-Regular.ttf"
+    ]
   },
+  "description": "Ledger font family designed by Denis Masharov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0D9E4086208D5AEE8813AE1185010C58FA2F07933FB5C1A1D0950F42BD976272"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ledger/Ledger-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ledger/Ledger-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ledger&per_page=1"
   },
-  "description": "Ledger font family designed by Denis Masharov",
-  "homepage": "https://fonts.google.com/specimen/Ledger",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Ledger"
 }

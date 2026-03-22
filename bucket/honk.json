@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/honk/Honk[MORF,SHLN].ttf"
+  "hash": [
+    "7A6C743BB5A8164424D23024EFB280BAB930ABB2BCA0F2E9CA2FACF6B11D212B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/honk&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/honk/Honk[MORF,SHLN].ttf"
+    ]
   },
+  "description": "Honk font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7A6C743BB5A8164424D23024EFB280BAB930ABB2BCA0F2E9CA2FACF6B11D212B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/honk/Honk[MORF,SHLN].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/honk/Honk[MORF,SHLN].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/honk&per_page=1"
   },
-  "description": "Honk font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Honk",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Honk"
 }

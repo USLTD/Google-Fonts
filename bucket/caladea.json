@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-BoldItalic.ttf"
+  "hash": [
+    "F1E899278B7B4491ABA5B6A8253C4B04C050CC59B21865BE5C37559A775153CD",
+    "4359A8E24F748B6447B1FF6D7A174FEBE70961D29F8BB8634B56DACD740A3DEB",
+    "AE3CB2DCBC925809DD29D2A44E9802211CAB66BE541BACBFC9C08C74B27C3742",
+    "CCABAA7B7E2FDF253D2B1A5FA699DD8A3DF8D835A9EB285AD82631A677EB76C0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caladea&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-BoldItalic.ttf"
+    ]
   },
+  "description": "Caladea font family designed by Andrés Torresi, Carolina Giovagnoli",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "F1E899278B7B4491ABA5B6A8253C4B04C050CC59B21865BE5C37559A775153CD",
-    "4359A8E24F748B6447B1FF6D7A174FEBE70961D29F8BB8634B56DACD740A3DEB",
-    "AE3CB2DCBC925809DD29D2A44E9802211CAB66BE541BACBFC9C08C74B27C3742",
-    "CCABAA7B7E2FDF253D2B1A5FA699DD8A3DF8D835A9EB285AD82631A677EB76C0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caladea/Caladea-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caladea&per_page=1"
   },
-  "description": "Caladea font family designed by Andrés Torresi, Carolina Giovagnoli",
-  "homepage": "https://fonts.google.com/specimen/Caladea",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Caladea"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/agudisplay/AguDisplay[MORF].ttf"
+  "hash": [
+    "27ED259A81A476A354ABC4CF5B31717241A57DB1E6BCE24453729214930C96EE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/agudisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/agudisplay/AguDisplay[MORF].ttf"
+    ]
   },
+  "description": "Agu Display font family designed by Seun Badejo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "27ED259A81A476A354ABC4CF5B31717241A57DB1E6BCE24453729214930C96EE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/agudisplay/AguDisplay[MORF].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/agudisplay/AguDisplay[MORF].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/agudisplay&per_page=1"
   },
-  "description": "Agu Display font family designed by Seun Badejo",
-  "homepage": "https://fonts.google.com/specimen/Agu+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Agu+Display"
 }

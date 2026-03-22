@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chango/Chango-Regular.ttf"
+  "hash": [
+    "3E566F4B881F24198FE1B6525AAE970F9200078136E3416ABC7BA0272D2F80D9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chango&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chango/Chango-Regular.ttf"
+    ]
   },
+  "description": "Chango font family designed by Fontstage",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3E566F4B881F24198FE1B6525AAE970F9200078136E3416ABC7BA0272D2F80D9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chango/Chango-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chango/Chango-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chango&per_page=1"
   },
-  "description": "Chango font family designed by Fontstage",
-  "homepage": "https://fonts.google.com/specimen/Chango",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chango"
 }

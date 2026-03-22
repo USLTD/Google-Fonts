@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bhavuka/Bhavuka-Regular.ttf"
+  "hash": [
+    "153806257782E9BB99F4504659175A4BA27A5933291702963416C98870B37AA9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bhavuka&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bhavuka/Bhavuka-Regular.ttf"
+    ]
   },
+  "description": "Bhavuka font family designed by Multiple Designers",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "153806257782E9BB99F4504659175A4BA27A5933291702963416C98870B37AA9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bhavuka/Bhavuka-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bhavuka/Bhavuka-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bhavuka&per_page=1"
   },
-  "description": "Bhavuka font family designed by Multiple Designers",
-  "homepage": "https://fonts.google.com/specimen/Bhavuka",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bhavuka"
 }

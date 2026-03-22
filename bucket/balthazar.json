@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/balthazar/Balthazar-Regular.ttf"
+  "hash": [
+    "B495856B693458A99A4FCFE420944B6034AFE823EB159E8437B4E8929D5ACEAA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/balthazar&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/balthazar/Balthazar-Regular.ttf"
+    ]
   },
+  "description": "Balthazar font family designed by Dario Manuel Muhafara",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B495856B693458A99A4FCFE420944B6034AFE823EB159E8437B4E8929D5ACEAA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/balthazar/Balthazar-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/balthazar/Balthazar-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/balthazar&per_page=1"
   },
-  "description": "Balthazar font family designed by Dario Manuel Muhafara",
-  "homepage": "https://fonts.google.com/specimen/Balthazar",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Balthazar"
 }

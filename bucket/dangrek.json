@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dangrek/Dangrek-Regular.ttf"
+  "hash": [
+    "D7DBAC288167EF960EA67A5D45890B47419E18C046E90C68EE655A0168E0D06D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dangrek&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dangrek/Dangrek-Regular.ttf"
+    ]
   },
+  "description": "Dangrek font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D7DBAC288167EF960EA67A5D45890B47419E18C046E90C68EE655A0168E0D06D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dangrek/Dangrek-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dangrek/Dangrek-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dangrek&per_page=1"
   },
-  "description": "Dangrek font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Dangrek",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dangrek"
 }

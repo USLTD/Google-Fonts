@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/graduate/Graduate-Regular.ttf"
+  "hash": [
+    "971222B309851D86F2513F89B510DC52D52EF7798B5F43AF2C6F58D43DF568E5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/graduate&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/graduate/Graduate-Regular.ttf"
+    ]
   },
+  "description": "Graduate font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "971222B309851D86F2513F89B510DC52D52EF7798B5F43AF2C6F58D43DF568E5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/graduate/Graduate-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/graduate/Graduate-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/graduate&per_page=1"
   },
-  "description": "Graduate font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Graduate",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Graduate"
 }

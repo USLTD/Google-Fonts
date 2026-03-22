@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/caramel/Caramel-Regular.ttf"
+  "hash": [
+    "36A460F8418D5F9710DA43404776FC914FE11FF5EC649E9C8BCB670C602B92BE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caramel&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/caramel/Caramel-Regular.ttf"
+    ]
   },
+  "description": "Caramel font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "36A460F8418D5F9710DA43404776FC914FE11FF5EC649E9C8BCB670C602B92BE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/caramel/Caramel-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/caramel/Caramel-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/caramel&per_page=1"
   },
-  "description": "Caramel font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Caramel",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Caramel"
 }

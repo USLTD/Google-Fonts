@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/drsugiyama/DrSugiyama-Regular.ttf"
+  "hash": [
+    "8436C1EAE3A06126A6E0AA85B1DFFB1B507D39EAB7B6512A9BB1ADC5D514D9B9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/drsugiyama&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/drsugiyama/DrSugiyama-Regular.ttf"
+    ]
   },
+  "description": "Dr Sugiyama font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8436C1EAE3A06126A6E0AA85B1DFFB1B507D39EAB7B6512A9BB1ADC5D514D9B9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/drsugiyama/DrSugiyama-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/drsugiyama/DrSugiyama-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/drsugiyama&per_page=1"
   },
-  "description": "Dr Sugiyama font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Dr+Sugiyama",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dr+Sugiyama"
 }

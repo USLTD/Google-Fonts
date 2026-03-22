@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/calsans/CalSans-Regular.ttf"
+  "hash": [
+    "040F5D1335848146E769CA40CE9664CA8B7639EECDD7316F468B7DB20D1C9C01"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/calsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/calsans/CalSans-Regular.ttf"
+    ]
   },
+  "description": "Cal Sans font family designed by Mark Davis, Cal.com Inc.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "040F5D1335848146E769CA40CE9664CA8B7639EECDD7316F468B7DB20D1C9C01"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/calsans/CalSans-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/calsans/CalSans-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/calsans&per_page=1"
   },
-  "description": "Cal Sans font family designed by Mark Davis, Cal.com Inc.",
-  "homepage": "https://fonts.google.com/specimen/Cal+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cal+Sans"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans-Italic[wght].ttf"
+  "hash": [
+    "652C9834434BC01835C4E75A73D3C7E42FF2E4BEB261CC851CB911E889AF6A77",
+    "BC8670CA582CEB02139C7D301B7BF0D87BCCC56F16173583D8AA89829C98AF0E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/funnelsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Funnel Sans font family designed by NORD ID, Kristian Möller",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "652C9834434BC01835C4E75A73D3C7E42FF2E4BEB261CC851CB911E889AF6A77",
-    "BC8670CA582CEB02139C7D301B7BF0D87BCCC56F16173583D8AA89829C98AF0E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/funnelsans/FunnelSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/funnelsans&per_page=1"
   },
-  "description": "Funnel Sans font family designed by NORD ID, Kristian Möller",
-  "homepage": "https://fonts.google.com/specimen/Funnel+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Funnel+Sans"
 }

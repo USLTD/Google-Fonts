@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aldrich/Aldrich-Regular.ttf"
+  "hash": [
+    "BCABD8E6DB3E8CB59242E8DBDEF30BFD9B25BE600E2E8F506618008F99138D47"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aldrich&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aldrich/Aldrich-Regular.ttf"
+    ]
   },
+  "description": "Aldrich font family designed by MADType",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BCABD8E6DB3E8CB59242E8DBDEF30BFD9B25BE600E2E8F506618008F99138D47"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aldrich/Aldrich-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aldrich/Aldrich-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aldrich&per_page=1"
   },
-  "description": "Aldrich font family designed by MADType",
-  "homepage": "https://fonts.google.com/specimen/Aldrich",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Aldrich"
 }

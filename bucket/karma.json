@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Bold.ttf"
+  "hash": [
+    "8A6174244C519F4190F7995AE64E52B4203B01156327D02CA07C5445AD2EDA3D",
+    "CC3457D2867B67EE956D95206DBC831E57B26975219D3D4E68D60F51F67B4B55",
+    "28EF21834A486AAFEE86CBDFAD1B89D7EBD175C0D58BCF07099F7CABC3BC9406",
+    "E4189F11C7794358E14D66E3661C585CE1B550403B327ABC4EA4D240DCDC5116",
+    "3819CEDAA8EF7247AAAE77113CBB9B22B207F5FE6C045AE0E1442A7B6B69328E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karma&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Bold.ttf"
+    ]
   },
+  "description": "Karma font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "8A6174244C519F4190F7995AE64E52B4203B01156327D02CA07C5445AD2EDA3D",
-    "CC3457D2867B67EE956D95206DBC831E57B26975219D3D4E68D60F51F67B4B55",
-    "28EF21834A486AAFEE86CBDFAD1B89D7EBD175C0D58BCF07099F7CABC3BC9406",
-    "E4189F11C7794358E14D66E3661C585CE1B550403B327ABC4EA4D240DCDC5116",
-    "3819CEDAA8EF7247AAAE77113CBB9B22B207F5FE6C045AE0E1442A7B6B69328E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karma/Karma-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karma&per_page=1"
   },
-  "description": "Karma font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Karma",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Karma"
 }

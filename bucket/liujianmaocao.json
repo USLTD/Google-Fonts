@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf"
+  "hash": [
+    "CAB396B91A5B7C0B4005A35891180D06E6751F5AC261FE680AEC65C1AE209033"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/liujianmaocao&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf"
+    ]
   },
+  "description": "Liu Jian Mao Cao font family designed by Liu Zhengjiang, Kimberly Geswein, ZhongQi",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CAB396B91A5B7C0B4005A35891180D06E6751F5AC261FE680AEC65C1AE209033"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/liujianmaocao&per_page=1"
   },
-  "description": "Liu Jian Mao Cao font family designed by Liu Zhengjiang, Kimberly Geswein, ZhongQi",
-  "homepage": "https://fonts.google.com/specimen/Liu+Jian+Mao+Cao",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Liu+Jian+Mao+Cao"
 }

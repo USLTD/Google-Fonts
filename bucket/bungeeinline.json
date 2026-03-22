@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeinline/BungeeInline-Regular.ttf"
+  "hash": [
+    "5A07361627376971FA195E8500EC0FC5E0DAF7DF2F94BA8EB30D1B10ED7E0375"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeeinline&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeinline/BungeeInline-Regular.ttf"
+    ]
   },
+  "description": "Bungee Inline font family designed by David Jonathan Ross",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5A07361627376971FA195E8500EC0FC5E0DAF7DF2F94BA8EB30D1B10ED7E0375"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeinline/BungeeInline-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeinline/BungeeInline-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeeinline&per_page=1"
   },
-  "description": "Bungee Inline font family designed by David Jonathan Ross",
-  "homepage": "https://fonts.google.com/specimen/Bungee+Inline",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bungee+Inline"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/flowcircular/FlowCircular-Regular.ttf"
+  "hash": [
+    "EA87D5B1D0BE7C5A3CF63054AD3E1D5ED54CCA7491F9237A1226CB72F6340E78"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/flowcircular&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/flowcircular/FlowCircular-Regular.ttf"
+    ]
   },
+  "description": "Flow Circular font family designed by Dan Ross",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EA87D5B1D0BE7C5A3CF63054AD3E1D5ED54CCA7491F9237A1226CB72F6340E78"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/flowcircular/FlowCircular-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/flowcircular/FlowCircular-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/flowcircular&per_page=1"
   },
-  "description": "Flow Circular font family designed by Dan Ross",
-  "homepage": "https://fonts.google.com/specimen/Flow+Circular",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Flow+Circular"
 }

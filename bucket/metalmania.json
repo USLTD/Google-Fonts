@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/metalmania/MetalMania-Regular.ttf"
+  "hash": [
+    "4B95F0E55B291990C26A7B68818B20C1B728A8BE05A34982B7BB4736C46C19EA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/metalmania&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/metalmania/MetalMania-Regular.ttf"
+    ]
   },
+  "description": "Metal Mania font family designed by Open Window",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4B95F0E55B291990C26A7B68818B20C1B728A8BE05A34982B7BB4736C46C19EA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/metalmania/MetalMania-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/metalmania/MetalMania-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/metalmania&per_page=1"
   },
-  "description": "Metal Mania font family designed by Open Window",
-  "homepage": "https://fonts.google.com/specimen/Metal+Mania",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Metal+Mania"
 }

@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Black.ttf"
+  "hash": [
+    "5B862BE329103AD287A10F0A53E27A40E8CC519999253F1A0223E2DC330B10B8",
+    "E854E68A388AA50D742A4415C1AE5C17A617EF7956C95A70021D0A4A44F20518",
+    "A6C1EB3E228F639A98AAFD8A8E8A035582DD50AD5F8A84E9DCBC8664E7457114"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cinzeldecorative&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Black.ttf"
+    ]
   },
+  "description": "Cinzel Decorative font family designed by Natanael Gama",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "5B862BE329103AD287A10F0A53E27A40E8CC519999253F1A0223E2DC330B10B8",
-    "E854E68A388AA50D742A4415C1AE5C17A617EF7956C95A70021D0A4A44F20518",
-    "A6C1EB3E228F639A98AAFD8A8E8A035582DD50AD5F8A84E9DCBC8664E7457114"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/CinzelDecorative-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cinzeldecorative&per_page=1"
   },
-  "description": "Cinzel Decorative font family designed by Natanael Gama",
-  "homepage": "https://fonts.google.com/specimen/Cinzel+Decorative",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cinzel+Decorative"
 }

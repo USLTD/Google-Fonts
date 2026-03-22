@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantarrows/EduAUVICWANTArrows[wght].ttf"
+  "hash": [
+    "ADF8176CC45747608C091094612A7E8D3088D4D46DC89ACC37DF37FB7A561903"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwantarrows&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantarrows/EduAUVICWANTArrows[wght].ttf"
+    ]
   },
+  "description": "Edu AU VIC WA NT Arrows font family designed by Tina Anderson, Corey Anderson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "ADF8176CC45747608C091094612A7E8D3088D4D46DC89ACC37DF37FB7A561903"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantarrows/EduAUVICWANTArrows[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwantarrows/EduAUVICWANTArrows[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwantarrows&per_page=1"
   },
-  "description": "Edu AU VIC WA NT Arrows font family designed by Tina Anderson, Corey Anderson",
-  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Arrows",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Arrows"
 }

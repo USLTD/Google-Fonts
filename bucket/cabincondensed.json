@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Bold.ttf"
+  "hash": [
+    "D3AD2CA1872BC3A8664BA913314B2F85FEF015D0A7CB3007A7CA6420B84E574D",
+    "08475CC737055F1C08EB1FBCAD084ABD9D4D0342CB55B3A76E9114CAB99AD9E2",
+    "A73B89D750F03AF8A6CD8783678CD163EC78F9E2C603D2389548FBB8DFC5D62B",
+    "55C7759CDE62445FE60D36DF812F83AD2F720929628040F2A036E1E8C6E48671"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cabincondensed&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Bold.ttf"
+    ]
   },
+  "description": "Cabin Condensed font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "D3AD2CA1872BC3A8664BA913314B2F85FEF015D0A7CB3007A7CA6420B84E574D",
-    "08475CC737055F1C08EB1FBCAD084ABD9D4D0342CB55B3A76E9114CAB99AD9E2",
-    "A73B89D750F03AF8A6CD8783678CD163EC78F9E2C603D2389548FBB8DFC5D62B",
-    "55C7759CDE62445FE60D36DF812F83AD2F720929628040F2A036E1E8C6E48671"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cabincondensed/CabinCondensed-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cabincondensed&per_page=1"
   },
-  "description": "Cabin Condensed font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Cabin+Condensed",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cabin+Condensed"
 }

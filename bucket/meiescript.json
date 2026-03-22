@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/meiescript/MeieScript-Regular.ttf"
+  "hash": [
+    "006C66BA5D8DE0B824821D9444BA97B149E26715944C1A8AB427BBB35704E6C0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/meiescript&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/meiescript/MeieScript-Regular.ttf"
+    ]
   },
+  "description": "Meie Script font family designed by Johan Kallas, Mihkel Virkus",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "006C66BA5D8DE0B824821D9444BA97B149E26715944C1A8AB427BBB35704E6C0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/meiescript/MeieScript-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/meiescript/MeieScript-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/meiescript&per_page=1"
   },
-  "description": "Meie Script font family designed by Johan Kallas, Mihkel Virkus",
-  "homepage": "https://fonts.google.com/specimen/Meie+Script",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Meie+Script"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alfaslabone/AlfaSlabOne-Regular.ttf"
+  "hash": [
+    "28664AFA698A3393BD5A29EEC750230A0645C5301D62200E5F2D3A027FB2299D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alfaslabone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alfaslabone/AlfaSlabOne-Regular.ttf"
+    ]
   },
+  "description": "Alfa Slab One font family designed by JM Solé",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "28664AFA698A3393BD5A29EEC750230A0645C5301D62200E5F2D3A027FB2299D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alfaslabone/AlfaSlabOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alfaslabone/AlfaSlabOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alfaslabone&per_page=1"
   },
-  "description": "Alfa Slab One font family designed by JM Solé",
-  "homepage": "https://fonts.google.com/specimen/Alfa+Slab+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alfa+Slab+One"
 }

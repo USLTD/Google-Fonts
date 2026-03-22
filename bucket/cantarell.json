@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-BoldItalic.ttf"
+  "hash": [
+    "840A255779258A2B24B5E3D1F32A821ED641FDD5EF1E47C4DC180064DB9CCFA1",
+    "113797007A0BAA9EABA2688DE40B51F1D907F5C4F2ADD61CFD25A5E626153613",
+    "1B15D4ACD20DF636755BAFA1E026E73FB277740AA27442198795FCF0D1CB9818",
+    "913DF4975DE5E304A2395C7E1B9C994DAD4BC93F1E80B94EC8662113D87D3E3B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cantarell&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-BoldItalic.ttf"
+    ]
   },
+  "description": "Cantarell font family designed by Dave Crossland",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "840A255779258A2B24B5E3D1F32A821ED641FDD5EF1E47C4DC180064DB9CCFA1",
-    "113797007A0BAA9EABA2688DE40B51F1D907F5C4F2ADD61CFD25A5E626153613",
-    "1B15D4ACD20DF636755BAFA1E026E73FB277740AA27442198795FCF0D1CB9818",
-    "913DF4975DE5E304A2395C7E1B9C994DAD4BC93F1E80B94EC8662113D87D3E3B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantarell/Cantarell-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cantarell&per_page=1"
   },
-  "description": "Cantarell font family designed by Dave Crossland",
-  "homepage": "https://fonts.google.com/specimen/Cantarell",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cantarell"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/delicioushandrawn/DeliciousHandrawn-Regular.ttf"
+  "hash": [
+    "5B78DA9362D2018CAB40BA93565F7A0134723F6A5EE4E3432726D45473A51277"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/delicioushandrawn&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/delicioushandrawn/DeliciousHandrawn-Regular.ttf"
+    ]
   },
+  "description": "Delicious Handrawn font family designed by Agung Rohmat",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5B78DA9362D2018CAB40BA93565F7A0134723F6A5EE4E3432726D45473A51277"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/delicioushandrawn/DeliciousHandrawn-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/delicioushandrawn/DeliciousHandrawn-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/delicioushandrawn&per_page=1"
   },
-  "description": "Delicious Handrawn font family designed by Agung Rohmat",
-  "homepage": "https://fonts.google.com/specimen/Delicious+Handrawn",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Delicious+Handrawn"
 }

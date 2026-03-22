@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Bold.ttf"
+  "hash": [
+    "258D7156C165F2FF774B6EFEE637C22C3B950DE0D8A10E501137061BC8085D01",
+    "30EBA52FC837E8B62C97D4B82E6706583149FB7294E3712DD71A655EAEA80A90"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bizudpgothic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Bold.ttf"
+    ]
   },
+  "description": "BIZ UDPGothic font family designed by Type Bank Co., Morisawa Inc.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "258D7156C165F2FF774B6EFEE637C22C3B950DE0D8A10E501137061BC8085D01",
-    "30EBA52FC837E8B62C97D4B82E6706583149FB7294E3712DD71A655EAEA80A90"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudpgothic/BIZUDPGothic-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bizudpgothic&per_page=1"
   },
-  "description": "BIZ UDPGothic font family designed by Type Bank Co., Morisawa Inc.",
-  "homepage": "https://fonts.google.com/specimen/BIZ+UDPGothic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/BIZ+UDPGothic"
 }

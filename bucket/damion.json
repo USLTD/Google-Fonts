@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/damion/Damion-Regular.ttf"
+  "hash": [
+    "A51FD6C3C517FEB9924B98139C2E902A7317CAEE52C22A2EC9682973969562BF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/damion&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/damion/Damion-Regular.ttf"
+    ]
   },
+  "description": "Damion font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A51FD6C3C517FEB9924B98139C2E902A7317CAEE52C22A2EC9682973969562BF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/damion/Damion-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/damion/Damion-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/damion&per_page=1"
   },
-  "description": "Damion font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Damion",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Damion"
 }

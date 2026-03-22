@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Bold.ttf"
+  "hash": [
+    "4F2854BB53222EB53574711EAA675B55B513FDF68EE938DBE6B80389A1632E36",
+    "064D35104E20E5508F2ED40D0634E30FB5F990AA011D884E0B4541C0FB9D881D",
+    "56DA99A97EAD900A1C4E260724637FCD8B20E8D7ACFEB7045A246C8217F34BC1",
+    "F7C4250F6721F57ECC465AE4F0271518DD6E2FAB01D673ECE7ACEF8FD4A71FFF",
+    "756FBDD4D4CBED464B148EDA63B7008E4F2E06D8AA140D2B594402EE70AEBA8C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindvadodara&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Bold.ttf"
+    ]
   },
+  "description": "Hind Vadodara font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "4F2854BB53222EB53574711EAA675B55B513FDF68EE938DBE6B80389A1632E36",
-    "064D35104E20E5508F2ED40D0634E30FB5F990AA011D884E0B4541C0FB9D881D",
-    "56DA99A97EAD900A1C4E260724637FCD8B20E8D7ACFEB7045A246C8217F34BC1",
-    "F7C4250F6721F57ECC465AE4F0271518DD6E2FAB01D673ECE7ACEF8FD4A71FFF",
-    "756FBDD4D4CBED464B148EDA63B7008E4F2E06D8AA140D2B594402EE70AEBA8C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindvadodara/HindVadodara-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindvadodara&per_page=1"
   },
-  "description": "Hind Vadodara font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Hind+Vadodara",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hind+Vadodara"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].ttf"
+  "hash": [
+    "413E7357809DDD12FD80A96A8A396DE0E401638D4ACD3CB3E37532F0472AC682"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bricolagegrotesque&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].ttf"
+    ]
   },
+  "description": "Bricolage Grotesque font family designed by Mathieu Triay",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "413E7357809DDD12FD80A96A8A396DE0E401638D4ACD3CB3E37532F0472AC682"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bricolagegrotesque&per_page=1"
   },
-  "description": "Bricolage Grotesque font family designed by Mathieu Triay",
-  "homepage": "https://fonts.google.com/specimen/Bricolage+Grotesque",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bricolage+Grotesque"
 }

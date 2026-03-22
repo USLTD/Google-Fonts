@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Bold.ttf"
+  "hash": [
+    "65F2CD4ED6F23048622BBA1A1062C05C2FF80E603D202FDCCF303CF3D5D085E5",
+    "B1BA0C97D959657832C1A0929C274E4D4D8128CA2C52D24C6835CF87FB4A5A04",
+    "B8E2DA56EC11F1965AF59A7119EE0B9B78773A9C9A89AE049B4975C9197B5C8D",
+    "EEE061D1BAC39BE40F9BB94498898CD1894F5D3D9A2F0EE6CBD48A6BD03D052B",
+    "46BA1B7365CC2C583914F23914CCE46E836A72662E34F6E3029B15AAA10B792E",
+    "9D7526A0C8DFAD63C49815D0CCE9EEA1026F018468B81C579997E953620A67D3",
+    "F88FBE0A3717C93DEDDF4B13E50A05C9ADCD38F58D675D9D5D0B869961851667"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansthai&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Bold.ttf"
+    ]
   },
+  "description": "IBM Plex Sans Thai font family designed by Mike Abbink, Bold Monday",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "65F2CD4ED6F23048622BBA1A1062C05C2FF80E603D202FDCCF303CF3D5D085E5",
-    "B1BA0C97D959657832C1A0929C274E4D4D8128CA2C52D24C6835CF87FB4A5A04",
-    "B8E2DA56EC11F1965AF59A7119EE0B9B78773A9C9A89AE049B4975C9197B5C8D",
-    "EEE061D1BAC39BE40F9BB94498898CD1894F5D3D9A2F0EE6CBD48A6BD03D052B",
-    "46BA1B7365CC2C583914F23914CCE46E836A72662E34F6E3029B15AAA10B792E",
-    "9D7526A0C8DFAD63C49815D0CCE9EEA1026F018468B81C579997E953620A67D3",
-    "F88FBE0A3717C93DEDDF4B13E50A05C9ADCD38F58D675D9D5D0B869961851667"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansthai/IBMPlexSansThai-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsansthai&per_page=1"
   },
-  "description": "IBM Plex Sans Thai font family designed by Mike Abbink, Bold Monday",
-  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Thai",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Thai"
 }

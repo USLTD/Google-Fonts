@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/combo/Combo-Regular.ttf"
+  "hash": [
+    "E714674117C2864BF7407E2EBFAFB11E581E97480286FA01B419ADDA94D08686"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/combo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/combo/Combo-Regular.ttf"
+    ]
   },
+  "description": "Combo font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E714674117C2864BF7407E2EBFAFB11E581E97480286FA01B419ADDA94D08686"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/combo/Combo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/combo/Combo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/combo&per_page=1"
   },
-  "description": "Combo font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Combo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Combo"
 }

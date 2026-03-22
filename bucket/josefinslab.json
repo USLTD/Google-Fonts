@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab-Italic[wght].ttf"
+  "hash": [
+    "52F8ADDF239848D129CFDE96C3290B78E271AD657EF5645068D4F08046C2D1B8",
+    "2629D8E5C81BF652F096179D89E525C3D02824307CDD10852053979FE72C8EE9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/josefinslab&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab-Italic[wght].ttf"
+    ]
   },
+  "description": "Josefin Slab font family designed by Santiago Orozco",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "52F8ADDF239848D129CFDE96C3290B78E271AD657EF5645068D4F08046C2D1B8",
-    "2629D8E5C81BF652F096179D89E525C3D02824307CDD10852053979FE72C8EE9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/josefinslab/JosefinSlab-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/josefinslab&per_page=1"
   },
-  "description": "Josefin Slab font family designed by Santiago Orozco",
-  "homepage": "https://fonts.google.com/specimen/Josefin+Slab",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Josefin+Slab"
 }

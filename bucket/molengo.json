@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/molengo/Molengo-Regular.ttf"
+  "hash": [
+    "179B2472BBC83C90FFE3A64E31E7CE6915D22173EE5073CC4E786E9FC7792D76"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/molengo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/molengo/Molengo-Regular.ttf"
+    ]
   },
+  "description": "Molengo font family designed by Denis Jacquerye",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "179B2472BBC83C90FFE3A64E31E7CE6915D22173EE5073CC4E786E9FC7792D76"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/molengo/Molengo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/molengo/Molengo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/molengo&per_page=1"
   },
-  "description": "Molengo font family designed by Denis Jacquerye",
-  "homepage": "https://fonts.google.com/specimen/Molengo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Molengo"
 }

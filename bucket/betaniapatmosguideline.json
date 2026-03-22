@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosguideline/BetaniaPatmosGuideLine-Regular.ttf"
+  "hash": [
+    "5BC4F5E9459AD2607DB4ED44A5AFA13B4C774B42A11C412208EB907372C28140"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/betaniapatmosguideline&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosguideline/BetaniaPatmosGuideLine-Regular.ttf"
+    ]
   },
+  "description": "Betania Patmos Guide Line font family designed by Carolina Giovagnoli",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5BC4F5E9459AD2607DB4ED44A5AFA13B4C774B42A11C412208EB907372C28140"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosguideline/BetaniaPatmosGuideLine-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosguideline/BetaniaPatmosGuideLine-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/betaniapatmosguideline&per_page=1"
   },
-  "description": "Betania Patmos Guide Line font family designed by Carolina Giovagnoli",
-  "homepage": "https://fonts.google.com/specimen/Betania+Patmos+Guide+Line",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Betania+Patmos+Guide+Line"
 }

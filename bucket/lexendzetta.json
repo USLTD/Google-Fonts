@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendzetta/LexendZetta[wght].ttf"
+  "hash": [
+    "705BA2F80F8DAF3C93B9AEC2798D054E5F31CB1BDED00F1706800549F47C35DF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendzetta&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendzetta/LexendZetta[wght].ttf"
+    ]
   },
+  "description": "Lexend Zetta font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "705BA2F80F8DAF3C93B9AEC2798D054E5F31CB1BDED00F1706800549F47C35DF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendzetta/LexendZetta[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lexendzetta/LexendZetta[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lexendzetta&per_page=1"
   },
-  "description": "Lexend Zetta font family designed by Bonnie Shaver-Troup, Thomas Jockin, Santiago Orozco, Héctor Gómez, Superunion",
-  "homepage": "https://fonts.google.com/specimen/Lexend+Zetta",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lexend+Zetta"
 }

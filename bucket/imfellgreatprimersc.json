@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellgreatprimersc/IMFeGPsc28P.ttf"
+  "hash": [
+    "78952E5990C83116EF01AD7402F4384B1B9BC5C6C38690D2048F16A5317FF0C4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellgreatprimersc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellgreatprimersc/IMFeGPsc28P.ttf"
+    ]
   },
+  "description": "IM Fell Great Primer SC font family designed by Igino Marini",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "78952E5990C83116EF01AD7402F4384B1B9BC5C6C38690D2048F16A5317FF0C4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellgreatprimersc/IMFeGPsc28P.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellgreatprimersc/IMFeGPsc28P.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellgreatprimersc&per_page=1"
   },
-  "description": "IM Fell Great Primer SC font family designed by Igino Marini",
-  "homepage": "https://fonts.google.com/specimen/IM+Fell+Great+Primer+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IM+Fell+Great+Primer+SC"
 }

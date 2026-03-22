@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeespice/BungeeSpice-Regular.ttf"
+  "hash": [
+    "CCF8E3F7EB1AC87ED217097332856F9007484362A00AE3B42A03C6EF851158D0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeespice&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeespice/BungeeSpice-Regular.ttf"
+    ]
   },
+  "description": "Bungee Spice font family designed by David Jonathan Ross",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CCF8E3F7EB1AC87ED217097332856F9007484362A00AE3B42A03C6EF851158D0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeespice/BungeeSpice-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeespice/BungeeSpice-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeespice&per_page=1"
   },
-  "description": "Bungee Spice font family designed by David Jonathan Ross",
-  "homepage": "https://fonts.google.com/specimen/Bungee+Spice",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bungee+Spice"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/griffy/Griffy-Regular.ttf"
+  "hash": [
+    "C889C3F8D169631386A297EAE8B5BDEFBF8D06AA9F4F325FAEC31B9B5F38EEB5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/griffy&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/griffy/Griffy-Regular.ttf"
+    ]
   },
+  "description": "Griffy font family designed by Neapolitan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C889C3F8D169631386A297EAE8B5BDEFBF8D06AA9F4F325FAEC31B9B5F38EEB5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/griffy/Griffy-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/griffy/Griffy-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/griffy&per_page=1"
   },
-  "description": "Griffy font family designed by Neapolitan",
-  "homepage": "https://fonts.google.com/specimen/Griffy",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Griffy"
 }

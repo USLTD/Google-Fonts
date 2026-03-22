@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/astasans/AstaSans[wght].ttf"
+  "hash": [
+    "F68410BF7D04DEB992097758640145C72DDCF234070794237FC4994E18991C33"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/astasans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/astasans/AstaSans[wght].ttf"
+    ]
   },
+  "description": "Asta Sans font family designed by 42dot",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F68410BF7D04DEB992097758640145C72DDCF234070794237FC4994E18991C33"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/astasans/AstaSans[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/astasans/AstaSans[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/astasans&per_page=1"
   },
-  "description": "Asta Sans font family designed by 42dot",
-  "homepage": "https://fonts.google.com/specimen/Asta+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Asta+Sans"
 }

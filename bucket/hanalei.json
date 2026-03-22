@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hanalei/Hanalei-Regular.ttf"
+  "hash": [
+    "000DDD2A6BE57F52AA41876C2BA71310E2A711F0343C1BDD71E43C9F137000F6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hanalei&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hanalei/Hanalei-Regular.ttf"
+    ]
   },
+  "description": "Hanalei font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "000DDD2A6BE57F52AA41876C2BA71310E2A711F0343C1BDD71E43C9F137000F6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hanalei/Hanalei-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hanalei/Hanalei-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hanalei&per_page=1"
   },
-  "description": "Hanalei font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Hanalei",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hanalei"
 }

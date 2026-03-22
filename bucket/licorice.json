@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/licorice/Licorice-Regular.ttf"
+  "hash": [
+    "C72D8CB2F56E6995B3682D8620E2D602BACF78B67121CDFBFACE9ACC422750D8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/licorice&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/licorice/Licorice-Regular.ttf"
+    ]
   },
+  "description": "Licorice font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C72D8CB2F56E6995B3682D8620E2D602BACF78B67121CDFBFACE9ACC422750D8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/licorice/Licorice-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/licorice/Licorice-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/licorice&per_page=1"
   },
-  "description": "Licorice font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Licorice",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Licorice"
 }

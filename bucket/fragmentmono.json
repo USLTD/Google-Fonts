@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Italic.ttf"
+  "hash": [
+    "0FE011F425873C2E0FC73A189E394E340AD48D2B9A99A576BDEEC75CEE000460",
+    "C9DD3C7B24C11BA05AB1A6EC3A659C823F0E14FB26C14DF0E93E82EBB60F3A25"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fragmentmono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Italic.ttf"
+    ]
   },
+  "description": "Fragment Mono font family designed by Wei Huang, URW Design Studio",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "0FE011F425873C2E0FC73A189E394E340AD48D2B9A99A576BDEEC75CEE000460",
-    "C9DD3C7B24C11BA05AB1A6EC3A659C823F0E14FB26C14DF0E93E82EBB60F3A25"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmono/FragmentMono-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fragmentmono&per_page=1"
   },
-  "description": "Fragment Mono font family designed by Wei Huang, URW Design Studio",
-  "homepage": "https://fonts.google.com/specimen/Fragment+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fragment+Mono"
 }

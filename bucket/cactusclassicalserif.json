@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf"
+  "hash": [
+    "ECBD58961DB922392D7FECFAFA3681FEFAEEC0C399B860AB6940BA700F7DA055"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cactusclassicalserif&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf"
+    ]
   },
+  "description": "Cactus Classical Serif font family designed by Henry Chan, Tian Haidong, Moonlit Owen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "ECBD58961DB922392D7FECFAFA3681FEFAEEC0C399B860AB6940BA700F7DA055"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cactusclassicalserif&per_page=1"
   },
-  "description": "Cactus Classical Serif font family designed by Henry Chan, Tian Haidong, Moonlit Owen",
-  "homepage": "https://fonts.google.com/specimen/Cactus+Classical+Serif",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cactus+Classical+Serif"
 }

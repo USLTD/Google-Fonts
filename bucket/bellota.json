@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-BoldItalic.ttf"
+  "hash": [
+    "18D184F3598BAE830082041CF7FB49A24D0DEE605DE2B52E4AE68BDED698DF0A",
+    "6F61044DAAC01399BD7D1FD00C2CCFEB6B916F10F4C96A303E1A1007BB48E17D",
+    "D46806F9C5FD46CD6BF1C261BFA46B2D22503130D585451DC7863D8CE80524FC",
+    "8E1AE4D9FA4E055E9FC202BE586F8A9A5BEF81D8731BDD40BD862DF2071EDB99",
+    "2120A9B5C3C92E7FE7CF4E964E925AC04CB013C63AC72DA4A756AE6ED872E97B",
+    "82CAAFA69ED7CD8AB3723B2C8EEDB443BE908F9088E57FFCDE0B5F0D38DC3708"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bellota&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-BoldItalic.ttf"
+    ]
   },
+  "description": "Bellota font family designed by Kemie Guaida",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "18D184F3598BAE830082041CF7FB49A24D0DEE605DE2B52E4AE68BDED698DF0A",
-    "6F61044DAAC01399BD7D1FD00C2CCFEB6B916F10F4C96A303E1A1007BB48E17D",
-    "D46806F9C5FD46CD6BF1C261BFA46B2D22503130D585451DC7863D8CE80524FC",
-    "8E1AE4D9FA4E055E9FC202BE586F8A9A5BEF81D8731BDD40BD862DF2071EDB99",
-    "2120A9B5C3C92E7FE7CF4E964E925AC04CB013C63AC72DA4A756AE6ED872E97B",
-    "82CAAFA69ED7CD8AB3723B2C8EEDB443BE908F9088E57FFCDE0B5F0D38DC3708"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellota/Bellota-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bellota&per_page=1"
   },
-  "description": "Bellota font family designed by Kemie Guaida",
-  "homepage": "https://fonts.google.com/specimen/Bellota",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bellota"
 }

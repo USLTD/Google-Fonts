@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/madimione/MadimiOne-Regular.ttf"
+  "hash": [
+    "E70355081D3F4EB1FB3D523C4B803A8977669F6BA7C2C14ECEE88D2D19FEC690"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/madimione&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/madimione/MadimiOne-Regular.ttf"
+    ]
   },
+  "description": "Madimi One font family designed by Taurai Valerie Mtake, Mirko Velimirović",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E70355081D3F4EB1FB3D523C4B803A8977669F6BA7C2C14ECEE88D2D19FEC690"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/madimione/MadimiOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/madimione/MadimiOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/madimione&per_page=1"
   },
-  "description": "Madimi One font family designed by Taurai Valerie Mtake, Mirko Velimirović",
-  "homepage": "https://fonts.google.com/specimen/Madimi+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Madimi+One"
 }

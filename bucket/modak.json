@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/modak/Modak-Regular.ttf"
+  "hash": [
+    "9A96BA056DDCBB7D0C937C52F744FF5D71004A97689B1FD2CDBD678F314DB245"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/modak&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/modak/Modak-Regular.ttf"
+    ]
   },
+  "description": "Modak font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9A96BA056DDCBB7D0C937C52F744FF5D71004A97689B1FD2CDBD678F314DB245"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/modak/Modak-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/modak/Modak-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/modak&per_page=1"
   },
-  "description": "Modak font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Modak",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Modak"
 }

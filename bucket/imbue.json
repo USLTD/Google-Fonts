@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imbue/Imbue[opsz,wght].ttf"
+  "hash": [
+    "BF45FF1DC01974ACEDF4F11BCBFA7365053D97F4D598DDAFE189D238AC80A534"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imbue&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imbue/Imbue[opsz,wght].ttf"
+    ]
   },
+  "description": "Imbue font family designed by Tyler Finck, ETC",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BF45FF1DC01974ACEDF4F11BCBFA7365053D97F4D598DDAFE189D238AC80A534"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imbue/Imbue[opsz,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imbue/Imbue[opsz,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imbue&per_page=1"
   },
-  "description": "Imbue font family designed by Tyler Finck, ETC",
-  "homepage": "https://fonts.google.com/specimen/Imbue",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Imbue"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jollylodger/JollyLodger-Regular.ttf"
+  "hash": [
+    "64D3E628AE2F3EBCB34EED029E90CB6674E9E74ED4E76E72EFFBF53B93B2DBF9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jollylodger&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jollylodger/JollyLodger-Regular.ttf"
+    ]
   },
+  "description": "Jolly Lodger font family designed by Font Diner",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "64D3E628AE2F3EBCB34EED029E90CB6674E9E74ED4E76E72EFFBF53B93B2DBF9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jollylodger/JollyLodger-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jollylodger/JollyLodger-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jollylodger&per_page=1"
   },
-  "description": "Jolly Lodger font family designed by Font Diner",
-  "homepage": "https://fonts.google.com/specimen/Jolly+Lodger",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jolly+Lodger"
 }

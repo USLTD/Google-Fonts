@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cagliostro/Cagliostro-Regular.ttf"
+  "hash": [
+    "0D205E9A9B34691DCA50064EA681404157F1747E39B592FCE978B2A32BD5FB61"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cagliostro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cagliostro/Cagliostro-Regular.ttf"
+    ]
   },
+  "description": "Cagliostro font family designed by MADType",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0D205E9A9B34691DCA50064EA681404157F1747E39B592FCE978B2A32BD5FB61"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cagliostro/Cagliostro-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cagliostro/Cagliostro-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cagliostro&per_page=1"
   },
-  "description": "Cagliostro font family designed by MADType",
-  "homepage": "https://fonts.google.com/specimen/Cagliostro",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cagliostro"
 }

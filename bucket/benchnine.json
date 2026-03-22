@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Bold.ttf"
+  "hash": [
+    "B1A0AA5FD59B09AFF1E396FB617C7CA9223C39E1BBBC1199D96784A8CE707878",
+    "ABC1E1DFCFCF8FECF322D85BD461F308A68D313AB2A82F4F192D9580A82BB0D7",
+    "5D3C445184569F424ED6D434CAD16BDDA130C5A395F79E2674F447CD5495CB97"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/benchnine&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Bold.ttf"
+    ]
   },
+  "description": "BenchNine font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "B1A0AA5FD59B09AFF1E396FB617C7CA9223C39E1BBBC1199D96784A8CE707878",
-    "ABC1E1DFCFCF8FECF322D85BD461F308A68D313AB2A82F4F192D9580A82BB0D7",
-    "5D3C445184569F424ED6D434CAD16BDDA130C5A395F79E2674F447CD5495CB97"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/BenchNine-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/benchnine&per_page=1"
   },
-  "description": "BenchNine font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/BenchNine",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/BenchNine"
 }

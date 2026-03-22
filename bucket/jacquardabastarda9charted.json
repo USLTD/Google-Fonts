@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquardabastarda9charted/JacquardaBastarda9Charted-Regular.ttf"
+  "hash": [
+    "812BB5613B16BD8CEFDC43B4497400EA548C55A64F0D6E8CB1BF510A28DA8581"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jacquardabastarda9charted&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquardabastarda9charted/JacquardaBastarda9Charted-Regular.ttf"
+    ]
   },
+  "description": "Jacquarda Bastarda 9 Charted font family designed by Sarah Cadigan-Fried",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "812BB5613B16BD8CEFDC43B4497400EA548C55A64F0D6E8CB1BF510A28DA8581"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquardabastarda9charted/JacquardaBastarda9Charted-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquardabastarda9charted/JacquardaBastarda9Charted-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jacquardabastarda9charted&per_page=1"
   },
-  "description": "Jacquarda Bastarda 9 Charted font family designed by Sarah Cadigan-Fried",
-  "homepage": "https://fonts.google.com/specimen/Jacquarda+Bastarda+9+Charted",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jacquarda+Bastarda+9+Charted"
 }

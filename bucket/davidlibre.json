@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Bold.ttf"
+  "hash": [
+    "923F06E0F6DC84E1649D8CC5D5E12A8D663ADF6ABA83BA15BAA5D559FB47B86E",
+    "FA3E35197472768520A489B77009B75BFC55601F61A0C4D0C1B23CA7F87701CE",
+    "7610819C7888C8E7ECDFC573089113EC5355CF95078614AE0E30B509B05468F8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/davidlibre&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Bold.ttf"
+    ]
   },
+  "description": "David Libre font family designed by Monotype Imaging Inc., SIL International, Meir Sadan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "923F06E0F6DC84E1649D8CC5D5E12A8D663ADF6ABA83BA15BAA5D559FB47B86E",
-    "FA3E35197472768520A489B77009B75BFC55601F61A0C4D0C1B23CA7F87701CE",
-    "7610819C7888C8E7ECDFC573089113EC5355CF95078614AE0E30B509B05468F8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/DavidLibre-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/davidlibre&per_page=1"
   },
-  "description": "David Libre font family designed by Monotype Imaging Inc., SIL International, Meir Sadan",
-  "homepage": "https://fonts.google.com/specimen/David+Libre",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/David+Libre"
 }

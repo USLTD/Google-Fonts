@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic[wght].ttf"
+  "hash": [
+    "30F2E14A5C389B346B1FCE110C4DDCF0DC5CE8265FAF5ECA2AB7323F49DBA590",
+    "33559B4BEB60523B824E25A416B5DE2779A9BC7C7CE32CE128490B42ACBF4681"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cascadiacode&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic[wght].ttf"
+    ]
   },
+  "description": "Cascadia Code font family designed by Aaron Bell, Mohamad Dakak, Viktoriya Grabowska, Liron Lavi Turkenich",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "30F2E14A5C389B346B1FCE110C4DDCF0DC5CE8265FAF5ECA2AB7323F49DBA590",
-    "33559B4BEB60523B824E25A416B5DE2779A9BC7C7CE32CE128490B42ACBF4681"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cascadiacode&per_page=1"
   },
-  "description": "Cascadia Code font family designed by Aaron Bell, Mohamad Dakak, Viktoriya Grabowska, Liron Lavi Turkenich",
-  "homepage": "https://fonts.google.com/specimen/Cascadia+Code",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cascadia+Code"
 }

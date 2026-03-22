@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Black.ttf"
+  "hash": [
+    "6961C4E6B3DFFFD2408417D5B58994882806AE959E005309A0096869BABD80DC",
+    "D46C7420B1E5FEDC2086C8CE89275A6ED13C6778829C0617F56DF8C3BDDD686F",
+    "2EC563CF7DFC16E944FF6FB3411DD7FC49DE13515D3993587243F02E76E4BF98",
+    "F4D31AD01F24AE26B30C8610F5B3E1AB9383876F1EF98CC0A4118024928456F4",
+    "222A233DA522553541938FA7780D3BCC008AF009679797658885F0052FFB76EF",
+    "89F62CFA8E72F8EC9ACC5A0AAE088AB4B04FED9C3DBAAAD0D2FDB6563A41CBA4",
+    "279DE2D9B3F21796A2A367CC55D8654EEE9534A4F329D5D442294D82A333C361"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inknutantiqua&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Black.ttf"
+    ]
   },
+  "description": "Inknut Antiqua font family designed by Claus Eggers Sørensen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "6961C4E6B3DFFFD2408417D5B58994882806AE959E005309A0096869BABD80DC",
-    "D46C7420B1E5FEDC2086C8CE89275A6ED13C6778829C0617F56DF8C3BDDD686F",
-    "2EC563CF7DFC16E944FF6FB3411DD7FC49DE13515D3993587243F02E76E4BF98",
-    "F4D31AD01F24AE26B30C8610F5B3E1AB9383876F1EF98CC0A4118024928456F4",
-    "222A233DA522553541938FA7780D3BCC008AF009679797658885F0052FFB76EF",
-    "89F62CFA8E72F8EC9ACC5A0AAE088AB4B04FED9C3DBAAAD0D2FDB6563A41CBA4",
-    "279DE2D9B3F21796A2A367CC55D8654EEE9534A4F329D5D442294D82A333C361"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inknutantiqua/InknutAntiqua-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inknutantiqua&per_page=1"
   },
-  "description": "Inknut Antiqua font family designed by Claus Eggers Sørensen",
-  "homepage": "https://fonts.google.com/specimen/Inknut+Antiqua",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inknut+Antiqua"
 }

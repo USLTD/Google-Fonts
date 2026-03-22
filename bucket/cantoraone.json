@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantoraone/CantoraOne-Regular.ttf"
+  "hash": [
+    "78E9174F67DB3E0C1EFBE0B570C3546BC805ED43A0FB2DBEC4ACA7831CAF1F15"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cantoraone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantoraone/CantoraOne-Regular.ttf"
+    ]
   },
+  "description": "Cantora One font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "78E9174F67DB3E0C1EFBE0B570C3546BC805ED43A0FB2DBEC4ACA7831CAF1F15"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cantoraone/CantoraOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cantoraone/CantoraOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cantoraone&per_page=1"
   },
-  "description": "Cantora One font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Cantora+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cantora+One"
 }

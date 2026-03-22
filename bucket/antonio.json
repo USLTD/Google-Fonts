@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/antonio/Antonio[wght].ttf"
+  "hash": [
+    "9E95A2258ECDF3E45C72C5BBEA1C4CD350E8F7BEBC87C9DBA53B29B1890B8903"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/antonio&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/antonio/Antonio[wght].ttf"
+    ]
   },
+  "description": "Antonio font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9E95A2258ECDF3E45C72C5BBEA1C4CD350E8F7BEBC87C9DBA53B29B1890B8903"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/antonio/Antonio[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/antonio/Antonio[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/antonio&per_page=1"
   },
-  "description": "Antonio font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Antonio",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Antonio"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fjordone/FjordOne-Regular.ttf"
+  "hash": [
+    "E589E22412B5382C1A4EC482AF28C515D9C794CE8BDE9A4C2DB8EF2A6A063D86"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fjordone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fjordone/FjordOne-Regular.ttf"
+    ]
   },
+  "description": "Fjord One font family designed by Viktoriya Grabowska",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E589E22412B5382C1A4EC482AF28C515D9C794CE8BDE9A4C2DB8EF2A6A063D86"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fjordone/FjordOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fjordone/FjordOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fjordone&per_page=1"
   },
-  "description": "Fjord One font family designed by Viktoriya Grabowska",
-  "homepage": "https://fonts.google.com/specimen/Fjord+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fjord+One"
 }

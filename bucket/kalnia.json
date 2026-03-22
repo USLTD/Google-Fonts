@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalnia/Kalnia[wdth,wght].ttf"
+  "hash": [
+    "33685D0EC4ABCCA2736A51A10A6D4EE1AAB2E608E6598C6926AF9550B86731A4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kalnia&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalnia/Kalnia[wdth,wght].ttf"
+    ]
   },
+  "description": "Kalnia font family designed by Frida Medrano",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "33685D0EC4ABCCA2736A51A10A6D4EE1AAB2E608E6598C6926AF9550B86731A4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kalnia/Kalnia[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kalnia/Kalnia[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kalnia&per_page=1"
   },
-  "description": "Kalnia font family designed by Frida Medrano",
-  "homepage": "https://fonts.google.com/specimen/Kalnia",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kalnia"
 }

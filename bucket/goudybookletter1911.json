@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/goudybookletter1911/GoudyBookletter1911.ttf"
+  "hash": [
+    "62D219942D2E4A3A8473C116254966D308820AE1729E2FAC3730E66C073A5548"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/goudybookletter1911&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/goudybookletter1911/GoudyBookletter1911.ttf"
+    ]
   },
+  "description": "Goudy Bookletter 1911 font family designed by Barry Schwartz",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "62D219942D2E4A3A8473C116254966D308820AE1729E2FAC3730E66C073A5548"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/goudybookletter1911/GoudyBookletter1911.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/goudybookletter1911/GoudyBookletter1911.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/goudybookletter1911&per_page=1"
   },
-  "description": "Goudy Bookletter 1911 font family designed by Barry Schwartz",
-  "homepage": "https://fonts.google.com/specimen/Goudy+Bookletter+1911",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Goudy+Bookletter+1911"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora-Italic[wght].ttf"
+  "hash": [
+    "822A6621CCBE8D97D20AC88C1C41F5615C9C2C202EAA75F272CD452AAC6475A7",
+    "22D8D8854B53807AA664CA34F2031A9ED57A1D0DEA296B8B96CDD3AAD937A2B3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lora&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora-Italic[wght].ttf"
+    ]
   },
+  "description": "Lora font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "822A6621CCBE8D97D20AC88C1C41F5615C9C2C202EAA75F272CD452AAC6475A7",
-    "22D8D8854B53807AA664CA34F2031A9ED57A1D0DEA296B8B96CDD3AAD937A2B3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lora&per_page=1"
   },
-  "description": "Lora font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Lora",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lora"
 }

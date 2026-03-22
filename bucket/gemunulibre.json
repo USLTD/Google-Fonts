@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gemunulibre/GemunuLibre[wght].ttf"
+  "hash": [
+    "E723B7F44B06B2443B44EB734F32794EAE64915029842D2B2187EADD74B377A6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gemunulibre&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gemunulibre/GemunuLibre[wght].ttf"
+    ]
   },
+  "description": "Gemunu Libre font family designed by Mooniak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E723B7F44B06B2443B44EB734F32794EAE64915029842D2B2187EADD74B377A6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gemunulibre/GemunuLibre[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gemunulibre/GemunuLibre[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gemunulibre&per_page=1"
   },
-  "description": "Gemunu Libre font family designed by Mooniak",
-  "homepage": "https://fonts.google.com/specimen/Gemunu+Libre",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gemunu+Libre"
 }

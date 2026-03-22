@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Italic.ttf"
+  "hash": [
+    "481AFA82A0060B3649668FA629455CAEEA407864D4C1F6D815380866C504DF07",
+    "00AC0E73855F16E7192A76BC284FB86F69B2F2C21B405E29991F99ECE83D6391"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfelldoublepica&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Italic.ttf"
+    ]
   },
+  "description": "IM Fell Double Pica font family designed by Igino Marini",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "481AFA82A0060B3649668FA629455CAEEA407864D4C1F6D815380866C504DF07",
-    "00AC0E73855F16E7192A76BC284FB86F69B2F2C21B405E29991F99ECE83D6391"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepica/IMFELLDoublePica-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfelldoublepica&per_page=1"
   },
-  "description": "IM Fell Double Pica font family designed by Igino Marini",
-  "homepage": "https://fonts.google.com/specimen/IM+Fell+Double+Pica",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IM+Fell+Double+Pica"
 }

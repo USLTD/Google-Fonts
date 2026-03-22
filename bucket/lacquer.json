@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lacquer/Lacquer-Regular.ttf"
+  "hash": [
+    "140C21F71907A16952926EE354C81081092C90D599C89FE8B4557BAEAEBBBE83"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lacquer&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lacquer/Lacquer-Regular.ttf"
+    ]
   },
+  "description": "Lacquer font family designed by Niki Polyocan, Eli Block",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "140C21F71907A16952926EE354C81081092C90D599C89FE8B4557BAEAEBBBE83"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lacquer/Lacquer-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lacquer/Lacquer-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lacquer&per_page=1"
   },
-  "description": "Lacquer font family designed by Niki Polyocan, Eli Block",
-  "homepage": "https://fonts.google.com/specimen/Lacquer",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lacquer"
 }

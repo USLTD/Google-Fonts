@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aladin/Aladin-Regular.ttf"
+  "hash": [
+    "C7EE57E19B1B2C89F8D786115DC69225091FF7665F30FEA7908BC2FB27D13398"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aladin&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aladin/Aladin-Regular.ttf"
+    ]
   },
+  "description": "Aladin font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C7EE57E19B1B2C89F8D786115DC69225091FF7665F30FEA7908BC2FB27D13398"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aladin/Aladin-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aladin/Aladin-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aladin&per_page=1"
   },
-  "description": "Aladin font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Aladin",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Aladin"
 }

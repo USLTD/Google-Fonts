@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Italic.ttf"
+  "hash": [
+    "5DA4525899A27708241A4108E76D6BFD087766A66D159D80DCF986801BFB1092",
+    "3053E62A5BF1FE0F08D8196BF31DE312DEF7DEA7B0415D6B20385CAA5D333B0A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arapey&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Italic.ttf"
+    ]
   },
+  "description": "Arapey font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "5DA4525899A27708241A4108E76D6BFD087766A66D159D80DCF986801BFB1092",
-    "3053E62A5BF1FE0F08D8196BF31DE312DEF7DEA7B0415D6B20385CAA5D333B0A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arapey/Arapey-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arapey&per_page=1"
   },
-  "description": "Arapey font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Arapey",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Arapey"
 }

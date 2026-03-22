@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/daysone/DaysOne-Regular.ttf"
+  "hash": [
+    "7B5A0E6D88696E43E95F6320613908E53D36AD854B4A18E4A1B8D1C19FDBF1FE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/daysone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/daysone/DaysOne-Regular.ttf"
+    ]
   },
+  "description": "Days One font family designed by Jovanny Lemonad",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7B5A0E6D88696E43E95F6320613908E53D36AD854B4A18E4A1B8D1C19FDBF1FE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/daysone/DaysOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/daysone/DaysOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/daysone&per_page=1"
   },
-  "description": "Days One font family designed by Jovanny Lemonad",
-  "homepage": "https://fonts.google.com/specimen/Days+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Days+One"
 }

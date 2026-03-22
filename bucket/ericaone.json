@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ericaone/EricaOne-Regular.ttf"
+  "hash": [
+    "4B135F75996959D65D425B7175F0944243FABE8E9D62238555AD9C9B19A17D93"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ericaone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ericaone/EricaOne-Regular.ttf"
+    ]
   },
+  "description": "Erica One font family designed by Miguel Hernandez",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4B135F75996959D65D425B7175F0944243FABE8E9D62238555AD9C9B19A17D93"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ericaone/EricaOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ericaone/EricaOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ericaone&per_page=1"
   },
-  "description": "Erica One font family designed by Miguel Hernandez",
-  "homepage": "https://fonts.google.com/specimen/Erica+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Erica+One"
 }

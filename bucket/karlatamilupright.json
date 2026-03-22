@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Bold.ttf"
+  "hash": [
+    "7D79EE26D351ECF03CBEB129EF0A1C29779B58DEC45A153291F1A3C6C926E50F",
+    "0121D30EF4D7B3B8F8BDD62F3ED2108D37135DA8021A737D5FC4976C33F11396"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karlatamilupright&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Bold.ttf"
+    ]
   },
+  "description": "Karla Tamil Upright font family designed by Jonathan Pinhorn",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "7D79EE26D351ECF03CBEB129EF0A1C29779B58DEC45A153291F1A3C6C926E50F",
-    "0121D30EF4D7B3B8F8BDD62F3ED2108D37135DA8021A737D5FC4976C33F11396"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karlatamilupright/KarlaTamilUpright-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karlatamilupright&per_page=1"
   },
-  "description": "Karla Tamil Upright font family designed by Jonathan Pinhorn",
-  "homepage": "https://fonts.google.com/specimen/Karla+Tamil+Upright",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Karla+Tamil+Upright"
 }

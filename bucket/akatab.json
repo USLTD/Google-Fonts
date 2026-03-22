@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Black.ttf"
+  "hash": [
+    "7EFECAB54EB02E1B47087EC1EBBE6AC32B4308AC02E18F71C1F7567EC4D69FB4",
+    "E0CE76DA55CE20A8AE5159EFCCA7CFE9AB01749D8338D6A8C47B7415C166AA52",
+    "E5A581CE73FA4EAD0FC5129C330033F042AB3FCC08475EA38CDEB03EFA3BC0C8",
+    "D7BF342248FA07FCC0E3AEB186F1F9286E10C8465EE427DD74776C3BA1A10FAB",
+    "D56E1275568D4A88D66CE20FB7987D3ADB90CAFAC1976A941B756719E753E58F",
+    "31DDEC2B9ED113D6003368CA61EFE3707DF5E93804F337ACA6D5D24A1F2700E1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/akatab&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Black.ttf"
+    ]
   },
+  "description": "Akatab font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "7EFECAB54EB02E1B47087EC1EBBE6AC32B4308AC02E18F71C1F7567EC4D69FB4",
-    "E0CE76DA55CE20A8AE5159EFCCA7CFE9AB01749D8338D6A8C47B7415C166AA52",
-    "E5A581CE73FA4EAD0FC5129C330033F042AB3FCC08475EA38CDEB03EFA3BC0C8",
-    "D7BF342248FA07FCC0E3AEB186F1F9286E10C8465EE427DD74776C3BA1A10FAB",
-    "D56E1275568D4A88D66CE20FB7987D3ADB90CAFAC1976A941B756719E753E58F",
-    "31DDEC2B9ED113D6003368CA61EFE3707DF5E93804F337ACA6D5D24A1F2700E1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/akatab&per_page=1"
   },
-  "description": "Akatab font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Akatab",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Akatab"
 }

@@ -1,18 +1,27 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Black.ttf"
+  "hash": [
+    "3E06087E0F62496AC99F14DE72D4BEE718EF28B9AD824EBC1D79FC8956D30288",
+    "99070DE9779F72DF4E836B8DFF77ABA1DB6102C41F093D200C5D77F336B16174",
+    "6B8A38218155B1FB37BFDC10D5FF2EF815372ED99AEEF3C4E5AEBB39EC8D471D",
+    "2F2DA3988C84378F11568885C970C442A7263BCE637BD5BD4B02EC064C5753C0",
+    "A9A701EB18CBD5F786F28F986C16895FFC0D0337E4A9A63131B619D9542E07D4",
+    "DA7C3E42B502B5445263D492B5ADCDFF01E656D87BEDDF8CC5BAE5657898664A",
+    "2AADB3BF884C0F60C1FCCF861CCC4C31AE4FF42C87B23444CD979246D6863129",
+    "9404723F3A1A2C600C2B1CA8BA3BDAA1FCC348CDCAA94301181F97E368CFFF49"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blinker&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Black.ttf"
+    ]
   },
+  "description": "Blinker font family designed by Juergen Huber",
   "installer": {
     "script": [
       "if ($global) {",
@@ -54,6 +63,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -138,30 +148,20 @@
       "}"
     ]
   },
-  "hash": [
-    "3E06087E0F62496AC99F14DE72D4BEE718EF28B9AD824EBC1D79FC8956D30288",
-    "99070DE9779F72DF4E836B8DFF77ABA1DB6102C41F093D200C5D77F336B16174",
-    "6B8A38218155B1FB37BFDC10D5FF2EF815372ED99AEEF3C4E5AEBB39EC8D471D",
-    "2F2DA3988C84378F11568885C970C442A7263BCE637BD5BD4B02EC064C5753C0",
-    "A9A701EB18CBD5F786F28F986C16895FFC0D0337E4A9A63131B619D9542E07D4",
-    "DA7C3E42B502B5445263D492B5ADCDFF01E656D87BEDDF8CC5BAE5657898664A",
-    "2AADB3BF884C0F60C1FCCF861CCC4C31AE4FF42C87B23444CD979246D6863129",
-    "9404723F3A1A2C600C2B1CA8BA3BDAA1FCC348CDCAA94301181F97E368CFFF49"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blinker/Blinker-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blinker&per_page=1"
   },
-  "description": "Blinker font family designed by Juergen Huber",
-  "homepage": "https://fonts.google.com/specimen/Blinker",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Blinker"
 }

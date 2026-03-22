@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kavivanar/Kavivanar-Regular.ttf"
+  "hash": [
+    "AB373A218EE8464FEE6ED14EE864D5A6C5146CA0458F0A61678A1889FE44B710"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kavivanar&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kavivanar/Kavivanar-Regular.ttf"
+    ]
   },
+  "description": "Kavivanar font family designed by Tharique Azeez",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "AB373A218EE8464FEE6ED14EE864D5A6C5146CA0458F0A61678A1889FE44B710"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kavivanar/Kavivanar-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kavivanar/Kavivanar-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kavivanar&per_page=1"
   },
-  "description": "Kavivanar font family designed by Tharique Azeez",
-  "homepage": "https://fonts.google.com/specimen/Kavivanar",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kavivanar"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Italic.ttf"
+  "hash": [
+    "2B9FFFAA99F228498EE104BAB524D7932EB1C49DD635E6BE2A060C8EC999C9CC",
+    "4A010CCB1F317377ED9F4B47604102A5DB3E50533D37D805D3322E56797218E0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chauphilomeneone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Italic.ttf"
+    ]
   },
+  "description": "Chau Philomene One font family designed by Vicente Lamónaca",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "2B9FFFAA99F228498EE104BAB524D7932EB1C49DD635E6BE2A060C8EC999C9CC",
-    "4A010CCB1F317377ED9F4B47604102A5DB3E50533D37D805D3322E56797218E0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chauphilomeneone/ChauPhilomeneOne-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chauphilomeneone&per_page=1"
   },
-  "description": "Chau Philomene One font family designed by Vicente Lamónaca",
-  "homepage": "https://fonts.google.com/specimen/Chau+Philomene+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chau+Philomene+One"
 }

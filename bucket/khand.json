@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Bold.ttf"
+  "hash": [
+    "52429CFF48E8A2A77A63940CA7F7957DFD404C2375691272FC7A386E33FE0055",
+    "FB2B604A80F9FD6E3532B1F25C964BF56002240E2DA0EA7A7265EEC7BB4BC519",
+    "40405D6AC45CEC61455B960BC13A353536B9787DFF38E8070AD3B9CC18A80639",
+    "918CB97509C99FE0A9ACB857DFA90E5524FC231791FEDD76E6BC1F9D94FA038E",
+    "1E166CADAF044765DC41F99386756376D8B648C71E198133653C142A4E9A086E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/khand&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Bold.ttf"
+    ]
   },
+  "description": "Khand font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "52429CFF48E8A2A77A63940CA7F7957DFD404C2375691272FC7A386E33FE0055",
-    "FB2B604A80F9FD6E3532B1F25C964BF56002240E2DA0EA7A7265EEC7BB4BC519",
-    "40405D6AC45CEC61455B960BC13A353536B9787DFF38E8070AD3B9CC18A80639",
-    "918CB97509C99FE0A9ACB857DFA90E5524FC231791FEDD76E6BC1F9D94FA038E",
-    "1E166CADAF044765DC41F99386756376D8B648C71E198133653C142A4E9A086E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/khand/Khand-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/khand&per_page=1"
   },
-  "description": "Khand font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Khand",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Khand"
 }

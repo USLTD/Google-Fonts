@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grandhotel/GrandHotel-Regular.ttf"
+  "hash": [
+    "EC7AE65D49C936CB5ED32534AB74DBD40C56733DE5145AC3AAE9DA362E02B50F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grandhotel&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grandhotel/GrandHotel-Regular.ttf"
+    ]
   },
+  "description": "Grand Hotel font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EC7AE65D49C936CB5ED32534AB74DBD40C56733DE5145AC3AAE9DA362E02B50F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grandhotel/GrandHotel-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grandhotel/GrandHotel-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grandhotel&per_page=1"
   },
-  "description": "Grand Hotel font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Grand+Hotel",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Grand+Hotel"
 }

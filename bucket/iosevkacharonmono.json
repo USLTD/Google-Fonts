@@ -1,18 +1,27 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-BoldItalic.ttf"
+  "hash": [
+    "F9CC555E90C24E971B0D2E21847C676DABE674CAEDFF3B49D30551A8345867BA",
+    "16D06BAA8A498087FCB10CF67F2871D95AEB5501C86586A0CB0B6AD41B7C6D30",
+    "AE87C9BC7BAAE0A18E78CBE498D967865C251CAE20FFFA0C34E5937CE118F845",
+    "9C2DF07A74F0FCD1B79DA18A7C936A25F07CD665363A8B9BC89310F80A84A551",
+    "EC463B2041E58656FC26911A4D0CD42ECA766CF4DD35023E33E643B80E0F8BBC",
+    "F89929F73E08347BABF8B1ADFB4B02C151CF7FF6AC23AB116FCAF0C0B5AB3AEF",
+    "D5A0E6259A77A98B086897B3B86F120C1170B85AB5E82F527CF810E239F082CF",
+    "BC533014F84B7DAB2330A8789FD012A539649C8F4B7A20B66048F7767875612A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iosevkacharonmono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-BoldItalic.ttf"
+    ]
   },
+  "description": "Iosevka Charon Mono font family designed by Juliette Pluto",
   "installer": {
     "script": [
       "if ($global) {",
@@ -54,6 +63,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -138,30 +148,20 @@
       "}"
     ]
   },
-  "hash": [
-    "F9CC555E90C24E971B0D2E21847C676DABE674CAEDFF3B49D30551A8345867BA",
-    "16D06BAA8A498087FCB10CF67F2871D95AEB5501C86586A0CB0B6AD41B7C6D30",
-    "AE87C9BC7BAAE0A18E78CBE498D967865C251CAE20FFFA0C34E5937CE118F845",
-    "9C2DF07A74F0FCD1B79DA18A7C936A25F07CD665363A8B9BC89310F80A84A551",
-    "EC463B2041E58656FC26911A4D0CD42ECA766CF4DD35023E33E643B80E0F8BBC",
-    "F89929F73E08347BABF8B1ADFB4B02C151CF7FF6AC23AB116FCAF0C0B5AB3AEF",
-    "D5A0E6259A77A98B086897B3B86F120C1170B85AB5E82F527CF810E239F082CF",
-    "BC533014F84B7DAB2330A8789FD012A539649C8F4B7A20B66048F7767875612A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharonmono/IosevkaCharonMono-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iosevkacharonmono&per_page=1"
   },
-  "description": "Iosevka Charon Mono font family designed by Juliette Pluto",
-  "homepage": "https://fonts.google.com/specimen/Iosevka+Charon+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Iosevka+Charon+Mono"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/esteban/Esteban-Regular.ttf"
+  "hash": [
+    "117F80A823D1899DF85708A59E39EF0F0D974A7407A845543288612F8214E68F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/esteban&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/esteban/Esteban-Regular.ttf"
+    ]
   },
+  "description": "Esteban font family designed by Angélica Díaz",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "117F80A823D1899DF85708A59E39EF0F0D974A7407A845543288612F8214E68F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/esteban/Esteban-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/esteban/Esteban-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/esteban&per_page=1"
   },
-  "description": "Esteban font family designed by Angélica Díaz",
-  "homepage": "https://fonts.google.com/specimen/Esteban",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Esteban"
 }

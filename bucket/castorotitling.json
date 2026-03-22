@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/castorotitling/CastoroTitling-Regular.ttf"
+  "hash": [
+    "64360CA1F8D8DA1A983CBDA6BAC74C1BD47AEDA41E116D9377E0EC629B029F44"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/castorotitling&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/castorotitling/CastoroTitling-Regular.ttf"
+    ]
   },
+  "description": "Castoro Titling font family designed by Tiro Typeworks, John Hudson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "64360CA1F8D8DA1A983CBDA6BAC74C1BD47AEDA41E116D9377E0EC629B029F44"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/castorotitling/CastoroTitling-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/castorotitling/CastoroTitling-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/castorotitling&per_page=1"
   },
-  "description": "Castoro Titling font family designed by Tiro Typeworks, John Hudson",
-  "homepage": "https://fonts.google.com/specimen/Castoro+Titling",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Castoro+Titling"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/acme/Acme-Regular.ttf"
+  "hash": [
+    "76FDB582F54653C27274D5CD986F994C28D7FA7D323E7EB9EE14CE8875D39DC4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/acme&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/acme/Acme-Regular.ttf"
+    ]
   },
+  "description": "Acme font family designed by Juan Pablo del Peral, Huerta Tipográfica",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "76FDB582F54653C27274D5CD986F994C28D7FA7D323E7EB9EE14CE8875D39DC4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/acme/Acme-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/acme/Acme-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/acme&per_page=1"
   },
-  "description": "Acme font family designed by Juan Pablo del Peral, Huerta Tipográfica",
-  "homepage": "https://fonts.google.com/specimen/Acme",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Acme"
 }

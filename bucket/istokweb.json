@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-BoldItalic.ttf"
+  "hash": [
+    "A13C4E6CBA8F6D24ABF96542D9028CEA47411AC65C01E6F85349D7405DEE53C6",
+    "D8B61729F5D71EB9DB7D64573F9003FD893DFB9F6FC8FBA5D915EEC02BA85283",
+    "E8CAE1E9A6E9F452059342547AE8EBF58F04F85C04F59D4383109490FEF45D69",
+    "546F1B01644176CCF134B97F74CB4BCC8307ABFEFB0B06DDF10353DAB1296A08"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/istokweb&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-BoldItalic.ttf"
+    ]
   },
+  "description": "Istok Web font family designed by Andrey V. Panov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "A13C4E6CBA8F6D24ABF96542D9028CEA47411AC65C01E6F85349D7405DEE53C6",
-    "D8B61729F5D71EB9DB7D64573F9003FD893DFB9F6FC8FBA5D915EEC02BA85283",
-    "E8CAE1E9A6E9F452059342547AE8EBF58F04F85C04F59D4383109490FEF45D69",
-    "546F1B01644176CCF134B97F74CB4BCC8307ABFEFB0B06DDF10353DAB1296A08"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/istokweb/IstokWeb-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/istokweb&per_page=1"
   },
-  "description": "Istok Web font family designed by Andrey V. Panov",
-  "homepage": "https://fonts.google.com/specimen/Istok+Web",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Istok+Web"
 }

@@ -1,19 +1,29 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Black.ttf"
+  "hash": [
+    "4953CE70B2D7FCB29C01CEC357B7C88B5C075D690760542EA1CA7AD097F09FB2",
+    "F0C3A58EC4FD670DC6AD5BD000D15980967BB4AE64A1FA118E7D17363E9873B1",
+    "AB53CA3CDD5B90AE9803CBEF6CAB0C20B8080BABB3A7F54505512E39633A6F99",
+    "525F758BF7D5E5634E459E63D4A8575CA585E2EEED4BEC26E2D3E925A266C6EE",
+    "1394CAA3B6DA26947B37D0200D02B7F77BF4D63AB4BEFCA5B5F1DEEF0C53D284",
+    "98556BC8405B72AB5CB95CAFEADD6EEC27CFF492A7C828C2AC4EF2F3FFF5105B",
+    "01487641E16FD85A457C111D9488A1A1009037437A04B1D318CEC51C00282AE5",
+    "3BC82114BE0FD076C27461CB2C5FDC67605844EFFE63E6042D7692C8FC4FD890",
+    "5653185AA0DF87EBE848F5C76F71A76F6F94EFA5D07ACC87058C3A173BA30DAC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/encodesansexpanded&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Black.ttf"
+    ]
   },
+  "description": "Encode Sans Expanded font family designed by Impallari Type, Andres Torresi, Jacques Le Bailly",
   "installer": {
     "script": [
       "if ($global) {",
@@ -55,6 +65,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -139,32 +150,21 @@
       "}"
     ]
   },
-  "hash": [
-    "4953CE70B2D7FCB29C01CEC357B7C88B5C075D690760542EA1CA7AD097F09FB2",
-    "F0C3A58EC4FD670DC6AD5BD000D15980967BB4AE64A1FA118E7D17363E9873B1",
-    "AB53CA3CDD5B90AE9803CBEF6CAB0C20B8080BABB3A7F54505512E39633A6F99",
-    "525F758BF7D5E5634E459E63D4A8575CA585E2EEED4BEC26E2D3E925A266C6EE",
-    "1394CAA3B6DA26947B37D0200D02B7F77BF4D63AB4BEFCA5B5F1DEEF0C53D284",
-    "98556BC8405B72AB5CB95CAFEADD6EEC27CFF492A7C828C2AC4EF2F3FFF5105B",
-    "01487641E16FD85A457C111D9488A1A1009037437A04B1D318CEC51C00282AE5",
-    "3BC82114BE0FD076C27461CB2C5FDC67605844EFFE63E6042D7692C8FC4FD890",
-    "5653185AA0DF87EBE848F5C76F71A76F6F94EFA5D07ACC87058C3A173BA30DAC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesansexpanded/EncodeSansExpanded-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/encodesansexpanded&per_page=1"
   },
-  "description": "Encode Sans Expanded font family designed by Impallari Type, Andres Torresi, Jacques Le Bailly",
-  "homepage": "https://fonts.google.com/specimen/Encode+Sans+Expanded",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Encode+Sans+Expanded"
 }

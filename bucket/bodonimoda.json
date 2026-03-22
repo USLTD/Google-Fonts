@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa[opsz,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa-Italic[opsz,wght].ttf"
+  "hash": [
+    "550F5E34EE0A828D7941B1FE9BC58B34E5260D3F33A61532E6D0A0114E79A5CF",
+    "DFFF1619F8F6871C6372F8855B67211F9A73B4E93D45ACA868CD8F46A48622DE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bodonimoda&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa[opsz,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa-Italic[opsz,wght].ttf"
+    ]
   },
+  "description": "Bodoni Moda font family designed by Owen Earl",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "550F5E34EE0A828D7941B1FE9BC58B34E5260D3F33A61532E6D0A0114E79A5CF",
-    "DFFF1619F8F6871C6372F8855B67211F9A73B4E93D45ACA868CD8F46A48622DE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa[opsz,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa-Italic[opsz,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa[opsz,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa-Italic[opsz,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bodonimoda&per_page=1"
   },
-  "description": "Bodoni Moda font family designed by Owen Earl",
-  "homepage": "https://fonts.google.com/specimen/Bodoni+Moda",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bodoni+Moda"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hennypenny/HennyPenny-Regular.ttf"
+  "hash": [
+    "9C8550665827DBD341E5D54EA2E686FA4F4A9DE3F8B2ED202B96A41E27AB4E19"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hennypenny&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hennypenny/HennyPenny-Regular.ttf"
+    ]
   },
+  "description": "Henny Penny font family designed by Brownfox",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9C8550665827DBD341E5D54EA2E686FA4F4A9DE3F8B2ED202B96A41E27AB4E19"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hennypenny/HennyPenny-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hennypenny/HennyPenny-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hennypenny&per_page=1"
   },
-  "description": "Henny Penny font family designed by Brownfox",
-  "homepage": "https://fonts.google.com/specimen/Henny+Penny",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Henny+Penny"
 }

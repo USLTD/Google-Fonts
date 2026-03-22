@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica-Italic[wght].ttf"
+  "hash": [
+    "8192C7F916AD929890B799BD4FE0974200BE62E024C267C7B234632CACA6658E",
+    "70B7BDDB5B5D01AEB8461E5A4C0D022EFBC892AD96F68EB7D163CB3440360725"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/finlandica&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica-Italic[wght].ttf"
+    ]
   },
+  "description": "Finlandica font family designed by Helsinki Type Studio, Niklas Ekholm, Juho Hiilivirta, Jaakko Suomalainen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "8192C7F916AD929890B799BD4FE0974200BE62E024C267C7B234632CACA6658E",
-    "70B7BDDB5B5D01AEB8461E5A4C0D022EFBC892AD96F68EB7D163CB3440360725"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/finlandica/Finlandica-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/finlandica&per_page=1"
   },
-  "description": "Finlandica font family designed by Helsinki Type Studio, Niklas Ekholm, Juho Hiilivirta, Jaakko Suomalainen",
-  "homepage": "https://fonts.google.com/specimen/Finlandica",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Finlandica"
 }

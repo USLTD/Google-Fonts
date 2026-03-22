@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gugi/Gugi-Regular.ttf"
+  "hash": [
+    "C0B1F979979CFC309FB2438FA9464F96173353E0C4842CC7A5919658184ED9D3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gugi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gugi/Gugi-Regular.ttf"
+    ]
   },
+  "description": "Gugi font family designed by TAE System & Typefaces Co.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C0B1F979979CFC309FB2438FA9464F96173353E0C4842CC7A5919658184ED9D3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gugi/Gugi-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gugi/Gugi-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gugi&per_page=1"
   },
-  "description": "Gugi font family designed by TAE System & Typefaces Co.",
-  "homepage": "https://fonts.google.com/specimen/Gugi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gugi"
 }

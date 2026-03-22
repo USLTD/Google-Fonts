@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jainipurva/JainiPurva-Regular.ttf"
+  "hash": [
+    "178D7F5A40594D4EF6C28B7A68D85DA7EAE46DF2F71BECEDFB40251FF678C2F5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jainipurva&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jainipurva/JainiPurva-Regular.ttf"
+    ]
   },
+  "description": "Jaini Purva font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "178D7F5A40594D4EF6C28B7A68D85DA7EAE46DF2F71BECEDFB40251FF678C2F5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jainipurva/JainiPurva-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jainipurva/JainiPurva-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jainipurva&per_page=1"
   },
-  "description": "Jaini Purva font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Jaini+Purva",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jaini+Purva"
 }

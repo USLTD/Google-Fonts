@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/homenaje/Homenaje-Regular.ttf"
+  "hash": [
+    "0BF7BAE4AA3E7C2C674785325D20F4405A53F25ACE4CEB4752CF75E27172BE4A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/homenaje&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/homenaje/Homenaje-Regular.ttf"
+    ]
   },
+  "description": "Homenaje font family designed by Constanza Artigas Preller, Agustina Mingote",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0BF7BAE4AA3E7C2C674785325D20F4405A53F25ACE4CEB4752CF75E27172BE4A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/homenaje/Homenaje-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/homenaje/Homenaje-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/homenaje&per_page=1"
   },
-  "description": "Homenaje font family designed by Constanza Artigas Preller, Agustina Mingote",
-  "homepage": "https://fonts.google.com/specimen/Homenaje",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Homenaje"
 }

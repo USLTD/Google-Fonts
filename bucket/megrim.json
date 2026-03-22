@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/megrim/Megrim.ttf"
+  "hash": [
+    "88D30544A63121AB021F4CF60F57257C81CAAEDDEEB2EB4D6EC1A600AE779CFD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/megrim&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/megrim/Megrim.ttf"
+    ]
   },
+  "description": "Megrim font family designed by Daniel Johnson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "88D30544A63121AB021F4CF60F57257C81CAAEDDEEB2EB4D6EC1A600AE779CFD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/megrim/Megrim.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/megrim/Megrim.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/megrim&per_page=1"
   },
-  "description": "Megrim font family designed by Daniel Johnson",
-  "homepage": "https://fonts.google.com/specimen/Megrim",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Megrim"
 }

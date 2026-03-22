@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode128/LibreBarcode128-Regular.ttf"
+  "hash": [
+    "BECE6B8695CF29F04CE1C706F0F508A65545F3B6240A03CEF302B70F846630A7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebarcode128&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode128/LibreBarcode128-Regular.ttf"
+    ]
   },
+  "description": "Libre Barcode 128 font family designed by Lasse Fister",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BECE6B8695CF29F04CE1C706F0F508A65545F3B6240A03CEF302B70F846630A7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode128/LibreBarcode128-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebarcode128/LibreBarcode128-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebarcode128&per_page=1"
   },
-  "description": "Libre Barcode 128 font family designed by Lasse Fister",
-  "homepage": "https://fonts.google.com/specimen/Libre+Barcode+128",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libre+Barcode+128"
 }

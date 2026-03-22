@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Bold.ttf"
+  "hash": [
+    "26F34C48B7BAA838DD459B5F5DB026E9493BB468EFC2956761C52134D478D2E2",
+    "5518EEF27BAB146F957C70FE50EF10BEA8FE363D3AC75CC797AA882A7226BD99"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jaldi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Bold.ttf"
+    ]
   },
+  "description": "Jaldi font family designed by Omnibus-Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "26F34C48B7BAA838DD459B5F5DB026E9493BB468EFC2956761C52134D478D2E2",
-    "5518EEF27BAB146F957C70FE50EF10BEA8FE363D3AC75CC797AA882A7226BD99"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jaldi/Jaldi-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jaldi&per_page=1"
   },
-  "description": "Jaldi font family designed by Omnibus-Type",
-  "homepage": "https://fonts.google.com/specimen/Jaldi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jaldi"
 }

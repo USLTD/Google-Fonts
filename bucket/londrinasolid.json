@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Black.ttf"
+  "hash": [
+    "77761D803E937EC42A7F4B3BE80CA15212A7D592DC10022838DC11DF8E15FDB5",
+    "FC6F2572D00807895AC2FFE2C5CFFB9FB107CCB75CDB62B5D159D7C9C81591A1",
+    "E82B9B3EE21CCF153DCF67E5F4226A210474591A6AD31B5F17F2F14DC2524514",
+    "8C63A15E3FA34E0B362ABEB903944A2BD45E71B1EFA122486C0A47E295EAE06F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinasolid&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Black.ttf"
+    ]
   },
+  "description": "Londrina Solid font family designed by Marcelo Magalhães",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "77761D803E937EC42A7F4B3BE80CA15212A7D592DC10022838DC11DF8E15FDB5",
-    "FC6F2572D00807895AC2FFE2C5CFFB9FB107CCB75CDB62B5D159D7C9C81591A1",
-    "E82B9B3EE21CCF153DCF67E5F4226A210474591A6AD31B5F17F2F14DC2524514",
-    "8C63A15E3FA34E0B362ABEB903944A2BD45E71B1EFA122486C0A47E295EAE06F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinasolid/LondrinaSolid-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinasolid&per_page=1"
   },
-  "description": "Londrina Solid font family designed by Marcelo Magalhães",
-  "homepage": "https://fonts.google.com/specimen/Londrina+Solid",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Londrina+Solid"
 }

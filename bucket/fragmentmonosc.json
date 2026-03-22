@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Italic.ttf"
+  "hash": [
+    "7E6330281D72478A0EEBC3A7A2F0DFB8FB14E5122FAE310A70B9118D99012FC1",
+    "B9DBC7536071741814BF996E88FB7AB9E77DD0746634B63534888269033DEE35"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fragmentmonosc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Italic.ttf"
+    ]
   },
+  "description": "Fragment Mono SC font family designed by Wei Huang, URW Design Studio",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "7E6330281D72478A0EEBC3A7A2F0DFB8FB14E5122FAE310A70B9118D99012FC1",
-    "B9DBC7536071741814BF996E88FB7AB9E77DD0746634B63534888269033DEE35"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fragmentmonosc/FragmentMonoSC-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fragmentmonosc&per_page=1"
   },
-  "description": "Fragment Mono SC font family designed by Wei Huang, URW Design Studio",
-  "homepage": "https://fonts.google.com/specimen/Fragment+Mono+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fragment+Mono+SC"
 }

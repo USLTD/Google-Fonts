@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans-Italic[wght].ttf"
+  "hash": [
+    "BEF90D227EEB5B58E27D0A421DF6C5D8DF2E6A6D68AA08BDC51FAA54F1D997DC",
+    "882E6763FA1F35DC03CD61C1E3186DBA2408828C807895DFA16875B1242AD59D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/merriweathersans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Merriweather Sans font family designed by Sorkin Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "BEF90D227EEB5B58E27D0A421DF6C5D8DF2E6A6D68AA08BDC51FAA54F1D997DC",
-    "882E6763FA1F35DC03CD61C1E3186DBA2408828C807895DFA16875B1242AD59D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweathersans/MerriweatherSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/merriweathersans&per_page=1"
   },
-  "description": "Merriweather Sans font family designed by Sorkin Type",
-  "homepage": "https://fonts.google.com/specimen/Merriweather+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Merriweather+Sans"
 }

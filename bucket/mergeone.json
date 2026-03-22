@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mergeone/MergeOne-Regular.ttf"
+  "hash": [
+    "93AD28579D4ABF3BEC9AD9961FD20912ECEA60AFAD1D77C3ECBD39349B88D967"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mergeone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mergeone/MergeOne-Regular.ttf"
+    ]
   },
+  "description": "Merge One font family designed by Kosal Sen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "93AD28579D4ABF3BEC9AD9961FD20912ECEA60AFAD1D77C3ECBD39349B88D967"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mergeone/MergeOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mergeone/MergeOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mergeone&per_page=1"
   },
-  "description": "Merge One font family designed by Kosal Sen",
-  "homepage": "https://fonts.google.com/specimen/Merge+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Merge+One"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/konkhmersleokchher/KonkhmerSleokchher-Regular.ttf"
+  "hash": [
+    "16CF848E5670B1565CFF77A1827347A56EE085E0B556F1F6E66DE8D3BA0EF0DF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/konkhmersleokchher&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/konkhmersleokchher/KonkhmerSleokchher-Regular.ttf"
+    ]
   },
+  "description": "Konkhmer Sleokchher font family designed by Suon May Sophanith",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "16CF848E5670B1565CFF77A1827347A56EE085E0B556F1F6E66DE8D3BA0EF0DF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/konkhmersleokchher/KonkhmerSleokchher-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/konkhmersleokchher/KonkhmerSleokchher-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/konkhmersleokchher&per_page=1"
   },
-  "description": "Konkhmer Sleokchher font family designed by Suon May Sophanith",
-  "homepage": "https://fonts.google.com/specimen/Konkhmer+Sleokchher",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Konkhmer+Sleokchher"
 }

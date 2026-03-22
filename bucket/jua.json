@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jua/Jua-Regular.ttf"
+  "hash": [
+    "769677AEF240BFC3B9965F2B50748075BFF885E6C6992FC591A3FB268279F898"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jua&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jua/Jua-Regular.ttf"
+    ]
   },
+  "description": "Jua font family designed by Woowahan Brothers",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "769677AEF240BFC3B9965F2B50748075BFF885E6C6992FC591A3FB268279F898"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jua/Jua-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jua/Jua-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jua&per_page=1"
   },
-  "description": "Jua font family designed by Woowahan Brothers",
-  "homepage": "https://fonts.google.com/specimen/Jua",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jua"
 }

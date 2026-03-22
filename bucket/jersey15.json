@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey15/Jersey15-Regular.ttf"
+  "hash": [
+    "DBE00479D62BB3B9FCF0D28F88A021FFC4BD7B01D6AD5C6F74B5FA371BB210ED"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jersey15&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey15/Jersey15-Regular.ttf"
+    ]
   },
+  "description": "Jersey 15 font family designed by Sarah Cadigan-Fried",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DBE00479D62BB3B9FCF0D28F88A021FFC4BD7B01D6AD5C6F74B5FA371BB210ED"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey15/Jersey15-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey15/Jersey15-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jersey15&per_page=1"
   },
-  "description": "Jersey 15 font family designed by Sarah Cadigan-Fried",
-  "homepage": "https://fonts.google.com/specimen/Jersey+15",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jersey+15"
 }

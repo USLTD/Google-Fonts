@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/freeman/Freeman-Regular.ttf"
+  "hash": [
+    "48FAC93EDE204981C621A1FB039BDFCBBDF7E646AA7A7F823D4191BCEBE16F49"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/freeman&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/freeman/Freeman-Regular.ttf"
+    ]
   },
+  "description": "Freeman font family designed by Rodrigo Fuenzalida, Aoife Mooney, Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "48FAC93EDE204981C621A1FB039BDFCBBDF7E646AA7A7F823D4191BCEBE16F49"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/freeman/Freeman-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/freeman/Freeman-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/freeman&per_page=1"
   },
-  "description": "Freeman font family designed by Rodrigo Fuenzalida, Aoife Mooney, Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Freeman",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Freeman"
 }

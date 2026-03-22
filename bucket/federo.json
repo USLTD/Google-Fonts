@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/federo/Federo-Regular.ttf"
+  "hash": [
+    "5284628C38309EC5046A6BF231E038EAF84C46DF03602690607AF56CAC2B9BC7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/federo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/federo/Federo-Regular.ttf"
+    ]
   },
+  "description": "Federo font family designed by Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5284628C38309EC5046A6BF231E038EAF84C46DF03602690607AF56CAC2B9BC7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/federo/Federo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/federo/Federo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/federo&per_page=1"
   },
-  "description": "Federo font family designed by Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Federo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Federo"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bakbakone/BakbakOne-Regular.ttf"
+  "hash": [
+    "238DD2CF76F0FA33E02EA67C2F9697731378AD567503CA6B1F778778093FF84F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bakbakone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bakbakone/BakbakOne-Regular.ttf"
+    ]
   },
+  "description": "Bakbak One font family designed by Saumya Kishore, Sanchit Sawaria",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "238DD2CF76F0FA33E02EA67C2F9697731378AD567503CA6B1F778778093FF84F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bakbakone/BakbakOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bakbakone/BakbakOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bakbakone&per_page=1"
   },
-  "description": "Bakbak One font family designed by Saumya Kishore, Sanchit Sawaria",
-  "homepage": "https://fonts.google.com/specimen/Bakbak+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bakbak+One"
 }

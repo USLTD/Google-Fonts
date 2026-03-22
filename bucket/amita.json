@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Bold.ttf"
+  "hash": [
+    "551369EA6A8CAEAA9D2DC31719564BA2379A445D16E6994BC7ADBF9446A2B63D",
+    "2E3DB0A183495CC55B81346311BC2C22DDE0E4B6599A9F8A7469B5FEFFDBF0E8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amita&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Bold.ttf"
+    ]
   },
+  "description": "Amita font family designed by Eduardo Tunni, Brian Bonislawsky",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "551369EA6A8CAEAA9D2DC31719564BA2379A445D16E6994BC7ADBF9446A2B63D",
-    "2E3DB0A183495CC55B81346311BC2C22DDE0E4B6599A9F8A7469B5FEFFDBF0E8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amita/Amita-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amita&per_page=1"
   },
-  "description": "Amita font family designed by Eduardo Tunni, Brian Bonislawsky",
-  "homepage": "https://fonts.google.com/specimen/Amita",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Amita"
 }

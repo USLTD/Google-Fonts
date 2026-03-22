@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf"
+  "hash": [
+    "973361E9E538DDA39584B3C259E50B1D511A7A9F2EBE46C85B40066126EE6EBC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwanthand&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf"
+    ]
   },
+  "description": "Edu AU VIC WA NT Hand font family designed by Tina Anderson, Corey Anderson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "973361E9E538DDA39584B3C259E50B1D511A7A9F2EBE46C85B40066126EE6EBC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/eduauvicwanthand&per_page=1"
   },
-  "description": "Edu AU VIC WA NT Hand font family designed by Tina Anderson, Corey Anderson",
-  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Hand",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Hand"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/Cairo[slnt,wght].ttf"
+  "hash": [
+    "667C987182391C91F4E57A2F455B1794FB5E3EE6CA4EF3383E86BB690FA9C964"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cairo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/Cairo[slnt,wght].ttf"
+    ]
   },
+  "description": "Cairo font family designed by Mohamed Gaber, Accademia di Belle Arti di Urbino",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "667C987182391C91F4E57A2F455B1794FB5E3EE6CA4EF3383E86BB690FA9C964"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/Cairo[slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cairo/Cairo[slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cairo&per_page=1"
   },
-  "description": "Cairo font family designed by Mohamed Gaber, Accademia di Belle Arti di Urbino",
-  "homepage": "https://fonts.google.com/specimen/Cairo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cairo"
 }

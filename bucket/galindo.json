@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/galindo/Galindo-Regular.ttf"
+  "hash": [
+    "335A73DEF6A890D38E8793A81077A8E15987B1A4E5366847E138B5BEB13BF0FE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/galindo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/galindo/Galindo-Regular.ttf"
+    ]
   },
+  "description": "Galindo font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "335A73DEF6A890D38E8793A81077A8E15987B1A4E5366847E138B5BEB13BF0FE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/galindo/Galindo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/galindo/Galindo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/galindo&per_page=1"
   },
-  "description": "Galindo font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Galindo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Galindo"
 }

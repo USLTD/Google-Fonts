@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro[wdth,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro-Italic[wdth,wght].ttf"
+  "hash": [
+    "B60AB2920B89BDC4B7DADFB282CADAC6E03833E7A80844F9EAC096359B2B9766",
+    "0917A5D65589025F2A752B1B0568F924DAC49A065A25B4D60116B3C6D4D9EBAE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adventpro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro[wdth,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro-Italic[wdth,wght].ttf"
+    ]
   },
+  "description": "Advent Pro font family designed by VivaRado",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "B60AB2920B89BDC4B7DADFB282CADAC6E03833E7A80844F9EAC096359B2B9766",
-    "0917A5D65589025F2A752B1B0568F924DAC49A065A25B4D60116B3C6D4D9EBAE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro[wdth,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro-Italic[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro[wdth,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/adventpro/AdventPro-Italic[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adventpro&per_page=1"
   },
-  "description": "Advent Pro font family designed by VivaRado",
-  "homepage": "https://fonts.google.com/specimen/Advent+Pro",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Advent+Pro"
 }

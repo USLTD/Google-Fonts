@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK-Italic[wght].ttf"
+  "hash": [
+    "0D788DED72DC88F478818182179AF4C7CD143DF0BF86557D29729AB132333930",
+    "E9E78771EF2CEDF21CC01CF3F547036F55E5B183190473CB6F3804F49507707B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chironheihk&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK-Italic[wght].ttf"
+    ]
   },
+  "description": "Chiron Hei HK font family designed by Tamcy",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "0D788DED72DC88F478818182179AF4C7CD143DF0BF86557D29729AB132333930",
-    "E9E78771EF2CEDF21CC01CF3F547036F55E5B183190473CB6F3804F49507707B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironheihk/ChironHeiHK-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chironheihk&per_page=1"
   },
-  "description": "Chiron Hei HK font family designed by Tamcy",
-  "homepage": "https://fonts.google.com/specimen/Chiron+Hei+HK",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chiron+Hei+HK"
 }

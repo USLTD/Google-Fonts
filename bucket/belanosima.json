@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Bold.ttf"
+  "hash": [
+    "FE5F8AF7696A801ACCFF91511C4FEECB51BC49516465A5557AF3B0593C67685C",
+    "2394D701ECAEDE7BDCFB01906A4CFCCD7D72108C7E66E41BE6419DAE7D8811EA",
+    "FF3FC9341C07EE4260B9F060D4B66B34F2B13D88A6798AC4AD3C8920A0DBC9B1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/belanosima&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Bold.ttf"
+    ]
   },
+  "description": "Belanosima font family designed by The DocRepair Project, Santiago Orozco",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "FE5F8AF7696A801ACCFF91511C4FEECB51BC49516465A5557AF3B0593C67685C",
-    "2394D701ECAEDE7BDCFB01906A4CFCCD7D72108C7E66E41BE6419DAE7D8811EA",
-    "FF3FC9341C07EE4260B9F060D4B66B34F2B13D88A6798AC4AD3C8920A0DBC9B1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/belanosima/Belanosima-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/belanosima&per_page=1"
   },
-  "description": "Belanosima font family designed by The DocRepair Project, Santiago Orozco",
-  "homepage": "https://fonts.google.com/specimen/Belanosima",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Belanosima"
 }

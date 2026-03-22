@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville-Italic[wght].ttf"
+  "hash": [
+    "05A95421961341C5B2556285E8415DF9DB27DAB4F4ABE22B446B3C6A8B916C5D",
+    "223959683DC73EC4437BD61FABAA4B3F22209E22855FFD3AEE36BA61A5116E97"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebaskerville&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville-Italic[wght].ttf"
+    ]
   },
+  "description": "Libre Baskerville font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "05A95421961341C5B2556285E8415DF9DB27DAB4F4ABE22B446B3C6A8B916C5D",
-    "223959683DC73EC4437BD61FABAA4B3F22209E22855FFD3AEE36BA61A5116E97"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/LibreBaskerville-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librebaskerville&per_page=1"
   },
-  "description": "Libre Baskerville font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Libre+Baskerville",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libre+Baskerville"
 }

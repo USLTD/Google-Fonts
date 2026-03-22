@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiranghaerang/KirangHaerang-Regular.ttf"
+  "hash": [
+    "D677D28D466989017C520F00A2A7794EA581EA3D9FA9A830FBB44F1015EAC72D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kiranghaerang&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiranghaerang/KirangHaerang-Regular.ttf"
+    ]
   },
+  "description": "Kirang Haerang font family designed by Woowahan Brothers",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D677D28D466989017C520F00A2A7794EA581EA3D9FA9A830FBB44F1015EAC72D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kiranghaerang/KirangHaerang-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kiranghaerang/KirangHaerang-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kiranghaerang&per_page=1"
   },
-  "description": "Kirang Haerang font family designed by Woowahan Brothers",
-  "homepage": "https://fonts.google.com/specimen/Kirang+Haerang",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kirang+Haerang"
 }

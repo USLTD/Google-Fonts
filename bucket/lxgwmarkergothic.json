@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf"
+  "hash": [
+    "E6A55CFD5F18DC393F92670A164397A69242CB4EABE1D3FEB5DC22FC4947A8BA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lxgwmarkergothic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf"
+    ]
   },
+  "description": "LXGW Marker Gothic font family designed by LXGW",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E6A55CFD5F18DC393F92670A164397A69242CB4EABE1D3FEB5DC22FC4947A8BA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lxgwmarkergothic&per_page=1"
   },
-  "description": "LXGW Marker Gothic font family designed by LXGW",
-  "homepage": "https://fonts.google.com/specimen/LXGW+Marker+Gothic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/LXGW+Marker+Gothic"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/electrolize/Electrolize-Regular.ttf"
+  "hash": [
+    "AA81AB9015FC0190BB5E68C50290565C7A4A723DDF32B88774AAFF05CDD66BCA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/electrolize&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/electrolize/Electrolize-Regular.ttf"
+    ]
   },
+  "description": "Electrolize font family designed by Gaslight",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "AA81AB9015FC0190BB5E68C50290565C7A4A723DDF32B88774AAFF05CDD66BCA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/electrolize/Electrolize-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/electrolize/Electrolize-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/electrolize&per_page=1"
   },
-  "description": "Electrolize font family designed by Gaslight",
-  "homepage": "https://fonts.google.com/specimen/Electrolize",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Electrolize"
 }

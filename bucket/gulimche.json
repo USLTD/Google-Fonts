@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gulimche/GulimChe-Regular.ttf"
+  "hash": [
+    "ABA838FFA7D1BC8E95107F643BB0486434CA424EDF020E5A5E9B32295029DE6C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gulimche&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gulimche/GulimChe-Regular.ttf"
+    ]
   },
+  "description": "GulimChe font family designed by HanYang I&C Co.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "ABA838FFA7D1BC8E95107F643BB0486434CA424EDF020E5A5E9B32295029DE6C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gulimche/GulimChe-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gulimche/GulimChe-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gulimche&per_page=1"
   },
-  "description": "GulimChe font family designed by HanYang I&C Co.",
-  "homepage": "https://fonts.google.com/specimen/GulimChe",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/GulimChe"
 }

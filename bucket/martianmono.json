@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/martianmono/MartianMono[wdth,wght].ttf"
+  "hash": [
+    "C3467843EC1C2574B05FBCFD7147C7BFBCF63DDCA8FC2BCB9D117F1BFB1B22E7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/martianmono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/martianmono/MartianMono[wdth,wght].ttf"
+    ]
   },
+  "description": "Martian Mono font family designed by Roman Shamin, Evil Martians",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C3467843EC1C2574B05FBCFD7147C7BFBCF63DDCA8FC2BCB9D117F1BFB1B22E7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/martianmono/MartianMono[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/martianmono/MartianMono[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/martianmono&per_page=1"
   },
-  "description": "Martian Mono font family designed by Roman Shamin, Evil Martians",
-  "homepage": "https://fonts.google.com/specimen/Martian+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Martian+Mono"
 }

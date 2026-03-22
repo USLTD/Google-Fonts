@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambo/Cambo-Regular.ttf"
+  "hash": [
+    "526C80A8D006783E899537314972AC43449B520F53B96BEFC17C47175E9B2E2A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cambo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambo/Cambo-Regular.ttf"
+    ]
   },
+  "description": "Cambo font family designed by Huerta Tipográfica",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "526C80A8D006783E899537314972AC43449B520F53B96BEFC17C47175E9B2E2A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambo/Cambo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambo/Cambo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cambo&per_page=1"
   },
-  "description": "Cambo font family designed by Huerta Tipográfica",
-  "homepage": "https://fonts.google.com/specimen/Cambo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cambo"
 }

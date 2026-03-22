@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguespartan/LeagueSpartan[wght].ttf"
+  "hash": [
+    "2DBB6290B39AB7C48A40B18F74CA59EF48A69A015C3EA0542703F0C6CE51D617"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/leaguespartan&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguespartan/LeagueSpartan[wght].ttf"
+    ]
   },
+  "description": "League Spartan font family designed by Matt Bailey, Tyler Finck",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2DBB6290B39AB7C48A40B18F74CA59EF48A69A015C3EA0542703F0C6CE51D617"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguespartan/LeagueSpartan[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguespartan/LeagueSpartan[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/leaguespartan&per_page=1"
   },
-  "description": "League Spartan font family designed by Matt Bailey, Tyler Finck",
-  "homepage": "https://fonts.google.com/specimen/League+Spartan",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/League+Spartan"
 }

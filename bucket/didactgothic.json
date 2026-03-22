@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/didactgothic/DidactGothic-Regular.ttf"
+  "hash": [
+    "B98F9E091B6337A86F4E0F69C94C31905E1E287782853F472E176B4E28D3F81F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/didactgothic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/didactgothic/DidactGothic-Regular.ttf"
+    ]
   },
+  "description": "Didact Gothic font family designed by Daniel Johnson, Cyreal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B98F9E091B6337A86F4E0F69C94C31905E1E287782853F472E176B4E28D3F81F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/didactgothic/DidactGothic-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/didactgothic/DidactGothic-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/didactgothic&per_page=1"
   },
-  "description": "Didact Gothic font family designed by Daniel Johnson, Cyreal",
-  "homepage": "https://fonts.google.com/specimen/Didact+Gothic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Didact+Gothic"
 }

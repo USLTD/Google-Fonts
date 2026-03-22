@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya-Italic[wght].ttf"
+  "hash": [
+    "BA5564634B93A8F8BA57B48CD4F1AE7417D2B4656FBAC779028679B00DE3CF12",
+    "FA915EEC76227935DC5FB678953C94B71287C360928013CFDB441DFE52F5A391"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alegreya&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya-Italic[wght].ttf"
+    ]
   },
+  "description": "Alegreya font family designed by Juan Pablo del Peral, Huerta Tipográfica",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "BA5564634B93A8F8BA57B48CD4F1AE7417D2B4656FBAC779028679B00DE3CF12",
-    "FA915EEC76227935DC5FB678953C94B71287C360928013CFDB441DFE52F5A391"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreya/Alegreya-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alegreya&per_page=1"
   },
-  "description": "Alegreya font family designed by Juan Pablo del Peral, Huerta Tipográfica",
-  "homepage": "https://fonts.google.com/specimen/Alegreya",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alegreya"
 }

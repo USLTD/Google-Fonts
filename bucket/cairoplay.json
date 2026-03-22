@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cairoplay/CairoPlay[slnt,wght].ttf"
+  "hash": [
+    "2C275B43ACE54233A0960C3AA1D05B4E9E0E396A501CD3F8D446B16CC3362745"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cairoplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cairoplay/CairoPlay[slnt,wght].ttf"
+    ]
   },
+  "description": "Cairo Play font family designed by Mohamed Gaber, Accademia di Belle Arti di Urbino",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2C275B43ACE54233A0960C3AA1D05B4E9E0E396A501CD3F8D446B16CC3362745"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cairoplay/CairoPlay[slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cairoplay/CairoPlay[slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cairoplay&per_page=1"
   },
-  "description": "Cairo Play font family designed by Mohamed Gaber, Accademia di Belle Arti di Urbino",
-  "homepage": "https://fonts.google.com/specimen/Cairo+Play",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cairo+Play"
 }

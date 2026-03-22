@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gluten/Gluten[slnt,wght].ttf"
+  "hash": [
+    "CB4B01E4754E36615125E7CB16FE1EC8255D1DB02D0B236D7C992438DC1A83E4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gluten&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gluten/Gluten[slnt,wght].ttf"
+    ]
   },
+  "description": "Gluten font family designed by Tyler Finck, ETC",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CB4B01E4754E36615125E7CB16FE1EC8255D1DB02D0B236D7C992438DC1A83E4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gluten/Gluten[slnt,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gluten/Gluten[slnt,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gluten&per_page=1"
   },
-  "description": "Gluten font family designed by Tyler Finck, ETC",
-  "homepage": "https://fonts.google.com/specimen/Gluten",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gluten"
 }

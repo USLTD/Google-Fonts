@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Bold.ttf"
+  "hash": [
+    "12737CD3AB743BAA423CE14DDE806672181C53AECA3FC596966DA3A54C9DB6E9",
+    "F0A732E2336296B16C5D52CDDD640902BAC94A65B48D732E964F6F5A2A9627D6",
+    "666F5474258CBFFD537B494E2D6A441EE849778E2175A4E222D4D625C6EFE0E5",
+    "72D2657716B16233C8B093924D584044AB91A9ED997BC72DEE152CA23C731BC9",
+    "2E76CACBA59A3E9D39CEA52292D2E8A8AD9A6459336AB811BAB0F141103544F3",
+    "164AAAF1C046E834F418BC79BA5FFE636C79C2A26EC9146E1EAF9487CBEEA833"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/athiti&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Bold.ttf"
+    ]
   },
+  "description": "Athiti font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "12737CD3AB743BAA423CE14DDE806672181C53AECA3FC596966DA3A54C9DB6E9",
-    "F0A732E2336296B16C5D52CDDD640902BAC94A65B48D732E964F6F5A2A9627D6",
-    "666F5474258CBFFD537B494E2D6A441EE849778E2175A4E222D4D625C6EFE0E5",
-    "72D2657716B16233C8B093924D584044AB91A9ED997BC72DEE152CA23C731BC9",
-    "2E76CACBA59A3E9D39CEA52292D2E8A8AD9A6459336AB811BAB0F141103544F3",
-    "164AAAF1C046E834F418BC79BA5FFE636C79C2A26EC9146E1EAF9487CBEEA833"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/athiti/Athiti-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/athiti&per_page=1"
   },
-  "description": "Athiti font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Athiti",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Athiti"
 }

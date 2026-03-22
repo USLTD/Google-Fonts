@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/matemasie/Matemasie-Regular.ttf"
+  "hash": [
+    "5AD4D54E1216448E4ACF6044BF3A2A1D36E955CD8DEA61E9146E8DFC8F1F5CC7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/matemasie&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/matemasie/Matemasie-Regular.ttf"
+    ]
   },
+  "description": "Matemasie font family designed by Adam Yeo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5AD4D54E1216448E4ACF6044BF3A2A1D36E955CD8DEA61E9146E8DFC8F1F5CC7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/matemasie/Matemasie-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/matemasie/Matemasie-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/matemasie&per_page=1"
   },
-  "description": "Matemasie font family designed by Adam Yeo",
-  "homepage": "https://fonts.google.com/specimen/Matemasie",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Matemasie"
 }

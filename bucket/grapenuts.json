@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grapenuts/GrapeNuts-Regular.ttf"
+  "hash": [
+    "D4772724931DBAFC507C610F10D8CFFA4602F8B8E8ABFC0BD384996875AF4134"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grapenuts&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grapenuts/GrapeNuts-Regular.ttf"
+    ]
   },
+  "description": "Grape Nuts font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D4772724931DBAFC507C610F10D8CFFA4602F8B8E8ABFC0BD384996875AF4134"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grapenuts/GrapeNuts-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grapenuts/GrapeNuts-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grapenuts&per_page=1"
   },
-  "description": "Grape Nuts font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Grape+Nuts",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Grape+Nuts"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusswashcaps/DeliusSwashCaps-Regular.ttf"
+  "hash": [
+    "04C102448007265B8A0672590900919D35DFD26C624E543C8C3BFBAB9535B642"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/deliusswashcaps&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusswashcaps/DeliusSwashCaps-Regular.ttf"
+    ]
   },
+  "description": "Delius Swash Caps font family designed by Natalia Raices",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "04C102448007265B8A0672590900919D35DFD26C624E543C8C3BFBAB9535B642"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusswashcaps/DeliusSwashCaps-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/deliusswashcaps/DeliusSwashCaps-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/deliusswashcaps&per_page=1"
   },
-  "description": "Delius Swash Caps font family designed by Natalia Raices",
-  "homepage": "https://fonts.google.com/specimen/Delius+Swash+Caps",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Delius+Swash+Caps"
 }

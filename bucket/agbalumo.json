@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/agbalumo/Agbalumo-Regular.ttf"
+  "hash": [
+    "D9E35C6DEBF1319267140838F3C30C3C51D9F47C7050B5482C14C5ACCF7F4D94"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/agbalumo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/agbalumo/Agbalumo-Regular.ttf"
+    ]
   },
+  "description": "Agbalumo font family designed by Raphael Alẹ́gbẹ́lẹ́yẹ̀, Sorkin Type, Eben Sorkin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D9E35C6DEBF1319267140838F3C30C3C51D9F47C7050B5482C14C5ACCF7F4D94"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/agbalumo/Agbalumo-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/agbalumo/Agbalumo-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/agbalumo&per_page=1"
   },
-  "description": "Agbalumo font family designed by Raphael Alẹ́gbẹ́lẹ́yẹ̀, Sorkin Type, Eben Sorkin",
-  "homepage": "https://fonts.google.com/specimen/Agbalumo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Agbalumo"
 }

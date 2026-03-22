@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/girassol/Girassol-Regular.ttf"
+  "hash": [
+    "84C229DEA2428BF26808D985A44262FD57F47A17B1722497C9D4EC5BBA94FAFC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/girassol&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/girassol/Girassol-Regular.ttf"
+    ]
   },
+  "description": "Girassol font family designed by Liam Spradlin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "84C229DEA2428BF26808D985A44262FD57F47A17B1722497C9D4EC5BBA94FAFC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/girassol/Girassol-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/girassol/Girassol-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/girassol&per_page=1"
   },
-  "description": "Girassol font family designed by Liam Spradlin",
-  "homepage": "https://fonts.google.com/specimen/Girassol",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Girassol"
 }

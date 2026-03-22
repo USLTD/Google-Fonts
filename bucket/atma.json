@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Bold.ttf"
+  "hash": [
+    "44D29F1887173928289709A47EF6B6B5259209AC2349A8622922316A697F497C",
+    "3DDD9E02B4B6077B25C07F5D1F4411C9071E5030A4124D77DCD5A04FA292B921",
+    "369D9788C926EA6F3650999617BEB348238F370D65B3D5D180D638C82EA3D82A",
+    "15B935A57290A675391C6CA6BAC4BD7FC746EAD44E35495D6DC2562B2265A28F",
+    "D55399F5BCDB78F60DA7DBD6C5ABFDC92510154361586AD1B07BCA7EE739DBA6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/atma&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Bold.ttf"
+    ]
   },
+  "description": "Atma font family designed by Black Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "44D29F1887173928289709A47EF6B6B5259209AC2349A8622922316A697F497C",
-    "3DDD9E02B4B6077B25C07F5D1F4411C9071E5030A4124D77DCD5A04FA292B921",
-    "369D9788C926EA6F3650999617BEB348238F370D65B3D5D180D638C82EA3D82A",
-    "15B935A57290A675391C6CA6BAC4BD7FC746EAD44E35495D6DC2562B2265A28F",
-    "D55399F5BCDB78F60DA7DBD6C5ABFDC92510154361586AD1B07BCA7EE739DBA6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/atma/Atma-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/atma&per_page=1"
   },
-  "description": "Atma font family designed by Black Foundry",
-  "homepage": "https://fonts.google.com/specimen/Atma",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Atma"
 }

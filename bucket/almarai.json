@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-ExtraBold.ttf"
+  "hash": [
+    "A57BCA270340202A28899F7488EE76ED9B93115B89D7A81DB92D68E29993DA5A",
+    "5B5CAD33C8E5922083728D271CDCDA91F96BA291F1307ECCC4F4EF732DC19622",
+    "06401391B5B39FBCF2BC0C6A6E03FAF992435E7B011183A1861737E913AF8613",
+    "9F8F72F1CB06DB787A5B32E314A109267E53C505C9F9AB0DAD5AA8FF8B219A07"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almarai&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-ExtraBold.ttf"
+    ]
   },
+  "description": "Almarai font family designed by Boutros Fonts, Mourad Boutros",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "A57BCA270340202A28899F7488EE76ED9B93115B89D7A81DB92D68E29993DA5A",
-    "5B5CAD33C8E5922083728D271CDCDA91F96BA291F1307ECCC4F4EF732DC19622",
-    "06401391B5B39FBCF2BC0C6A6E03FAF992435E7B011183A1861737E913AF8613",
-    "9F8F72F1CB06DB787A5B32E314A109267E53C505C9F9AB0DAD5AA8FF8B219A07"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/almarai/Almarai-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/almarai&per_page=1"
   },
-  "description": "Almarai font family designed by Boutros Fonts, Mourad Boutros",
-  "homepage": "https://fonts.google.com/specimen/Almarai",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Almarai"
 }

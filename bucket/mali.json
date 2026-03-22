@@ -1,22 +1,35 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-BoldItalic.ttf"
+  "hash": [
+    "1EE5EA883FDE78E4EC8B66BA3606348CD48171CC42072090DF8F7500A82E3F33",
+    "0295AC94B941C9EE00997AAF83459F100A99986B3F4E2F2C19D211961E3986B4",
+    "0CD365C361B4A394583746AE222B136CA627B344A35CF84C6A65C2CF4BA7A97C",
+    "47E58ABC37BBD0279D2E349956A529A069FC08866B2CDB97E17131AEB05D39A3",
+    "E3212F0F9BE130743D32A4F174B7D79628DAA5DB0D72CA4C63C799AE465597BB",
+    "FEB2808BBD3827949B5EDA93179D5820B0FBBB2BFD6154866B0D05E1B8F25F8C",
+    "AA3320845E281DE05D7076AED9BE5A09DF4BF11E6C46165027A0B57A0C8F5DC9",
+    "2C37D78CCF7E6095526F13EE020C7E48C15E91CF42A8B115A22467FF68FC2ECA",
+    "0BA6D92B46369EC5040D119F87A17586BE96364FAC743FBF510B54A3EAD1ADCC",
+    "3A83A53F2B88E8464A09F8788CD4AD4E96AE3008E3BB2128DE34693BD2AD6ED1",
+    "3E2F421036C3F91EB5EF34650A5CD2116C737A542147769437A9856A455D4462",
+    "ED51D1FA721E4DC4A43DBA34926442A007F8A300543C1171887810A547E5B23B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mali&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-BoldItalic.ttf"
+    ]
   },
+  "description": "Mali font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -58,6 +71,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,38 +156,24 @@
       "}"
     ]
   },
-  "hash": [
-    "1EE5EA883FDE78E4EC8B66BA3606348CD48171CC42072090DF8F7500A82E3F33",
-    "0295AC94B941C9EE00997AAF83459F100A99986B3F4E2F2C19D211961E3986B4",
-    "0CD365C361B4A394583746AE222B136CA627B344A35CF84C6A65C2CF4BA7A97C",
-    "47E58ABC37BBD0279D2E349956A529A069FC08866B2CDB97E17131AEB05D39A3",
-    "E3212F0F9BE130743D32A4F174B7D79628DAA5DB0D72CA4C63C799AE465597BB",
-    "FEB2808BBD3827949B5EDA93179D5820B0FBBB2BFD6154866B0D05E1B8F25F8C",
-    "AA3320845E281DE05D7076AED9BE5A09DF4BF11E6C46165027A0B57A0C8F5DC9",
-    "2C37D78CCF7E6095526F13EE020C7E48C15E91CF42A8B115A22467FF68FC2ECA",
-    "0BA6D92B46369EC5040D119F87A17586BE96364FAC743FBF510B54A3EAD1ADCC",
-    "3A83A53F2B88E8464A09F8788CD4AD4E96AE3008E3BB2128DE34693BD2AD6ED1",
-    "3E2F421036C3F91EB5EF34650A5CD2116C737A542147769437A9856A455D4462",
-    "ED51D1FA721E4DC4A43DBA34926442A007F8A300543C1171887810A547E5B23B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mali/Mali-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mali&per_page=1"
   },
-  "description": "Mali font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Mali",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mali"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf"
+  "hash": [
+    "E6345F3D92C7A9B7044C31A87D9B61F50220B08C0F1DCC2736E94C2AA587CE03"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chocolateclassicalsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf"
+    ]
   },
+  "description": "Chocolate Classical Sans font family designed by Moonlit Owen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E6345F3D92C7A9B7044C31A87D9B61F50220B08C0F1DCC2736E94C2AA587CE03"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chocolateclassicalsans&per_page=1"
   },
-  "description": "Chocolate Classical Sans font family designed by Moonlit Owen",
-  "homepage": "https://fonts.google.com/specimen/Chocolate+Classical+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chocolate+Classical+Sans"
 }

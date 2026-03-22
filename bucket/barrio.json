@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barrio/Barrio-Regular.ttf"
+  "hash": [
+    "6F86249FBED4D0D620BCFEFDA64A0081E15CF0C8C5FD2AD17DB157B98B558BC5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/barrio&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barrio/Barrio-Regular.ttf"
+    ]
   },
+  "description": "Barrio font family designed by Omnibus-Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6F86249FBED4D0D620BCFEFDA64A0081E15CF0C8C5FD2AD17DB157B98B558BC5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barrio/Barrio-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barrio/Barrio-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/barrio&per_page=1"
   },
-  "description": "Barrio font family designed by Omnibus-Type",
-  "homepage": "https://fonts.google.com/specimen/Barrio",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Barrio"
 }

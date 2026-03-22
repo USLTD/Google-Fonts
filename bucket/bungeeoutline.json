@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeoutline/BungeeOutline-Regular.ttf"
+  "hash": [
+    "9232000FF85FDBB68987007305F2DE877486D63D31450F81B403461BBE721F1F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeeoutline&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeoutline/BungeeOutline-Regular.ttf"
+    ]
   },
+  "description": "Bungee Outline font family designed by David Jonathan Ross",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9232000FF85FDBB68987007305F2DE877486D63D31450F81B403461BBE721F1F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeoutline/BungeeOutline-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeoutline/BungeeOutline-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bungeeoutline&per_page=1"
   },
-  "description": "Bungee Outline font family designed by David Jonathan Ross",
-  "homepage": "https://fonts.google.com/specimen/Bungee+Outline",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bungee+Outline"
 }

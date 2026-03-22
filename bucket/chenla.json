@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chenla/Chenla.ttf"
+  "hash": [
+    "0174CDA2C7718E129B9F2599CD7DD9265B01A63B9ACF67F939882F0FDDFF29B7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chenla&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chenla/Chenla.ttf"
+    ]
   },
+  "description": "Chenla font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0174CDA2C7718E129B9F2599CD7DD9265B01A63B9ACF67F939882F0FDDFF29B7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chenla/Chenla.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chenla/Chenla.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chenla&per_page=1"
   },
-  "description": "Chenla font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Chenla",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chenla"
 }

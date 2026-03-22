@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/micro5/Micro5-Regular.ttf"
+  "hash": [
+    "08A08C0D10129D2ECD869FF2F8914FCBF32487D3CBEE3568B2A2957866DFDAC8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/micro5&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/micro5/Micro5-Regular.ttf"
+    ]
   },
+  "description": "Micro 5 font family designed by Sarah Cadigan-Fried",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "08A08C0D10129D2ECD869FF2F8914FCBF32487D3CBEE3568B2A2957866DFDAC8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/micro5/Micro5-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/micro5/Micro5-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/micro5&per_page=1"
   },
-  "description": "Micro 5 font family designed by Sarah Cadigan-Fried",
-  "homepage": "https://fonts.google.com/specimen/Micro+5",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Micro+5"
 }

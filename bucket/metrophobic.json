@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/metrophobic/Metrophobic-Regular.ttf"
+  "hash": [
+    "34E4AC3257307C28E6DD14F5D77BB296211F0DDD217607228A5375416ED8AC58"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/metrophobic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/metrophobic/Metrophobic-Regular.ttf"
+    ]
   },
+  "description": "Metrophobic font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "34E4AC3257307C28E6DD14F5D77BB296211F0DDD217607228A5375416ED8AC58"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/metrophobic/Metrophobic-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/metrophobic/Metrophobic-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/metrophobic&per_page=1"
   },
-  "description": "Metrophobic font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Metrophobic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Metrophobic"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alkatra/Alkatra[wght].ttf"
+  "hash": [
+    "AF6D39E8085EDA5DB66B19100571709BD41C41938400F2C365DADDE86DD28466"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alkatra&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alkatra/Alkatra[wght].ttf"
+    ]
   },
+  "description": "Alkatra font family designed by Suman Bhandary",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "AF6D39E8085EDA5DB66B19100571709BD41C41938400F2C365DADDE86DD28466"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alkatra/Alkatra[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alkatra/Alkatra[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alkatra&per_page=1"
   },
-  "description": "Alkatra font family designed by Suman Bhandary",
-  "homepage": "https://fonts.google.com/specimen/Alkatra",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alkatra"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918-Italic[wght].ttf"
+  "hash": [
+    "93A23E7C6DE5E2C54410116ABCEED294A05B71AA03AF52FBAA92C2CC79003D4D",
+    "C694F075A9240C47C72A2298ACF9C14F79ABDF7BAE824ECA96B78099DBED93C5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/brygada1918&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918-Italic[wght].ttf"
+    ]
   },
+  "description": "Brygada 1918 font family designed by Capitalics, Mateusz Machalski, Borys Kosmynka, Ania Wieluńska, Przemysław Hoffer",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "93A23E7C6DE5E2C54410116ABCEED294A05B71AA03AF52FBAA92C2CC79003D4D",
-    "C694F075A9240C47C72A2298ACF9C14F79ABDF7BAE824ECA96B78099DBED93C5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/brygada1918/Brygada1918-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/brygada1918&per_page=1"
   },
-  "description": "Brygada 1918 font family designed by Capitalics, Mateusz Machalski, Borys Kosmynka, Ania Wieluńska, Przemysław Hoffer",
-  "homepage": "https://fonts.google.com/specimen/Brygada+1918",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Brygada+1918"
 }

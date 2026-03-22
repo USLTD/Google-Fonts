@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lemon/Lemon-Regular.ttf"
+  "hash": [
+    "6A3973A9EA7C05E6041969D0A5E8F2B04DB3B2CCD5E5BC98BC7FF52C0940CE2F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lemon&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lemon/Lemon-Regular.ttf"
+    ]
   },
+  "description": "Lemon font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6A3973A9EA7C05E6041969D0A5E8F2B04DB3B2CCD5E5BC98BC7FF52C0940CE2F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lemon/Lemon-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lemon/Lemon-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lemon&per_page=1"
   },
-  "description": "Lemon font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Lemon",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lemon"
 }

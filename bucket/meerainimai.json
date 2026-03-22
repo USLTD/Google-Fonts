@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/meerainimai/MeeraInimai-Regular.ttf"
+  "hash": [
+    "3DFFA9501AC790B5E1C3EBECDBA4F2C90A617A7D3131FAD129893929BC56708E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/meerainimai&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/meerainimai/MeeraInimai-Regular.ttf"
+    ]
   },
+  "description": "Meera Inimai font family designed by SMC",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3DFFA9501AC790B5E1C3EBECDBA4F2C90A617A7D3131FAD129893929BC56708E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/meerainimai/MeeraInimai-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/meerainimai/MeeraInimai-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/meerainimai&per_page=1"
   },
-  "description": "Meera Inimai font family designed by SMC",
-  "homepage": "https://fonts.google.com/specimen/Meera+Inimai",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Meera+Inimai"
 }

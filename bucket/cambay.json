@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-BoldItalic.ttf"
+  "hash": [
+    "473FAF71630AA1B411FA9887951D1B7B2674EFA137E6697CD71AFC2BF17D4D55",
+    "E2946874481BF5E3F28C6EC65A92BC529AD9CA27876FE7BCCA8B0F04B5410BB3",
+    "75B8835327DB778DA23A029AD0782BDE9F82567F902F9CF0CD1E18EFA0FA96BC",
+    "4A5310A8D87F7909FA465794FAB60DC37AAB5EDE8214FF7EEA95F36C7A2B8974"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cambay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-BoldItalic.ttf"
+    ]
   },
+  "description": "Cambay font family designed by Pooja Saxena",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "473FAF71630AA1B411FA9887951D1B7B2674EFA137E6697CD71AFC2BF17D4D55",
-    "E2946874481BF5E3F28C6EC65A92BC529AD9CA27876FE7BCCA8B0F04B5410BB3",
-    "75B8835327DB778DA23A029AD0782BDE9F82567F902F9CF0CD1E18EFA0FA96BC",
-    "4A5310A8D87F7909FA465794FAB60DC37AAB5EDE8214FF7EEA95F36C7A2B8974"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cambay&per_page=1"
   },
-  "description": "Cambay font family designed by Pooja Saxena",
-  "homepage": "https://fonts.google.com/specimen/Cambay",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cambay"
 }

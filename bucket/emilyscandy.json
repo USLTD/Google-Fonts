@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/emilyscandy/EmilysCandy-Regular.ttf"
+  "hash": [
+    "0CF3CA9DBE71B33596E8A1EB12B40DEAC2E6414FE5616DDA50C554580B6E0C68"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/emilyscandy&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/emilyscandy/EmilysCandy-Regular.ttf"
+    ]
   },
+  "description": "Emilys Candy font family designed by Neapolitan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0CF3CA9DBE71B33596E8A1EB12B40DEAC2E6414FE5616DDA50C554580B6E0C68"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/emilyscandy/EmilysCandy-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/emilyscandy/EmilysCandy-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/emilyscandy&per_page=1"
   },
-  "description": "Emilys Candy font family designed by Neapolitan",
-  "homepage": "https://fonts.google.com/specimen/Emilys+Candy",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Emilys+Candy"
 }

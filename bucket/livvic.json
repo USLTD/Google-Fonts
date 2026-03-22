@@ -1,26 +1,43 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Black.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BlackItalic.ttf"
+  "hash": [
+    "17E22E7713967BEBD783B1B8745649A2FC54E9EE096D8AD38129F53B47C94AEF",
+    "4ECBDCA3573200A38F92B3964F9F5159660969100E2E07B0B96F4414288C462C",
+    "7A69D3FAEDADE4B4EE238069FE703163842F2230B505057563882CEC659C59C6",
+    "A4B62B2C66972BC3FAF72A7F635085D69EB0E73FE6C595A2574A2AC8B8D2FD67",
+    "F3BAAA33AC50BE741765CF91E70D84835EDE9A68DC95A35740DE9AFFDE113461",
+    "CB15D9DB1B29CD88277ECBDC77761730E3922E2E7C23B5DAE04E00AB0C3B64C4",
+    "778E7577CF8ED8F0A97EB657BBF4D4F05BC0C6E8EB0AC8458F25A0EAA6CA16E8",
+    "A252ED6488D89F4200B54174C002846424AA5BAB454220E6C68F6AB4AD03BBCE",
+    "78F9277DE8B8734CF172288FB44F359C85F3A38A6F98F2333F8E103CE1ACDCF4",
+    "2293E97EF4E012DC74A7A453D3261112DE4B50B8B6507F8587EBC95E489490B9",
+    "93CF062CF28CFFF0359F38DD93A75F46DCF5BA514483BB557069A89B7B3C4E0C",
+    "84A8AF5C40EE96F0E9873B8E33A9D65C3A08CC3BDB5B0CD4E83E8174D12BADE0",
+    "F2E3A5952C0FE465778A2EB93A8A4FD1F27FB6A9F8080F9AA2C7F085212DCF3F",
+    "B0FDF70102675EE1AC81CC38A0F0E40694A6403A8BA326CC62E99BE0BAD4CEDD",
+    "69522E784A487191945FA9F9D92D67E64CD5A4BC6E849AE42D5F4A799A8D9B60",
+    "83E66C050786059AEABEB5FB69DEFAB2593DF93CAEDDE11746DC6277FBF8E523"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/livvic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Black.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BlackItalic.ttf"
+    ]
   },
+  "description": "Livvic font family designed by LV=, Jacques Le Bailly",
   "installer": {
     "script": [
       "if ($global) {",
@@ -62,6 +79,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -146,46 +164,28 @@
       "}"
     ]
   },
-  "hash": [
-    "17E22E7713967BEBD783B1B8745649A2FC54E9EE096D8AD38129F53B47C94AEF",
-    "4ECBDCA3573200A38F92B3964F9F5159660969100E2E07B0B96F4414288C462C",
-    "7A69D3FAEDADE4B4EE238069FE703163842F2230B505057563882CEC659C59C6",
-    "A4B62B2C66972BC3FAF72A7F635085D69EB0E73FE6C595A2574A2AC8B8D2FD67",
-    "F3BAAA33AC50BE741765CF91E70D84835EDE9A68DC95A35740DE9AFFDE113461",
-    "CB15D9DB1B29CD88277ECBDC77761730E3922E2E7C23B5DAE04E00AB0C3B64C4",
-    "778E7577CF8ED8F0A97EB657BBF4D4F05BC0C6E8EB0AC8458F25A0EAA6CA16E8",
-    "A252ED6488D89F4200B54174C002846424AA5BAB454220E6C68F6AB4AD03BBCE",
-    "78F9277DE8B8734CF172288FB44F359C85F3A38A6F98F2333F8E103CE1ACDCF4",
-    "2293E97EF4E012DC74A7A453D3261112DE4B50B8B6507F8587EBC95E489490B9",
-    "93CF062CF28CFFF0359F38DD93A75F46DCF5BA514483BB557069A89B7B3C4E0C",
-    "84A8AF5C40EE96F0E9873B8E33A9D65C3A08CC3BDB5B0CD4E83E8174D12BADE0",
-    "F2E3A5952C0FE465778A2EB93A8A4FD1F27FB6A9F8080F9AA2C7F085212DCF3F",
-    "B0FDF70102675EE1AC81CC38A0F0E40694A6403A8BA326CC62E99BE0BAD4CEDD",
-    "69522E784A487191945FA9F9D92D67E64CD5A4BC6E849AE42D5F4A799A8D9B60",
-    "83E66C050786059AEABEB5FB69DEFAB2593DF93CAEDDE11746DC6277FBF8E523"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Black.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BlackItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-Black.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/livvic/Livvic-BlackItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/livvic&per_page=1"
   },
-  "description": "Livvic font family designed by LV=, Jacques Le Bailly",
-  "homepage": "https://fonts.google.com/specimen/Livvic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Livvic"
 }

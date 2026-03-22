@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Bold.ttf"
+  "hash": [
+    "9A802F6EC93F2DB8D1482DF9612D83960592A9FE92CCB813C242AA8A72601434",
+    "F646FFA1CDF2D4AB36326943D3494C98416264F4DF40F8E7BF86211DE571DF07",
+    "1A9BEC7FF2433D3AF45AFFF681FB6C3C679E77AB44DBB4DB2CBB9CB55E9B7A23",
+    "1EF45EF6113E69E98EDDD809A4EEFC18F6005743CE7718EF6FD691DB43029B82",
+    "EE33E5AD2F8B8FF03EF91B286EA3BF93583CC162B614790E2DDCFD5772939DAF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/halant&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Bold.ttf"
+    ]
   },
+  "description": "Halant font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "9A802F6EC93F2DB8D1482DF9612D83960592A9FE92CCB813C242AA8A72601434",
-    "F646FFA1CDF2D4AB36326943D3494C98416264F4DF40F8E7BF86211DE571DF07",
-    "1A9BEC7FF2433D3AF45AFFF681FB6C3C679E77AB44DBB4DB2CBB9CB55E9B7A23",
-    "1EF45EF6113E69E98EDDD809A4EEFC18F6005743CE7718EF6FD691DB43029B82",
-    "EE33E5AD2F8B8FF03EF91B286EA3BF93583CC162B614790E2DDCFD5772939DAF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/halant/Halant-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/halant&per_page=1"
   },
-  "description": "Halant font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Halant",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Halant"
 }

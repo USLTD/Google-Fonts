@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firacode/FiraCode[wght].ttf"
+  "hash": [
+    "9335B082B3C7850D98A64B584F3417F65355F3471278BB5EEB8C6C0E8657AEEB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firacode&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firacode/FiraCode[wght].ttf"
+    ]
   },
+  "description": "Fira Code font family designed by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9335B082B3C7850D98A64B584F3417F65355F3471278BB5EEB8C6C0E8657AEEB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firacode/FiraCode[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firacode/FiraCode[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firacode&per_page=1"
   },
-  "description": "Fira Code font family designed by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov",
-  "homepage": "https://fonts.google.com/specimen/Fira+Code",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fira+Code"
 }

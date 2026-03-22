@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blackopsone/BlackOpsOne-Regular.ttf"
+  "hash": [
+    "282A825B5F294377387E3969F765408157DBEA8DA0F5D0AAE68C6BC704B145B3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blackopsone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blackopsone/BlackOpsOne-Regular.ttf"
+    ]
   },
+  "description": "Black Ops One font family designed by James Grieshaber, Eben Sorkin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "282A825B5F294377387E3969F765408157DBEA8DA0F5D0AAE68C6BC704B145B3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blackopsone/BlackOpsOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blackopsone/BlackOpsOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blackopsone&per_page=1"
   },
-  "description": "Black Ops One font family designed by James Grieshaber, Eben Sorkin",
-  "homepage": "https://fonts.google.com/specimen/Black+Ops+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Black+Ops+One"
 }

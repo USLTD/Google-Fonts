@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/michroma/Michroma-Regular.ttf"
+  "hash": [
+    "B62301163788BC5B7F8FCAC0B74B184E34E1827E577B499ECB724DA065098F87"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/michroma&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/michroma/Michroma-Regular.ttf"
+    ]
   },
+  "description": "Michroma font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B62301163788BC5B7F8FCAC0B74B184E34E1827E577B499ECB724DA065098F87"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/michroma/Michroma-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/michroma/Michroma-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/michroma&per_page=1"
   },
-  "description": "Michroma font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Michroma",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Michroma"
 }

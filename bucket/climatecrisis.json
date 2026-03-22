@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/climatecrisis/ClimateCrisis[YEAR].ttf"
+  "hash": [
+    "4B25279F80E420F9F09DBBA13EB14D0BEABFA013D17F74BAD19CC9FDF4D55523"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/climatecrisis&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/climatecrisis/ClimateCrisis[YEAR].ttf"
+    ]
   },
+  "description": "Climate Crisis font family designed by Daniel Coull, Eino Korkala",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4B25279F80E420F9F09DBBA13EB14D0BEABFA013D17F74BAD19CC9FDF4D55523"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/climatecrisis/ClimateCrisis[YEAR].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/climatecrisis/ClimateCrisis[YEAR].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/climatecrisis&per_page=1"
   },
-  "description": "Climate Crisis font family designed by Daniel Coull, Eino Korkala",
-  "homepage": "https://fonts.google.com/specimen/Climate+Crisis",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Climate+Crisis"
 }

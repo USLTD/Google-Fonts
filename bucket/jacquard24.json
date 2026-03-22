@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquard24/Jacquard24-Regular.ttf"
+  "hash": [
+    "8E5B1BDB8B6087D6175F1D9EDD2634E38B10FB109C0955C24AD55272A866ED49"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jacquard24&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquard24/Jacquard24-Regular.ttf"
+    ]
   },
+  "description": "Jacquard 24 font family designed by Sarah Cadigan-Fried",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8E5B1BDB8B6087D6175F1D9EDD2634E38B10FB109C0955C24AD55272A866ED49"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquard24/Jacquard24-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jacquard24/Jacquard24-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jacquard24&per_page=1"
   },
-  "description": "Jacquard 24 font family designed by Sarah Cadigan-Fried",
-  "homepage": "https://fonts.google.com/specimen/Jacquard+24",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jacquard+24"
 }

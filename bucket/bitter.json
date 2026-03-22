@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter-Italic[wght].ttf"
+  "hash": [
+    "EF2B9A711FB02F1E5823B34DA1B7450E0FC76793B7D733A8B41006E24916D4A7",
+    "5E6E0AF503171C9D7B4BE7A22C16F474D7A638CF83A80051D825BCC58D664BC3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitter&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter-Italic[wght].ttf"
+    ]
   },
+  "description": "Bitter font family designed by Sol Matas",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "EF2B9A711FB02F1E5823B34DA1B7450E0FC76793B7D733A8B41006E24916D4A7",
-    "5E6E0AF503171C9D7B4BE7A22C16F474D7A638CF83A80051D825BCC58D664BC3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bitter&per_page=1"
   },
-  "description": "Bitter font family designed by Sol Matas",
-  "homepage": "https://fonts.google.com/specimen/Bitter",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bitter"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/freehand/Freehand-Regular.ttf"
+  "hash": [
+    "3F2F1155D862304CF29CC4252AA5DF4D47468D127C3C12CBF16894B0DDA6C833"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/freehand&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/freehand/Freehand-Regular.ttf"
+    ]
   },
+  "description": "Freehand font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3F2F1155D862304CF29CC4252AA5DF4D47468D127C3C12CBF16894B0DDA6C833"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/freehand/Freehand-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/freehand/Freehand-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/freehand&per_page=1"
   },
-  "description": "Freehand font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Freehand",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Freehand"
 }

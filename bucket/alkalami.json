@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alkalami/Alkalami-Regular.ttf"
+  "hash": [
+    "4410DFC591B918DD4360B0252B079855A8A00250DE363C8C0163B29DDFC56434"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alkalami&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alkalami/Alkalami-Regular.ttf"
+    ]
   },
+  "description": "Alkalami font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4410DFC591B918DD4360B0252B079855A8A00250DE363C8C0163B29DDFC56434"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alkalami/Alkalami-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alkalami/Alkalami-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alkalami&per_page=1"
   },
-  "description": "Alkalami font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Alkalami",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alkalami"
 }

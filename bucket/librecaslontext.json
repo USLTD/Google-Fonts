@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText-Italic[wght].ttf"
+  "hash": [
+    "C11809DBFD5445886293D89B32BFC2584075C80E77750CF1C284113E36B8B3F4",
+    "60CA1A3AADE61C8C381800CA85B9B2F0FB341D89EBE065E12CD6EC2EE2E53E54"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librecaslontext&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText-Italic[wght].ttf"
+    ]
   },
+  "description": "Libre Caslon Text font family designed by Pablo Impallari",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "C11809DBFD5445886293D89B32BFC2584075C80E77750CF1C284113E36B8B3F4",
-    "60CA1A3AADE61C8C381800CA85B9B2F0FB341D89EBE065E12CD6EC2EE2E53E54"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslontext/LibreCaslonText-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librecaslontext&per_page=1"
   },
-  "description": "Libre Caslon Text font family designed by Pablo Impallari",
-  "homepage": "https://fonts.google.com/specimen/Libre+Caslon+Text",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libre+Caslon+Text"
 }

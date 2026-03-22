@@ -1,17 +1,25 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Bold.ttf"
+  "hash": [
+    "CB05CD9206A980572A86D585E3A4378D19C2213BEC95B28B8F00852422AAFFAC",
+    "2B8D281F63CC7B7DEAFE7B8370529F321861338516BECD2B823F6532D8F4D275",
+    "0D7F6392A7F3E1422AACF56E435B030F9691B4C87F4DABE73CF261E77FFEF7BC",
+    "C11DF42ADF5E2C6E77E623DBEDBE8CC23BA72196AC9AD8BEB02754EEBD9C400A",
+    "15B5D6B20F5B4007F2D709FF786266FF62BA9B13BA4E5AC4D23F37D554D68534",
+    "3CA3829ACBEB58F0832F3320A54BAB233904C07D0D1DC79B7F1FF3F36BA68B2D",
+    "4468A526F606AC74E8DB9125B785A932CF55A265F8E358855371BED6126A1637"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsanshebrew&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Bold.ttf"
+    ]
   },
+  "description": "IBM Plex Sans Hebrew font family designed by Mike Abbink, Bold Monday",
   "installer": {
     "script": [
       "if ($global) {",
@@ -53,6 +61,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -137,28 +146,19 @@
       "}"
     ]
   },
-  "hash": [
-    "CB05CD9206A980572A86D585E3A4378D19C2213BEC95B28B8F00852422AAFFAC",
-    "2B8D281F63CC7B7DEAFE7B8370529F321861338516BECD2B823F6532D8F4D275",
-    "0D7F6392A7F3E1422AACF56E435B030F9691B4C87F4DABE73CF261E77FFEF7BC",
-    "C11DF42ADF5E2C6E77E623DBEDBE8CC23BA72196AC9AD8BEB02754EEBD9C400A",
-    "15B5D6B20F5B4007F2D709FF786266FF62BA9B13BA4E5AC4D23F37D554D68534",
-    "3CA3829ACBEB58F0832F3320A54BAB233904C07D0D1DC79B7F1FF3F36BA68B2D",
-    "4468A526F606AC74E8DB9125B785A932CF55A265F8E358855371BED6126A1637"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanshebrew/IBMPlexSansHebrew-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsanshebrew&per_page=1"
   },
-  "description": "IBM Plex Sans Hebrew font family designed by Mike Abbink, Bold Monday",
-  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Hebrew",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Hebrew"
 }

@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Bold.ttf"
+  "hash": [
+    "AB814D88FC60652E9675D92358D64C12EF5216032009B38D4B66AE4ABA33B801",
+    "BE4EF5AF5157C64AB86A758580F9CC41ADE446C256FD15070800EB8FCFCDC639",
+    "3C59B6EC6023C9E4B4E3473A0B006CE32CC1521CA38E35C618E1231EAFCD4DE5",
+    "58E6CBE26B7082018C55BC728C4056913D23CFBD7DD9D9147BA8AE219AC424BF",
+    "0015EAED80482E33B9CF4C18941E3250915CA5B8BED428B8B0F9D952496F3726"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindkochi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Bold.ttf"
+    ]
   },
+  "description": "Hind Kochi font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "AB814D88FC60652E9675D92358D64C12EF5216032009B38D4B66AE4ABA33B801",
-    "BE4EF5AF5157C64AB86A758580F9CC41ADE446C256FD15070800EB8FCFCDC639",
-    "3C59B6EC6023C9E4B4E3473A0B006CE32CC1521CA38E35C618E1231EAFCD4DE5",
-    "58E6CBE26B7082018C55BC728C4056913D23CFBD7DD9D9147BA8AE219AC424BF",
-    "0015EAED80482E33B9CF4C18941E3250915CA5B8BED428B8B0F9D952496F3726"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindkochi/HindKochi-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindkochi&per_page=1"
   },
-  "description": "Hind Kochi font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Hind+Kochi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hind+Kochi"
 }

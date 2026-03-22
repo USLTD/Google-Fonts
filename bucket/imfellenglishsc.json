@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglishsc/IMFeENsc28P.ttf"
+  "hash": [
+    "102324FB5434BB5DA7963533426B0AD44C85BBC9E7755067535C9D11464A176B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellenglishsc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglishsc/IMFeENsc28P.ttf"
+    ]
   },
+  "description": "IM Fell English SC font family designed by Igino Marini",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "102324FB5434BB5DA7963533426B0AD44C85BBC9E7755067535C9D11464A176B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglishsc/IMFeENsc28P.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellenglishsc/IMFeENsc28P.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellenglishsc&per_page=1"
   },
-  "description": "IM Fell English SC font family designed by Igino Marini",
-  "homepage": "https://fonts.google.com/specimen/IM+Fell+English+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IM+Fell+English+SC"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk-Italic[wght].ttf"
+  "hash": [
+    "813B3F8FA0965405669A89B38E51BBEFD95EEF6B8E20D1CB2D8C10CCE062662F",
+    "AE5731726FF75301A3CB63F2E98D1BABC77D55AB09FB8E229CA75F5BD46FBE32"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hankengrotesk&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk-Italic[wght].ttf"
+    ]
   },
+  "description": "Hanken Grotesk font family designed by Alfredo Marco Pradil, Hanken Design Co.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "813B3F8FA0965405669A89B38E51BBEFD95EEF6B8E20D1CB2D8C10CCE062662F",
-    "AE5731726FF75301A3CB63F2E98D1BABC77D55AB09FB8E229CA75F5BD46FBE32"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/HankenGrotesk-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hankengrotesk&per_page=1"
   },
-  "description": "Hanken Grotesk font family designed by Alfredo Marco Pradil, Hanken Design Co.",
-  "homepage": "https://fonts.google.com/specimen/Hanken+Grotesk",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hanken+Grotesk"
 }

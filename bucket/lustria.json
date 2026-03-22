@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lustria/Lustria-Regular.ttf"
+  "hash": [
+    "8B50753779D151674DCC74BDF9CDDE1E788D8FB2B9ACE8FB183A0DEF0F7361CE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lustria&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lustria/Lustria-Regular.ttf"
+    ]
   },
+  "description": "Lustria font family designed by MADType",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8B50753779D151674DCC74BDF9CDDE1E788D8FB2B9ACE8FB183A0DEF0F7361CE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lustria/Lustria-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lustria/Lustria-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lustria&per_page=1"
   },
-  "description": "Lustria font family designed by MADType",
-  "homepage": "https://fonts.google.com/specimen/Lustria",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lustria"
 }

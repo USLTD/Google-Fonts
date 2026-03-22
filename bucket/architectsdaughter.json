@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/architectsdaughter/ArchitectsDaughter-Regular.ttf"
+  "hash": [
+    "6159718A08898E34BC1CB7354086141A5F9A70B73E54DBEC27EAD0D59A697359"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/architectsdaughter&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/architectsdaughter/ArchitectsDaughter-Regular.ttf"
+    ]
   },
+  "description": "Architects Daughter font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6159718A08898E34BC1CB7354086141A5F9A70B73E54DBEC27EAD0D59A697359"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/architectsdaughter/ArchitectsDaughter-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/architectsdaughter/ArchitectsDaughter-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/architectsdaughter&per_page=1"
   },
-  "description": "Architects Daughter font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Architects+Daughter",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Architects+Daughter"
 }

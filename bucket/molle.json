@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/molle/Molle-Regular.ttf"
+  "hash": [
+    "5693A09A77E5AFD28380D269E2CF03CA78C4FD92A8BACD248910221CBFE2EF58"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/molle&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/molle/Molle-Regular.ttf"
+    ]
   },
+  "description": "Molle font family designed by Elena Albertoni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5693A09A77E5AFD28380D269E2CF03CA78C4FD92A8BACD248910221CBFE2EF58"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/molle/Molle-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/molle/Molle-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/molle&per_page=1"
   },
-  "description": "Molle font family designed by Elena Albertoni",
-  "homepage": "https://fonts.google.com/specimen/Molle",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Molle"
 }

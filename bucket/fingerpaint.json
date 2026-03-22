@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fingerpaint/FingerPaint-Regular.ttf"
+  "hash": [
+    "FCE000AE028B09CA53949172A838282C678796E1542D259E6DA373E257377FC8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fingerpaint&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fingerpaint/FingerPaint-Regular.ttf"
+    ]
   },
+  "description": "Finger Paint font family designed by Carrois Apostrophe",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "FCE000AE028B09CA53949172A838282C678796E1542D259E6DA373E257377FC8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fingerpaint/FingerPaint-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fingerpaint/FingerPaint-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fingerpaint&per_page=1"
   },
-  "description": "Finger Paint font family designed by Carrois Apostrophe",
-  "homepage": "https://fonts.google.com/specimen/Finger+Paint",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Finger+Paint"
 }

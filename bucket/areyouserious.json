@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/areyouserious/AreYouSerious-Regular.ttf"
+  "hash": [
+    "E2F61A166F382D7031CE750FE31D9A6D009A7DC8B63AAFE4FEFF65E5CB4B3874"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/areyouserious&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/areyouserious/AreYouSerious-Regular.ttf"
+    ]
   },
+  "description": "Are You Serious font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E2F61A166F382D7031CE750FE31D9A6D009A7DC8B63AAFE4FEFF65E5CB4B3874"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/areyouserious/AreYouSerious-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/areyouserious/AreYouSerious-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/areyouserious&per_page=1"
   },
-  "description": "Are You Serious font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Are+You+Serious",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Are+You+Serious"
 }

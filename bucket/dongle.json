@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Bold.ttf"
+  "hash": [
+    "BB04E03DBE44FB0C619434F31565E62B5BAC67229D5ED72EEAC69C2E74E9A45C",
+    "2966E7A9D312A868E2B5477BF9A3E59B8CE16BEB76E7E52305AB5897D1CE9741",
+    "944C498C0D1A1832AB36F173B1B3AA5AE77B2A914E00C4D79E05338FAE36472D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dongle&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Bold.ttf"
+    ]
   },
+  "description": "Dongle font family designed by Yanghee Ryu",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "BB04E03DBE44FB0C619434F31565E62B5BAC67229D5ED72EEAC69C2E74E9A45C",
-    "2966E7A9D312A868E2B5477BF9A3E59B8CE16BEB76E7E52305AB5897D1CE9741",
-    "944C498C0D1A1832AB36F173B1B3AA5AE77B2A914E00C4D79E05338FAE36472D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dongle/Dongle-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dongle&per_page=1"
   },
-  "description": "Dongle font family designed by Yanghee Ryu",
-  "homepage": "https://fonts.google.com/specimen/Dongle",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dongle"
 }

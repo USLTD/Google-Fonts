@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/itim/Itim-Regular.ttf"
+  "hash": [
+    "9164D7EB92CA717B53B07193E3445C96782222D24215151B8D2851B576B17645"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/itim&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/itim/Itim-Regular.ttf"
+    ]
   },
+  "description": "Itim font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9164D7EB92CA717B53B07193E3445C96782222D24215151B8D2851B576B17645"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/itim/Itim-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/itim/Itim-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/itim&per_page=1"
   },
-  "description": "Itim font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Itim",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Itim"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/heptaslab/HeptaSlab[wght].ttf"
+  "hash": [
+    "737BADC7944D5B6F92C05919995240D6EA70E86BEBE45D196E61677E7A901F29"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/heptaslab&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/heptaslab/HeptaSlab[wght].ttf"
+    ]
   },
+  "description": "Hepta Slab font family designed by Mike LaGattuta",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "737BADC7944D5B6F92C05919995240D6EA70E86BEBE45D196E61677E7A901F29"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/heptaslab/HeptaSlab[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/heptaslab/HeptaSlab[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/heptaslab&per_page=1"
   },
-  "description": "Hepta Slab font family designed by Mike LaGattuta",
-  "homepage": "https://fonts.google.com/specimen/Hepta+Slab",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hepta+Slab"
 }

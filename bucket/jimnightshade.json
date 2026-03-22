@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jimnightshade/JimNightshade-Regular.ttf"
+  "hash": [
+    "AD49A9F652CB1D7CE711D7CCDFB5922E3961F871705E88FB0E5D033E0E707103"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jimnightshade&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jimnightshade/JimNightshade-Regular.ttf"
+    ]
   },
+  "description": "Jim Nightshade font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "AD49A9F652CB1D7CE711D7CCDFB5922E3961F871705E88FB0E5D033E0E707103"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jimnightshade/JimNightshade-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jimnightshade/JimNightshade-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jimnightshade&per_page=1"
   },
-  "description": "Jim Nightshade font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Jim+Nightshade",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jim+Nightshade"
 }

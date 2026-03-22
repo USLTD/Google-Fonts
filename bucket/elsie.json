@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Black.ttf"
+  "hash": [
+    "9B3FF5056866667FB29F60BEB4522994AFDD4D5F580626C6FD9E6F5BF49F1EA5",
+    "69339FCD10A5D5C12B72CF5127B44BE5A0147D2531BAF494004C7ADAD4AF6338"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elsie&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Black.ttf"
+    ]
   },
+  "description": "Elsie font family designed by Alejandro Inler",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "9B3FF5056866667FB29F60BEB4522994AFDD4D5F580626C6FD9E6F5BF49F1EA5",
-    "69339FCD10A5D5C12B72CF5127B44BE5A0147D2531BAF494004C7ADAD4AF6338"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/elsie/Elsie-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elsie&per_page=1"
   },
-  "description": "Elsie font family designed by Alejandro Inler",
-  "homepage": "https://fonts.google.com/specimen/Elsie",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Elsie"
 }

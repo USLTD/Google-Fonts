@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arima/Arima[wght].ttf"
+  "hash": [
+    "C6B0DB0D4343E9D08B8E79F9C6F868576C94BC0C839D349535F030B011884E45"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arima&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arima/Arima[wght].ttf"
+    ]
   },
+  "description": "Arima font family designed by Natanael Gama, Joana Correia, Rosalie Wagner",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C6B0DB0D4343E9D08B8E79F9C6F868576C94BC0C839D349535F030B011884E45"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arima/Arima[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arima/Arima[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arima&per_page=1"
   },
-  "description": "Arima font family designed by Natanael Gama, Joana Correia, Rosalie Wagner",
-  "homepage": "https://fonts.google.com/specimen/Arima",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Arima"
 }

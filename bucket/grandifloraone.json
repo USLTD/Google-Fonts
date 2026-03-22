@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/grandifloraone/GrandifloraOne-Regular.ttf"
+  "hash": [
+    "592DA2454A6626EE68558E220DF28808B95F7DD140CD1CEB8A0D72B777F157AD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grandifloraone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/grandifloraone/GrandifloraOne-Regular.ttf"
+    ]
   },
+  "description": "Grandiflora One font family designed by Haesung Cho, JAMO",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "592DA2454A6626EE68558E220DF28808B95F7DD140CD1CEB8A0D72B777F157AD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/grandifloraone/GrandifloraOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/grandifloraone/GrandifloraOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/grandifloraone&per_page=1"
   },
-  "description": "Grandiflora One font family designed by Haesung Cho, JAMO",
-  "homepage": "https://fonts.google.com/specimen/Grandiflora+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Grandiflora+One"
 }

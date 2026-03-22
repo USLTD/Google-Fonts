@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/moderustic/Moderustic[wght].ttf"
+  "hash": [
+    "BA465AE65B26BBC2EEDE93F05D983912999C0916EF1160449DA773FA3BEB7467"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/moderustic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/moderustic/Moderustic[wght].ttf"
+    ]
   },
+  "description": "Moderustic font family designed by Tural Alisoy",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BA465AE65B26BBC2EEDE93F05D983912999C0916EF1160449DA773FA3BEB7467"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/moderustic/Moderustic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/moderustic/Moderustic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/moderustic&per_page=1"
   },
-  "description": "Moderustic font family designed by Tural Alisoy",
-  "homepage": "https://fonts.google.com/specimen/Moderustic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Moderustic"
 }

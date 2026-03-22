@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abyssinicasil/AbyssinicaSIL-Regular.ttf"
+  "hash": [
+    "F0E4FB92EE26967A3E6462342494956A3798B952345F917E1388913BB191CF2B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abyssinicasil&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abyssinicasil/AbyssinicaSIL-Regular.ttf"
+    ]
   },
+  "description": "Abyssinica SIL font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F0E4FB92EE26967A3E6462342494956A3798B952345F917E1388913BB191CF2B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abyssinicasil/AbyssinicaSIL-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abyssinicasil/AbyssinicaSIL-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abyssinicasil&per_page=1"
   },
-  "description": "Abyssinica SIL font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Abyssinica+SIL",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Abyssinica+SIL"
 }

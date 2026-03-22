@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/diphylleia/Diphylleia-Regular.ttf"
+  "hash": [
+    "A0F505E19758BBE69DA3E1CDD89FAC74E69E851AA82195A61C861BCEE7A53293"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/diphylleia&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/diphylleia/Diphylleia-Regular.ttf"
+    ]
   },
+  "description": "Diphylleia font family designed by Minha Hyung, JAMO",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A0F505E19758BBE69DA3E1CDD89FAC74E69E851AA82195A61C861BCEE7A53293"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/diphylleia/Diphylleia-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/diphylleia/Diphylleia-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/diphylleia&per_page=1"
   },
-  "description": "Diphylleia font family designed by Minha Hyung, JAMO",
-  "homepage": "https://fonts.google.com/specimen/Diphylleia",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Diphylleia"
 }

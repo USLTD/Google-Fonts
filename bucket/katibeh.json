@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/katibeh/Katibeh-Regular.ttf"
+  "hash": [
+    "334EEADB58EB442734FE7DEA87412CBBD8C3FD00294252723AADF19A850CF11F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/katibeh&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/katibeh/Katibeh-Regular.ttf"
+    ]
   },
+  "description": "Katibeh font family designed by KB Studio",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "334EEADB58EB442734FE7DEA87412CBBD8C3FD00294252723AADF19A850CF11F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/katibeh/Katibeh-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/katibeh/Katibeh-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/katibeh&per_page=1"
   },
-  "description": "Katibeh font family designed by KB Studio",
-  "homepage": "https://fonts.google.com/specimen/Katibeh",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Katibeh"
 }

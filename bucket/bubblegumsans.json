@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblegumsans/BubblegumSans-Regular.ttf"
+  "hash": [
+    "DB8D1C71C398266ECABE9AE4923C4FEB1323441A4F056A9339E41D8F847BD0C0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bubblegumsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblegumsans/BubblegumSans-Regular.ttf"
+    ]
   },
+  "description": "Bubblegum Sans font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DB8D1C71C398266ECABE9AE4923C4FEB1323441A4F056A9339E41D8F847BD0C0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblegumsans/BubblegumSans-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bubblegumsans/BubblegumSans-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bubblegumsans&per_page=1"
   },
-  "description": "Bubblegum Sans font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Bubblegum+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bubblegum+Sans"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/DelaGothicOne-Regular.ttf"
+  "hash": [
+    "4FF87A0965F1B0505E5A2C58424BC6AD3CFF27E56A82F21C2FC9D6B0E3857EE2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/delagothicone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/DelaGothicOne-Regular.ttf"
+    ]
   },
+  "description": "Dela Gothic One font family designed by artakana",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4FF87A0965F1B0505E5A2C58424BC6AD3CFF27E56A82F21C2FC9D6B0E3857EE2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/DelaGothicOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/DelaGothicOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/delagothicone&per_page=1"
   },
-  "description": "Dela Gothic One font family designed by artakana",
-  "homepage": "https://fonts.google.com/specimen/Dela+Gothic+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dela+Gothic+One"
 }

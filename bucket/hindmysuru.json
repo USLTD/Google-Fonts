@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Bold.ttf"
+  "hash": [
+    "40634C5BEB3700C0F1B556C8DDF4DDA27E6A20FB1B90DA7A5CAE85C536284887",
+    "A38A33806D9F008FBDF204D2F684E80B23CECFC42EE0C2AED81C7B3A8333E7F2",
+    "CEF72258D349131D78CA9D5DE286D4D54199D27E506287AD08345B01626C3240",
+    "7A9EED3F486AFFB0E469ACF75E60562743A1993737F79635BED740AAA8C82A84",
+    "37E0493369DB44F74D42EF36C2DDA9A1977F9A724E5AC51A2CA7EDD38189AA28"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindmysuru&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Bold.ttf"
+    ]
   },
+  "description": "Hind Mysuru font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "40634C5BEB3700C0F1B556C8DDF4DDA27E6A20FB1B90DA7A5CAE85C536284887",
-    "A38A33806D9F008FBDF204D2F684E80B23CECFC42EE0C2AED81C7B3A8333E7F2",
-    "CEF72258D349131D78CA9D5DE286D4D54199D27E506287AD08345B01626C3240",
-    "7A9EED3F486AFFB0E469ACF75E60562743A1993737F79635BED740AAA8C82A84",
-    "37E0493369DB44F74D42EF36C2DDA9A1977F9A724E5AC51A2CA7EDD38189AA28"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/hindmysuru/HindMysuru-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/hindmysuru&per_page=1"
   },
-  "description": "Hind Mysuru font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Hind+Mysuru",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Hind+Mysuru"
 }

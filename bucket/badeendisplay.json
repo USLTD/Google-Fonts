@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/badeendisplay/BadeenDisplay-Regular.ttf"
+  "hash": [
+    "274805B3EE44F9B45A99BDCECF25CD44944C0A81F6CF8086B5CF30D00E860537"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/badeendisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/badeendisplay/BadeenDisplay-Regular.ttf"
+    ]
   },
+  "description": "Badeen Display font family designed by Hani Alasadi",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "274805B3EE44F9B45A99BDCECF25CD44944C0A81F6CF8086B5CF30D00E860537"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/badeendisplay/BadeenDisplay-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/badeendisplay/BadeenDisplay-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/badeendisplay&per_page=1"
   },
-  "description": "Badeen Display font family designed by Hani Alasadi",
-  "homepage": "https://fonts.google.com/specimen/Badeen+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Badeen+Display"
 }

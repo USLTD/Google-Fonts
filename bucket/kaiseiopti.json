@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Bold.ttf"
+  "hash": [
+    "990CFB1FB00F311C8975C2C5F4778B2FE5462FD5EABF0884828A323DAD3F18C0",
+    "5FB67055D4D3E60625B6EE10C93FA87E348B7D99F2BFD2632BDF4E43C96D54DA",
+    "48E0A6E35903EEAEA2B9559AC62CBE83DAC701B2C9355C7CFF8927722C965ACC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseiopti&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Bold.ttf"
+    ]
   },
+  "description": "Kaisei Opti font family designed by Font-Kai",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "990CFB1FB00F311C8975C2C5F4778B2FE5462FD5EABF0884828A323DAD3F18C0",
-    "5FB67055D4D3E60625B6EE10C93FA87E348B7D99F2BFD2632BDF4E43C96D54DA",
-    "48E0A6E35903EEAEA2B9559AC62CBE83DAC701B2C9355C7CFF8927722C965ACC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kaiseiopti/KaiseiOpti-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kaiseiopti&per_page=1"
   },
-  "description": "Kaisei Opti font family designed by Font-Kai",
-  "homepage": "https://fonts.google.com/specimen/Kaisei+Opti",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kaisei+Opti"
 }

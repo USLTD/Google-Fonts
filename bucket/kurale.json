@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kurale/Kurale-Regular.ttf"
+  "hash": [
+    "6055AACA6870CA64210DD81FA47F8BB71595A9C8FBE570351ED45A15F1A0820D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kurale&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kurale/Kurale-Regular.ttf"
+    ]
   },
+  "description": "Kurale font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6055AACA6870CA64210DD81FA47F8BB71595A9C8FBE570351ED45A15F1A0820D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kurale/Kurale-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kurale/Kurale-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kurale&per_page=1"
   },
-  "description": "Kurale font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Kurale",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kurale"
 }

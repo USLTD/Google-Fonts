@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Italic.ttf"
+  "hash": [
+    "DCBA901B5FE11C0B6C3E8D5EB1003339B2DD020E2FC3949014ED0D8FF87715E7",
+    "2FC0CB26F0D1945202B6022EA68AC566826D19E64B461B640E9A1056F1F40218"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fruktur&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Italic.ttf"
+    ]
   },
+  "description": "Fruktur font family designed by Viktoriya Grabowska, Eben Sorkin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "DCBA901B5FE11C0B6C3E8D5EB1003339B2DD020E2FC3949014ED0D8FF87715E7",
-    "2FC0CB26F0D1945202B6022EA68AC566826D19E64B461B640E9A1056F1F40218"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fruktur/Fruktur-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fruktur&per_page=1"
   },
-  "description": "Fruktur font family designed by Viktoriya Grabowska, Eben Sorkin",
-  "homepage": "https://fonts.google.com/specimen/Fruktur",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fruktur"
 }

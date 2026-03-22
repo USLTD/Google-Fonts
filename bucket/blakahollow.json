@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blakahollow/BlakaHollow-Regular.ttf"
+  "hash": [
+    "59CB30824E6023D454B4B44038CF44CDC9A4AD67F9795171C646C98CEB2BD542"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blakahollow&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blakahollow/BlakaHollow-Regular.ttf"
+    ]
   },
+  "description": "Blaka Hollow font family designed by Mohamed Gaber",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "59CB30824E6023D454B4B44038CF44CDC9A4AD67F9795171C646C98CEB2BD542"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blakahollow/BlakaHollow-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blakahollow/BlakaHollow-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blakahollow&per_page=1"
   },
-  "description": "Blaka Hollow font family designed by Mohamed Gaber",
-  "homepage": "https://fonts.google.com/specimen/Blaka+Hollow",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Blaka+Hollow"
 }

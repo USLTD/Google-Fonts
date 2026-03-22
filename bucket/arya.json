@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Bold.ttf"
+  "hash": [
+    "B02BDACEFE31BD544F9332B9B4244168EC23E18BE395A573E08F484C2A778879",
+    "96449D0EC5F452F56C05FD3072115435F41ED3F78D362444B79A8379DE2479F4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arya&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Bold.ttf"
+    ]
   },
+  "description": "Arya font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "B02BDACEFE31BD544F9332B9B4244168EC23E18BE395A573E08F484C2A778879",
-    "96449D0EC5F452F56C05FD3072115435F41ED3F78D362444B79A8379DE2479F4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/arya/Arya-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/arya&per_page=1"
   },
-  "description": "Arya font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Arya",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Arya"
 }

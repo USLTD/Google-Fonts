@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellfrenchcanonsc/IMFeFCsc28P.ttf"
+  "hash": [
+    "2EEAB14E384B07FC27439FB992BA16C77A2996E2227E67E7627EC07C6FD01D9F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellfrenchcanonsc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellfrenchcanonsc/IMFeFCsc28P.ttf"
+    ]
   },
+  "description": "IM Fell French Canon SC font family designed by Igino Marini",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2EEAB14E384B07FC27439FB992BA16C77A2996E2227E67E7627EC07C6FD01D9F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellfrenchcanonsc/IMFeFCsc28P.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfellfrenchcanonsc/IMFeFCsc28P.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfellfrenchcanonsc&per_page=1"
   },
-  "description": "IM Fell French Canon SC font family designed by Igino Marini",
-  "homepage": "https://fonts.google.com/specimen/IM+Fell+French+Canon+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IM+Fell+French+Canon+SC"
 }

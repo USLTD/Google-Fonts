@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/merienda/Merienda[wght].ttf"
+  "hash": [
+    "A91E4D88A50B4F80C7B1F31FE46E376EB87B72247D2A216F5E5BE1881340DEEA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/merienda&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/merienda/Merienda[wght].ttf"
+    ]
   },
+  "description": "Merienda font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A91E4D88A50B4F80C7B1F31FE46E376EB87B72247D2A216F5E5BE1881340DEEA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/merienda/Merienda[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/merienda/Merienda[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/merienda&per_page=1"
   },
-  "description": "Merienda font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Merienda",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Merienda"
 }

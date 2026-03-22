@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustsans/MomoTrustSans[wght].ttf"
+  "hash": [
+    "C29F50FFE3AA991EC7D02D8B37D2BC8B0CCA1BF296E7B04023A819E6C1E91611"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/momotrustsans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustsans/MomoTrustSans[wght].ttf"
+    ]
   },
+  "description": "Momo Trust Sans font family designed by Type Associates",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C29F50FFE3AA991EC7D02D8B37D2BC8B0CCA1BF296E7B04023A819E6C1E91611"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustsans/MomoTrustSans[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/momotrustsans/MomoTrustSans[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/momotrustsans&per_page=1"
   },
-  "description": "Momo Trust Sans font family designed by Type Associates",
-  "homepage": "https://fonts.google.com/specimen/Momo+Trust+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Momo+Trust+Sans"
 }

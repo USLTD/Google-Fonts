@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/darumadropone/DarumadropOne-Regular.ttf"
+  "hash": [
+    "BEEF6D9031918823176EA0F9F729CB811A5F250598D7C8C684B3DEE333810689"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/darumadropone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/darumadropone/DarumadropOne-Regular.ttf"
+    ]
   },
+  "description": "Darumadrop One font family designed by Maniackers Design",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BEEF6D9031918823176EA0F9F729CB811A5F250598D7C8C684B3DEE333810689"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/darumadropone/DarumadropOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/darumadropone/DarumadropOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/darumadropone&per_page=1"
   },
-  "description": "Darumadrop One font family designed by Maniackers Design",
-  "homepage": "https://fonts.google.com/specimen/Darumadrop+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Darumadrop+One"
 }

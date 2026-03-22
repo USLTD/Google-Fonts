@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Black.ttf"
+  "hash": [
+    "8E02CEB59104791191D7370324A75C4E74E85623691272507F8BDE3C83D7A8D9",
+    "282626DF0EF99CDBA8E2519E63705DE621D1CF29C3D323A1D8E424DF1CAEA5ED",
+    "1FD3EB9960911396CB7955F2C68AFE5EE21C2C14F8097E945D05B768ED4DE942",
+    "4CD10F7A56A7D9D1FB4184B2219821F8AD6F425BE290243EF73C4EF3A80C86FF",
+    "4426332A541F6CC85489813B11D99B8A1AACA53B313F8DEB21B403A3D58286DD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/battambang&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Black.ttf"
+    ]
   },
+  "description": "Battambang font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "8E02CEB59104791191D7370324A75C4E74E85623691272507F8BDE3C83D7A8D9",
-    "282626DF0EF99CDBA8E2519E63705DE621D1CF29C3D323A1D8E424DF1CAEA5ED",
-    "1FD3EB9960911396CB7955F2C68AFE5EE21C2C14F8097E945D05B768ED4DE942",
-    "4CD10F7A56A7D9D1FB4184B2219821F8AD6F425BE290243EF73C4EF3A80C86FF",
-    "4426332A541F6CC85489813B11D99B8A1AACA53B313F8DEB21B403A3D58286DD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Black.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/battambang/Battambang-Black.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/battambang&per_page=1"
   },
-  "description": "Battambang font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Battambang",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Battambang"
 }

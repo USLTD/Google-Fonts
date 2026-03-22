@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Bold.ttf"
+  "hash": [
+    "3FE94A6697ABABC3B8B580E005D2718A2CE0FE2AFEA08B164EE5259D9EA8DB25",
+    "57C5B398A0D72C85283A4640337091BC974AAE9EF03B1BD159523B747C1197F3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inika&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Bold.ttf"
+    ]
   },
+  "description": "Inika font family designed by Constanza Artigas",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "3FE94A6697ABABC3B8B580E005D2718A2CE0FE2AFEA08B164EE5259D9EA8DB25",
-    "57C5B398A0D72C85283A4640337091BC974AAE9EF03B1BD159523B747C1197F3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inika/Inika-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inika&per_page=1"
   },
-  "description": "Inika font family designed by Constanza Artigas",
-  "homepage": "https://fonts.google.com/specimen/Inika",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inika"
 }

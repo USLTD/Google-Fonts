@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos-Italic[wght].ttf"
+  "hash": [
+    "88A32589D9D8615AB728977D647F5E5010DBF789050D4CF25D6607B14D49A1F1",
+    "88591D5374BC8EC1D7E4E1151F0289BD00A71903A52A380379491AFD730A773E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/genos&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos-Italic[wght].ttf"
+    ]
   },
+  "description": "Genos font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "88A32589D9D8615AB728977D647F5E5010DBF789050D4CF25D6607B14D49A1F1",
-    "88591D5374BC8EC1D7E4E1151F0289BD00A71903A52A380379491AFD730A773E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/genos/Genos-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/genos&per_page=1"
   },
-  "description": "Genos font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Genos",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Genos"
 }

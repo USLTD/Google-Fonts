@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/angkor/Angkor-Regular.ttf"
+  "hash": [
+    "EF3A846370CF0A5F6D5718162CB9133A1A9243586F32FAF6CDBC449594A3DC1C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/angkor&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/angkor/Angkor-Regular.ttf"
+    ]
   },
+  "description": "Angkor font family designed by Danh Hong",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "EF3A846370CF0A5F6D5718162CB9133A1A9243586F32FAF6CDBC449594A3DC1C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/angkor/Angkor-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/angkor/Angkor-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/angkor&per_page=1"
   },
-  "description": "Angkor font family designed by Danh Hong",
-  "homepage": "https://fonts.google.com/specimen/Angkor",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Angkor"
 }

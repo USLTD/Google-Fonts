@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-BoldItalic.ttf"
+  "hash": [
+    "3FA3C428C58FEB7A173EB6B0C36D4B68D8CA6CB8C246E5E24DD3E6BAF933864E",
+    "C025A4FC153031F1B0737C3411215902D9BEE6E2A00843F66343483DF8E06EC8",
+    "E213607DEB9CF56875540839A1D97944B2BF9BA49F0A510EF368F1D87848D327",
+    "482C649C1F6A0E9E6A1F54D5603F89E254C8CD8B20AF9EDCE8DB8199BDFA9BC9",
+    "BB4158187C943E565F20FC1B81D88335BA847DC318B1E12C5D8A24FB0E461BFA",
+    "1097884C009CFC6F183A4EDE46D6B8661C34A3E121B3F7FFD01E1FD17D0F222A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inriasans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-BoldItalic.ttf"
+    ]
   },
+  "description": "Inria Sans font family designed by Grégori Vincens, Jérémie Hornus",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "3FA3C428C58FEB7A173EB6B0C36D4B68D8CA6CB8C246E5E24DD3E6BAF933864E",
-    "C025A4FC153031F1B0737C3411215902D9BEE6E2A00843F66343483DF8E06EC8",
-    "E213607DEB9CF56875540839A1D97944B2BF9BA49F0A510EF368F1D87848D327",
-    "482C649C1F6A0E9E6A1F54D5603F89E254C8CD8B20AF9EDCE8DB8199BDFA9BC9",
-    "BB4158187C943E565F20FC1B81D88335BA847DC318B1E12C5D8A24FB0E461BFA",
-    "1097884C009CFC6F183A4EDE46D6B8661C34A3E121B3F7FFD01E1FD17D0F222A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inriasans/InriaSans-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inriasans&per_page=1"
   },
-  "description": "Inria Sans font family designed by Grégori Vincens, Jérémie Hornus",
-  "homepage": "https://fonts.google.com/specimen/Inria+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inria+Sans"
 }

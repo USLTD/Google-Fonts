@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans-Italic[wght].ttf"
+  "hash": [
+    "5A5C6ACA186C65AD8323212C4E336507E68F4EE09D75AE0366607B5EB1A4498F",
+    "BC485F45F3090748E540223FE29F44BED69B67C7311A3F984DFFA5295713A017"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elmssans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Elms Sans font family designed by Amarachi Nwauwa, Gida Type Studio",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "5A5C6ACA186C65AD8323212C4E336507E68F4EE09D75AE0366607B5EB1A4498F",
-    "BC485F45F3090748E540223FE29F44BED69B67C7311A3F984DFFA5295713A017"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/elmssans/ElmsSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/elmssans&per_page=1"
   },
-  "description": "Elms Sans font family designed by Amarachi Nwauwa, Gida Type Studio",
-  "homepage": "https://fonts.google.com/specimen/Elms+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Elms+Sans"
 }

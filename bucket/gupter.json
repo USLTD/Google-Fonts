@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Bold.ttf"
+  "hash": [
+    "CAD87B6C06AC63E24F2B9741C0CBE4BCF5945826696F4BACA61933C959052CF6",
+    "6CA9E0C2FA74CBD2B75A0E69B116218570AC74D80C1E92EBCC59BB6BDC8BB032",
+    "8FAB8A84E5A47C4C5A5A4449CA62E3A6492FBDDADD778DE9D9FB2D3B1B36989C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gupter&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Bold.ttf"
+    ]
   },
+  "description": "Gupter font family designed by Octavio Pardo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "CAD87B6C06AC63E24F2B9741C0CBE4BCF5945826696F4BACA61933C959052CF6",
-    "6CA9E0C2FA74CBD2B75A0E69B116218570AC74D80C1E92EBCC59BB6BDC8BB032",
-    "8FAB8A84E5A47C4C5A5A4449CA62E3A6492FBDDADD778DE9D9FB2D3B1B36989C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gupter/Gupter-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gupter&per_page=1"
   },
-  "description": "Gupter font family designed by Octavio Pardo",
-  "homepage": "https://fonts.google.com/specimen/Gupter",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gupter"
 }

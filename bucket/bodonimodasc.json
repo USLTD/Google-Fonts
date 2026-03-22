@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC[opsz,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC-Italic[opsz,wght].ttf"
+  "hash": [
+    "FFF815C5B6FB7DA048ACD9CA59A1B6A5751CF454CB701CD8185A2A0BF06D63EF",
+    "303868AEAF81BF6C71CA63AC32669DA9C9DE7F73343E34A18893D3B5E58E672E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bodonimodasc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC[opsz,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC-Italic[opsz,wght].ttf"
+    ]
   },
+  "description": "Bodoni Moda SC font family designed by Owen Earl",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "FFF815C5B6FB7DA048ACD9CA59A1B6A5751CF454CB701CD8185A2A0BF06D63EF",
-    "303868AEAF81BF6C71CA63AC32669DA9C9DE7F73343E34A18893D3B5E58E672E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC[opsz,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC-Italic[opsz,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC[opsz,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimodasc/BodoniModaSC-Italic[opsz,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bodonimodasc&per_page=1"
   },
-  "description": "Bodoni Moda SC font family designed by Owen Earl",
-  "homepage": "https://fonts.google.com/specimen/Bodoni+Moda+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bodoni+Moda+SC"
 }

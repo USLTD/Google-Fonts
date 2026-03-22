@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC-Italic[wght].ttf"
+  "hash": [
+    "41A67970FD2A6F6A806578451D7E9902B45008043DE2D60BF47E005EC0DAB922",
+    "62B490F2EE301D2DDA0554F4BFC68AC8AB905D89762716702391A49174554A26"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alumnisanssc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC-Italic[wght].ttf"
+    ]
   },
+  "description": "Alumni Sans SC font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "41A67970FD2A6F6A806578451D7E9902B45008043DE2D60BF47E005EC0DAB922",
-    "62B490F2EE301D2DDA0554F4BFC68AC8AB905D89762716702391A49174554A26"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/alumnisanssc/AlumniSansSC-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alumnisanssc&per_page=1"
   },
-  "description": "Alumni Sans SC font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Alumni+Sans+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Alumni+Sans+SC"
 }

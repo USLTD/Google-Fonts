@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf"
+  "hash": [
+    "AF93FAEDD95BD2EA55FD6F6CA62136933B641497693F15B19FC3642D54B5B44E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/glassantiqua&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf"
+    ]
   },
+  "description": "Glass Antiqua font family designed by Denis Masharov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "AF93FAEDD95BD2EA55FD6F6CA62136933B641497693F15B19FC3642D54B5B44E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/glassantiqua&per_page=1"
   },
-  "description": "Glass Antiqua font family designed by Denis Masharov",
-  "homepage": "https://fonts.google.com/specimen/Glass+Antiqua",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Glass+Antiqua"
 }

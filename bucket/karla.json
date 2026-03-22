@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla-Italic[wght].ttf"
+  "hash": [
+    "ED3CA4CD9BDD899C543927C30BF5FF50706B24B3F2B7328E64B25F7D2A9D23DC",
+    "98C02551288197A43D9C7E62C105F4B6F283A57F0F06D623313EA32D5C701977"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karla&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla-Italic[wght].ttf"
+    ]
   },
+  "description": "Karla font family designed by Jonny Pinhorn",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "ED3CA4CD9BDD899C543927C30BF5FF50706B24B3F2B7328E64B25F7D2A9D23DC",
-    "98C02551288197A43D9C7E62C105F4B6F283A57F0F06D623313EA32D5C701977"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/karla&per_page=1"
   },
-  "description": "Karla font family designed by Jonny Pinhorn",
-  "homepage": "https://fonts.google.com/specimen/Karla",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Karla"
 }

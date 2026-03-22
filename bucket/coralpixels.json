@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/coralpixels/CoralPixels-Regular.ttf"
+  "hash": [
+    "C42DC4B002D50E1948BEB761103631BF90A61878FA3E560699734091AD561540"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coralpixels&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/coralpixels/CoralPixels-Regular.ttf"
+    ]
   },
+  "description": "Coral Pixels font family designed by Tanukizamurai",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C42DC4B002D50E1948BEB761103631BF90A61878FA3E560699734091AD561540"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/coralpixels/CoralPixels-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/coralpixels/CoralPixels-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coralpixels&per_page=1"
   },
-  "description": "Coral Pixels font family designed by Tanukizamurai",
-  "homepage": "https://fonts.google.com/specimen/Coral+Pixels",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Coral+Pixels"
 }

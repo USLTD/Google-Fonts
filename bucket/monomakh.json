@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/monomakh/Monomakh-Regular.ttf"
+  "hash": [
+    "C0D38D79252B758A61ADB31101F202450FF11305A675481525ECDCC294B800BF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monomakh&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/monomakh/Monomakh-Regular.ttf"
+    ]
   },
+  "description": "Monomakh font family designed by Aleksandr Andreev, Nikita Simmons",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C0D38D79252B758A61ADB31101F202450FF11305A675481525ECDCC294B800BF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/monomakh/Monomakh-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/monomakh/Monomakh-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monomakh&per_page=1"
   },
-  "description": "Monomakh font family designed by Aleksandr Andreev, Nikita Simmons",
-  "homepage": "https://fonts.google.com/specimen/Monomakh",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Monomakh"
 }

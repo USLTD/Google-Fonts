@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-ExtraBold.ttf"
+  "hash": [
+    "F5D32AE9D5C78CDAB7E75A52BD1DA07AE22644597232D085A5CE7CD1AF341E17",
+    "35909E4C6907E1391D09BAA934C5E7A4ABB232DEDEA58E47ACAA4AECD165C65C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coda&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-ExtraBold.ttf"
+    ]
   },
+  "description": "Coda font family designed by Vernon Adams",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "F5D32AE9D5C78CDAB7E75A52BD1DA07AE22644597232D085A5CE7CD1AF341E17",
-    "35909E4C6907E1391D09BAA934C5E7A4ABB232DEDEA58E47ACAA4AECD165C65C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-ExtraBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/coda/Coda-ExtraBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coda&per_page=1"
   },
-  "description": "Coda font family designed by Vernon Adams",
-  "homepage": "https://fonts.google.com/specimen/Coda",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Coda"
 }

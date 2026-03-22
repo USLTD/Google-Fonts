@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/antic/Antic-Regular.ttf"
+  "hash": [
+    "C5452292FC4356733AF7B2D75D3A22CE4F782A519FCE1AE9229947F1A5E39C89"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/antic&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/antic/Antic-Regular.ttf"
+    ]
   },
+  "description": "Antic font family designed by Santiago Orozco",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "C5452292FC4356733AF7B2D75D3A22CE4F782A519FCE1AE9229947F1A5E39C89"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/antic/Antic-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/antic/Antic-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/antic&per_page=1"
   },
-  "description": "Antic font family designed by Santiago Orozco",
-  "homepage": "https://fonts.google.com/specimen/Antic",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Antic"
 }

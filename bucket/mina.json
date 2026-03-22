@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Bold.ttf"
+  "hash": [
+    "1CA8F5FB637E21FD6CE7CD4CC230B7284A90524CE93A696B838BBE3EDD25AB7C",
+    "EB125869E00D5E2FA33BAA03344923141F31A5F10E1AE3FA65143CB2739FC318"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mina&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Bold.ttf"
+    ]
   },
+  "description": "Mina font family designed by Suman Bhandary, Natanael Gama, Mooniak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "1CA8F5FB637E21FD6CE7CD4CC230B7284A90524CE93A696B838BBE3EDD25AB7C",
-    "EB125869E00D5E2FA33BAA03344923141F31A5F10E1AE3FA65143CB2739FC318"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mina/Mina-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mina&per_page=1"
   },
-  "description": "Mina font family designed by Suman Bhandary, Natanael Gama, Mooniak",
-  "homepage": "https://fonts.google.com/specimen/Mina",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mina"
 }

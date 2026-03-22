@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amarante/Amarante-Regular.ttf"
+  "hash": [
+    "DE5EB7CC2B13632FE3F9FEDBE4DC34571A76758CFB52B71FDACE8FC4A7638A2F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amarante&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amarante/Amarante-Regular.ttf"
+    ]
   },
+  "description": "Amarante font family designed by Karolina Lach",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "DE5EB7CC2B13632FE3F9FEDBE4DC34571A76758CFB52B71FDACE8FC4A7638A2F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amarante/Amarante-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amarante/Amarante-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amarante&per_page=1"
   },
-  "description": "Amarante font family designed by Karolina Lach",
-  "homepage": "https://fonts.google.com/specimen/Amarante",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Amarante"
 }

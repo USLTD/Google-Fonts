@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Bold.ttf"
+  "hash": [
+    "53E37DFB3B1D5A979A8506264DF6C6EF3538FE9CF25035D1705F71053B27E863",
+    "F2A4A3F9AC8D8D5E340050FA3F42618E2E6DA0ADEBCF8389A8FA6FEBBCED31F2",
+    "CEAB0829C5281AA7F6E8196EE6B8052C7CD6227DD36E5E41336E4C7DD61B5F33",
+    "DF916FBC664BBF3E25702B30FE0D94712217E09468EF875E43E4E183E719AB66",
+    "3B50AAE09041E0941E4309BA1CBC4BACD858F8852B5E76E240157AE6E7DA87B3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/laila&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Bold.ttf"
+    ]
   },
+  "description": "Laila font family designed by Indian Type Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "53E37DFB3B1D5A979A8506264DF6C6EF3538FE9CF25035D1705F71053B27E863",
-    "F2A4A3F9AC8D8D5E340050FA3F42618E2E6DA0ADEBCF8389A8FA6FEBBCED31F2",
-    "CEAB0829C5281AA7F6E8196EE6B8052C7CD6227DD36E5E41336E4C7DD61B5F33",
-    "DF916FBC664BBF3E25702B30FE0D94712217E09468EF875E43E4E183E719AB66",
-    "3B50AAE09041E0941E4309BA1CBC4BACD858F8852B5E76E240157AE6E7DA87B3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/laila/Laila-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/laila&per_page=1"
   },
-  "description": "Laila font family designed by Indian Type Foundry",
-  "homepage": "https://fonts.google.com/specimen/Laila",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Laila"
 }

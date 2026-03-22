@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/adobeblank/AdobeBlank-Regular.ttf"
+  "hash": [
+    "3B468F6EFABE9274E804EDF10477C8BDAF27CB2A76F50A5DD7CCA34599F8B918"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adobeblank&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/adobeblank/AdobeBlank-Regular.ttf"
+    ]
   },
+  "description": "Adobe Blank font family designed by Dr. Ken Lunde",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3B468F6EFABE9274E804EDF10477C8BDAF27CB2A76F50A5DD7CCA34599F8B918"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/adobeblank/AdobeBlank-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/adobeblank/AdobeBlank-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/adobeblank&per_page=1"
   },
-  "description": "Adobe Blank font family designed by Dr. Ken Lunde",
-  "homepage": "https://fonts.google.com/specimen/Adobe+Blank",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Adobe+Blank"
 }

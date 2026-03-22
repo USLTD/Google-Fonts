@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/iansui/Iansui-Regular.ttf"
+  "hash": [
+    "6E6340D80D618A42B48ADE9370C34FA37A8210750C6FBC8EFE65F23716538A2B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iansui&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/iansui/Iansui-Regular.ttf"
+    ]
   },
+  "description": "Iansui font family designed by But Ko",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "6E6340D80D618A42B48ADE9370C34FA37A8210750C6FBC8EFE65F23716538A2B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/iansui/Iansui-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/iansui/Iansui-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/iansui&per_page=1"
   },
-  "description": "Iansui font family designed by But Ko",
-  "homepage": "https://fonts.google.com/specimen/Iansui",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Iansui"
 }

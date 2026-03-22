@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum-Italic[wght].ttf"
+  "hash": [
+    "BE75585AA57A5F1C1D10DE61305BB4266EFFA1B9083722D20C26ADF97E911534",
+    "1B2FA2441B421E16176ED3B0356949F406EF44497DF17B2EE7977AA7F838312A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cuprum&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum-Italic[wght].ttf"
+    ]
   },
+  "description": "Cuprum font family designed by Jovanny Lemonad",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "BE75585AA57A5F1C1D10DE61305BB4266EFFA1B9083722D20C26ADF97E911534",
-    "1B2FA2441B421E16176ED3B0356949F406EF44497DF17B2EE7977AA7F838312A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cuprum/Cuprum-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cuprum&per_page=1"
   },
-  "description": "Cuprum font family designed by Jovanny Lemonad",
-  "homepage": "https://fonts.google.com/specimen/Cuprum",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cuprum"
 }

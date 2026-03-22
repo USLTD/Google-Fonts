@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/asimovian/Asimovian-Regular.ttf"
+  "hash": [
+    "0CA907ED08A2D43785FABDDA6BE798771CCE01DF266E6C42A8DD28B7C36EA5DF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/asimovian&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/asimovian/Asimovian-Regular.ttf"
+    ]
   },
+  "description": "Asimovian font family designed by Carolina Short",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0CA907ED08A2D43785FABDDA6BE798771CCE01DF266E6C42A8DD28B7C36EA5DF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/asimovian/Asimovian-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/asimovian/Asimovian-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/asimovian&per_page=1"
   },
-  "description": "Asimovian font family designed by Carolina Short",
-  "homepage": "https://fonts.google.com/specimen/Asimovian",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Asimovian"
 }

@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Bold.ttf"
+  "hash": [
+    "A4B5410090A821EA17021627312BABDF3D8DB0271217FD8C4D9F629EF0A2D90B",
+    "D4E7ABC76E5BF3686436938840927B3522FD704C1F920514B31B67993409E274",
+    "2B1B56763DD590F782B65B07978FBE6F9A83BA5ECFDAF698C0E942CA06181059"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gudea&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Bold.ttf"
+    ]
   },
+  "description": "Gudea font family designed by Agustina Mingote",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "A4B5410090A821EA17021627312BABDF3D8DB0271217FD8C4D9F629EF0A2D90B",
-    "D4E7ABC76E5BF3686436938840927B3522FD704C1F920514B31B67993409E274",
-    "2B1B56763DD590F782B65B07978FBE6F9A83BA5ECFDAF698C0E942CA06181059"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gudea/Gudea-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gudea&per_page=1"
   },
-  "description": "Gudea font family designed by Agustina Mingote",
-  "homepage": "https://fonts.google.com/specimen/Gudea",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gudea"
 }

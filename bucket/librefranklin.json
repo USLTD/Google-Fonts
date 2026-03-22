@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin-Italic[wght].ttf"
+  "hash": [
+    "2329F394B10ED1C71107DF20FDDC11E2BB1B68C1ECBB385F975B36FD64A971F8",
+    "B8D2F40203BD4D90FE3E805953D9B79D62A6486DB756D984B0D8EF4435B367BA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librefranklin&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin-Italic[wght].ttf"
+    ]
   },
+  "description": "Libre Franklin font family designed by Impallari Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "2329F394B10ED1C71107DF20FDDC11E2BB1B68C1ECBB385F975B36FD64A971F8",
-    "B8D2F40203BD4D90FE3E805953D9B79D62A6486DB756D984B0D8EF4435B367BA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/librefranklin/LibreFranklin-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/librefranklin&per_page=1"
   },
-  "description": "Libre Franklin font family designed by Impallari Type",
-  "homepage": "https://fonts.google.com/specimen/Libre+Franklin",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Libre+Franklin"
 }

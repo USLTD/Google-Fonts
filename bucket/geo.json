@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Oblique.ttf"
+  "hash": [
+    "38669ED77C0FFE1859F45143C63614C0F1953074331536CB35D3CACA944BE605",
+    "4F0083782A238A2C03FB8864119B1DF5C0C8388A208A0F03D7A7C11313E679F3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/geo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Oblique.ttf"
+    ]
   },
+  "description": "Geo font family designed by Ben Weiner",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "38669ED77C0FFE1859F45143C63614C0F1953074331536CB35D3CACA944BE605",
-    "4F0083782A238A2C03FB8864119B1DF5C0C8388A208A0F03D7A7C11313E679F3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Oblique.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/geo/Geo-Oblique.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/geo&per_page=1"
   },
-  "description": "Geo font family designed by Ben Weiner",
-  "homepage": "https://fonts.google.com/specimen/Geo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Geo"
 }

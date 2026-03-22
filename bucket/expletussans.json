@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans-Italic[wght].ttf"
+  "hash": [
+    "33508B3B477C548AC00179D97C6DEACA1E98DAB4CC1D869DEC5815931E7540F8",
+    "5E69F9842EF3BDDF9DB581642306216F9D25649B9F9DE2E80944E694AC189799"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/expletussans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Expletus Sans font family designed by Designtown",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "33508B3B477C548AC00179D97C6DEACA1E98DAB4CC1D869DEC5815931E7540F8",
-    "5E69F9842EF3BDDF9DB581642306216F9D25649B9F9DE2E80944E694AC189799"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/expletussans/ExpletusSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/expletussans&per_page=1"
   },
-  "description": "Expletus Sans font family designed by Designtown",
-  "homepage": "https://fonts.google.com/specimen/Expletus+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Expletus+Sans"
 }

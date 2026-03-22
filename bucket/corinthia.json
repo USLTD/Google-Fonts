@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Bold.ttf"
+  "hash": [
+    "EE2ADB172A41A52C5F6B7DE6DE5953BF8E9E6BDFA5BC641FDDDBDF4C737FC98E",
+    "86C58BF8F6A7160F9914160FB3C8DFBF75D5B145DD0AB943A0B82913836516F9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/corinthia&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Bold.ttf"
+    ]
   },
+  "description": "Corinthia font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "EE2ADB172A41A52C5F6B7DE6DE5953BF8E9E6BDFA5BC641FDDDBDF4C737FC98E",
-    "86C58BF8F6A7160F9914160FB3C8DFBF75D5B145DD0AB943A0B82913836516F9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/corinthia/Corinthia-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/corinthia&per_page=1"
   },
-  "description": "Corinthia font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Corinthia",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Corinthia"
 }

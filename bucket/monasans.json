@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans[wdth,wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans-Italic[wdth,wght].ttf"
+  "hash": [
+    "FD6E79634B5AE804A45AAC7E2E3C2A325B41291FBA59034F4732B0135B8475B3",
+    "31E7DF54477A3CD46677356ADA1D2806BCB4C0DBE3B32987783A74A139D8D064"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monasans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans[wdth,wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans-Italic[wdth,wght].ttf"
+    ]
   },
+  "description": "Mona Sans font family designed by Tobias Bjerrome Ahlin, GitHub, Degarism Studio, Sebastian Carewe",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "FD6E79634B5AE804A45AAC7E2E3C2A325B41291FBA59034F4732B0135B8475B3",
-    "31E7DF54477A3CD46677356ADA1D2806BCB4C0DBE3B32987783A74A139D8D064"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans[wdth,wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans-Italic[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans[wdth,wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/monasans/MonaSans-Italic[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/monasans&per_page=1"
   },
-  "description": "Mona Sans font family designed by Tobias Bjerrome Ahlin, GitHub, Degarism Studio, Sebastian Carewe",
-  "homepage": "https://fonts.google.com/specimen/Mona+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mona+Sans"
 }

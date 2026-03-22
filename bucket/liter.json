@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/liter/Liter-Regular.ttf"
+  "hash": [
+    "379FE197584F098A0318278C5E1B453A1EF8F017925041E3E51E18EFB025822D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/liter&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/liter/Liter-Regular.ttf"
+    ]
   },
+  "description": "Liter font family designed by Anton Skugarov, Alexandr Ivanin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "379FE197584F098A0318278C5E1B453A1EF8F017925041E3E51E18EFB025822D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/liter/Liter-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/liter/Liter-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/liter&per_page=1"
   },
-  "description": "Liter font family designed by Anton Skugarov, Alexandr Ivanin",
-  "homepage": "https://fonts.google.com/specimen/Liter",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Liter"
 }

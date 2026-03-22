@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguescript/LeagueScript-Regular.ttf"
+  "hash": [
+    "42C3A493028AEC3A2266E540A1264F7B5E26EEFD17219DDA9B165B928986308A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/leaguescript&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguescript/LeagueScript-Regular.ttf"
+    ]
   },
+  "description": "League Script font family designed by Haley Fiege",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "42C3A493028AEC3A2266E540A1264F7B5E26EEFD17219DDA9B165B928986308A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguescript/LeagueScript-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguescript/LeagueScript-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/leaguescript&per_page=1"
   },
-  "description": "League Script font family designed by Haley Fiege",
-  "homepage": "https://fonts.google.com/specimen/League+Script",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/League+Script"
 }

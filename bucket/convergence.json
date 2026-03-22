@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/convergence/Convergence-Regular.ttf"
+  "hash": [
+    "4E17355228610042E6922DB7F19D9D87EB99B4F09BA3A12BE8A2800BAD0E9904"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/convergence&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/convergence/Convergence-Regular.ttf"
+    ]
   },
+  "description": "Convergence font family designed by Nicolás Silva, John Vargas Beltrán",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4E17355228610042E6922DB7F19D9D87EB99B4F09BA3A12BE8A2800BAD0E9904"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/convergence/Convergence-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/convergence/Convergence-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/convergence&per_page=1"
   },
-  "description": "Convergence font family designed by Nicolás Silva, John Vargas Beltrán",
-  "homepage": "https://fonts.google.com/specimen/Convergence",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Convergence"
 }

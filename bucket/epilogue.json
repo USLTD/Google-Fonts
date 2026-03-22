@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue-Italic[wght].ttf"
+  "hash": [
+    "012F651B45F47C10C7714CB7E3F2F7D9CCB7F235A2CC72C6B273DDC735705C67",
+    "7E5263BFE5B8EA9D46201FC3E3D59C354628DE2220C3F3FE831FAD946A1F7DB2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/epilogue&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue-Italic[wght].ttf"
+    ]
   },
+  "description": "Epilogue font family designed by Tyler Finck, ETC",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "012F651B45F47C10C7714CB7E3F2F7D9CCB7F235A2CC72C6B273DDC735705C67",
-    "7E5263BFE5B8EA9D46201FC3E3D59C354628DE2220C3F3FE831FAD946A1F7DB2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/Epilogue-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/epilogue&per_page=1"
   },
-  "description": "Epilogue font family designed by Tyler Finck, ETC",
-  "homepage": "https://fonts.google.com/specimen/Epilogue",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Epilogue"
 }

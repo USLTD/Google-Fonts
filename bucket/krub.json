@@ -1,22 +1,35 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-BoldItalic.ttf"
+  "hash": [
+    "6B5B32C071D7B6656F2A34A58AC78991C5DCA5679F300EE59E12A6EE434FDE37",
+    "BF6139882B5F3DBBFA000844145EE51DF7CE3BB4B330943602094558A18FCBA6",
+    "BB537914C72D5BBB305D161546DC3CCCCFDD7BEF69C59E27CE4B740B9EA39BF3",
+    "EB4290E7174A37F0CC71B9096813A2D8A9C7119C93467AB6F7C0028955D80229",
+    "24E5C4084EE9E878D54E70BFE5FCECCF3AE46FD4AAE73A794C04DF4091F5E69D",
+    "3B1B9A1740E0EE096806C5D82867D3E28816575BFFFB07885D84F7B4D9FE2937",
+    "CDF7274A4822C9E0EEBC1B503650AB3703BC968082A7EBBAAF69A3BFB605D477",
+    "6F4059366153FA39F651AB2C0B193B7A030FDAE305EA9AE5877681D099A87904",
+    "9A3403DAD454C45CC4F1FBE0BFC0001C842302DDDA514C47285925B7921F5602",
+    "C273F16CE968D402BF144E5BB82E074E6AF9BC261C200C374D57D13BF077AF4E",
+    "0B8C2684736742E181F48ED7D9B0AED10AC2D4E1E3A02C8346E5300A4A07F100",
+    "B4363BA5369DC7CD1380932D7E4ADCDCE0F2190AE6AD659DEA37CB7A45448D25"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/krub&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-BoldItalic.ttf"
+    ]
   },
+  "description": "Krub font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -58,6 +71,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,38 +156,24 @@
       "}"
     ]
   },
-  "hash": [
-    "6B5B32C071D7B6656F2A34A58AC78991C5DCA5679F300EE59E12A6EE434FDE37",
-    "BF6139882B5F3DBBFA000844145EE51DF7CE3BB4B330943602094558A18FCBA6",
-    "BB537914C72D5BBB305D161546DC3CCCCFDD7BEF69C59E27CE4B740B9EA39BF3",
-    "EB4290E7174A37F0CC71B9096813A2D8A9C7119C93467AB6F7C0028955D80229",
-    "24E5C4084EE9E878D54E70BFE5FCECCF3AE46FD4AAE73A794C04DF4091F5E69D",
-    "3B1B9A1740E0EE096806C5D82867D3E28816575BFFFB07885D84F7B4D9FE2937",
-    "CDF7274A4822C9E0EEBC1B503650AB3703BC968082A7EBBAAF69A3BFB605D477",
-    "6F4059366153FA39F651AB2C0B193B7A030FDAE305EA9AE5877681D099A87904",
-    "9A3403DAD454C45CC4F1FBE0BFC0001C842302DDDA514C47285925B7921F5602",
-    "C273F16CE968D402BF144E5BB82E074E6AF9BC261C200C374D57D13BF077AF4E",
-    "0B8C2684736742E181F48ED7D9B0AED10AC2D4E1E3A02C8346E5300A4A07F100",
-    "B4363BA5369DC7CD1380932D7E4ADCDCE0F2190AE6AD659DEA37CB7A45448D25"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/krub/Krub-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/krub&per_page=1"
   },
-  "description": "Krub font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Krub",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Krub"
 }

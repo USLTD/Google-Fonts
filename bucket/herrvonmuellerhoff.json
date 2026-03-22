@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/herrvonmuellerhoff/HerrVonMuellerhoff-Regular.ttf"
+  "hash": [
+    "BA8AC10807A79462B7C8265B2EEBB8419E5017FDC1A5828B1A071D9E8478772E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/herrvonmuellerhoff&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/herrvonmuellerhoff/HerrVonMuellerhoff-Regular.ttf"
+    ]
   },
+  "description": "Herr Von Muellerhoff font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BA8AC10807A79462B7C8265B2EEBB8419E5017FDC1A5828B1A071D9E8478772E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/herrvonmuellerhoff/HerrVonMuellerhoff-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/herrvonmuellerhoff/HerrVonMuellerhoff-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/herrvonmuellerhoff&per_page=1"
   },
-  "description": "Herr Von Muellerhoff font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Herr+Von+Muellerhoff",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Herr+Von+Muellerhoff"
 }

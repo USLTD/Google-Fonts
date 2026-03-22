@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssc/EncodeSansSC[wdth,wght].ttf"
+  "hash": [
+    "FCAD22C3440992BF42216E6A0AD6E8640D2D1DFFF1DDC5573934933152123BD0"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/encodesanssc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssc/EncodeSansSC[wdth,wght].ttf"
+    ]
   },
+  "description": "Encode Sans SC font family designed by Impallari Type, Andres Torresi, Jacques Le Bailly",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "FCAD22C3440992BF42216E6A0AD6E8640D2D1DFFF1DDC5573934933152123BD0"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssc/EncodeSansSC[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/encodesanssc/EncodeSansSC[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/encodesanssc&per_page=1"
   },
-  "description": "Encode Sans SC font family designed by Impallari Type, Andres Torresi, Jacques Le Bailly",
-  "homepage": "https://fonts.google.com/specimen/Encode+Sans+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Encode+Sans+SC"
 }

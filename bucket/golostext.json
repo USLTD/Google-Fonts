@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/golostext/GolosText[wght].ttf"
+  "hash": [
+    "17BB58FB69AEC2DFB047A2EBF52534023E9B688C97A6B7AC795B0A72912C2063"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/golostext&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/golostext/GolosText[wght].ttf"
+    ]
   },
+  "description": "Golos Text font family designed by Alexandra Korolkova, Vitaly Kuzmin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "17BB58FB69AEC2DFB047A2EBF52534023E9B688C97A6B7AC795B0A72912C2063"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/golostext/GolosText[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/golostext/GolosText[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/golostext&per_page=1"
   },
-  "description": "Golos Text font family designed by Alexandra Korolkova, Vitaly Kuzmin",
-  "homepage": "https://fonts.google.com/specimen/Golos+Text",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Golos+Text"
 }

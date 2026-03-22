@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chonburi/Chonburi-Regular.ttf"
+  "hash": [
+    "AA0DAC4DF08AF10785BA1DC10121492227F8E4288F0A23D11DD1D1F5A7F6EBFA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chonburi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chonburi/Chonburi-Regular.ttf"
+    ]
   },
+  "description": "Chonburi font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "AA0DAC4DF08AF10785BA1DC10121492227F8E4288F0A23D11DD1D1F5A7F6EBFA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chonburi/Chonburi-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chonburi/Chonburi-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chonburi&per_page=1"
   },
-  "description": "Chonburi font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Chonburi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chonburi"
 }

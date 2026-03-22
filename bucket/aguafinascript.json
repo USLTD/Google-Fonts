@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aguafinascript/AguafinaScript-Regular.ttf"
+  "hash": [
+    "55F65D84D86936D7AAADFFA4C17873923FBA26C078D42AA4E6E2F1BE8BFB5F6E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aguafinascript&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aguafinascript/AguafinaScript-Regular.ttf"
+    ]
   },
+  "description": "Aguafina Script font family designed by Sudtipos",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "55F65D84D86936D7AAADFFA4C17873923FBA26C078D42AA4E6E2F1BE8BFB5F6E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aguafinascript/AguafinaScript-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aguafinascript/AguafinaScript-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aguafinascript&per_page=1"
   },
-  "description": "Aguafina Script font family designed by Sudtipos",
-  "homepage": "https://fonts.google.com/specimen/Aguafina+Script",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Aguafina+Script"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-SemiBold.ttf"
+  "hash": [
+    "BF4063F030CC2AE6ADF0A11424A1888E5C0EB4438F1F6D02F52294AF868E9B3A",
+    "B031EC426C23CA1143EF1F7D58BEE7A79EFE119ED654152F121C922202B303FD"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kleeone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-SemiBold.ttf"
+    ]
   },
+  "description": "Klee One font family designed by Fontworks Inc.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "BF4063F030CC2AE6ADF0A11424A1888E5C0EB4438F1F6D02F52294AF868E9B3A",
-    "B031EC426C23CA1143EF1F7D58BEE7A79EFE119ED654152F121C922202B303FD"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-SemiBold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-SemiBold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kleeone&per_page=1"
   },
-  "description": "Klee One font family designed by Fontworks Inc.",
-  "homepage": "https://fonts.google.com/specimen/Klee+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Klee+One"
 }

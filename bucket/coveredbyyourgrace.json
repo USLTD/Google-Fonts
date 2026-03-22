@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/coveredbyyourgrace/CoveredByYourGrace.ttf"
+  "hash": [
+    "8A7E5687A4F9AAD95243EB28CDC624009A335E0DE5175113BC5F1348A4D67FD7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coveredbyyourgrace&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/coveredbyyourgrace/CoveredByYourGrace.ttf"
+    ]
   },
+  "description": "Covered By Your Grace font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8A7E5687A4F9AAD95243EB28CDC624009A335E0DE5175113BC5F1348A4D67FD7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/coveredbyyourgrace/CoveredByYourGrace.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/coveredbyyourgrace/CoveredByYourGrace.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/coveredbyyourgrace&per_page=1"
   },
-  "description": "Covered By Your Grace font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Covered+By+Your+Grace",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Covered+By+Your+Grace"
 }

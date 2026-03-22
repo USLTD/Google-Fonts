@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Regular.ttf"
+  "hash": [
+    "6E755EA4C20B869DD7463C0F2A5B37AAE0BE6B158D0EF8281B0374AF3C515210",
+    "4DE67F9C6B2444AE2073C236F0829C95D380C5EF44AFF4539754888FC2E3CF23"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/flamenco&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Regular.ttf"
+    ]
   },
+  "description": "Flamenco font family designed by LatinoType",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "6E755EA4C20B869DD7463C0F2A5B37AAE0BE6B158D0EF8281B0374AF3C515210",
-    "4DE67F9C6B2444AE2073C236F0829C95D380C5EF44AFF4539754888FC2E3CF23"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/flamenco/Flamenco-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/flamenco&per_page=1"
   },
-  "description": "Flamenco font family designed by LatinoType",
-  "homepage": "https://fonts.google.com/specimen/Flamenco",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Flamenco"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/fasterone/FasterOne-Regular.ttf"
+  "hash": [
+    "382877A3A497C42BFEADFBB6E1B939D5B0F3F5CFD6C1A566C0C0D3D1F9B4BCB5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fasterone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/fasterone/FasterOne-Regular.ttf"
+    ]
   },
+  "description": "Faster One font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "382877A3A497C42BFEADFBB6E1B939D5B0F3F5CFD6C1A566C0C0D3D1F9B4BCB5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/fasterone/FasterOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/fasterone/FasterOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/fasterone&per_page=1"
   },
-  "description": "Faster One font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Faster+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Faster+One"
 }

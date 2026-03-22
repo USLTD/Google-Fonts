@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bilboswashcaps/BilboSwashCaps-Regular.ttf"
+  "hash": [
+    "36E0A6D9F33C57797340A65C8789272247F8D2B0B9521A92112EAA13C77A4354"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bilboswashcaps&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bilboswashcaps/BilboSwashCaps-Regular.ttf"
+    ]
   },
+  "description": "Bilbo Swash Caps font family designed by TypeSETit",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "36E0A6D9F33C57797340A65C8789272247F8D2B0B9521A92112EAA13C77A4354"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bilboswashcaps/BilboSwashCaps-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bilboswashcaps/BilboSwashCaps-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bilboswashcaps&per_page=1"
   },
-  "description": "Bilbo Swash Caps font family designed by TypeSETit",
-  "homepage": "https://fonts.google.com/specimen/Bilbo+Swash+Caps",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bilbo+Swash+Caps"
 }

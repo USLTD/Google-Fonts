@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf"
+  "hash": [
+    "0412AA1E460666D339738991B48E9F4BD51E10B6F04E2E1341FCE4D2B3244C31"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/justmeagaindownhere&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf"
+    ]
   },
+  "description": "Just Me Again Down Here font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0412AA1E460666D339738991B48E9F4BD51E10B6F04E2E1341FCE4D2B3244C31"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/justmeagaindownhere&per_page=1"
   },
-  "description": "Just Me Again Down Here font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Just+Me+Again+Down+Here",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Just+Me+Again+Down+Here"
 }

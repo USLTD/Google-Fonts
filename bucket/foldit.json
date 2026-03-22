@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/foldit/Foldit[wght].ttf"
+  "hash": [
+    "CD0F1932ED7762CE679B4F39DAFC181660883B14D97A1260C074A88D3915212E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/foldit&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/foldit/Foldit[wght].ttf"
+    ]
   },
+  "description": "Foldit font family designed by Sophia Tai",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CD0F1932ED7762CE679B4F39DAFC181660883B14D97A1260C074A88D3915212E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/foldit/Foldit[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/foldit/Foldit[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/foldit&per_page=1"
   },
-  "description": "Foldit font family designed by Sophia Tai",
-  "homepage": "https://fonts.google.com/specimen/Foldit",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Foldit"
 }

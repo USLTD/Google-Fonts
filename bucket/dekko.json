@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dekko/Dekko-Regular.ttf"
+  "hash": [
+    "E6B151A5BDC521833CEB9A4F8010195515259E9416ABFE055CFD16ADB2E1AF42"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dekko&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dekko/Dekko-Regular.ttf"
+    ]
   },
+  "description": "Dekko font family designed by Sorkin Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E6B151A5BDC521833CEB9A4F8010195515259E9416ABFE055CFD16ADB2E1AF42"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dekko/Dekko-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dekko/Dekko-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dekko&per_page=1"
   },
-  "description": "Dekko font family designed by Sorkin Type",
-  "homepage": "https://fonts.google.com/specimen/Dekko",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dekko"
 }

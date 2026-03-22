@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Bold.ttf"
+  "hash": [
+    "5B1AC6CB285CA3492E313A53D5252B9784BF7607F2835A2D44CB3CBAD0168539",
+    "423532407CC832EF84CC8F08A3359F26B50E721C8AA0E00221E4215CC83440B3",
+    "4225215D0DF4AD389C4AC29D48FDDC531703776591ADE64C23F6F995669D4078",
+    "306B412A39D9F93CA840C13CA62300EB5C7712E2AFA94BD7EF2272B51131BE6D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mirza&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Bold.ttf"
+    ]
   },
+  "description": "Mirza font family designed by KB Studio",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "5B1AC6CB285CA3492E313A53D5252B9784BF7607F2835A2D44CB3CBAD0168539",
-    "423532407CC832EF84CC8F08A3359F26B50E721C8AA0E00221E4215CC83440B3",
-    "4225215D0DF4AD389C4AC29D48FDDC531703776591ADE64C23F6F995669D4078",
-    "306B412A39D9F93CA840C13CA62300EB5C7712E2AFA94BD7EF2272B51131BE6D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mirza/Mirza-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mirza&per_page=1"
   },
-  "description": "Mirza font family designed by KB Studio",
-  "homepage": "https://fonts.google.com/specimen/Mirza",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mirza"
 }

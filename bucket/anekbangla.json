@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekbangla/AnekBangla[wdth,wght].ttf"
+  "hash": [
+    "8B4EC2EAF7400EA9903718A4ADDF3135475292E6E0B04DB7735D0F999289D919"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekbangla&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekbangla/AnekBangla[wdth,wght].ttf"
+    ]
   },
+  "description": "Anek Bangla font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8B4EC2EAF7400EA9903718A4ADDF3135475292E6E0B04DB7735D0F999289D919"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekbangla/AnekBangla[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekbangla/AnekBangla[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekbangla&per_page=1"
   },
-  "description": "Anek Bangla font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Anek+Bangla",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Anek+Bangla"
 }

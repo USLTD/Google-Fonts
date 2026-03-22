@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhyme/BioRhyme[wdth,wght].ttf"
+  "hash": [
+    "3EF9BCF73838D59683B4144DDD4687BC9023340EE8E2BEC33BC7B3CEAD65C9F7"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/biorhyme&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhyme/BioRhyme[wdth,wght].ttf"
+    ]
   },
+  "description": "BioRhyme font family designed by Aoife Mooney",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3EF9BCF73838D59683B4144DDD4687BC9023340EE8E2BEC33BC7B3CEAD65C9F7"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhyme/BioRhyme[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/biorhyme/BioRhyme[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/biorhyme&per_page=1"
   },
-  "description": "BioRhyme font family designed by Aoife Mooney",
-  "homepage": "https://fonts.google.com/specimen/BioRhyme",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/BioRhyme"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinashadow/LondrinaShadow-Regular.ttf"
+  "hash": [
+    "BDC4A66213C2BED3A0E58912BB2E47F7B0EA51B07D291A43896EED5C87E01A21"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinashadow&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinashadow/LondrinaShadow-Regular.ttf"
+    ]
   },
+  "description": "Londrina Shadow font family designed by Marcelo Magalhães",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "BDC4A66213C2BED3A0E58912BB2E47F7B0EA51B07D291A43896EED5C87E01A21"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinashadow/LondrinaShadow-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/londrinashadow/LondrinaShadow-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/londrinashadow&per_page=1"
   },
-  "description": "Londrina Shadow font family designed by Marcelo Magalhães",
-  "homepage": "https://fonts.google.com/specimen/Londrina+Shadow",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Londrina+Shadow"
 }

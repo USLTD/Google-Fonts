@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-MediumItalic.ttf"
+  "hash": [
+    "C7B3645DC8D28237317B4D017BC47B9FF09A7660758122DACB694A5A82552C24",
+    "90216192555D56CD40857250BBD6D0E8130DDBD015992D584225D7F390849544",
+    "55B4C98F123DAEBB3ED27947BA47B2AF00554FC6284D639A540BCEF5E6258AD2",
+    "32B5BAD9CBCE64EAC6D05C8ABBEB619317F7E4CB354E1C33DB761ADBFAAE1B16",
+    "FD327DAF461DB87B44A87DEF475D251BF03B997F7C07D9680592D75DBBFAAD0B",
+    "A3B2211BB9CF5C4FC1A0B487553E673A737C2270C59B86BF1E0B48C77E587AA2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dmmono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-MediumItalic.ttf"
+    ]
   },
+  "description": "DM Mono font family designed by Colophon Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "C7B3645DC8D28237317B4D017BC47B9FF09A7660758122DACB694A5A82552C24",
-    "90216192555D56CD40857250BBD6D0E8130DDBD015992D584225D7F390849544",
-    "55B4C98F123DAEBB3ED27947BA47B2AF00554FC6284D639A540BCEF5E6258AD2",
-    "32B5BAD9CBCE64EAC6D05C8ABBEB619317F7E4CB354E1C33DB761ADBFAAE1B16",
-    "FD327DAF461DB87B44A87DEF475D251BF03B997F7C07D9680592D75DBBFAAD0B",
-    "A3B2211BB9CF5C4FC1A0B487553E673A737C2270C59B86BF1E0B48C77E587AA2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-MediumItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/DMMono-MediumItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dmmono&per_page=1"
   },
-  "description": "DM Mono font family designed by Colophon Foundry",
-  "homepage": "https://fonts.google.com/specimen/DM+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/DM+Mono"
 }

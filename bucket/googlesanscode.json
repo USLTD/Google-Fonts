@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode-Italic[wght].ttf"
+  "hash": [
+    "C9649573AFCD966F61096B1E9C3C3115E7B54315CA2ADF9839C6F8B17D5F8E1F",
+    "BDF116292F27ACA16E2AEFB5534042A25F244D3A9187A521CE97FC2117A4A844"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/googlesanscode&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode-Italic[wght].ttf"
+    ]
   },
+  "description": "Google Sans Code font family designed by Google, Universal Thirst",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "C9649573AFCD966F61096B1E9C3C3115E7B54315CA2ADF9839C6F8B17D5F8E1F",
-    "BDF116292F27ACA16E2AEFB5534042A25F244D3A9187A521CE97FC2117A4A844"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesanscode/GoogleSansCode-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/googlesanscode&per_page=1"
   },
-  "description": "Google Sans Code font family designed by Google, Universal Thirst",
-  "homepage": "https://fonts.google.com/specimen/Google+Sans+Code",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Google+Sans+Code"
 }

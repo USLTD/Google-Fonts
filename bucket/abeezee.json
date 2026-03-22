@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Italic.ttf"
+  "hash": [
+    "2901C8DF256648CC2BB2E3AFB381CB8D28E65ED3DBE11DE20695AE4D5FFDEDA9",
+    "3892BB74578207ED6EDAE040A0869E54DCAE13A466D005460570947062137DD8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abeezee&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Italic.ttf"
+    ]
   },
+  "description": "ABeeZee font family designed by Anja Meiners",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "2901C8DF256648CC2BB2E3AFB381CB8D28E65ED3DBE11DE20695AE4D5FFDEDA9",
-    "3892BB74578207ED6EDAE040A0869E54DCAE13A466D005460570947062137DD8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/abeezee/ABeeZee-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abeezee&per_page=1"
   },
-  "description": "ABeeZee font family designed by Anja Meiners",
-  "homepage": "https://fonts.google.com/specimen/ABeeZee",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/ABeeZee"
 }

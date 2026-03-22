@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/forum/Forum-Regular.ttf"
+  "hash": [
+    "5C9FBE9C4CE76D0269F5088D921D57E58082FD9C28433EACB6DE95BAF938ADF8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/forum&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/forum/Forum-Regular.ttf"
+    ]
   },
+  "description": "Forum font family designed by Denis Masharov",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5C9FBE9C4CE76D0269F5088D921D57E58082FD9C28433EACB6DE95BAF938ADF8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/forum/Forum-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/forum/Forum-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/forum&per_page=1"
   },
-  "description": "Forum font family designed by Denis Masharov",
-  "homepage": "https://fonts.google.com/specimen/Forum",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Forum"
 }

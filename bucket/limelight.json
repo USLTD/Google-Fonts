@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/limelight/Limelight-Regular.ttf"
+  "hash": [
+    "F5BF8A9159ADFC5B9C756C85D812A4FD1299B8916FEFDF39AD4B24ADE6D8D0CF"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/limelight&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/limelight/Limelight-Regular.ttf"
+    ]
   },
+  "description": "Limelight font family designed by Nicole Fally, Sorkin Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F5BF8A9159ADFC5B9C756C85D812A4FD1299B8916FEFDF39AD4B24ADE6D8D0CF"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/limelight/Limelight-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/limelight/Limelight-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/limelight&per_page=1"
   },
-  "description": "Limelight font family designed by Nicole Fally, Sorkin Type",
-  "homepage": "https://fonts.google.com/specimen/Limelight",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Limelight"
 }

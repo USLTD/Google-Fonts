@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/mervalescript/MervaleScript-Regular.ttf"
+  "hash": [
+    "52522C4965B84BF5E56015BF919B165B7EEDBAEDB08D7D0D7477C38141C953D6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mervalescript&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/mervalescript/MervaleScript-Regular.ttf"
+    ]
   },
+  "description": "Mervale Script font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "52522C4965B84BF5E56015BF919B165B7EEDBAEDB08D7D0D7477C38141C953D6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/mervalescript/MervaleScript-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/mervalescript/MervaleScript-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/mervalescript&per_page=1"
   },
-  "description": "Mervale Script font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Mervale+Script",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Mervale+Script"
 }

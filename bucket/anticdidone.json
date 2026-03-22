@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anticdidone/AnticDidone-Regular.ttf"
+  "hash": [
+    "63A560792F0CB5342C0DA7759C9DF2E1CE0324A8AF46AE976D9458FBCCCBB440"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anticdidone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anticdidone/AnticDidone-Regular.ttf"
+    ]
   },
+  "description": "Antic Didone font family designed by Santiago Orozco",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "63A560792F0CB5342C0DA7759C9DF2E1CE0324A8AF46AE976D9458FBCCCBB440"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anticdidone/AnticDidone-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anticdidone/AnticDidone-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anticdidone&per_page=1"
   },
-  "description": "Antic Didone font family designed by Santiago Orozco",
-  "homepage": "https://fonts.google.com/specimen/Antic+Didone",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Antic+Didone"
 }

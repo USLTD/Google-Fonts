@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/handlee/Handlee-Regular.ttf"
+  "hash": [
+    "7B99C0F291B5D52E06C66498A1D0DD6DFF45A32E32D13BE089C60D2D8DC00445"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/handlee&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/handlee/Handlee-Regular.ttf"
+    ]
   },
+  "description": "Handlee font family designed by Joe Prince",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7B99C0F291B5D52E06C66498A1D0DD6DFF45A32E32D13BE089C60D2D8DC00445"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/handlee/Handlee-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/handlee/Handlee-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/handlee&per_page=1"
   },
-  "description": "Handlee font family designed by Joe Prince",
-  "homepage": "https://fonts.google.com/specimen/Handlee",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Handlee"
 }

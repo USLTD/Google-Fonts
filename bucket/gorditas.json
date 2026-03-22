@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Bold.ttf"
+  "hash": [
+    "95543AAA4C3E1DC22B220B29BCBD8618FF744D904ED4C23179AB5A911D554EE0",
+    "26B8259C2F61EF10DFA2A2FE1D1E113DFB241D6F780CE15878D005F86C1465C5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gorditas&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Bold.ttf"
+    ]
   },
+  "description": "Gorditas font family designed by Gustavo Dipre",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "95543AAA4C3E1DC22B220B29BCBD8618FF744D904ED4C23179AB5A911D554EE0",
-    "26B8259C2F61EF10DFA2A2FE1D1E113DFB241D6F780CE15878D005F86C1465C5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gorditas/Gorditas-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gorditas&per_page=1"
   },
-  "description": "Gorditas font family designed by Gustavo Dipre",
-  "homepage": "https://fonts.google.com/specimen/Gorditas",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gorditas"
 }

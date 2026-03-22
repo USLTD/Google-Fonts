@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baloochettan2/BalooChettan2[wght].ttf"
+  "hash": [
+    "8F0DE4F81B40D314A129C55A3A9E58411868CA9A452EDB57537488853F46DB86"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baloochettan2&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baloochettan2/BalooChettan2[wght].ttf"
+    ]
   },
+  "description": "Baloo Chettan 2 font family designed by Ek Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "8F0DE4F81B40D314A129C55A3A9E58411868CA9A452EDB57537488853F46DB86"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baloochettan2/BalooChettan2[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baloochettan2/BalooChettan2[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baloochettan2&per_page=1"
   },
-  "description": "Baloo Chettan 2 font family designed by Ek Type",
-  "homepage": "https://fonts.google.com/specimen/Baloo+Chettan+2",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Baloo+Chettan+2"
 }

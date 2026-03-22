@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/galada/Galada-Regular.ttf"
+  "hash": [
+    "ACC22B41EE470DC542E15B5F8907C7FBEBEF1B9C01EB20E4127BDBF052B006EE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/galada&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/galada/Galada-Regular.ttf"
+    ]
   },
+  "description": "Galada font family designed by Black Foundry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "ACC22B41EE470DC542E15B5F8907C7FBEBEF1B9C01EB20E4127BDBF052B006EE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/galada/Galada-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/galada/Galada-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/galada&per_page=1"
   },
-  "description": "Galada font family designed by Black Foundry",
-  "homepage": "https://fonts.google.com/specimen/Galada",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Galada"
 }

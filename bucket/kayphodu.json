@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Bold.ttf"
+  "hash": [
+    "AA54E0CD1C01E7E8AC9887EAF3DAC3E7EF2DF9C2B58049EF8A0AB8B1A76CBE1E",
+    "4BB552FFCFE2BF7495188616375AF8EAD67B05536D43FC35B915AA6CE9EB619B",
+    "07F14BA8C7B3E40BB879DA8908AAFF4546435EDD61E2924F6EAE10B54F8E63D4",
+    "8D89876B4E2ADEB97B9D312FF448E3A66DCE7C52C7C21D564159A292FF60787E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kayphodu&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Bold.ttf"
+    ]
   },
+  "description": "Kay Pho Du font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "AA54E0CD1C01E7E8AC9887EAF3DAC3E7EF2DF9C2B58049EF8A0AB8B1A76CBE1E",
-    "4BB552FFCFE2BF7495188616375AF8EAD67B05536D43FC35B915AA6CE9EB619B",
-    "07F14BA8C7B3E40BB879DA8908AAFF4546435EDD61E2924F6EAE10B54F8E63D4",
-    "8D89876B4E2ADEB97B9D312FF448E3A66DCE7C52C7C21D564159A292FF60787E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/kayphodu/KayPhoDu-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/kayphodu&per_page=1"
   },
-  "description": "Kay Pho Du font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Kay+Pho+Du",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Kay+Pho+Du"
 }

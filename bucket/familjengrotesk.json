@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk-Italic[wght].ttf"
+  "hash": [
+    "2D25FC41321A04561FAB20A90FC8BC9ED4D1C0743FE8BA76CC51CD3632138B80",
+    "278047492643756C75533D2ACB90E0644ABFE5DF7BC6B99F21CF72A750580634"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/familjengrotesk&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk-Italic[wght].ttf"
+    ]
   },
+  "description": "Familjen Grotesk font family designed by Familjen STHLM AB",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "2D25FC41321A04561FAB20A90FC8BC9ED4D1C0743FE8BA76CC51CD3632138B80",
-    "278047492643756C75533D2ACB90E0644ABFE5DF7BC6B99F21CF72A750580634"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/familjengrotesk/FamiljenGrotesk-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/familjengrotesk&per_page=1"
   },
-  "description": "Familjen Grotesk font family designed by Familjen STHLM AB",
-  "homepage": "https://fonts.google.com/specimen/Familjen+Grotesk",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Familjen+Grotesk"
 }

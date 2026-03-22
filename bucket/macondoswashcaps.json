@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/macondoswashcaps/MacondoSwashCaps-Regular.ttf"
+  "hash": [
+    "776C95AD520E4776A45ADD8D8693E693B566BE9F26CD20505256C8E944DC07EA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/macondoswashcaps&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/macondoswashcaps/MacondoSwashCaps-Regular.ttf"
+    ]
   },
+  "description": "Macondo Swash Caps font family designed by John Vargas Beltrán",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "776C95AD520E4776A45ADD8D8693E693B566BE9F26CD20505256C8E944DC07EA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/macondoswashcaps/MacondoSwashCaps-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/macondoswashcaps/MacondoSwashCaps-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/macondoswashcaps&per_page=1"
   },
-  "description": "Macondo Swash Caps font family designed by John Vargas Beltrán",
-  "homepage": "https://fonts.google.com/specimen/Macondo+Swash+Caps",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Macondo+Swash+Caps"
 }

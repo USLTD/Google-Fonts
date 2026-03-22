@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Italic.ttf"
+  "hash": [
+    "7AC4D26A3A45B4731904B59CBB8A9CC15B7B70D447FC2B5DDA40EF17C5D2E16D",
+    "B6228F50F720651795C98AA24CF93BF062FEE5899084A9E60F115AB3886F5583"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/changaone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Italic.ttf"
+    ]
   },
+  "description": "Changa One font family designed by Eduardo Tunni",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "7AC4D26A3A45B4731904B59CBB8A9CC15B7B70D447FC2B5DDA40EF17C5D2E16D",
-    "B6228F50F720651795C98AA24CF93BF062FEE5899084A9E60F115AB3886F5583"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/changaone/ChangaOne-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/changaone&per_page=1"
   },
-  "description": "Changa One font family designed by Eduardo Tunni",
-  "homepage": "https://fonts.google.com/specimen/Changa+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Changa+One"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lakkireddy/LakkiReddy-Regular.ttf"
+  "hash": [
+    "F01C5ABE775243FD2A7548C2C50178F87B926FFC4C7C6B675775A40931F80A0B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lakkireddy&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lakkireddy/LakkiReddy-Regular.ttf"
+    ]
   },
+  "description": "Lakki Reddy font family designed by Appaji Ambarisha Darbha",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "F01C5ABE775243FD2A7548C2C50178F87B926FFC4C7C6B675775A40931F80A0B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lakkireddy/LakkiReddy-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lakkireddy/LakkiReddy-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lakkireddy&per_page=1"
   },
-  "description": "Lakki Reddy font family designed by Appaji Ambarisha Darbha",
-  "homepage": "https://fonts.google.com/specimen/Lakki+Reddy",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Lakki+Reddy"
 }

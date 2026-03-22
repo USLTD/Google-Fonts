@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/carroisgothicsc/CarroisGothicSC-Regular.ttf"
+  "hash": [
+    "3DFC5FE797AB3E04327287D9DBAE313847623670417E850D39E24662071F1C98"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/carroisgothicsc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/carroisgothicsc/CarroisGothicSC-Regular.ttf"
+    ]
   },
+  "description": "Carrois Gothic SC font family designed by Carrois Apostrophe",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3DFC5FE797AB3E04327287D9DBAE313847623670417E850D39E24662071F1C98"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/carroisgothicsc/CarroisGothicSC-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/carroisgothicsc/CarroisGothicSC-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/carroisgothicsc&per_page=1"
   },
-  "description": "Carrois Gothic SC font family designed by Carrois Apostrophe",
-  "homepage": "https://fonts.google.com/specimen/Carrois+Gothic+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Carrois+Gothic+SC"
 }

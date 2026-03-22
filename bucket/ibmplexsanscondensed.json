@@ -1,24 +1,39 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-BoldItalic.ttf"
+  "hash": [
+    "FE67E17FDC8B55731D88D92294030F7CD8086CDBDC37AAAA993B31D147EBA0F7",
+    "8122C78B19FEA475AC9AED5E5D0DB831F74B820604BD7A389353DE7ADF20CB97",
+    "4A6BA94E0CC7590C277D5D91674705DD73BBB68AB9016D1460C0E2B0F9EF3350",
+    "AB729485A2265722908101226D28C2E6681CE98AD09612B964A005E6DDABEE7D",
+    "3836ED1E1F5C870DDF9FD6A0ED7D74A4385A2CA194FA68782C6A10E609379CC8",
+    "4FF9689E3B8B3C2532E6CE6DFDBA0BB5BEB3D073C3B7B775A079B03CC2E561F3",
+    "E7437C072EEF2EF592AE6F2BEB0000446287385907ABB57AC1CF07BCBAA2AA33",
+    "A0320E60C17926C4E210DFDB3B1A346991F35F83B471DAF55537EE79CBCB7C7F",
+    "426350C298277F7F9D1A93956572799CA3D16E2D43E7F60EEC8382BCD795EC30",
+    "AB8931C7274AFF5B0315B798AC68149F92A667D9647CB9D6263F5F44403E5452",
+    "A081CA60548AEA14100757A2D6FE71CA60FD90EBCE779C9A8AE5A0C8FB4526D4",
+    "D98D8FB38A3CD725632900188B146C0BA72EABD515A03788BD895BBF365086AE",
+    "B65492D86CDD5CD9D43D2671B55D5D36FEC36859FC8B08BC6ABA78E441D6C849",
+    "FE1983C07A086FBEE939E5F0F826E5428F7D02666C8E3BBB7295FB3504597A07"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsanscondensed&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-BoldItalic.ttf"
+    ]
   },
+  "description": "IBM Plex Sans Condensed font family designed by Mike Abbink, Bold Monday",
   "installer": {
     "script": [
       "if ($global) {",
@@ -60,6 +75,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -144,42 +160,26 @@
       "}"
     ]
   },
-  "hash": [
-    "FE67E17FDC8B55731D88D92294030F7CD8086CDBDC37AAAA993B31D147EBA0F7",
-    "8122C78B19FEA475AC9AED5E5D0DB831F74B820604BD7A389353DE7ADF20CB97",
-    "4A6BA94E0CC7590C277D5D91674705DD73BBB68AB9016D1460C0E2B0F9EF3350",
-    "AB729485A2265722908101226D28C2E6681CE98AD09612B964A005E6DDABEE7D",
-    "3836ED1E1F5C870DDF9FD6A0ED7D74A4385A2CA194FA68782C6A10E609379CC8",
-    "4FF9689E3B8B3C2532E6CE6DFDBA0BB5BEB3D073C3B7B775A079B03CC2E561F3",
-    "E7437C072EEF2EF592AE6F2BEB0000446287385907ABB57AC1CF07BCBAA2AA33",
-    "A0320E60C17926C4E210DFDB3B1A346991F35F83B471DAF55537EE79CBCB7C7F",
-    "426350C298277F7F9D1A93956572799CA3D16E2D43E7F60EEC8382BCD795EC30",
-    "AB8931C7274AFF5B0315B798AC68149F92A667D9647CB9D6263F5F44403E5452",
-    "A081CA60548AEA14100757A2D6FE71CA60FD90EBCE779C9A8AE5A0C8FB4526D4",
-    "D98D8FB38A3CD725632900188B146C0BA72EABD515A03788BD895BBF365086AE",
-    "B65492D86CDD5CD9D43D2671B55D5D36FEC36859FC8B08BC6ABA78E441D6C849",
-    "FE1983C07A086FBEE939E5F0F826E5428F7D02666C8E3BBB7295FB3504597A07"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/ibmplexsanscondensed&per_page=1"
   },
-  "description": "IBM Plex Sans Condensed font family designed by Mike Abbink, Bold Monday",
-  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed"
 }

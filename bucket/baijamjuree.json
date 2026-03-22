@@ -1,22 +1,35 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-BoldItalic.ttf"
+  "hash": [
+    "DA49F9D1EFD6F190AC444AF02A25606C0CD38FC78D4FC1E459D8E0171B65AF11",
+    "4DFAC6888704172CA10EE1986D6DE89DE820A29310B489282B879B69F0304128",
+    "8DB41D9372B7425E7C717BA7BD3883965BADA642412BCCC0545102F9024D6ACB",
+    "78E092D9C144538E575DA8242888DE255E02897EAB0A86D75E4BC1E6B33D82FB",
+    "72B5A30CB78966823EB326C09B9004B0D03B4BDDCDFCFD1B8CDBFFB6C414547D",
+    "96E5F86F49442F60FD72CFC7728FDE740870CCCD3B8BC8A30E75DD8D9FC4B3B4",
+    "95782F3C3E07866749FB28E1D1A356E383E8F2BDCC7B88D4E3A3FC546613137F",
+    "F37DC3CCB6597E851E7C23FED94E6AB0DF9668FB5C5D166360E81C00DD84B0BC",
+    "DAAA68BC721E893861F948F40542B9F1EA8496A3FE4250A0FFC86DAB0AEE8F3C",
+    "CDC9CD3C2F168D1791871B72B5D62BFED7A5B87EFEC1BB0BA356F7FAD6D623FD",
+    "74784411504A295A5255E736E0A8389892AF2C8A14E914D3E194329B59279223",
+    "AFEEFA87666738EC8689BB018DFC971A532C8FD9E8CBA649D1BE0176759D93C1"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baijamjuree&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-BoldItalic.ttf"
+    ]
   },
+  "description": "Bai Jamjuree font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -58,6 +71,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,38 +156,24 @@
       "}"
     ]
   },
-  "hash": [
-    "DA49F9D1EFD6F190AC444AF02A25606C0CD38FC78D4FC1E459D8E0171B65AF11",
-    "4DFAC6888704172CA10EE1986D6DE89DE820A29310B489282B879B69F0304128",
-    "8DB41D9372B7425E7C717BA7BD3883965BADA642412BCCC0545102F9024D6ACB",
-    "78E092D9C144538E575DA8242888DE255E02897EAB0A86D75E4BC1E6B33D82FB",
-    "72B5A30CB78966823EB326C09B9004B0D03B4BDDCDFCFD1B8CDBFFB6C414547D",
-    "96E5F86F49442F60FD72CFC7728FDE740870CCCD3B8BC8A30E75DD8D9FC4B3B4",
-    "95782F3C3E07866749FB28E1D1A356E383E8F2BDCC7B88D4E3A3FC546613137F",
-    "F37DC3CCB6597E851E7C23FED94E6AB0DF9668FB5C5D166360E81C00DD84B0BC",
-    "DAAA68BC721E893861F948F40542B9F1EA8496A3FE4250A0FFC86DAB0AEE8F3C",
-    "CDC9CD3C2F168D1791871B72B5D62BFED7A5B87EFEC1BB0BA356F7FAD6D623FD",
-    "74784411504A295A5255E736E0A8389892AF2C8A14E914D3E194329B59279223",
-    "AFEEFA87666738EC8689BB018DFC971A532C8FD9E8CBA649D1BE0176759D93C1"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/baijamjuree/BaiJamjuree-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/baijamjuree&per_page=1"
   },
-  "description": "Bai Jamjuree font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Bai+Jamjuree",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bai+Jamjuree"
 }

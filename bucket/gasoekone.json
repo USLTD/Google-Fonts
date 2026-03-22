@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gasoekone/GasoekOne-Regular.ttf"
+  "hash": [
+    "73A6B8E0D12A56F0A070F19B44A93AE050F98EB926DA5D2A7C8D6DB92BD8D9C3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gasoekone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gasoekone/GasoekOne-Regular.ttf"
+    ]
   },
+  "description": "Gasoek One font family designed by Jiashuo Zhang, JAMO",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "73A6B8E0D12A56F0A070F19B44A93AE050F98EB926DA5D2A7C8D6DB92BD8D9C3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gasoekone/GasoekOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gasoekone/GasoekOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gasoekone&per_page=1"
   },
-  "description": "Gasoek One font family designed by Jiashuo Zhang, JAMO",
-  "homepage": "https://fonts.google.com/specimen/Gasoek+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gasoek+One"
 }

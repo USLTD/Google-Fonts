@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Bold.ttf"
+  "hash": [
+    "7EC5575C6C87A6BE69DE7839B3ECD1027B7BA6510AD3E49BC30B73CC9EE1BCE0",
+    "8BF4F82298997010662DE35CEC504C0504456E51D3D9A9A6B4F3788E4B04ABEE"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/charmonman&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Bold.ttf"
+    ]
   },
+  "description": "Charmonman font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "7EC5575C6C87A6BE69DE7839B3ECD1027B7BA6510AD3E49BC30B73CC9EE1BCE0",
-    "8BF4F82298997010662DE35CEC504C0504456E51D3D9A9A6B4F3788E4B04ABEE"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charmonman/Charmonman-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/charmonman&per_page=1"
   },
-  "description": "Charmonman font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Charmonman",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Charmonman"
 }

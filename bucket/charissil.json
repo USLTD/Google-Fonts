@@ -1,14 +1,19 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-BoldItalic.ttf"
+  "hash": [
+    "346337374AA347D64EE015B26D441F1970D8631914E2F3941B00E1C4761E28C5",
+    "E776E2961117B39CF924C0139DE01748A77B2FCB99C437B2C77BDD9401606C13",
+    "68460D2B76C8F781B49F9168F2C7DC3C9F7B788A3A1B8F267C5FA6BB47D5C64D",
+    "ACDF6DC54C0EE5E03CAE3398F64133C335084CD1ECAB655F2A8636C5D56ACEDB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/charissil&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-BoldItalic.ttf"
+    ]
   },
+  "description": "Charis SIL font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,6 +55,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -134,22 +140,16 @@
       "}"
     ]
   },
-  "hash": [
-    "346337374AA347D64EE015B26D441F1970D8631914E2F3941B00E1C4761E28C5",
-    "E776E2961117B39CF924C0139DE01748A77B2FCB99C437B2C77BDD9401606C13",
-    "68460D2B76C8F781B49F9168F2C7DC3C9F7B788A3A1B8F267C5FA6BB47D5C64D",
-    "ACDF6DC54C0EE5E03CAE3398F64133C335084CD1ECAB655F2A8636C5D56ACEDB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/charissil&per_page=1"
   },
-  "description": "Charis SIL font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Charis+SIL",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Charis+SIL"
 }

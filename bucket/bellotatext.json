@@ -1,16 +1,23 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-BoldItalic.ttf"
+  "hash": [
+    "FDF27404F3B665AA0BDF8B19C7FD425D94CE013EF413945EBBD66B72442575CD",
+    "7B52095B638459458BD7285F5E55651F301511E1A5136DB92CB1ED915F8C61A4",
+    "B10A58605747B85F738E3BBF9A5571101ECFF0A398EF6620DF9E9B4EE1F33F83",
+    "4E04943E63AB256026CF2D0E506D16CC6AA7D5D891E63582ACC250FC40992BDC",
+    "31C41C17D571900437B194300B5A9DA384E366E22459D698FABE9F0BE4355EF5",
+    "2AF54D05DA4A9512E3A50F9280D5AAF1C9D50F668658D1B2E820682CC53605C8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bellotatext&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-BoldItalic.ttf"
+    ]
   },
+  "description": "Bellota Text font family designed by Kemie Guaida",
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,6 +59,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -136,26 +144,18 @@
       "}"
     ]
   },
-  "hash": [
-    "FDF27404F3B665AA0BDF8B19C7FD425D94CE013EF413945EBBD66B72442575CD",
-    "7B52095B638459458BD7285F5E55651F301511E1A5136DB92CB1ED915F8C61A4",
-    "B10A58605747B85F738E3BBF9A5571101ECFF0A398EF6620DF9E9B4EE1F33F83",
-    "4E04943E63AB256026CF2D0E506D16CC6AA7D5D891E63582ACC250FC40992BDC",
-    "31C41C17D571900437B194300B5A9DA384E366E22459D698FABE9F0BE4355EF5",
-    "2AF54D05DA4A9512E3A50F9280D5AAF1C9D50F668658D1B2E820682CC53605C8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellotatext/BellotaText-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bellotatext&per_page=1"
   },
-  "description": "Bellota Text font family designed by Kemie Guaida",
-  "homepage": "https://fonts.google.com/specimen/Bellota+Text",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bellota+Text"
 }

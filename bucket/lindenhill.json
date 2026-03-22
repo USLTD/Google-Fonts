@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Italic.ttf"
+  "hash": [
+    "EED3FDE6C495DD558B88AA0D3486516DD4D9956A497C335DB7BEAA9C29D0508A",
+    "6071EBCBA53242167CFE38DFD0AE108125055405FB1B4ECD0468E287A9E7C743"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lindenhill&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Italic.ttf"
+    ]
   },
+  "description": "Linden Hill font family designed by Barry Schwartz",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "EED3FDE6C495DD558B88AA0D3486516DD4D9956A497C335DB7BEAA9C29D0508A",
-    "6071EBCBA53242167CFE38DFD0AE108125055405FB1B4ECD0468E287A9E7C743"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Italic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lindenhill/LindenHill-Italic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lindenhill&per_page=1"
   },
-  "description": "Linden Hill font family designed by Barry Schwartz",
-  "homepage": "https://fonts.google.com/specimen/Linden+Hill",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Linden+Hill"
 }

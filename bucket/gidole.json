@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gidole/Gidole-Regular.ttf"
+  "hash": [
+    "7A9B54E2CE1F582CFCD1AA39CA025CD125084F4FB2EA35969D21F6544AA05F23"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gidole&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gidole/Gidole-Regular.ttf"
+    ]
   },
+  "description": "Gidole font family designed by Andreas Larsen",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7A9B54E2CE1F582CFCD1AA39CA025CD125084F4FB2EA35969D21F6544AA05F23"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gidole/Gidole-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gidole/Gidole-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gidole&per_page=1"
   },
-  "description": "Gidole font family designed by Andreas Larsen",
-  "homepage": "https://fonts.google.com/specimen/Gidole",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gidole"
 }

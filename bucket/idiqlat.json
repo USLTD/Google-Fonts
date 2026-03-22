@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Regular.ttf"
+  "hash": [
+    "20F3F0187A9C4941CDB453826DC0A96CB66840E7EF13B48517407BE6E87205A9",
+    "7919CF789D047203AA0009A5DED0ED2CA0C8A759EE3F4C9C62677F1C1C703982",
+    "E77B3EECC71244DC5B91A84D515D6AC5745ADE38033CC9FB7C2086474627200E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/idiqlat&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Regular.ttf"
+    ]
   },
+  "description": "Idiqlat font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "20F3F0187A9C4941CDB453826DC0A96CB66840E7EF13B48517407BE6E87205A9",
-    "7919CF789D047203AA0009A5DED0ED2CA0C8A759EE3F4C9C62677F1C1C703982",
-    "E77B3EECC71244DC5B91A84D515D6AC5745ADE38033CC9FB7C2086474627200E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/idiqlat/Idiqlat-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/idiqlat&per_page=1"
   },
-  "description": "Idiqlat font family designed by SIL International",
-  "homepage": "https://fonts.google.com/specimen/Idiqlat",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Idiqlat"
 }

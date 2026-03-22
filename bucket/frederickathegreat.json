@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/frederickathegreat/FrederickatheGreat-Regular.ttf"
+  "hash": [
+    "33DC0832B5E934F3DB79DC683DEA5029C22EB418183B69669B047355C0C245A2"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/frederickathegreat&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/frederickathegreat/FrederickatheGreat-Regular.ttf"
+    ]
   },
+  "description": "Fredericka the Great font family designed by Tart Workshop",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "33DC0832B5E934F3DB79DC683DEA5029C22EB418183B69669B047355C0C245A2"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/frederickathegreat/FrederickatheGreat-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/frederickathegreat/FrederickatheGreat-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/frederickathegreat&per_page=1"
   },
-  "description": "Fredericka the Great font family designed by Tart Workshop",
-  "homepage": "https://fonts.google.com/specimen/Fredericka+the+Great",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fredericka+the+Great"
 }

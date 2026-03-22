@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/matangi/Matangi[wght].ttf"
+  "hash": [
+    "1F2A23098E137DC241492FDE76543ABAACCAD4726E99B198002E6DFFBDF5A45D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/matangi&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/matangi/Matangi[wght].ttf"
+    ]
   },
+  "description": "Matangi font family designed by The Graphic Ant",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1F2A23098E137DC241492FDE76543ABAACCAD4726E99B198002E6DFFBDF5A45D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/matangi/Matangi[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/matangi/Matangi[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/matangi&per_page=1"
   },
-  "description": "Matangi font family designed by The Graphic Ant",
-  "homepage": "https://fonts.google.com/specimen/Matangi",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Matangi"
 }

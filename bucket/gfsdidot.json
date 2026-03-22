@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsdidot/GFSDidot-Regular.ttf"
+  "hash": [
+    "4FC784AB824E8866EEEF8AD55976B93E7E170FB1B8237FD4F8781B5B4DD297F9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gfsdidot&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsdidot/GFSDidot-Regular.ttf"
+    ]
   },
+  "description": "GFS Didot font family designed by Greek Font Society",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4FC784AB824E8866EEEF8AD55976B93E7E170FB1B8237FD4F8781B5B4DD297F9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsdidot/GFSDidot-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gfsdidot/GFSDidot-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gfsdidot&per_page=1"
   },
-  "description": "GFS Didot font family designed by Greek Font Society",
-  "homepage": "https://fonts.google.com/specimen/GFS+Didot",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/GFS+Didot"
 }

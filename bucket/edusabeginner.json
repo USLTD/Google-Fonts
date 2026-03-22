@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/edusabeginner/EduSABeginner[wght].ttf"
+  "hash": [
+    "1EC0D8B4F3A6FDA018079FA284570D2C4A3A514E3687D139B25B05DBB86C7FF4"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/edusabeginner&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/edusabeginner/EduSABeginner[wght].ttf"
+    ]
   },
+  "description": "Edu SA Beginner font family designed by Tina Anderson, Corey Anderson",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1EC0D8B4F3A6FDA018079FA284570D2C4A3A514E3687D139B25B05DBB86C7FF4"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/edusabeginner/EduSABeginner[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/edusabeginner/EduSABeginner[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/edusabeginner&per_page=1"
   },
-  "description": "Edu SA Beginner font family designed by Tina Anderson, Corey Anderson",
-  "homepage": "https://fonts.google.com/specimen/Edu+SA+Beginner",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Edu+SA+Beginner"
 }

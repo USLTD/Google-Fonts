@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/luxuriousroman/LuxuriousRoman-Regular.ttf"
+  "hash": [
+    "30D6BC4B25CF075560F0DD90A77A8ED8165BD280A863DE1C3AB429FBF9ACE58B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/luxuriousroman&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/luxuriousroman/LuxuriousRoman-Regular.ttf"
+    ]
   },
+  "description": "Luxurious Roman font family designed by Robert Leuschke",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "30D6BC4B25CF075560F0DD90A77A8ED8165BD280A863DE1C3AB429FBF9ACE58B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/luxuriousroman/LuxuriousRoman-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/luxuriousroman/LuxuriousRoman-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/luxuriousroman&per_page=1"
   },
-  "description": "Luxurious Roman font family designed by Robert Leuschke",
-  "homepage": "https://fonts.google.com/specimen/Luxurious+Roman",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Luxurious+Roman"
 }

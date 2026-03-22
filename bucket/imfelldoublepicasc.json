@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepicasc/IMFeDPsc28P.ttf"
+  "hash": [
+    "CDE1B1E206B36EF2F74EA4B2BF19786D99E93E1C65775B926701E1141726DE81"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfelldoublepicasc&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepicasc/IMFeDPsc28P.ttf"
+    ]
   },
+  "description": "IM Fell Double Pica SC font family designed by Igino Marini",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "CDE1B1E206B36EF2F74EA4B2BF19786D99E93E1C65775B926701E1141726DE81"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepicasc/IMFeDPsc28P.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/imfelldoublepicasc/IMFeDPsc28P.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/imfelldoublepicasc&per_page=1"
   },
-  "description": "IM Fell Double Pica SC font family designed by Igino Marini",
-  "homepage": "https://fonts.google.com/specimen/IM+Fell+Double+Pica+SC",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/IM+Fell+Double+Pica+SC"
 }

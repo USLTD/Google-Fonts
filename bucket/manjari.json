@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Bold.ttf"
+  "hash": [
+    "0EAB2FD482B2B0E6CD469C53D09513A2303FF91C86DC8C1BA42ACFC73242BD72",
+    "16460924696BFEA2A2F71B4201D8786867C6413B548ECBD22BC6BFE55BE90F95",
+    "F19FEF695B28E5448AE87451DFBAB426676CADF4B59340558A157C0071B69D26"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/manjari&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Bold.ttf"
+    ]
   },
+  "description": "Manjari font family designed by Santhosh Thottingal",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "0EAB2FD482B2B0E6CD469C53D09513A2303FF91C86DC8C1BA42ACFC73242BD72",
-    "16460924696BFEA2A2F71B4201D8786867C6413B548ECBD22BC6BFE55BE90F95",
-    "F19FEF695B28E5448AE87451DFBAB426676CADF4B59340558A157C0071B69D26"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/manjari/Manjari-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/manjari&per_page=1"
   },
-  "description": "Manjari font family designed by Santhosh Thottingal",
-  "homepage": "https://fonts.google.com/specimen/Manjari",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Manjari"
 }

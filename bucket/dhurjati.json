@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/dhurjati/Dhurjati-Regular.ttf"
+  "hash": [
+    "7F82AB141B77D263F9EA9B31B47FAF50C11310F42FCE6D9DFFEAAA334909BBF9"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dhurjati&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/dhurjati/Dhurjati-Regular.ttf"
+    ]
   },
+  "description": "Dhurjati font family designed by Purushoth Kumar Guttula",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "7F82AB141B77D263F9EA9B31B47FAF50C11310F42FCE6D9DFFEAAA334909BBF9"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/dhurjati/Dhurjati-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/dhurjati/Dhurjati-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/dhurjati&per_page=1"
   },
-  "description": "Dhurjati font family designed by Purushoth Kumar Guttula",
-  "homepage": "https://fonts.google.com/specimen/Dhurjati",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Dhurjati"
 }

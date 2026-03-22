@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blakaink/BlakaInk-Regular.ttf"
+  "hash": [
+    "D745F0BE7CF43F4E8998834EF730B3CAB22A82DB19D6A1737008B7B4A87112EA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blakaink&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blakaink/BlakaInk-Regular.ttf"
+    ]
   },
+  "description": "Blaka Ink font family designed by Mohamed Gaber",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "D745F0BE7CF43F4E8998834EF730B3CAB22A82DB19D6A1737008B7B4A87112EA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blakaink/BlakaInk-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blakaink/BlakaInk-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blakaink&per_page=1"
   },
-  "description": "Blaka Ink font family designed by Mohamed Gaber",
-  "homepage": "https://fonts.google.com/specimen/Blaka+Ink",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Blaka+Ink"
 }

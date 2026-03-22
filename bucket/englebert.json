@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/englebert/Englebert-Regular.ttf"
+  "hash": [
+    "97BE7DF4F050113B713077B9CB4A51E7F62C155BA22C7ADF7EE65E0D7B0F7577"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/englebert&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/englebert/Englebert-Regular.ttf"
+    ]
   },
+  "description": "Englebert font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "97BE7DF4F050113B713077B9CB4A51E7F62C155BA22C7ADF7EE65E0D7B0F7577"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/englebert/Englebert-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/englebert/Englebert-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/englebert&per_page=1"
   },
-  "description": "Englebert font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Englebert",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Englebert"
 }

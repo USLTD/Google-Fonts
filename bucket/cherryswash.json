@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Bold.ttf"
+  "hash": [
+    "CE98243D428163BE0D59FC02D3133507CD5AFE78C501AA320C09C5DEAA78A4A3",
+    "5CCA323C29A80E19400A06BE7C0C46E19DB8FF2966CBBFF7E05EAC33354124BA"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cherryswash&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Bold.ttf"
+    ]
   },
+  "description": "Cherry Swash font family designed by Nataliya Kasatkina",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "CE98243D428163BE0D59FC02D3133507CD5AFE78C501AA320C09C5DEAA78A4A3",
-    "5CCA323C29A80E19400A06BE7C0C46E19DB8FF2966CBBFF7E05EAC33354124BA"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherryswash/CherrySwash-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cherryswash&per_page=1"
   },
-  "description": "Cherry Swash font family designed by Nataliya Kasatkina",
-  "homepage": "https://fonts.google.com/specimen/Cherry+Swash",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cherry+Swash"
 }

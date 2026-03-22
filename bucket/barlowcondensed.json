@@ -1,28 +1,47 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Black.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BlackItalic.ttf"
+  "hash": [
+    "68AFE339B8503A9D74B2C3B5B0C521EA5333461F29AEAF7C680141482114D85A",
+    "5B0FF874E3AE64E2B3DC2C761D8BA2EB3EAE324D269441F6DE0062E8FBFF0B8E",
+    "19E3C4A81DC7FCEE8C38AB6BE3819FCC45D3F3822F011AC7B4BD550E6502B80F",
+    "A58C17C59C226EB0EF411B73696F79374D170F2708ACC6D72D8DB8C07F333286",
+    "2C37E1E6B5FEB71D38A42E6180D2E2F4CA1AAD22CFECBD017430F3863DEBA67D",
+    "14AABC4936C54A3AAE666ABCCBC4BE612E4A33501C9483F7E4EBB249359D0171",
+    "583CEC5DA3B84BC4DC7C9C72E2A565C94D34E431518B19D7E250B7830AD5F996",
+    "063615DA0A64F318397DE2AFAC330DFBFBBF4CDB562A9987CB72BFDCBD37BA7C",
+    "262BD143292CE479EE0CD09A42B47AB173FCA8E9C6EB5ED0B5C8A845BC371D17",
+    "E036488BFE3EA1E9F39F006B1237C2931E7CFEA7D9ECDCCDF17507A5986F73D9",
+    "7B619D14BC2327509A9EF32B0890F709626F7ECC9FF61191C2A4314C5499D2D9",
+    "DC83CBBB7545A117AB9E4C10ED07D35EEF6F563B77621A1D357F25A3194987D1",
+    "E476562EC9C1E16CF16475895B511F08C804F438CC9A9F80A44EA50A0EEB5B65",
+    "D8694F65CD70C3E5E600EAD37657AAB0ADB5F63B275D0C1F6F4A7046DE222145",
+    "724C9C25952D5F4A2D87185D9767AA006144C5F0D944DC05BF7D5D603551C260",
+    "331783DAE9EC0C398F4D32C9FD5A56D4C602CAA0C1628C2B9CBFE93F48EB68C9",
+    "E74B750DF582C608F35DB467B711B2B60D2217618E85E60B72B42DFD00446CAB",
+    "E1ED5D7E50C6A4498454D40509CE2362384A2C7870DF3418FDBD010F81DFFAD3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/barlowcondensed&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Black.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BlackItalic.ttf"
+    ]
   },
+  "description": "Barlow Condensed font family designed by Jeremy Tribby",
   "installer": {
     "script": [
       "if ($global) {",
@@ -64,6 +83,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -148,50 +168,30 @@
       "}"
     ]
   },
-  "hash": [
-    "68AFE339B8503A9D74B2C3B5B0C521EA5333461F29AEAF7C680141482114D85A",
-    "5B0FF874E3AE64E2B3DC2C761D8BA2EB3EAE324D269441F6DE0062E8FBFF0B8E",
-    "19E3C4A81DC7FCEE8C38AB6BE3819FCC45D3F3822F011AC7B4BD550E6502B80F",
-    "A58C17C59C226EB0EF411B73696F79374D170F2708ACC6D72D8DB8C07F333286",
-    "2C37E1E6B5FEB71D38A42E6180D2E2F4CA1AAD22CFECBD017430F3863DEBA67D",
-    "14AABC4936C54A3AAE666ABCCBC4BE612E4A33501C9483F7E4EBB249359D0171",
-    "583CEC5DA3B84BC4DC7C9C72E2A565C94D34E431518B19D7E250B7830AD5F996",
-    "063615DA0A64F318397DE2AFAC330DFBFBBF4CDB562A9987CB72BFDCBD37BA7C",
-    "262BD143292CE479EE0CD09A42B47AB173FCA8E9C6EB5ED0B5C8A845BC371D17",
-    "E036488BFE3EA1E9F39F006B1237C2931E7CFEA7D9ECDCCDF17507A5986F73D9",
-    "7B619D14BC2327509A9EF32B0890F709626F7ECC9FF61191C2A4314C5499D2D9",
-    "DC83CBBB7545A117AB9E4C10ED07D35EEF6F563B77621A1D357F25A3194987D1",
-    "E476562EC9C1E16CF16475895B511F08C804F438CC9A9F80A44EA50A0EEB5B65",
-    "D8694F65CD70C3E5E600EAD37657AAB0ADB5F63B275D0C1F6F4A7046DE222145",
-    "724C9C25952D5F4A2D87185D9767AA006144C5F0D944DC05BF7D5D603551C260",
-    "331783DAE9EC0C398F4D32C9FD5A56D4C602CAA0C1628C2B9CBFE93F48EB68C9",
-    "E74B750DF582C608F35DB467B711B2B60D2217618E85E60B72B42DFD00446CAB",
-    "E1ED5D7E50C6A4498454D40509CE2362384A2C7870DF3418FDBD010F81DFFAD3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Black.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BlackItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Black.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BlackItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/barlowcondensed&per_page=1"
   },
-  "description": "Barlow Condensed font family designed by Jeremy Tribby",
-  "homepage": "https://fonts.google.com/specimen/Barlow+Condensed",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Barlow+Condensed"
 }

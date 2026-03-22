@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inconsolata/Inconsolata[wdth,wght].ttf"
+  "hash": [
+    "23DED25B447074D00659392BF9B1123D89DF55CB07B0AD9BFEF3366D199B5FCB"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inconsolata&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inconsolata/Inconsolata[wdth,wght].ttf"
+    ]
   },
+  "description": "Inconsolata font family designed by Raph Levien",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "23DED25B447074D00659392BF9B1123D89DF55CB07B0AD9BFEF3366D199B5FCB"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inconsolata/Inconsolata[wdth,wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inconsolata/Inconsolata[wdth,wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inconsolata&per_page=1"
   },
-  "description": "Inconsolata font family designed by Raph Levien",
-  "homepage": "https://fonts.google.com/specimen/Inconsolata",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inconsolata"
 }

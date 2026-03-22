@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf"
+  "hash": [
+    "E5BF2C3F24EF2327C6F136D8F73E2F9DFDF44896FDBEB35A9515F44777BB91BC"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/longcang&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf"
+    ]
   },
+  "description": "Long Cang font family designed by Chen Xiaomin",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "E5BF2C3F24EF2327C6F136D8F73E2F9DFDF44896FDBEB35A9515F44777BB91BC"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/longcang&per_page=1"
   },
-  "description": "Long Cang font family designed by Chen Xiaomin",
-  "homepage": "https://fonts.google.com/specimen/Long+Cang",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Long+Cang"
 }

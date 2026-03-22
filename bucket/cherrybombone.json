@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherrybombone/CherryBombOne-Regular.ttf"
+  "hash": [
+    "9596C6793EB0335057D655B13751CE7CCB50EF0CD15CB52C58465FB62DE2BB8F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cherrybombone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherrybombone/CherryBombOne-Regular.ttf"
+    ]
   },
+  "description": "Cherry Bomb One font family designed by Satsuyako",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "9596C6793EB0335057D655B13751CE7CCB50EF0CD15CB52C58465FB62DE2BB8F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cherrybombone/CherryBombOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cherrybombone/CherryBombOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cherrybombone&per_page=1"
   },
-  "description": "Cherry Bomb One font family designed by Satsuyako",
-  "homepage": "https://fonts.google.com/specimen/Cherry+Bomb+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cherry+Bomb+One"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/denkone/DenkOne-Regular.ttf"
+  "hash": [
+    "088761ECA739820556435BD4EAFB8637808A55E121BED582D493969525C97211"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/denkone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/denkone/DenkOne-Regular.ttf"
+    ]
   },
+  "description": "Denk One font family designed by Sorkin Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "088761ECA739820556435BD4EAFB8637808A55E121BED582D493969525C97211"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/denkone/DenkOne-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/denkone/DenkOne-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/denkone&per_page=1"
   },
-  "description": "Denk One font family designed by Sorkin Type",
-  "homepage": "https://fonts.google.com/specimen/Denk+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Denk+One"
 }

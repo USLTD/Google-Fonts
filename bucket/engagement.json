@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/engagement/Engagement-Regular.ttf"
+  "hash": [
+    "0BFB666005C0F37E9C51265CA5DFF812B2FC4929ED324F359CAA92F80C25E01A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/engagement&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/engagement/Engagement-Regular.ttf"
+    ]
   },
+  "description": "Engagement font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0BFB666005C0F37E9C51265CA5DFF812B2FC4929ED324F359CAA92F80C25E01A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/engagement/Engagement-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/engagement/Engagement-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/engagement&per_page=1"
   },
-  "description": "Engagement font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Engagement",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Engagement"
 }

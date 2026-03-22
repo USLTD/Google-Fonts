@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/happymonkey/HappyMonkey-Regular.ttf"
+  "hash": [
+    "154D17EFD5043E9F76EA4B8A15743FE19634C7ADBE3531D6AF68BEC8A0C7FAD3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/happymonkey&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/happymonkey/HappyMonkey-Regular.ttf"
+    ]
   },
+  "description": "Happy Monkey font family designed by Brenda Gallo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "154D17EFD5043E9F76EA4B8A15743FE19634C7ADBE3531D6AF68BEC8A0C7FAD3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/happymonkey/HappyMonkey-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/happymonkey/HappyMonkey-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/happymonkey&per_page=1"
   },
-  "description": "Happy Monkey font family designed by Brenda Gallo",
-  "homepage": "https://fonts.google.com/specimen/Happy+Monkey",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Happy+Monkey"
 }

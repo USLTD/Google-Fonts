@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf"
+  "hash": [
+    "3F2EE71C2B8464F065BF960A148BE81D68FCC13385DF87737928F948208DFFC6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/majormonodisplay&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf"
+    ]
   },
+  "description": "Major Mono Display font family designed by Emre Parlak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "3F2EE71C2B8464F065BF960A148BE81D68FCC13385DF87737928F948208DFFC6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/majormonodisplay&per_page=1"
   },
-  "description": "Major Mono Display font family designed by Emre Parlak",
-  "homepage": "https://fonts.google.com/specimen/Major+Mono+Display",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Major+Mono+Display"
 }

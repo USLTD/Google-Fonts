@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellefair/Bellefair-Regular.ttf"
+  "hash": [
+    "5C0CD4D526E6DFCB189106AF6B5E6EC99A54EFB6D458DFD61626CE6DC0F03026"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bellefair&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellefair/Bellefair-Regular.ttf"
+    ]
   },
+  "description": "Bellefair font family designed by Nick Shinn, Liron Lavi Turkenic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "5C0CD4D526E6DFCB189106AF6B5E6EC99A54EFB6D458DFD61626CE6DC0F03026"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bellefair/Bellefair-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bellefair/Bellefair-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bellefair&per_page=1"
   },
-  "description": "Bellefair font family designed by Nick Shinn, Liron Lavi Turkenic",
-  "homepage": "https://fonts.google.com/specimen/Bellefair",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bellefair"
 }

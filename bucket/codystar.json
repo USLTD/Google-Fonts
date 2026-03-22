@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Regular.ttf"
+  "hash": [
+    "FA1FCF4F00F3C35B82219320A2322F561BC9E7F5AE6DED498A28958F5C07A3C0",
+    "99F059A3E31AFDAF3FEA53D39BC62B15DF38A5D882104AE1D1A5CA2DF547C10A"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/codystar&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Regular.ttf"
+    ]
   },
+  "description": "Codystar font family designed by Neapolitan",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "FA1FCF4F00F3C35B82219320A2322F561BC9E7F5AE6DED498A28958F5C07A3C0",
-    "99F059A3E31AFDAF3FEA53D39BC62B15DF38A5D882104AE1D1A5CA2DF547C10A"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/codystar/Codystar-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/codystar&per_page=1"
   },
-  "description": "Codystar font family designed by Neapolitan",
-  "homepage": "https://fonts.google.com/specimen/Codystar",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Codystar"
 }

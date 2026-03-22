@@ -1,28 +1,47 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Thin.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ThinItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLight.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Black.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BlackItalic.ttf"
+  "hash": [
+    "CD9D582FFAE151BC616B26CF84B3C4912D04363B9C5E1B3E599B66E0E7D532A4",
+    "7275879630990F5BC13A3C3FCD68EEA1C902AA8827769DE4985390104A71A149",
+    "F575442D8B863086599208C9B69D0E345A0936F3EC27B12B3FBC41526B56E838",
+    "F4D66AF27C828A269D5DF483A488404605957D0F4AEEAD8EBBC9A20DAD24B115",
+    "E2172F4A23E9BE22F977C34DE3897D890401BBC5E9C47DF968DFA2C01FB32235",
+    "CA4228BDD77761E229E74E3E30F3A3786A75275B77E675DECB75F7D356D7F7B4",
+    "C29556A2719BF613EF3D5E070E40D903A8965D9C081BECA1375DC1E6E0F93C23",
+    "A4204F9A8029C1C55DAA5385AC95936F74ABEA3E232770F1FB2862A19D1DFA13",
+    "CBC1842CBED8C1D1146BA7C9DB97D8F28C9BEDFD25F41C5B0E1259CA48622328",
+    "D892B7A6E874D839BC7E712B1D57CF64BCF8013AE143C3EAB09E0FD9A0604411",
+    "DB0321F83EB3E9F527B8AF384A1B3FEFDC1039CF2B06FD39B3F61492BDA9561C",
+    "97DC5696FE0AABCABF7E041527E0CA39215661CB8174CD1A92C01D9FE224C73D",
+    "A4D8E149ECDD4874A0726EB0AF894488B3B31C423D6B0017C8F415ED1B795B45",
+    "1B96C16DB9819BCAA9D588068BB397BB6E977C4874965D3D50D789A1943757EB",
+    "0A26CFF904D790F7ADE2BFFAF227B5FECDBEFFDAC1695FDBD640E086FE4E7152",
+    "EB26DF1AFEEC1F817977C8729B4A1BA5EF07D7C821D39CBFF6348E491C748F5F",
+    "0AB27E9178D7F74898DD26E3A5F10EB7922BB2A88A2903E00796C4F7C7E08CC0",
+    "81BC0F5FAC5B1BA562C1625319676E8202FEC01B47E1E09B35DB88210C30CF68"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firasans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Thin.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ThinItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLight.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Black.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BlackItalic.ttf"
+    ]
   },
+  "description": "Fira Sans font family designed by Carrois Apostrophe",
   "installer": {
     "script": [
       "if ($global) {",
@@ -64,6 +83,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -148,50 +168,30 @@
       "}"
     ]
   },
-  "hash": [
-    "CD9D582FFAE151BC616B26CF84B3C4912D04363B9C5E1B3E599B66E0E7D532A4",
-    "7275879630990F5BC13A3C3FCD68EEA1C902AA8827769DE4985390104A71A149",
-    "F575442D8B863086599208C9B69D0E345A0936F3EC27B12B3FBC41526B56E838",
-    "F4D66AF27C828A269D5DF483A488404605957D0F4AEEAD8EBBC9A20DAD24B115",
-    "E2172F4A23E9BE22F977C34DE3897D890401BBC5E9C47DF968DFA2C01FB32235",
-    "CA4228BDD77761E229E74E3E30F3A3786A75275B77E675DECB75F7D356D7F7B4",
-    "C29556A2719BF613EF3D5E070E40D903A8965D9C081BECA1375DC1E6E0F93C23",
-    "A4204F9A8029C1C55DAA5385AC95936F74ABEA3E232770F1FB2862A19D1DFA13",
-    "CBC1842CBED8C1D1146BA7C9DB97D8F28C9BEDFD25F41C5B0E1259CA48622328",
-    "D892B7A6E874D839BC7E712B1D57CF64BCF8013AE143C3EAB09E0FD9A0604411",
-    "DB0321F83EB3E9F527B8AF384A1B3FEFDC1039CF2B06FD39B3F61492BDA9561C",
-    "97DC5696FE0AABCABF7E041527E0CA39215661CB8174CD1A92C01D9FE224C73D",
-    "A4D8E149ECDD4874A0726EB0AF894488B3B31C423D6B0017C8F415ED1B795B45",
-    "1B96C16DB9819BCAA9D588068BB397BB6E977C4874965D3D50D789A1943757EB",
-    "0A26CFF904D790F7ADE2BFFAF227B5FECDBEFFDAC1695FDBD640E086FE4E7152",
-    "EB26DF1AFEEC1F817977C8729B4A1BA5EF07D7C821D39CBFF6348E491C748F5F",
-    "0AB27E9178D7F74898DD26E3A5F10EB7922BB2A88A2903E00796C4F7C7E08CC0",
-    "81BC0F5FAC5B1BA562C1625319676E8202FEC01B47E1E09B35DB88210C30CF68"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Thin.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ThinItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLight.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Black.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BlackItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Thin.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ThinItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLight.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraLightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-ExtraBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Black.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BlackItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firasans&per_page=1"
   },
-  "description": "Fira Sans font family designed by Carrois Apostrophe",
-  "homepage": "https://fonts.google.com/specimen/Fira+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fira+Sans"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/butcherman/Butcherman-Regular.ttf"
+  "hash": [
+    "B8CEE5E2CDC71F44E6806DC0DB1090A3CE2E48CA727072073700BF646B0CE6B5"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/butcherman&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/butcherman/Butcherman-Regular.ttf"
+    ]
   },
+  "description": "Butcherman font family designed by Typomondo",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B8CEE5E2CDC71F44E6806DC0DB1090A3CE2E48CA727072073700BF646B0CE6B5"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/butcherman/Butcherman-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/butcherman/Butcherman-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/butcherman&per_page=1"
   },
-  "description": "Butcherman font family designed by Typomondo",
-  "homepage": "https://fonts.google.com/specimen/Butcherman",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Butcherman"
 }

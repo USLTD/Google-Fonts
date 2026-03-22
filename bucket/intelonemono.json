@@ -1,22 +1,35 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-LightItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-MediumItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBoldItalic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Bold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-BoldItalic.ttf"
+  "hash": [
+    "E5354CC14C6F9299C06A81B76760A5D2A20CEE56466B88D6B6FC6AA295694779",
+    "9F93248B7F85AA3C21D3EDCCE4477048151F84F173BB88BE2246B9F231946D85",
+    "C1DB45F875215FB5A29A811DF5E9D4E8B6F0D84245175AB6EF621D349DD87831",
+    "906FD25498C7B7D9806B8B7AB22B6B9B19E2FF0E26BF2905CF926CEFF0BCC680",
+    "F92CB99CA8D984CFA570C17CF056DC7DBE3E7E2235D1A44C3B57205D4059AEFA",
+    "4D384D29F925F242BDF598F327E44F19279D45BD7C0BAEE0D9490A7D9CAD3DA0",
+    "4CF19027F59495106FBE7A9D248BA5594CFB4DEF803FB96BD744CAAE607389E2",
+    "7256211F9EC38C5D4300DDA3B891732DBAC3A144A4C833025FC617A956776DE4",
+    "C7C7ECF4F26904E5CE85EEA26DF242E0E7CC4077D247CCE730E13CFE9F8D1BAA",
+    "B165030C9B371E5B1B8BEDEBF3BADE7ADC7326B5BAE159DB632C28BCAB5542AC",
+    "B220487554FC6379D31D55536B0CDDB3C23DA1618DD8833D6E1CAF3B25FA0BD4",
+    "4092CDC296CC65ACE3192B1F2C410EA1880BF2863513BADA14B94D1E7ECA6322"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/intelonemono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-LightItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-MediumItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBoldItalic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Bold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-BoldItalic.ttf"
+    ]
   },
+  "description": "Intel One Mono font family designed by Intel Corporation, Frere-Jones Type",
   "installer": {
     "script": [
       "if ($global) {",
@@ -58,6 +71,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,38 +156,24 @@
       "}"
     ]
   },
-  "hash": [
-    "E5354CC14C6F9299C06A81B76760A5D2A20CEE56466B88D6B6FC6AA295694779",
-    "9F93248B7F85AA3C21D3EDCCE4477048151F84F173BB88BE2246B9F231946D85",
-    "C1DB45F875215FB5A29A811DF5E9D4E8B6F0D84245175AB6EF621D349DD87831",
-    "906FD25498C7B7D9806B8B7AB22B6B9B19E2FF0E26BF2905CF926CEFF0BCC680",
-    "F92CB99CA8D984CFA570C17CF056DC7DBE3E7E2235D1A44C3B57205D4059AEFA",
-    "4D384D29F925F242BDF598F327E44F19279D45BD7C0BAEE0D9490A7D9CAD3DA0",
-    "4CF19027F59495106FBE7A9D248BA5594CFB4DEF803FB96BD744CAAE607389E2",
-    "7256211F9EC38C5D4300DDA3B891732DBAC3A144A4C833025FC617A956776DE4",
-    "C7C7ECF4F26904E5CE85EEA26DF242E0E7CC4077D247CCE730E13CFE9F8D1BAA",
-    "B165030C9B371E5B1B8BEDEBF3BADE7ADC7326B5BAE159DB632C28BCAB5542AC",
-    "B220487554FC6379D31D55536B0CDDB3C23DA1618DD8833D6E1CAF3B25FA0BD4",
-    "4092CDC296CC65ACE3192B1F2C410EA1880BF2863513BADA14B94D1E7ECA6322"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-LightItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-MediumItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBoldItalic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Bold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-BoldItalic.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-LightItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-MediumItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-SemiBoldItalic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-Bold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-BoldItalic.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/intelonemono&per_page=1"
   },
-  "description": "Intel One Mono font family designed by Intel Corporation, Frere-Jones Type",
-  "homepage": "https://fonts.google.com/specimen/Intel+One+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Intel+One+Mono"
 }

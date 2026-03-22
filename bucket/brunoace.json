@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/brunoace/BrunoAce-Regular.ttf"
+  "hash": [
+    "2EBB34CAE30AFCB6859757B8C0CC49C49203781216E4446E07A77046C633CC2B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/brunoace&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/brunoace/BrunoAce-Regular.ttf"
+    ]
   },
+  "description": "Bruno Ace font family designed by Astigmatic",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "2EBB34CAE30AFCB6859757B8C0CC49C49203781216E4446E07A77046C633CC2B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/brunoace/BrunoAce-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/brunoace/BrunoAce-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/brunoace&per_page=1"
   },
-  "description": "Bruno Ace font family designed by Astigmatic",
-  "homepage": "https://fonts.google.com/specimen/Bruno+Ace",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Bruno+Ace"
 }

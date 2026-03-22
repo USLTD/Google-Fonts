@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/blackandwhitepicture/BlackAndWhitePicture-Regular.ttf"
+  "hash": [
+    "4D72CD6DE1F210B446C86F06B4E13D7641CBCFB1B375C6927341388AA8E08056"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blackandwhitepicture&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/blackandwhitepicture/BlackAndWhitePicture-Regular.ttf"
+    ]
   },
+  "description": "Black And White Picture font family designed by AsiaSoft Inc.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4D72CD6DE1F210B446C86F06B4E13D7641CBCFB1B375C6927341388AA8E08056"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/blackandwhitepicture/BlackAndWhitePicture-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/blackandwhitepicture/BlackAndWhitePicture-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/blackandwhitepicture&per_page=1"
   },
-  "description": "Black And White Picture font family designed by AsiaSoft Inc.",
-  "homepage": "https://fonts.google.com/specimen/Black+And+White+Picture",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Black+And+White+Picture"
 }

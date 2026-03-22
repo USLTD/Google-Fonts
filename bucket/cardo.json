@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Italic.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Bold.ttf"
+  "hash": [
+    "BCB81F376F1C3892C7026DABF2BEAFBD1A7EE8AE95D132EE7D4FF7D7C3988261",
+    "52C51CFDE3A827DD9428511C4A968699952B8A917C5F0E97BE782CBFA1880F9C",
+    "6C9383B1471936EE83B08B67BF79F0ED92BEE3D5E8363EC3BA21309D5A272E36"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cardo&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Italic.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Bold.ttf"
+    ]
   },
+  "description": "Cardo font family designed by David Perry",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "BCB81F376F1C3892C7026DABF2BEAFBD1A7EE8AE95D132EE7D4FF7D7C3988261",
-    "52C51CFDE3A827DD9428511C4A968699952B8A917C5F0E97BE782CBFA1880F9C",
-    "6C9383B1471936EE83B08B67BF79F0ED92BEE3D5E8363EC3BA21309D5A272E36"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Italic.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Italic.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cardo/Cardo-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cardo&per_page=1"
   },
-  "description": "Cardo font family designed by David Perry",
-  "homepage": "https://fonts.google.com/specimen/Cardo",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cardo"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans-Italic[wght].ttf"
+  "hash": [
+    "52AE5FDB8EDA45633F1E9817EBDB07D8075C89081D51204F16F78394608A5C4E",
+    "1B94E7BC731A3D91E358BFF9F9253CCEF36012E214C0BA64661741FA44494B2E"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inclusivesans&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans-Italic[wght].ttf"
+    ]
   },
+  "description": "Inclusive Sans font family designed by Olivia King",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "52AE5FDB8EDA45633F1E9817EBDB07D8075C89081D51204F16F78394608A5C4E",
-    "1B94E7BC731A3D91E358BFF9F9253CCEF36012E214C0BA64661741FA44494B2E"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/inclusivesans&per_page=1"
   },
-  "description": "Inclusive Sans font family designed by Olivia King",
-  "homepage": "https://fonts.google.com/specimen/Inclusive+Sans",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Inclusive+Sans"
 }

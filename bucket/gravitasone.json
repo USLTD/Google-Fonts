@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gravitasone/GravitasOne.ttf"
+  "hash": [
+    "B40DC45F3354F282107286ACF1542072D258C717C8EDF1D118EF0105F25E627B"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gravitasone&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gravitasone/GravitasOne.ttf"
+    ]
   },
+  "description": "Gravitas One font family designed by Riccardo De Franceschi",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "B40DC45F3354F282107286ACF1542072D258C717C8EDF1D118EF0105F25E627B"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gravitasone/GravitasOne.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gravitasone/GravitasOne.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gravitasone&per_page=1"
   },
-  "description": "Gravitas One font family designed by Riccardo De Franceschi",
-  "homepage": "https://fonts.google.com/specimen/Gravitas+One",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gravitas+One"
 }

@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/lovedbytheking/LovedbytheKing.ttf"
+  "hash": [
+    "1D2FCE705C902A0C47264992E698CE76336013458F0612CC68917025CA6FCFB3"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lovedbytheking&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/lovedbytheking/LovedbytheKing.ttf"
+    ]
   },
+  "description": "Loved by the King font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "1D2FCE705C902A0C47264992E698CE76336013458F0612CC68917025CA6FCFB3"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/lovedbytheking/LovedbytheKing.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/lovedbytheking/LovedbytheKing.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/lovedbytheking&per_page=1"
   },
-  "description": "Loved by the King font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Loved+by+the+King",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Loved+by+the+King"
 }

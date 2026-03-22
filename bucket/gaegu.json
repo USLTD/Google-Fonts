@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Bold.ttf"
+  "hash": [
+    "DA44AD6E5823819599EC42E1A516F23002CC0E72F968F93BD49E793360CD77CA",
+    "AA52C98336F7C62E2896FC8B12B56A75D5B476D88A2F104B0980F4F7CE0ADFC3",
+    "CC38A4AF9506A45254D1CE07C589EC473D9E5F0BE319E5A77B17C214903F8C1C"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gaegu&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Bold.ttf"
+    ]
   },
+  "description": "Gaegu font family designed by JIKJI SOFT",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "DA44AD6E5823819599EC42E1A516F23002CC0E72F968F93BD49E793360CD77CA",
-    "AA52C98336F7C62E2896FC8B12B56A75D5B476D88A2F104B0980F4F7CE0ADFC3",
-    "CC38A4AF9506A45254D1CE07C589EC473D9E5F0BE319E5A77B17C214903F8C1C"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gaegu/Gaegu-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gaegu&per_page=1"
   },
-  "description": "Gaegu font family designed by JIKJI SOFT",
-  "homepage": "https://fonts.google.com/specimen/Gaegu",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gaegu"
 }

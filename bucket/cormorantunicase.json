@@ -1,15 +1,21 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Light.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-SemiBold.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Bold.ttf"
+  "hash": [
+    "3CF4F15203A8D6ED559C7A3A1EA10910EF049A3B4863B09BDA92D955614DC9B5",
+    "8FADF0A9DDF4B7D20FBC7C330A740378469FE4F4422C225DD23E6FC5DC028921",
+    "057870894F166505A6587135E7A2586253A0EE96A35332507E2730AE36DCA33F",
+    "8E74B41F55BC7E0F199B91086916AD64ED83B7284352D5F4BD39D18EF279238B",
+    "B934E5E865CD0301E0BE8EF15F85006D5479FBB2FAF875093DDC36493B8EA845"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorantunicase&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Light.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-SemiBold.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Bold.ttf"
+    ]
   },
+  "description": "Cormorant Unicase font family designed by Christian Thalmann",
   "installer": {
     "script": [
       "if ($global) {",
@@ -51,6 +57,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -135,24 +142,17 @@
       "}"
     ]
   },
-  "hash": [
-    "3CF4F15203A8D6ED559C7A3A1EA10910EF049A3B4863B09BDA92D955614DC9B5",
-    "8FADF0A9DDF4B7D20FBC7C330A740378469FE4F4422C225DD23E6FC5DC028921",
-    "057870894F166505A6587135E7A2586253A0EE96A35332507E2730AE36DCA33F",
-    "8E74B41F55BC7E0F199B91086916AD64ED83B7284352D5F4BD39D18EF279238B",
-    "B934E5E865CD0301E0BE8EF15F85006D5479FBB2FAF875093DDC36493B8EA845"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Light.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-SemiBold.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Light.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-SemiBold.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantunicase/CormorantUnicase-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/cormorantunicase&per_page=1"
   },
-  "description": "Cormorant Unicase font family designed by Christian Thalmann",
-  "homepage": "https://fonts.google.com/specimen/Cormorant+Unicase",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Cormorant+Unicase"
 }

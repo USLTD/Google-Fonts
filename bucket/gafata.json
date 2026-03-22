@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/gafata/Gafata-Regular.ttf"
+  "hash": [
+    "A816AE1FC683A8C093666B3B7F5DE8E8DBDFCA658459A484138E65378D4326B6"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gafata&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/gafata/Gafata-Regular.ttf"
+    ]
   },
+  "description": "Gafata font family designed by Lautaro Hourcade",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "A816AE1FC683A8C093666B3B7F5DE8E8DBDFCA658459A484138E65378D4326B6"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/gafata/Gafata-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/gafata/Gafata-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/gafata&per_page=1"
   },
-  "description": "Gafata font family designed by Lautaro Hourcade",
-  "homepage": "https://fonts.google.com/specimen/Gafata",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Gafata"
 }

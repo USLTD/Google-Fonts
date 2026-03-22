@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey25charted/Jersey25Charted-Regular.ttf"
+  "hash": [
+    "0FAAE6B6C5B031E6F5EF191CC43E3A3A25E1EE9E74713E4B93BA3007137937F8"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jersey25charted&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey25charted/Jersey25Charted-Regular.ttf"
+    ]
   },
+  "description": "Jersey 25 Charted font family designed by Sarah Cadigan-Fried",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "0FAAE6B6C5B031E6F5EF191CC43E3A3A25E1EE9E74713E4B93BA3007137937F8"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey25charted/Jersey25Charted-Regular.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/jersey25charted/Jersey25Charted-Regular.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/jersey25charted&per_page=1"
   },
-  "description": "Jersey 25 Charted font family designed by Sarah Cadigan-Fried",
-  "homepage": "https://fonts.google.com/specimen/Jersey+25+Charted",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Jersey+25+Charted"
 }

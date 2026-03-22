@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Bold.ttf"
+  "hash": [
+    "DAAE102E411243377016DBEB8CB9D53087D13074064FE79658AFA966A9AC330E",
+    "6E1FA92FDA7AB74FCCE8ED5D7A9DE10A0FB43D777590E8EF9F6931DA6E932481"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/charm&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Bold.ttf"
+    ]
   },
+  "description": "Charm font family designed by Cadson Demak",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "DAAE102E411243377016DBEB8CB9D53087D13074064FE79658AFA966A9AC330E",
-    "6E1FA92FDA7AB74FCCE8ED5D7A9DE10A0FB43D777590E8EF9F6931DA6E932481"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/charm/Charm-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/charm&per_page=1"
   },
-  "description": "Charm font family designed by Cadson Demak",
-  "homepage": "https://fonts.google.com/specimen/Charm",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Charm"
 }

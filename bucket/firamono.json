@@ -1,13 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Medium.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Bold.ttf"
+  "hash": [
+    "2E00B0CF3106A3D792F35711B7722740B76C02EE7300EA8C60F940584B7A8AC9",
+    "A5BC1A2DB2F65946049DE615ECC08603D788EB0C02B520F4ED95F05A5CC58532",
+    "61F0CA3AE72A83DEB807040F314E1B8B4E40B08213DF243DB9FD430095CAB305"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firamono&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Medium.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Bold.ttf"
+    ]
   },
+  "description": "Fira Mono font family designed by Carrois Apostrophe",
   "installer": {
     "script": [
       "if ($global) {",
@@ -49,6 +53,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -133,20 +138,15 @@
       "}"
     ]
   },
-  "hash": [
-    "2E00B0CF3106A3D792F35711B7722740B76C02EE7300EA8C60F940584B7A8AC9",
-    "A5BC1A2DB2F65946049DE615ECC08603D788EB0C02B520F4ED95F05A5CC58532",
-    "61F0CA3AE72A83DEB807040F314E1B8B4E40B08213DF243DB9FD430095CAB305"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Medium.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Medium.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/firamono/FiraMono-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/firamono&per_page=1"
   },
-  "description": "Fira Mono font family designed by Carrois Apostrophe",
-  "homepage": "https://fonts.google.com/specimen/Fira+Mono",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Fira+Mono"
 }

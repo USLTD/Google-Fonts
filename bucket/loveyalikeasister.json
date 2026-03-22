@@ -1,11 +1,13 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/loveyalikeasister/LoveYaLikeASister.ttf"
+  "hash": [
+    "4FBE2C1FA647DE5A415ACAC7B2B6491542FE9767B6199719A3BD77A7CF35EB0D"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/loveyalikeasister&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/loveyalikeasister/LoveYaLikeASister.ttf"
+    ]
   },
+  "description": "Love Ya Like A Sister font family designed by Kimberly Geswein",
   "installer": {
     "script": [
       "if ($global) {",
@@ -47,6 +49,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -131,16 +134,13 @@
       "}"
     ]
   },
-  "hash": [
-    "4FBE2C1FA647DE5A415ACAC7B2B6491542FE9767B6199719A3BD77A7CF35EB0D"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/loveyalikeasister/LoveYaLikeASister.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/loveyalikeasister/LoveYaLikeASister.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/loveyalikeasister&per_page=1"
   },
-  "description": "Love Ya Like A Sister font family designed by Kimberly Geswein",
-  "homepage": "https://fonts.google.com/specimen/Love+Ya+Like+A+Sister",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Love+Ya+Like+A+Sister"
 }

@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Bold.ttf"
+  "hash": [
+    "468EE6D9B149CA144809E03841BF18740ECF014E055A00DA6ECAF1AAF4165AF2",
+    "1F077F8F84C1E09D5C4ACDD6828048180C2F733AE5AE13271F48CF01BEE4AE83"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bizudmincho&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Regular.ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Bold.ttf"
+    ]
   },
+  "description": "BIZ UDMincho font family designed by Type Bank Co., Morisawa Inc.",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "468EE6D9B149CA144809E03841BF18740ECF014E055A00DA6ECAF1AAF4165AF2",
-    "1F077F8F84C1E09D5C4ACDD6828048180C2F733AE5AE13271F48CF01BEE4AE83"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Bold.ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Regular.ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudmincho/BIZUDMincho-Bold.ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/bizudmincho&per_page=1"
   },
-  "description": "BIZ UDMincho font family designed by Type Bank Co., Morisawa Inc.",
-  "homepage": "https://fonts.google.com/specimen/BIZ+UDMincho",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/BIZ+UDMincho"
 }

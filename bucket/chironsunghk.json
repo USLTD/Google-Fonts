@@ -1,12 +1,15 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK-Italic[wght].ttf"
+  "hash": [
+    "C88D5DB947F4AAD3399105D2C1C808A64580AB65E8CB26E58BB81CD96843D130",
+    "5E2434BA30EEE3ED90FCF5AED4690964CDF9C7C0CF9BEC61B1ADB695F009E12F"
   ],
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chironsunghk&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK-Italic[wght].ttf"
+    ]
   },
+  "description": "Chiron Sung HK font family designed by Tamcy",
   "installer": {
     "script": [
       "if ($global) {",
@@ -48,6 +51,7 @@
       "}"
     ]
   },
+  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -132,18 +136,14 @@
       "}"
     ]
   },
-  "hash": [
-    "C88D5DB947F4AAD3399105D2C1C808A64580AB65E8CB26E58BB81CD96843D130",
-    "5E2434BA30EEE3ED90FCF5AED4690964CDF9C7C0CF9BEC61B1ADB695F009E12F"
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK-Italic[wght].ttf"
   ],
-  "version": "latest",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK-Italic[wght].ttf"
-    ]
+  "license": "OFL",
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/chironsunghk&per_page=1"
   },
-  "description": "Chiron Sung HK font family designed by Tamcy",
-  "homepage": "https://fonts.google.com/specimen/Chiron+Sung+HK",
-  "license": "OFL"
+  "homepage": "https://fonts.google.com/specimen/Chiron+Sung+HK"
 }
