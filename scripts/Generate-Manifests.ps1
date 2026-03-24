@@ -150,11 +150,15 @@ function Test-ManifestNeedsUpdate {
         [string]$OutputPath
     )
 
-    $manifestPath = Join-Path $OutputPath "$FontName.json"
+    # Look for manifest with any casing (case-insensitive search)
+    # This handles transition from lowercase to proper casing
+    $possibleManifests = Get-ChildItem -Path $OutputPath -Filter "$FontName.json" -ErrorAction SilentlyContinue
 
-    if (-not (Test-Path $manifestPath)) {
+    if ($possibleManifests.Count -eq 0) {
         return $true
     }
+
+    $manifestPath = $possibleManifests[0].FullName
 
     # Check if font has been updated since manifest was created
     $manifestDate = (Get-Item $manifestPath).LastWriteTime
@@ -395,7 +399,11 @@ function ConvertTo-ScoopManifest {
         }
     }
 
-    return $manifest
+    # Return both the manifest and the proper font family name (with correct casing)
+    return @{
+        Manifest = $manifest
+        FontFamilyName = $name
+    }
 }
 
 function Save-Manifest {
@@ -414,8 +422,10 @@ function Save-Manifest {
         [string]$OutputPath
     )
 
-    # Use directory name for manifest filename (lowercase, consistent)
-    $manifestPath = Join-Path $OutputPath "$FontName.json"
+    # Use proper font family name for manifest filename (preserving casing)
+    # Replace spaces with hyphens for filesystem compatibility
+    $manifestFileName = $FontName -replace ' ', '-'
+    $manifestPath = Join-Path $OutputPath "$manifestFileName.json"
     $json = $Manifest | ConvertTo-Json -Depth 10 -Compress:$false
     Set-Content -Path $manifestPath -Value $json -Encoding UTF8
     Write-Host "  Created: $manifestPath" -ForegroundColor Green
@@ -479,15 +489,19 @@ foreach ($font in $fonts) {
     }
 
     # Convert to Scoop manifest
-    $manifest = ConvertTo-ScoopManifest -FontName $fontName -Metadata $metadata
-    if (-not $manifest) {
+    $result = ConvertTo-ScoopManifest -FontName $fontName -Metadata $metadata
+    if (-not $result) {
         Write-Warning "Failed to generate manifest for $fontName"
         $failCount++
         continue
     }
 
-    # Save manifest
-    Save-Manifest -FontName $fontName -Manifest $manifest -OutputPath $OutputPath
+    # Extract the manifest and proper font family name
+    $manifest = $result.Manifest
+    $fontFamilyName = $result.FontFamilyName
+
+    # Save manifest using the proper font family name (with correct casing)
+    Save-Manifest -FontName $fontFamilyName -Manifest $manifest -OutputPath $OutputPath
     $successCount++
 }
 
