@@ -150,11 +150,15 @@ function Test-ManifestNeedsUpdate {
         [string]$OutputPath
     )
 
-    $manifestPath = Join-Path $OutputPath "$FontName.json"
+    # Look for manifest with any casing (case-insensitive search)
+    # This handles transition from lowercase to proper casing
+    $possibleManifests = Get-ChildItem -Path $OutputPath -Filter "$FontName.json" -ErrorAction SilentlyContinue
 
-    if (-not (Test-Path $manifestPath)) {
+    if ($possibleManifests.Count -eq 0) {
         return $true
     }
+
+    $manifestPath = $possibleManifests[0].FullName
 
     # Check if font has been updated since manifest was created
     $manifestDate = (Get-Item $manifestPath).LastWriteTime
@@ -249,20 +253,124 @@ function ConvertTo-ScoopManifest {
         hash         = @()
         installer    = @{
             script = @(
+                'if ($global) {',
+                '    $fontInstallDir = "$env:windir\Fonts"',
+                '    $registryRoot = "HKLM"',
+                '} else {',
+                '    $fontInstallDir = "$env:LOCALAPPDATA\Microsoft\Windows\Fonts"',
+                '    $registryRoot = "HKCU"',
+                '    if (-not (Test-Path $fontInstallDir)) {',
+                '        New-Item -ItemType Directory -Path $fontInstallDir -Force | Out-Null',
+                '        # Set ACL permissions for user font directory',
+                '        $acl = Get-Acl $fontInstallDir',
+                '        $acl.SetAccessRuleProtection($false, $true)',
+                '        # Add permissions for All Application Packages',
+                '        $rule1 = New-Object System.Security.AccessControl.FileSystemAccessRule("S-1-15-2-1", "ReadAndExecute", "ContainerInherit,ObjectInherit", "None", "Allow")',
+                '        $rule2 = New-Object System.Security.AccessControl.FileSystemAccessRule("S-1-15-2-2", "ReadAndExecute", "ContainerInherit,ObjectInherit", "None", "Allow")',
+                '        $acl.AddAccessRule($rule1)',
+                '        $acl.AddAccessRule($rule2)',
+                '        Set-Acl -Path $fontInstallDir -AclObject $acl',
+                '    }',
+                '}',
+                '$registryKey = "${registryRoot}:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts"',
                 '$fontFiles = Get-ChildItem "$dir" -Filter "*.ttf"',
                 'foreach ($file in $fontFiles) {',
-                '    New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" -Name $file.Name.Replace($file.Extension, " (TrueType)") -Value $file.Name -Force | Out-Null',
-                '    Copy-Item $file.FullName -Destination "$env:windir\Fonts" -Force',
+                '    $fontName = $file.Name.Replace($file.Extension, " (TrueType)")',
+                '    if ($global) {',
+                '        $fontValue = $file.Name',
+                '    } else {',
+                '        $fontValue = "$fontInstallDir\$($file.Name)"',
+                '    }',
+                '    try {',
+                '        New-ItemProperty -Path $registryKey -Name $fontName -Value $fontValue -Force -ErrorAction Stop | Out-Null',
+                '        Copy-Item $file.FullName -Destination "$fontInstallDir\$($file.Name)" -Force -ErrorAction Stop',
+                '        Write-Host "Installed: $($file.Name)" -ForegroundColor Green',
+                '    } catch {',
+                '        Write-Host "Failed to install $($file.Name): $_" -ForegroundColor Red',
+                '        throw',
+                '    }',
                 '}'
             )
         }
         uninstaller  = @{
             script = @(
+                "if (`$global) {",
+                "    `$fontInstallDir = `"`$env:windir\Fonts`"",
+                "    `$registryRoot = `"HKLM`"",
+                "} else {",
+                "    `$fontInstallDir = `"`$env:LOCALAPPDATA\Microsoft\Windows\Fonts`"",
+                "    `$registryRoot = `"HKCU`"",
+                "}",
+                "`$registryKey = `"`${registryRoot}:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts`"",
                 "`$fontFiles = @(" + (($fontFiles | ForEach-Object { "`"$_`"" }) -join ', ') + ")",
+                "",
+                "# Pre-uninstall: Check if any font files are locked",
+                "`$lockedFonts = @()",
                 "foreach (`$file in `$fontFiles) {",
-                "    `$fontName = [System.IO.Path]::GetFileNameWithoutExtension(`$file)",
-                "    Remove-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts' -Name `"`$fontName (TrueType)`" -ErrorAction SilentlyContinue",
-                "    Remove-Item `"`$env:windir\Fonts\`$file`" -Force -ErrorAction SilentlyContinue",
+                "    `$fontPath = Join-Path `$fontInstallDir `$file",
+                "    if (Test-Path `$fontPath) {",
+                "        try {",
+                "            # Test if file is locked by attempting to rename it",
+                "            `$testPath = `$fontPath + '.test'",
+                "            Rename-Item -Path `$fontPath -NewName `$testPath -ErrorAction Stop",
+                "            Rename-Item -Path `$testPath -NewName `$fontPath -ErrorAction Stop",
+                "        } catch {",
+                "            `$lockedFonts += `$file",
+                "        }",
+                "    }",
+                "}",
+                "",
+                "if (`$lockedFonts.Count -gt 0) {",
+                "    Write-Host `"`" -ForegroundColor Red",
+                "    Write-Host `"ERROR: Cannot uninstall fonts - some files are currently in use:`" -ForegroundColor Red",
+                "    foreach (`$font in `$lockedFonts) {",
+                "        Write-Host `"  - `$font`" -ForegroundColor Yellow",
+                "    }",
+                "    Write-Host `"`" -ForegroundColor Red",
+                "    Write-Host `"REASON: The fonts are currently being used by one or more applications.`" -ForegroundColor Red",
+                "    Write-Host `"SOLUTION: Please close all applications that may be using these fonts`" -ForegroundColor Cyan",
+                "    Write-Host `"          (e.g., text editors, IDEs, Office applications, design tools)`" -ForegroundColor Cyan",
+                "    Write-Host `"          and try again.`" -ForegroundColor Cyan",
+                "    Write-Host `"`" -ForegroundColor Red",
+                "    exit 1",
+                "}",
+                "",
+                "# Perform uninstallation",
+                "`$failedRemovals = @()",
+                "foreach (`$file in `$fontFiles) {",
+                "    `$fontName = [System.IO.Path]::GetFileNameWithoutExtension(`$file) + `" (TrueType)`"",
+                "    `$fontPath = Join-Path `$fontInstallDir `$file",
+                "    ",
+                "    # Remove registry entry",
+                "    try {",
+                "        Remove-ItemProperty -Path `$registryKey -Name `$fontName -ErrorAction Stop",
+                "        Write-Host `"Removed registry entry: `$fontName`" -ForegroundColor Gray",
+                "    } catch {",
+                "        if (`$_.Exception.Message -notlike '*does not exist*') {",
+                "            Write-Host `"Warning: Could not remove registry entry for `$fontName: `$(`$_.Exception.Message)`" -ForegroundColor Yellow",
+                "            `$failedRemovals += `$file",
+                "        }",
+                "    }",
+                "    ",
+                "    # Remove font file",
+                "    try {",
+                "        if (Test-Path `$fontPath) {",
+                "            Remove-Item `$fontPath -Force -ErrorAction Stop",
+                "            Write-Host `"Removed font file: `$file`" -ForegroundColor Gray",
+                "        }",
+                "    } catch {",
+                "        Write-Host `"Warning: Could not remove font file `$file: `$(`$_.Exception.Message)`" -ForegroundColor Yellow",
+                "        `$failedRemovals += `$file",
+                "    }",
+                "}",
+                "",
+                "if (`$failedRemovals.Count -gt 0) {",
+                "    Write-Host `"`" -ForegroundColor Yellow",
+                "    Write-Host `"Some fonts could not be fully removed. You may need to restart your computer.`" -ForegroundColor Yellow",
+                "} else {",
+                "    Write-Host `"`" -ForegroundColor Green",
+                "    Write-Host `"Fonts uninstalled successfully.`" -ForegroundColor Green",
+                "    Write-Host `"Note: A computer restart may be required for all applications to reflect the changes.`" -ForegroundColor Cyan",
                 "}"
             )
         }
@@ -291,7 +399,11 @@ function ConvertTo-ScoopManifest {
         }
     }
 
-    return $manifest
+    # Return both the manifest and the proper font family name (with correct casing)
+    return @{
+        Manifest = $manifest
+        FontFamilyName = $name
+    }
 }
 
 function Save-Manifest {
@@ -310,8 +422,10 @@ function Save-Manifest {
         [string]$OutputPath
     )
 
-    # Use directory name for manifest filename (lowercase, consistent)
-    $manifestPath = Join-Path $OutputPath "$FontName.json"
+    # Use proper font family name for manifest filename (preserving casing)
+    # Replace spaces with hyphens for filesystem compatibility
+    $manifestFileName = $FontName -replace ' ', '-'
+    $manifestPath = Join-Path $OutputPath "$manifestFileName.json"
     $json = $Manifest | ConvertTo-Json -Depth 10 -Compress:$false
     Set-Content -Path $manifestPath -Value $json -Encoding UTF8
     Write-Host "  Created: $manifestPath" -ForegroundColor Green
@@ -375,15 +489,19 @@ foreach ($font in $fonts) {
     }
 
     # Convert to Scoop manifest
-    $manifest = ConvertTo-ScoopManifest -FontName $fontName -Metadata $metadata
-    if (-not $manifest) {
+    $result = ConvertTo-ScoopManifest -FontName $fontName -Metadata $metadata
+    if (-not $result) {
         Write-Warning "Failed to generate manifest for $fontName"
         $failCount++
         continue
     }
 
-    # Save manifest
-    Save-Manifest -FontName $fontName -Manifest $manifest -OutputPath $OutputPath
+    # Extract the manifest and proper font family name
+    $manifest = $result.Manifest
+    $fontFamilyName = $result.FontFamilyName
+
+    # Save manifest using the proper font family name (with correct casing)
+    Save-Manifest -FontName $fontFamilyName -Manifest $manifest -OutputPath $OutputPath
     $successCount++
 }
 
