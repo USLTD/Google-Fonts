@@ -42,7 +42,7 @@
     },
     "description": "Lato font family designed by Łukasz Dziedzic",
     "homepage": "https://fonts.google.com/specimen/Lato",
-    "version": "e2332cf",
+    "version": "5d3b761",
     "autoupdate": {
         "url": [
             "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Thin.ttf",
