@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/adamina/Adamina-Regular.ttf",
-    "version": "7beedcf",
+    "version": "2eb5448",
     "installer": {
         "script": [
             "if ($global) {",
