@@ -1,5 +1,5 @@
 {
-    "version": "95f4904",
+    "version": "5b5d466",
     "checkver": {
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
         "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekdevanagari&per_page=1"
