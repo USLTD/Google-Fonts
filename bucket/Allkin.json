@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/allkin/Allkin-Regular.ttf",
-    "version": "0c66c77",
+    "version": "1eea522",
     "installer": {
         "script": [
             "if ($global) {",
