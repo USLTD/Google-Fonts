@@ -41,7 +41,7 @@
         ]
     },
     "license": "OFL",
-    "version": "fffdadf",
+    "version": "3686cfc",
     "uninstaller": {
         "script": [
             "if ($global) {",
