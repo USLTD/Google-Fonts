@@ -88,7 +88,7 @@
         "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna[wght].ttf",
         "https://raw.githubusercontent.com/google/fonts/main/ofl/amarna/Amarna-Italic[wght].ttf"
     ],
-    "version": "fffdadf",
+    "version": "a77f217",
     "installer": {
         "script": [
             "if ($global) {",
