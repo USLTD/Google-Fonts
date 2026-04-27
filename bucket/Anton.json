@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf",
-    "version": "4417514",
+    "version": "cee74d7",
     "installer": {
         "script": [
             "if ($global) {",
