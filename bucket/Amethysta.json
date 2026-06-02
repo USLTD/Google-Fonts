@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amethysta/Amethysta-Regular.ttf",
-    "version": "24fa99b",
+    "version": "850700b",
     "installer": {
         "script": [
             "if ($global) {",
