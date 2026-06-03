@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/acme/Acme-Regular.ttf",
-    "version": "5e3ad82",
+    "version": "15c1dd4",
     "installer": {
         "script": [
             "if ($global) {",
