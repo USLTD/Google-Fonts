@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/antic/Antic-Regular.ttf",
-    "version": "5377601",
+    "version": "2114263",
     "installer": {
         "script": [
             "if ($global) {",
