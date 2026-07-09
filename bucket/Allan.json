@@ -88,7 +88,7 @@
         "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Regular.ttf",
         "https://raw.githubusercontent.com/google/fonts/main/ofl/allan/Allan-Bold.ttf"
     ],
-    "version": "0ec110b",
+    "version": "b99f279",
     "installer": {
         "script": [
             "if ($global) {",
