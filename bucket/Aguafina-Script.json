@@ -125,7 +125,7 @@
             "}"
         ]
     },
-    "version": "9f12d50",
+    "version": "d7b3b6c",
     "homepage": "https://fonts.google.com/specimen/Aguafina+Script",
     "checkver": {
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
