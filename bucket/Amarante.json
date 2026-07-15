@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/amarante/Amarante-Regular.ttf",
-    "version": "72f2d71",
+    "version": "0f81999",
     "installer": {
         "script": [
             "if ($global) {",
