@@ -125,7 +125,7 @@
             "}"
         ]
     },
-    "version": "99a0668",
+    "version": "4f45bb1",
     "homepage": "https://fonts.google.com/specimen/Antic+Didone",
     "checkver": {
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
