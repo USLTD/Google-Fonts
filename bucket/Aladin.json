@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/aladin/Aladin-Regular.ttf",
-    "version": "52cc53a",
+    "version": "b22e126",
     "installer": {
         "script": [
             "if ($global) {",
