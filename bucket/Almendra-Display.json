@@ -125,7 +125,7 @@
             "}"
         ]
     },
-    "version": "d4d0d9c",
+    "version": "358edee",
     "homepage": "https://fonts.google.com/specimen/Almendra+Display",
     "checkver": {
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
