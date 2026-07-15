@@ -125,7 +125,7 @@
             "}"
         ]
     },
-    "version": "9774877",
+    "version": "bcb26a0",
     "homepage": "https://fonts.google.com/specimen/Antic+Slab",
     "checkver": {
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
