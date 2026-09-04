@@ -90,7 +90,7 @@
         "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-Bold.ttf",
         "https://raw.githubusercontent.com/google/fonts/main/ofl/almendra/Almendra-BoldItalic.ttf"
     ],
-    "version": "cacc35d",
+    "version": "be8aa56",
     "installer": {
         "script": [
             "if ($global) {",
