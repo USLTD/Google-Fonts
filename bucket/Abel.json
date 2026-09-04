@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/abel/Abel-Regular.ttf",
-    "version": "84bc330",
+    "version": "9437b80",
     "installer": {
         "script": [
             "if ($global) {",
