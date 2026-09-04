@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/allerta/Allerta-Regular.ttf",
-    "version": "5df9bbc",
+    "version": "3c0bcaf",
     "installer": {
         "script": [
             "if ($global) {",
