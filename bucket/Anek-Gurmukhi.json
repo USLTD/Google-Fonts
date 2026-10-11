@@ -1,17 +1,10 @@
 {
-  "hash": [
-    "40D72129EB332D7C4FAFD25E80A30D2AC11F45E14A1660D6F7BACBF9C800D7D5"
-  ],
   "homepage": "https://fonts.google.com/specimen/Anek+Gurmukhi",
-  "license": "OFL",
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgurmukhi/AnekGurmukhi[wdth,wght].ttf"
-  ],
-  "checkver": {
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekgurmukhi&per_page=1"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgurmukhi/AnekGurmukhi[wdth,wght].ttf"
+    ]
   },
-  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -96,7 +89,15 @@
       "}"
     ]
   },
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgurmukhi/AnekGurmukhi[wdth,wght].ttf"
+  ],
   "description": "Anek Gurmukhi font family designed by Ek Type",
+  "license": "OFL",
+  "version": "latest",
+  "hash": [
+    "40D72129EB332D7C4FAFD25E80A30D2AC11F45E14A1660D6F7BACBF9C800D7D5"
+  ],
   "installer": {
     "script": [
       "if ($global) {",
@@ -138,9 +139,8 @@
       "}"
     ]
   },
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgurmukhi/AnekGurmukhi[wdth,wght].ttf"
-    ]
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekgurmukhi&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
   }
 }

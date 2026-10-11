@@ -1,17 +1,10 @@
 {
-  "hash": [
-    "B88CF0FF5705599B2F16FCE4BA9CE2029F76106DD24F0419976C417D89F20888"
-  ],
   "homepage": "https://fonts.google.com/specimen/Anek+Devanagari",
-  "license": "OFL",
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
-  ],
-  "checkver": {
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekdevanagari&per_page=1"
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
+    ]
   },
-  "version": "latest",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -96,7 +89,15 @@
       "}"
     ]
   },
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
+  ],
   "description": "Anek Devanagari font family designed by Ek Type",
+  "license": "OFL",
+  "version": "latest",
+  "hash": [
+    "B88CF0FF5705599B2F16FCE4BA9CE2029F76106DD24F0419976C417D89F20888"
+  ],
   "installer": {
     "script": [
       "if ($global) {",
@@ -138,9 +139,8 @@
       "}"
     ]
   },
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
-    ]
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekdevanagari&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
   }
 }
