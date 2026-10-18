@@ -1,10 +1,9 @@
 {
-  "homepage": "https://fonts.google.com/specimen/Amiri+Quran",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiriquran/AmiriQuran-Regular.ttf"
-    ]
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amiriquran&per_page=1"
   },
+  "description": "Amiri Quran font family designed by Khaled Hosny, Sebastian Kosch",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -89,15 +88,20 @@
       "}"
     ]
   },
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiriquran/AmiriQuran-Regular.ttf"
-  ],
-  "description": "Amiri Quran font family designed by Khaled Hosny, Sebastian Kosch",
-  "license": "OFL",
-  "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/amiriquran/AmiriQuran-Regular.ttf"
+    ]
+  },
   "hash": [
     "E2A47644762D16BDFB6D33E0D8DB8C6FF30BEAE84150EF5A705316BBD829455C"
   ],
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/amiriquran/AmiriQuran-Regular.ttf"
+  ],
+  "license": "OFL",
+  "homepage": "https://fonts.google.com/specimen/Amiri+Quran",
+  "version": "latest",
   "installer": {
     "script": [
       "if ($global) {",
@@ -138,9 +142,5 @@
       "    }",
       "}"
     ]
-  },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/amiriquran&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
   }
 }

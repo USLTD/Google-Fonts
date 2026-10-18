@@ -1,10 +1,9 @@
 {
-  "homepage": "https://fonts.google.com/specimen/Anek+Latin",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/aneklatin/AnekLatin[wdth,wght].ttf"
-    ]
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aneklatin&per_page=1"
   },
+  "description": "Anek Latin font family designed by Ek Type",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -89,15 +88,20 @@
       "}"
     ]
   },
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/aneklatin/AnekLatin[wdth,wght].ttf"
-  ],
-  "description": "Anek Latin font family designed by Ek Type",
-  "license": "OFL",
-  "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/aneklatin/AnekLatin[wdth,wght].ttf"
+    ]
+  },
   "hash": [
     "EF7077ABF2166ADD6AB6A64B4A4A4407859BF4F9E5B9058B51AC01ADA136B295"
   ],
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/aneklatin/AnekLatin[wdth,wght].ttf"
+  ],
+  "license": "OFL",
+  "homepage": "https://fonts.google.com/specimen/Anek+Latin",
+  "version": "latest",
   "installer": {
     "script": [
       "if ($global) {",
@@ -138,9 +142,5 @@
       "    }",
       "}"
     ]
-  },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/aneklatin&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
   }
 }

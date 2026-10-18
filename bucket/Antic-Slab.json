@@ -1,10 +1,9 @@
 {
-  "homepage": "https://fonts.google.com/specimen/Antic+Slab",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anticslab/AnticSlab-Regular.ttf"
-    ]
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anticslab&per_page=1"
   },
+  "description": "Antic Slab font family designed by Santiago Orozco",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -89,15 +88,20 @@
       "}"
     ]
   },
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anticslab/AnticSlab-Regular.ttf"
-  ],
-  "description": "Antic Slab font family designed by Santiago Orozco",
-  "license": "OFL",
-  "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anticslab/AnticSlab-Regular.ttf"
+    ]
+  },
   "hash": [
     "BEA5831A412CCF18BF34612A575D908B7892C4669FA91B80405CBA508FC32A56"
   ],
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anticslab/AnticSlab-Regular.ttf"
+  ],
+  "license": "OFL",
+  "homepage": "https://fonts.google.com/specimen/Antic+Slab",
+  "version": "latest",
   "installer": {
     "script": [
       "if ($global) {",
@@ -138,9 +142,5 @@
       "    }",
       "}"
     ]
-  },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anticslab&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
   }
 }

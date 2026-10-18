@@ -1,10 +1,9 @@
 {
-  "homepage": "https://fonts.google.com/specimen/Annie+Use+Your+Telescope",
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/annieuseyourtelescope/AnnieUseYourTelescope-Regular.ttf"
-    ]
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/annieuseyourtelescope&per_page=1"
   },
+  "description": "Annie Use Your Telescope font family designed by Kimberly Geswein",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -89,15 +88,20 @@
       "}"
     ]
   },
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/annieuseyourtelescope/AnnieUseYourTelescope-Regular.ttf"
-  ],
-  "description": "Annie Use Your Telescope font family designed by Kimberly Geswein",
-  "license": "OFL",
-  "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/annieuseyourtelescope/AnnieUseYourTelescope-Regular.ttf"
+    ]
+  },
   "hash": [
     "221B54062ADB0DF36D4B8F0D2F98AEF4F827FC34B974CAE2CE232A5E233149B9"
   ],
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/annieuseyourtelescope/AnnieUseYourTelescope-Regular.ttf"
+  ],
+  "license": "OFL",
+  "homepage": "https://fonts.google.com/specimen/Annie+Use+Your+Telescope",
+  "version": "latest",
   "installer": {
     "script": [
       "if ($global) {",
@@ -138,9 +142,5 @@
       "    }",
       "}"
     ]
-  },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/annieuseyourtelescope&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
   }
 }
