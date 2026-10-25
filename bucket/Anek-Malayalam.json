@@ -1,9 +1,64 @@
 {
-  "checkver": {
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekmalayalam&per_page=1"
-  },
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekmalayalam/AnekMalayalam[wdth,wght].ttf"
+  ],
+  "license": "OFL",
   "description": "Anek Malayalam font family designed by Ek Type",
+  "homepage": "https://fonts.google.com/specimen/Anek+Malayalam",
+  "hash": [
+    "319CCD3DC61AFCE2A5F2E5F3CE16F555C1F385390E80D12AF7B9D017DD4993FE"
+  ],
+  "version": "latest",
+  "installer": {
+    "script": [
+      "if ($global) {",
+      "    $fontInstallDir = \"$env:windir\\Fonts\"",
+      "    $registryRoot = \"HKLM\"",
+      "} else {",
+      "    $fontInstallDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+      "    $registryRoot = \"HKCU\"",
+      "    if (-not (Test-Path $fontInstallDir)) {",
+      "        New-Item -ItemType Directory -Path $fontInstallDir -Force | Out-Null",
+      "        # Set ACL permissions for user font directory",
+      "        $acl = Get-Acl $fontInstallDir",
+      "        $acl.SetAccessRuleProtection($false, $true)",
+      "        # Add permissions for All Application Packages",
+      "        $rule1 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-1\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
+      "        $rule2 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-2\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
+      "        $acl.AddAccessRule($rule1)",
+      "        $acl.AddAccessRule($rule2)",
+      "        Set-Acl -Path $fontInstallDir -AclObject $acl",
+      "    }",
+      "}",
+      "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
+      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
+      "foreach ($file in $fontFiles) {",
+      "    $fontName = $file.Name.Replace($file.Extension, \" (TrueType)\")",
+      "    if ($global) {",
+      "        $fontValue = $file.Name",
+      "    } else {",
+      "        $fontValue = \"$fontInstallDir\\$($file.Name)\"",
+      "    }",
+      "    try {",
+      "        New-ItemProperty -Path $registryKey -Name $fontName -Value $fontValue -Force -ErrorAction Stop | Out-Null",
+      "        Copy-Item $file.FullName -Destination \"$fontInstallDir\\$($file.Name)\" -Force -ErrorAction Stop",
+      "        Write-Host \"Installed: $($file.Name)\" -ForegroundColor Green",
+      "    } catch {",
+      "        Write-Host \"Failed to install $($file.Name): $_\" -ForegroundColor Red",
+      "        throw",
+      "    }",
+      "}"
+    ]
+  },
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekmalayalam&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekmalayalam/AnekMalayalam[wdth,wght].ttf"
+    ]
+  },
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -85,61 +140,6 @@
       "    Write-Host \"\" -ForegroundColor Green",
       "    Write-Host \"Fonts uninstalled successfully.\" -ForegroundColor Green",
       "    Write-Host \"Note: A computer restart may be required for all applications to reflect the changes.\" -ForegroundColor Cyan",
-      "}"
-    ]
-  },
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekmalayalam/AnekMalayalam[wdth,wght].ttf"
-    ]
-  },
-  "hash": [
-    "319CCD3DC61AFCE2A5F2E5F3CE16F555C1F385390E80D12AF7B9D017DD4993FE"
-  ],
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekmalayalam/AnekMalayalam[wdth,wght].ttf"
-  ],
-  "license": "OFL",
-  "homepage": "https://fonts.google.com/specimen/Anek+Malayalam",
-  "version": "latest",
-  "installer": {
-    "script": [
-      "if ($global) {",
-      "    $fontInstallDir = \"$env:windir\\Fonts\"",
-      "    $registryRoot = \"HKLM\"",
-      "} else {",
-      "    $fontInstallDir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
-      "    $registryRoot = \"HKCU\"",
-      "    if (-not (Test-Path $fontInstallDir)) {",
-      "        New-Item -ItemType Directory -Path $fontInstallDir -Force | Out-Null",
-      "        # Set ACL permissions for user font directory",
-      "        $acl = Get-Acl $fontInstallDir",
-      "        $acl.SetAccessRuleProtection($false, $true)",
-      "        # Add permissions for All Application Packages",
-      "        $rule1 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-1\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
-      "        $rule2 = New-Object System.Security.AccessControl.FileSystemAccessRule(\"S-1-15-2-2\", \"ReadAndExecute\", \"ContainerInherit,ObjectInherit\", \"None\", \"Allow\")",
-      "        $acl.AddAccessRule($rule1)",
-      "        $acl.AddAccessRule($rule2)",
-      "        Set-Acl -Path $fontInstallDir -AclObject $acl",
-      "    }",
-      "}",
-      "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-      "$fontFiles = Get-ChildItem \"$dir\" -Filter \"*.ttf\"",
-      "foreach ($file in $fontFiles) {",
-      "    $fontName = $file.Name.Replace($file.Extension, \" (TrueType)\")",
-      "    if ($global) {",
-      "        $fontValue = $file.Name",
-      "    } else {",
-      "        $fontValue = \"$fontInstallDir\\$($file.Name)\"",
-      "    }",
-      "    try {",
-      "        New-ItemProperty -Path $registryKey -Name $fontName -Value $fontValue -Force -ErrorAction Stop | Out-Null",
-      "        Copy-Item $file.FullName -Destination \"$fontInstallDir\\$($file.Name)\" -Force -ErrorAction Stop",
-      "        Write-Host \"Installed: $($file.Name)\" -ForegroundColor Green",
-      "    } catch {",
-      "        Write-Host \"Failed to install $($file.Name): $_\" -ForegroundColor Red",
-      "        throw",
-      "    }",
       "}"
     ]
   }
