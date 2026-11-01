@@ -1,14 +1,16 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
-  ],
   "license": "OFL",
-  "description": "Anek Devanagari font family designed by Ek Type",
   "homepage": "https://fonts.google.com/specimen/Anek+Devanagari",
-  "hash": [
-    "B88CF0FF5705599B2F16FCE4BA9CE2029F76106DD24F0419976C417D89F20888"
-  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekdevanagari&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
   "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
+    ]
+  },
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,15 +52,12 @@
       "}"
     ]
   },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekdevanagari&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
-  },
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
-    ]
-  },
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf"
+  ],
+  "hash": [
+    "B88CF0FF5705599B2F16FCE4BA9CE2029F76106DD24F0419976C417D89F20888"
+  ],
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,5 +141,6 @@
       "    Write-Host \"Note: A computer restart may be required for all applications to reflect the changes.\" -ForegroundColor Cyan",
       "}"
     ]
-  }
+  },
+  "description": "Anek Devanagari font family designed by Ek Type"
 }

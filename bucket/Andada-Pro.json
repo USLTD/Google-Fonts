@@ -1,16 +1,17 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro[wght].ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro-Italic[wght].ttf"
-  ],
   "license": "OFL",
-  "description": "Andada Pro font family designed by HT Fonts, Carolina Giovagnoli",
   "homepage": "https://fonts.google.com/specimen/Andada+Pro",
-  "hash": [
-    "4F378349C5E7A6C0E6D93FF3CBA92A2ECF2217407A0B633AB6AC807C80AB20A3",
-    "8544ABEADEEDA80D70201F444621678EDE1AEB140A96D26CD7113BDA771EF831"
-  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/andadapro&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
   "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro[wght].ttf",
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro-Italic[wght].ttf"
+    ]
+  },
   "installer": {
     "script": [
       "if ($global) {",
@@ -52,16 +53,14 @@
       "}"
     ]
   },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/andadapro&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
-  },
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro[wght].ttf",
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro-Italic[wght].ttf"
-    ]
-  },
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro[wght].ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/andadapro/AndadaPro-Italic[wght].ttf"
+  ],
+  "hash": [
+    "4F378349C5E7A6C0E6D93FF3CBA92A2ECF2217407A0B633AB6AC807C80AB20A3",
+    "8544ABEADEEDA80D70201F444621678EDE1AEB140A96D26CD7113BDA771EF831"
+  ],
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -145,5 +144,6 @@
       "    Write-Host \"Note: A computer restart may be required for all applications to reflect the changes.\" -ForegroundColor Cyan",
       "}"
     ]
-  }
+  },
+  "description": "Andada Pro font family designed by HT Fonts, Carolina Giovagnoli"
 }

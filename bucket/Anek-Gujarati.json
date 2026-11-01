@@ -1,14 +1,16 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgujarati/AnekGujarati[wdth,wght].ttf"
-  ],
   "license": "OFL",
-  "description": "Anek Gujarati font family designed by Ek Type",
   "homepage": "https://fonts.google.com/specimen/Anek+Gujarati",
-  "hash": [
-    "7D68CF90804E69CD23717F9F5485F4AC10B660096AB0B406E86F32E09D96029B"
-  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekgujarati&per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
+  },
   "version": "latest",
+  "autoupdate": {
+    "url": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgujarati/AnekGujarati[wdth,wght].ttf"
+    ]
+  },
   "installer": {
     "script": [
       "if ($global) {",
@@ -50,15 +52,12 @@
       "}"
     ]
   },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/anekgujarati&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
-  },
-  "autoupdate": {
-    "url": [
-      "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgujarati/AnekGujarati[wdth,wght].ttf"
-    ]
-  },
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/anekgujarati/AnekGujarati[wdth,wght].ttf"
+  ],
+  "hash": [
+    "7D68CF90804E69CD23717F9F5485F4AC10B660096AB0B406E86F32E09D96029B"
+  ],
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -142,5 +141,6 @@
       "    Write-Host \"Note: A computer restart may be required for all applications to reflect the changes.\" -ForegroundColor Cyan",
       "}"
     ]
-  }
+  },
+  "description": "Anek Gujarati font family designed by Ek Type"
 }
