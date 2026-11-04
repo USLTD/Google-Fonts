@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/actor/Actor-Regular.ttf",
-    "version": "d72de0f",
+    "version": "5d4ffcc",
     "installer": {
         "script": [
             "if ($global) {",
