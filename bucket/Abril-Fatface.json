@@ -5,7 +5,7 @@
         "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/abrilfatface&per_page=1",
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
     },
-    "version": "5e7d9dd",
+    "version": "f60b457",
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/abrilfatface/AbrilFatface-Regular.ttf"
     },
