@@ -5,7 +5,7 @@
         "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/alfaslabone&per_page=1",
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
     },
-    "version": "ae38321",
+    "version": "94251e6",
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alfaslabone/AlfaSlabOne-Regular.ttf"
     },
