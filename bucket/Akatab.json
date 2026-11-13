@@ -92,7 +92,7 @@
         "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-ExtraBold.ttf",
         "https://raw.githubusercontent.com/google/fonts/main/ofl/akatab/Akatab-Black.ttf"
     ],
-    "version": "fffdadf",
+    "version": "0fb1bdc",
     "installer": {
         "script": [
             "if ($global) {",
