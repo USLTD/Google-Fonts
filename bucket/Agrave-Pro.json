@@ -134,7 +134,7 @@
         "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/agravepro&per_page=1",
         "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
     },
-    "version": "d83c2dd",
+    "version": "3550973",
     "license": "OFL",
     "homepage": "https://fonts.google.com/specimen/Agrave+Pro"
 }
