@@ -1,12 +1,9 @@
 {
-  "url": [
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/annapurnasil/AnnapurnaSIL-Regular.ttf",
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/annapurnasil/AnnapurnaSIL-Bold.ttf"
-  ],
-  "hash": [
-    "F5F80335993C983EBF811B27FE07604B01D207F7C3B66C8798C3D721D164088C",
-    "C73A534C69802DFB8B8DA42E9544AE479EDD6BCFEC51F42C9AA5C46310A7CECF"
-  ],
+  "checkver": {
+    "regex": "\"sha\":\\s*\"([a-f0-9]{7})",
+    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/annapurnasil&per_page=1"
+  },
+  "homepage": "https://fonts.google.com/specimen/Annapurna+SIL",
   "uninstaller": {
     "script": [
       "if ($global) {",
@@ -91,13 +88,20 @@
       "}"
     ]
   },
+  "url": [
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/annapurnasil/AnnapurnaSIL-Regular.ttf",
+    "https://raw.githubusercontent.com/google/fonts/main/ofl/annapurnasil/AnnapurnaSIL-Bold.ttf"
+  ],
+  "hash": [
+    "F5F80335993C983EBF811B27FE07604B01D207F7C3B66C8798C3D721D164088C",
+    "C73A534C69802DFB8B8DA42E9544AE479EDD6BCFEC51F42C9AA5C46310A7CECF"
+  ],
   "autoupdate": {
     "url": [
       "https://raw.githubusercontent.com/google/fonts/main/ofl/annapurnasil/AnnapurnaSIL-Regular.ttf",
       "https://raw.githubusercontent.com/google/fonts/main/ofl/annapurnasil/AnnapurnaSIL-Bold.ttf"
     ]
   },
-  "description": "Annapurna SIL font family designed by SIL International",
   "installer": {
     "script": [
       "if ($global) {",
@@ -139,11 +143,7 @@
       "}"
     ]
   },
-  "checkver": {
-    "url": "https://api.github.com/repos/google/fonts/commits?path=ofl/annapurnasil&per_page=1",
-    "regex": "\"sha\":\\s*\"([a-f0-9]{7})"
-  },
-  "version": "latest",
   "license": "OFL",
-  "homepage": "https://fonts.google.com/specimen/Annapurna+SIL"
+  "description": "Annapurna SIL font family designed by SIL International",
+  "version": "latest"
 }
