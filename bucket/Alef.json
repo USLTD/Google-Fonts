@@ -88,7 +88,7 @@
         "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Regular.ttf",
         "https://raw.githubusercontent.com/google/fonts/main/ofl/alef/Alef-Bold.ttf"
     ],
-    "version": "a7e2f61",
+    "version": "c632ad8",
     "installer": {
         "script": [
             "if ($global) {",
