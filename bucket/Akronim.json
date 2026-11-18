@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/akronim/Akronim-Regular.ttf",
-    "version": "55822bb",
+    "version": "8583fd5",
     "installer": {
         "script": [
             "if ($global) {",
