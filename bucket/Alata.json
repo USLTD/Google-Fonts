@@ -85,7 +85,7 @@
     },
     "license": "OFL",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alata/Alata-Regular.ttf",
-    "version": "fffdadf",
+    "version": "d96b718",
     "installer": {
         "script": [
             "if ($global) {",
